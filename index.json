@@ -49,6 +49,93 @@
           "relation": "Sister"
         }
       ]
+    },
+    {
+      "name": "Edward VI",
+      "house": "Tudor",
+      "reign": {
+        "start": 1547,
+        "end": 1553,
+        "reason": "Death, tuberculosis; 15"
+      },
+      "religion": "Protestant",
+      "events": {
+        "domestic": [
+          "Book of Common Prayer"
+        ],
+        "global": [
+        ]
+      },
+      "wars": [
+      ],
+      "references": [
+      ]
+    },
+    {
+      "name": "Mary I",
+      "house": "Tudor",
+      "reign": {
+        "start": 1553,
+        "end": 1558,
+        "reason": "Death, cancer; 42"
+      },
+      "religion": "Catholic",
+      "events": {
+        "domestic": [
+          "Persecution of Protestants",
+          "Queen Mary's Marraige Act"
+        ],
+        "global": [
+          ""
+        ]
+      },
+      "wars": [
+        {
+          "country": "France",
+          "start": 1557,
+          "end": 1558,
+          "reason": ""
+        }
+      ],
+      "references": [
+        {
+          "country": "Holy Roman Empire",
+          "person": "Charles V",
+          "relation": "Engagement"
+        },
+        {
+          "country": "Spain",
+          "person": "Philip",
+          "relation": "Husband"
+        },
+        {
+          "country": "Spain",
+          "person": "Catherine of Aragon",
+          "relation": "Mother"
+        }
+      ]
+    }
+  ],
+  "Scotland": [
+    {
+      "name": "Bob",
+      "house": "Bobinson",
+      "reign": {
+        "start": 1519,
+        "end": 1557,
+        "reason": ""
+      },
+      "religion": "",
+      "events": {
+        "domestic": [
+        ],
+        "global": [
+        ]
+      },
+      "wars": [
+      ],
+      "references": [
+      ]
     }
   ]
 }
