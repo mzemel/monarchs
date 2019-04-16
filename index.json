@@ -1,0 +1,54 @@
+{
+  "England": [
+    {
+      "name": "Henry VIII",
+      "house": "Tudor",
+      "reign": {
+        "start": 1509,
+        "end": 1547,
+        "reason": "Death, obesity; 55"
+      },
+      "religion": "Catholic, Protestant",
+      "events": {
+        "domestic": [
+          "English Reformation",
+          "Divine right of kings"
+        ],
+        "global": [
+          "95 Theses published"
+        ]
+      },
+      "wars": [
+        {
+          "country": "Scotland",
+          "start": 1543,
+          "end": 1551,
+          "reason": "Prevent Scotland from allying with France; force marriage between Edward VI and Mary, Queen of Scots"
+        },
+        {
+          "country": "France",
+          "start": 1544,
+          "end": 1546,
+          "reason": "Reason"
+        }
+      ],
+      "references": [
+        {
+          "country": "Spain",
+          "person": "Catherine of Aragon",
+          "relation": "Wife"
+        },
+        {
+          "country": "Holy Roman Empire",
+          "person": "Charles V",
+          "relation": "Nephew-in-law"
+        },
+        {
+          "country": "Scotland",
+          "person": "Margaret Tudor",
+          "relation": "Sister"
+        }
+      ]
+    }
+  ]
+}
