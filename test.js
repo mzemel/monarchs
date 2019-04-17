@@ -7,39 +7,11 @@ var margin = { top: 20, left: 60, bottom: 40, right: 20 },
   laneHeight = 20,
   countryIndex = 0;
 
-function handleMouseOver(el, i) {
-  d3.select(this).attr({"fill-opacity": 1.0});
-};
-
-function handleMouseOut(el, i) {
-  d3.select(this).attr({"fill-opacity": 0.5});
-};
-
-function showDetail(el, i) {
-  d3.select(".timeline").attr({class: 'timeline inactive'});
-  d3.select(".detail").attr({class: 'detail'})
-//  renderDetails(el);
-}
-
-function hideDetail() {
-  d3.select(".timeline").attr({class: 'timeline'});
-  d3.select('.detail').attr({class: 'detail hidden'});
-}
-
-function renderDetails(el) {
-  console.log(formatDetails(el));
-  d3.select(".detail rect").selectAll("text")
-    .data(formatDetails(el))
-    .enter()
-    .append("text")
-    .text(function(el) { return el.key + ": " + el.value; });
-}
-
-function formatDetails(el) {
-  var data = [];
-  _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
-  return data;
-}
+// Details config
+var detailsWidth = 300,
+  detailsHeight = 300,
+  detailsLineHeight = 20,
+  detailsMarginLeft = 5
 
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
@@ -49,8 +21,8 @@ function render(data) {
     lastYear = d3.max(reigns, function(el) { return el.end }),
     pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear);
 
-  // Create SVG
-  var svg = d3.select("body")
+  // Create Timeline
+  var timeline = d3.select("body")
     .append("svg")
     .attr({
       width: width,
@@ -62,19 +34,20 @@ function render(data) {
   var detail = d3.select("body")
     .append("svg")
     .attr({
-      width: width / 4,
-      height: height / 4,
-      class: 'detail '
+      width: width,
+      height: height,
+      class: 'detail hidden'
     })
     .on("click", hideDetail)
-    .append("rect").attr({
-      width: 300,
-      height: 300,
-      x: (width + margin.left + margin.right) / 2,
-      y: (height + margin.bottom + margin.top) / 2 - 200,
-      fill: "black",
-      "fill-opacity": 0.1,
-    }).text("fuck");
+
+  detail.append("rect").attr({
+    width: detailsWidth,
+    height: detailsHeight,
+    x: (width + margin.left + margin.right) / 2,
+    y: (height + margin.bottom + margin.top - detailsHeight) / 2,
+    fill: "black",
+    "fill-opacity": 0.1,
+  });
 
   // Create X-axis
   var xScale = d3.scale.linear()
@@ -83,23 +56,62 @@ function render(data) {
 
   var xAxis = d3.svg.axis().scale(xScale);
 
-  svg.append("g").attr({
+  timeline.append("g").attr({
     "class": "axis",
     transform: "translate(" + [0, height - margin.bottom] + ")"
   }).call(xAxis);
+
+  function handleMouseOver(el, i) {
+    d3.select(this).attr({"fill-opacity": 1.0});
+  };
+
+  function handleMouseOut(el, i) {
+    d3.select(this).attr({"fill-opacity": 0.5});
+  };
+
+  function showDetail(el, i) {
+    timeline.attr({class: 'timeline inactive'});
+    detail.attr({class: 'detail'})
+    renderDetails(el);
+  }
+
+  function hideDetail() {
+    timeline.attr({class: 'timeline'});
+    detail.attr({class: 'detail hidden'});
+    detail.selectAll("text").remove();
+  }
+
+  function renderDetails(el) {
+    var y = (height + margin.bottom + margin.top - detailsHeight) / 2
+    detail.selectAll("text")
+      .data(formatDetails(el))
+      .enter()
+      .append("text")
+      .attr({
+        x: (width + margin.left + margin.right) / 2 + detailsMarginLeft,
+        y: function(el, i) { return  y + (i + 1) * detailsLineHeight; }
+      })
+      .text(function(el) { return el.key + ": " + el.value; });
+  }
+
+function formatDetails(el) {
+  var data = [];
+  _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
+  return data;
+}
 
   // Create country timelines
   _.forEach(data, function(countryData, countryName) {
     countryIndex += 1;
 
     // Add legend
-    svg.append("text").attr({
+    timeline.append("text").attr({
       x: 0,
       y: height - margin.bottom - laneHeight * (countryIndex - 1) - lanePadding * countryIndex
     }).text(countryName);
 
     // Add elements
-    svg.append("g").attr({id: countryName})
+    timeline.append("g").attr({id: countryName})
       .selectAll("rect")
       .data(countryData)
       .enter()
