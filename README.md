@@ -20,3 +20,4 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - House colors; images in details pane
 - World event timeline
 - Deploy to monarchy.thebackend.dev
+- Details SVG is only the size of the rectangle
