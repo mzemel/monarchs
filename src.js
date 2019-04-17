@@ -1,4 +1,4 @@
-$.getJSON("index.json", function(data) { render(data) });
+$.getJSON("dataset.json", function(data) { render(data) });
 
 var margin = { top: 20, left: 60, bottom: 40, right: 20 },
   width = window.innerWidth,
@@ -15,11 +15,10 @@ var detailsWidth = 300,
 
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
-  var reigns = _.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(el) { return el.reign; }); }));
+  var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData["Start"]; }); })));
+  var lastYear = d3.max(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData["End"]; }); })));
 
-  var firstYear = d3.min(reigns, function(el) { return el.start }),
-    lastYear = d3.max(reigns, function(el) { return el.end }),
-    pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear);
+  var pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear);
 
   // Create Timeline
   var timeline = d3.select("body")
@@ -113,13 +112,13 @@ function formatDetails(el) {
     // Add elements
     timeline.append("g").attr({id: countryName})
       .selectAll("rect")
-      .data(countryData)
+      .data(_.map(countryData, function(monarchData, monarchName) { return monarchData; }))
       .enter()
       .append("rect")
       .attr({
-        width: function(el) { return (el.reign.end - el.reign.start) * pixelsPerYear - 1 }, // 1 px padding
+        width: function(el) { console.log(el); return (el["End"] - el["Start"]) * pixelsPerYear - 1 }, // 1 px padding
         height: laneHeight,
-        x: function(el) { return margin.left + (el.reign.start - firstYear) * pixelsPerYear },
+        x: function(el) { return margin.left + (el["Start"] - firstYear) * pixelsPerYear },
         y: height - margin.bottom - laneHeight * (countryIndex - 1) - lanePadding * countryIndex,
         fill: "blue",
         "fill-opacity": 0.5
