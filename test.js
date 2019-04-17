@@ -9,12 +9,37 @@ var margin = { top: 20, left: 60, bottom: 40, right: 20 },
 
 function handleMouseOver(el, i) {
   d3.select(this).attr({"fill-opacity": 1.0});
-  $('.detail').text(el.name);
 };
 
 function handleMouseOut(el, i) {
   d3.select(this).attr({"fill-opacity": 0.5});
 };
+
+function showDetail(el, i) {
+  d3.select(".timeline").attr({class: 'timeline inactive'});
+  d3.select(".detail").attr({class: 'detail'})
+//  renderDetails(el);
+}
+
+function hideDetail() {
+  d3.select(".timeline").attr({class: 'timeline'});
+  d3.select('.detail').attr({class: 'detail hidden'});
+}
+
+function renderDetails(el) {
+  console.log(formatDetails(el));
+  d3.select(".detail rect").selectAll("text")
+    .data(formatDetails(el))
+    .enter()
+    .append("text")
+    .text(function(el) { return el.key + ": " + el.value; });
+}
+
+function formatDetails(el) {
+  var data = [];
+  _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
+  return data;
+}
 
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
@@ -25,12 +50,31 @@ function render(data) {
     pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear);
 
   // Create SVG
-  var svg = d3.select(".timeline")
+  var svg = d3.select("body")
     .append("svg")
     .attr({
       width: width,
-      height: height
+      height: height,
+      class: "timeline"
     })
+
+  // Create detail box
+  var detail = d3.select("body")
+    .append("svg")
+    .attr({
+      width: width / 4,
+      height: height / 4,
+      class: 'detail '
+    })
+    .on("click", hideDetail)
+    .append("rect").attr({
+      width: 300,
+      height: 300,
+      x: (width + margin.left + margin.right) / 2,
+      y: (height + margin.bottom + margin.top) / 2 - 200,
+      fill: "black",
+      "fill-opacity": 0.1,
+    }).text("fuck");
 
   // Create X-axis
   var xScale = d3.scale.linear()
@@ -70,6 +114,6 @@ function render(data) {
       })
       .on("mouseover", handleMouseOver)
       .on("mouseout", handleMouseOut)
-
+      .on("click", showDetail)
   });
 };

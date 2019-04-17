@@ -5,15 +5,28 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="lodash.min.js" charset="utf-8"></script>
+    <script src="test.js"></script>
   </head>
 
 <style>
+  .hidden {
+    display: none;
+  }
+
+  .detail {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  rect { border: solid 1px; }
+
+  .inactive {
+    opacity: 0.2;
+  }
 </style>
 
   <body>
-    <div class="timeline"></div>
-    <div class="detail"></div>
   </body>
-  <script src="test.js"></script>
 </html>
 
