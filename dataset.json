@@ -4,16 +4,14 @@
       "name": "Henry VIII",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Enrique_VIII_de_Inglaterra%2C_por_Hans_Holbein_el_Joven.jpg/220px-Enrique_VIII_de_Inglaterra%2C_por_Hans_Holbein_el_Joven.jpg",
       "house": "Tudor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1509,
       "end": 1547,
-      "endReason": "Obesity (55)",
+      "endReason": "Obesity, 55",
       "religion": "Catholic/Protestant",
       "events": [
         "English Reformation",
         "Divine right of kings"
-      ],
-      "world_events": [
-        "95 Theses published"
       ],
       "wars": [
         "Scotland (1543-1551)",
@@ -27,49 +25,47 @@
     },
     "Edward VI": {
       "name": "Edward VI",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Circle_of_William_Scrots_Edward_VI_of_England.jpg/220px-Circle_of_William_Scrots_Edward_VI_of_England.jpg",
       "house": "Tudor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1547,
       "end": 1553,
-      "endReason": "Tuberculosis (15)",
+      "endReason": "Tuberculosis, 15",
       "religion": "Protestant",
       "events": [
-        "Book of Common Prayer"
+        "Book of Common Prayer Published"
       ],
-      "world_events": [],
       "wars": [],
       "relationships": [
-        "Test Reference 1",
-        "TestReference 2"
+        "Scotland, Mary, Betrothed"
       ]
     },
     "Jane Grey": {
       "name": "Jane Grey",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg/300px-PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg",
       "house": "Grey",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1553,
       "end": 1553,
-      "endReason": "Execution (17)",
+      "endReason": "Execution, 17",
       "religion": "Protestant",
       "events": [],
-      "world_events": [],
       "wars": [],
       "relationships": []
     },
     "Mary I": {
       "name": "Mary I",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Maria_Tudor1.jpg/232px-Maria_Tudor1.jpg",
       "house": "Tudor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1553,
       "end": 1558,
-      "endReason": "Ovarian cancer (42)",
+      "endReason": "Ovarian cancer, 42",
       "religion": "Catholic",
       "events": [
-        "Persecution of Protestants",
-        "First queen regnant",
+        "Marian persecution of Protestants",
         "Queen Mary's Marraige Act"
       ],
-      "world_events": [],
       "wars": [
         "France (1557-1558)"
       ],
@@ -81,283 +77,1470 @@
     },
     "Elizabeth I": {
       "name": "Elizabeth I",
-      "image": "",
+      "image": "https://cdn.britannica.com/s:300x300/85/285-004-1108CDAD.jpg",
       "house": "Tudor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1558,
       "end": 1603,
-      "endReason": "",
-      "religion": "Protestant",
+      "endReason": "Old age, 69",
+      "religion": "Anglican",
       "events": [
-        "Church of England",
+        "Founded Church of England",
         "Executed Mary, Queen of Scots",
         "William Shakespeare"
       ],
-      "world_events": [],
       "wars": [
         "Spain (1585-1604)",
-        "Scotland (?-1560)",
+        "Scotland (1560)",
         "Ireland (1594-1603)"
       ],
-      "relationships": [
-        "Test",
-        "Test",
-        "Test",
-        "Test"
-      ]
+      "relationships": []
     },
     "James VI and I": {
       "name": "James VI and I",
-      "image": "",
+      "image": "https://www.encyclopediavirginia.org/filestore/3/8/2/4_6e355047fc6e205/3824pre_ae6eedc0c80510b.jpg",
       "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1603,
       "end": 1625,
-      "endReason": "",
-      "religion": "",
+      "endReason": "Dysentary, 58",
+      "religion": "Anglican",
       "events": [
-        "King James Bible"
-      ],
-      "world_events": [
-        "Thirty Years' War (1618-1648)"
+        "King James Bible",
+        "Gunpowder Plot"
       ],
       "wars": [],
       "relationships": [
-        "Test",
-        "Test",
-        "Test",
-        "Test",
-        "Test",
-        "Test"
+        "Holy Roman Empire, Frederick V, Son-in-law",
+        "Spain, Infanta Maria Anna, Attempted match"
       ]
     },
     "Charles I": {
       "name": "Charles I",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/King_Charles_I_by_Gerrit_van_Honthorst_sm.jpg/220px-King_Charles_I_by_Gerrit_van_Honthorst_sm.jpg",
       "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1625,
       "end": 1649,
-      "endReason": "Execution",
-      "religion": "",
+      "endReason": "Execution, 48",
+      "religion": "Anglican",
       "events": [
-        "English Civil War",
+        "Catholic leanings precipitate English Civil War",
         "Oliver Cromwell leading English Commonwealth"
       ],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "wars": [
+        "Scotland (1639-1640)"
+      ],
+      "relationships": [
+        "France, Henriette Maria, Wife"
+      ]
     },
     "Charles II": {
       "name": "Charles II",
-      "image": "",
+      "image": "https://www.onthisday.com/images/people/charles-ii-medium.jpg",
       "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1660,
       "end": 1685,
-      "endReason": "",
+      "endReason": "Uraemia, 54",
       "religion": "Protestant, then Catholic",
       "events": [
         "Creation of Whig and Tory parties",
-        "Dissolved English Parliament"
+        "Dissolved English Parliament",
+        "Clarendon Code",
+        "Captured New Amsterdam (named New York)"
       ],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "wars": [
+        "Dutch Republic (1665-1667)",
+        "Dutch Republic (1672-1674)"
+      ],
+      "relationships": [
+        "Portugal, Catherine of Braganza, Wife",
+        "Dutch Republic, William of Orange, Nephew"
+      ]
     },
     "James II & VII": {
       "name": "James II & VII",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/James_II_by_John_Riley.png/220px-James_II_by_John_Riley.png",
       "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1685,
       "end": 1688,
-      "endReason": "Deposed in Glorious Revolution",
-      "religion": "",
-      "events": [],
-      "world_events": [],
+      "endReason": "Deposed, 53",
+      "religion": "Catholic",
+      "events": [
+        "Glorious Revolution"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Italy, Mary of Modena, Wife"
+      ]
     },
     "William III & II": {
       "name": "William III & II",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/King_William_III_of_England%2C_%281650-1702%29_%28lighter%29.jpg/220px-King_William_III_of_England%2C_%281650-1702%29_%28lighter%29.jpg",
       "house": "Orange-Nassau",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_Arms_of_England_%281694-1702%29.svg/200px-Coat_of_Arms_of_England_%281694-1702%29.svg.png",
       "start": 1688,
       "end": 1702,
-      "endReason": "Pneumonia",
-      "religion": "",
-      "events": [],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Pneumonia, 51",
+      "religion": "Protestant",
+      "events": [
+        "Signed Bill of Rights in exchange for crown",
+        "Jacobites try to return house Stuart to throne",
+        "Royal Charter granted to Bank of England"
+      ],
+      "wars": [
+        "Ireland (1688-1691)",
+        "France (1688-1697)"
+      ],
+      "relationships": [
+        "Dutch Republic, William II, Father"
+      ]
     },
     "Anne": {
       "name": "Anne",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Queen_Anne_by_John_Closterman.jpg/220px-Queen_Anne_by_John_Closterman.jpg",
       "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1702,
       "end": 1714,
-      "endReason": "Poor health (49)",
+      "endReason": "Poor health, 49",
       "religion": "Protestant",
       "events": [
         "Scotland and England become Great Britain",
         "Exclusion Act (no catholic monarchs)"
       ],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "wars": [
+        "France (1701-1714)"
+      ],
+      "relationships": [
+        "Denmark, Prince George, Husband"
+      ]
     },
     "George I": {
       "name": "George I",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg/220px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg",
       "house": "Hanover",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1714,
       "end": 1727,
-      "endReason": "Stroke (67)",
+      "endReason": "Stroke, 67",
       "religion": "Protestant",
-      "events": [],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "South Sea Bubble (economic crisis)",
+        "First Prime Minister (Robert Walpole)"
+      ],
+      "wars": [
+        "Spain (1718-1720)"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Ernest Augustus, Father",
+        "Holy Roman Empire, Sophia Dorothea, Wife"
+      ]
     },
     "George II": {
       "name": "George II",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/George_II_by_Thomas_Hudson.jpg/220px-George_II_by_Thomas_Hudson.jpg",
       "house": "Havover",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1727,
       "end": 1760,
-      "endReason": "Heart failure (77)",
+      "endReason": "Heart failure, 77",
       "religion": "Protestant",
       "events": [],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "wars": [
+        "Spain (1739-1748)",
+        "France (1740-1748)",
+        "France (1756-1763)"
+      ],
+      "relationships": [
+        "Prussia, Frederick the Great, Nephew",
+        "Holy Roman Empire, Caroline of Ansbach, Wife"
+      ]
     },
     "George III": {
       "name": "George III",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/William_Augustus%2C_Duke_of_Cumberland_by_Sir_Joshua_Reynolds.jpg/220px-William_Augustus%2C_Duke_of_Cumberland_by_Sir_Joshua_Reynolds.jpg",
       "house": "Havover",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1760,
       "end": 1820,
-      "endReason": "",
+      "endReason": "Dementia, 81",
       "religion": "Protestant",
       "events": [
-        "American War of Independence"
-      ],
-      "world_events": [
-        "French Revolution"
+        "American War of Independence",
+        "Ireland joins Great Britain as United Kingdom"
       ],
       "wars": [
         "America (1775-1783)",
         "France (1793-1815)"
       ],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife"
+      ]
     },
     "George IV": {
       "name": "George IV",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/George_IV_van_het_Verenigd_Koninkrijk.jpg/220px-George_IV_van_het_Verenigd_Koninkrijk.jpg",
       "house": "Hanover",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1820,
       "end": 1830,
-      "endReason": "Obesity (67)",
+      "endReason": "Obesity, 67",
       "religion": "Protestant",
-      "events": [],
-      "world_events": [],
+      "events": [
+        "Catholic emancipation"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Caroline of Brunswick, Wife"
+      ]
     },
     "William IV": {
       "name": "William IV",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/William_IV_crop.jpg/220px-William_IV_crop.jpg",
       "house": "Havover",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1830,
       "end": 1837,
-      "endReason": "Old age (71)",
+      "endReason": "Old age, 71",
       "religion": "Protestant",
-      "events": [],
-      "world_events": [],
+      "events": [
+        "Slavery & child labor abolished",
+        "Reform Act (greater suffrage)",
+        "Poor Law (welfare for destitute)"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Adelaide of Saxe-Meinigen, Wife",
+        "Belgians, Leopold I, Nephew-in-law"
+      ]
     },
     "Victoria": {
       "name": "Victoria",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dronning_victoria.jpg/220px-Dronning_victoria.jpg",
       "house": "Hanover",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1837,
       "end": 1901,
-      "endReason": "Old age (81)",
+      "endReason": "Old age, 81",
       "religion": "Protestant",
-      "events": [],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Reform Act (greater suffrage)",
+        "Indian Rebellion causes British East India Company to dissolve"
+      ],
+      "wars": [
+        "Zulu Kingdom (1879)",
+        "Afghanistan (1878-1880)",
+        "Boer States (1899-1902)"
+      ],
+      "relationships": [
+        "German Confederation, Prince Albert, Husband",
+        "German Empire, Frederick William, Son-in-law"
+      ]
     },
     "Edward VII": {
       "name": "Edward VII",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Edward_VII_in_coronation_robes.jpg/440px-Edward_VII_in_coronation_robes.jpg",
       "house": "Saxe-Coburg and Gotha",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg/500px-Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg.png",
       "start": 1901,
       "end": 1910,
-      "endReason": "Heart attack (68)",
+      "endReason": "Heart attack, 68",
       "religion": "Protestant",
-      "events": [],
-      "world_events": [],
+      "events": [
+        "Parliament Act (reduces power of House of Lords)"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "German Empire, Wilhelm II, Nephew",
+        "Denmark, Alexandra, Wife",
+        "Russia, Nicholas II, Nephew-in-law",
+        "Spain, Victoria Eugenia, Neice",
+        "Sweden, Margaret, Neice"
+      ]
     },
     "George V": {
       "name": "George V",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/King_George_V_1911_color-crop.jpg/440px-King_George_V_1911_color-crop.jpg",
       "house": "Saxe-Coburg and Gotha / Windsor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg/500px-Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg.png",
       "start": 1910,
       "end": 1936,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "world_events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Cold, 70",
+      "religion": "Protestant",
+      "events": [
+        "Irish Home Rule",
+        "First Labor Prime Minister"
+      ],
+      "wars": [
+        "Germany (1914-1918)"
+      ],
+      "relationships": [
+        "German Empire, Wilhelm II, Cousin",
+        "Russia, Nicholas II, Cousin"
+      ]
     },
     "Edward VIII": {
       "name": "Edward VIII",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg/440px-HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg",
       "house": "Windsor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Badge_of_the_House_of_Windsor.svg/280px-Badge_of_the_House_of_Windsor.svg.png",
       "start": 1936,
       "end": 1936,
-      "endReason": "Abdication",
-      "religion": "",
-      "events": [],
-      "world_events": [],
+      "endReason": "Abdication, 42",
+      "religion": "Protestant",
+      "events": [
+        "Abdicated to avoid constitutional crisis"
+      ],
       "wars": [],
       "relationships": []
     },
     "George VI": {
       "name": "George VI",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/King_George_VI_of_England%2C_formal_photo_portrait%2C_circa_1940-1946.jpg/440px-King_George_VI_of_England%2C_formal_photo_portrait%2C_circa_1940-1946.jpg",
       "house": "Windsor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Badge_of_the_House_of_Windsor.svg/280px-Badge_of_the_House_of_Windsor.svg.png",
       "start": 1936,
       "end": 1952,
-      "endReason": "Heart failure (56)",
+      "endReason": "Heart failure, 56",
       "religion": "Protestant",
-      "events": [],
-      "world_events": [],
+      "events": [
+        "Independence of India and Pakistan"
+      ],
       "wars": [
-        "World War II (1939-1945)"
+        "Germany (1939-1945)"
       ],
       "relationships": []
     },
     "Elizabeth II": {
       "name": "Elizabeth II",
-      "image": "",
+      "image": "https://cdn.foodbeast.com/wp-content/uploads/2018/07/so-delicious-queen-elizabeth.jpg",
       "house": "Windsor",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Badge_of_the_House_of_Windsor.svg/280px-Badge_of_the_House_of_Windsor.svg.png",
       "start": 1952,
-      "end": "",
+      "end": 2019,
       "endReason": "",
-      "religion": "",
+      "religion": "Protestant",
       "events": [],
-      "world_events": [],
       "wars": [],
       "relationships": []
     }
   },
-  "Scotland": {},
-  "France": {},
-  "Holy Roman Empire": {},
-  "Spain": {}
+  "Scotland": {
+    "John Balliol": {
+      "name": "John Balliol",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/John_Balliol.jpg",
+      "house": "Balliol",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Balliol_arms.svg/440px-Balliol_arms.svg.png",
+      "start": 1292,
+      "end": 1296,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Robert the Bruce": {
+      "name": "Robert the Bruce",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/At_night_when_they_gathered_round_the_watch-fires%2C_the_king_would_read_stories_of_the_old_books.jpg/440px-At_night_when_they_gathered_round_the_watch-fires%2C_the_king_would_read_stories_of_the_old_books.jpg",
+      "house": "Bruce",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Clan_member_crest_badge_-_Clan_Bruce.svg/380px-Clan_member_crest_badge_-_Clan_Bruce.svg.png",
+      "start": 1306,
+      "end": 1329,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "David II": {
+      "name": "David II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Filip6_David2_Joan_of_the_Tower.jpg",
+      "house": "Bruce",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Clan_member_crest_badge_-_Clan_Bruce.svg/380px-Clan_member_crest_badge_-_Clan_Bruce.svg.png",
+      "start": 1329,
+      "end": 1371,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Robert II": {
+      "name": "Robert II",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/ca/Robert_II_of_Scotland.png",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1371,
+      "end": 1390,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Robert III": {
+      "name": "Robert III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Robert_III%2C_King_of_Scotland.png",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1390,
+      "end": 1406,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "James I": {
+      "name": "James I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/King_James_I_of_Scotland.jpg/440px-King_James_I_of_Scotland.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1406,
+      "end": 1437,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "James II": {
+      "name": "James II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/James_II_of_Scotland_17th_century.jpg/440px-James_II_of_Scotland_17th_century.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1437,
+      "end": 1460,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "James III": {
+      "name": "James III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/James_III_of_Scotland.jpg/440px-James_III_of_Scotland.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1460,
+      "end": 1488,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "James IV": {
+      "name": "James IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/James_IV_of_Scotland.jpg/440px-James_IV_of_Scotland.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1488,
+      "end": 1513,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "James V": {
+      "name": "James V",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/James_V_of_Scotland2.jpg/440px-James_V_of_Scotland2.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1513,
+      "end": 1542,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Mary, Queen of Scots": {
+      "name": "Mary, Queen of Scots",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg/440px-Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1542,
+      "end": 1567,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "James VI and I": {
+      "name": "James VI and I",
+      "image": "https://www.encyclopediavirginia.org/filestore/3/8/2/4_6e355047fc6e205/3824pre_ae6eedc0c80510b.jpg",
+      "house": "Stuart",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "start": 1567,
+      "end": 1603,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    }
+  },
+  "France": {
+    "Hugh Capet": {
+      "name": "Hugh Capet",
+      "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwMjA1NzA1NzQy/hugh-capet-38752-1-402.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 987,
+      "end": 996,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Robert II": {
+      "name": "Robert II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Blondel_-_Robert_II_of_France.jpg/220px-Blondel_-_Robert_II_of_France.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 996,
+      "end": 1031,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Henry I": {
+      "name": "Henry I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Henry1_head.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1031,
+      "end": 1060,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip I": {
+      "name": "Philip I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Philippe1France.JPG/440px-Philippe1France.JPG",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1060,
+      "end": 1108,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis VI": {
+      "name": "Louis VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Louis_VI_le_Gros.jpg/440px-Louis_VI_le_Gros.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1108,
+      "end": 1137,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis VII": {
+      "name": "Louis VII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Decaisne_-_Louis_VII_of_France.jpg/440px-Decaisne_-_Louis_VII_of_France.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1137,
+      "end": 1180,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip II": {
+      "name": "Philip II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/The_coronation_of_Philippe_II_Auguste_in_the_presence_of_Henry_II_of_England.jpg/440px-The_coronation_of_Philippe_II_Auguste_in_the_presence_of_Henry_II_of_England.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1180,
+      "end": 1223,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis VIII": {
+      "name": "Louis VIII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Coronation_of_Louis_VIII_and_Blanche_of_Castille_1223.jpg/440px-Coronation_of_Louis_VIII_and_Blanche_of_Castille_1223.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1223,
+      "end": 1226,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis IX": {
+      "name": "Louis IX",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Saintlouis.jpg/440px-Saintlouis.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1226,
+      "end": 1270,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip III": {
+      "name": "Philip III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Miniature_Philippe_III_Courronement.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1270,
+      "end": 1285,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip IV": {
+      "name": "Philip IV",
+      "image": "https://i.pinimg.com/originals/e2/67/22/e267225fc2d72da3d652e26fc545231d.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1285,
+      "end": 1314,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis X": {
+      "name": "Louis X",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Louis_X_of_France2.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1314,
+      "end": 1316,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "John I": {
+      "name": "John I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/John_I_of_France.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1316,
+      "end": 1316,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip V and II": {
+      "name": "Philip V and II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Debacq_-_Philip_V_of_France.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1316,
+      "end": 1322,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles IV and I": {
+      "name": "Charles IV and I",
+      "image": "https://i.pinimg.com/originals/a6/03/8a/a6038acfd9986b02ac7677bd510d7de5.jpg",
+      "house": "Capet",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/France_Ancient_Arms.svg/220px-France_Ancient_Arms.svg.png",
+      "start": 1322,
+      "end": 1328,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip VI": {
+      "name": "Philip VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Phil6france.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1328,
+      "end": 1350,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "John II": {
+      "name": "John II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/JeanIIdFrance.jpg/440px-JeanIIdFrance.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1350,
+      "end": 1364,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles V": {
+      "name": "Charles V",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Charles_V_France.jpg/440px-Charles_V_France.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1364,
+      "end": 1380,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VI": {
+      "name": "Charles VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Charles_VI_de_France_-_Dialogues_de_Pierre_Salmon_-_Bib_de_Gen%C3%A8ve_MsFr165f4.jpg/440px-Charles_VI_de_France_-_Dialogues_de_Pierre_Salmon_-_Bib_de_Gen%C3%A8ve_MsFr165f4.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1380,
+      "end": 1422,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VII": {
+      "name": "Charles VII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Charles_VII_by_Jean_Fouquet_1445_1450.jpg/440px-Charles_VII_by_Jean_Fouquet_1445_1450.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1422,
+      "end": 1461,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XI": {
+      "name": "Louis XI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Louis-XI.jpg/440px-Louis-XI.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1461,
+      "end": 1483,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VIII": {
+      "name": "Charles VIII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Charles_VIII_Ecole_Francaise_16th_century_Musee_de_Conde_Chantilly.jpg/440px-Charles_VIII_Ecole_Francaise_16th_century_Musee_de_Conde_Chantilly.jpg",
+      "house": "Valois",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1483,
+      "end": 1498,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XII": {
+      "name": "Louis XII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Louis-xii-roi-de-france.jpg/440px-Louis-xii-roi-de-france.jpg",
+      "house": "Valois-Orleans",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1498,
+      "end": 1515,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis I": {
+      "name": "Francis I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Francis1-1.jpg/440px-Francis1-1.jpg",
+      "house": "Valois-Angouleme",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1515,
+      "end": 1547,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Henry II": {
+      "name": "Henry II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Henry_II_of_France..jpg/440px-Henry_II_of_France..jpg",
+      "house": "Valois-Angouleme",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1547,
+      "end": 1559,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis II": {
+      "name": "Francis II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/FrancoisII.jpg/440px-FrancoisII.jpg",
+      "house": "Valois-Angouleme",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1559,
+      "end": 1560,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles IX": {
+      "name": "Charles IX",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/CharlesIX.jpg/440px-CharlesIX.jpg",
+      "house": "Valois-Angouleme",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1560,
+      "end": 1574,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Henry III": {
+      "name": "Henry III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Anjou_1570louvre.jpg",
+      "house": "Valois-Angouleme",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Royal_Coat_of_Arms_of_Valois_France.svg/400px-Royal_Coat_of_Arms_of_Valois_France.svg.png",
+      "start": 1574,
+      "end": 1589,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Henry IV": {
+      "name": "Henry IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Henri-Pourbus.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1589,
+      "end": 1610,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XIII": {
+      "name": "Louis XIII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Luis_XIII%2C_rey_de_Francia_%28Philippe_de_Champaigne%29.jpg/440px-Luis_XIII%2C_rey_de_Francia_%28Philippe_de_Champaigne%29.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1610,
+      "end": 1643,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XIV": {
+      "name": "Louis XIV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/440px-Louis_XIV_of_France.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1643,
+      "end": 1715,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XV": {
+      "name": "Louis XV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Louis_XV_by_Maurice-Quentin_de_La_Tour.jpg/440px-Louis_XV_by_Maurice-Quentin_de_La_Tour.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1715,
+      "end": 1774,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XVI": {
+      "name": "Louis XVI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg/440px-Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1774,
+      "end": 1792,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Napoleon I": {
+      "name": "Napoleon I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/440px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+      "house": "Bonaparte",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Insigne_Francum_Napoleonis.svg/220px-Insigne_Francum_Napoleonis.svg.png",
+      "start": 1804,
+      "end": 1814,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XVIII": {
+      "name": "Louis XVIII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg/440px-G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1814,
+      "end": 1815,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Napoleon I (2nd)": {
+      "name": "Napoleon I (2nd)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/440px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+      "house": "Bonaparte",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Insigne_Francum_Napoleonis.svg/220px-Insigne_Francum_Napoleonis.svg.png",
+      "start": 1815,
+      "end": 1815,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis XVIII (2nd)": {
+      "name": "Louis XVIII (2nd)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg/440px-G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1815,
+      "end": 1824,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles X": {
+      "name": "Charles X",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Charles_X_of_France_1.PNG/440px-Charles_X_of_France_1.PNG",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1824,
+      "end": 1830,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis Philippe I": {
+      "name": "Louis Philippe I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Louis-Philippe%2C_roi_des_Fran%C3%A7ais.jpg/440px-Louis-Philippe%2C_roi_des_Fran%C3%A7ais.jpg",
+      "house": "Orleans",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arms_of_the_Dukes_of_Orl%C3%A9ans.svg/260px-Arms_of_the_Dukes_of_Orl%C3%A9ans.svg.png",
+      "start": 1830,
+      "end": 1848,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Napoleon III": {
+      "name": "Napoleon III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Franz_Xaver_Winterhalter_Napoleon_III.jpg/466px-Franz_Xaver_Winterhalter_Napoleon_III.jpg",
+      "house": "Bonaparte",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Insigne_Francum_Napoleonis.svg/220px-Insigne_Francum_Napoleonis.svg.png",
+      "start": 1852,
+      "end": 1870,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    }
+  },
+  "Holy Roman Empire": {
+    "Charles V": {
+      "name": "Charles V",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elderly_Karl_V.jpg/440px-Elderly_Karl_V.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1519,
+      "end": 1556,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand I": {
+      "name": "Ferdinand I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg/220px-Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1558,
+      "end": 1564,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Maximilian II": {
+      "name": "Maximilian II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nicolas_Neufch%C3%A2tel_002.jpg/440px-Nicolas_Neufch%C3%A2tel_002.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1564,
+      "end": 1576,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Rudolf II": {
+      "name": "Rudolf II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg/440px-AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1576,
+      "end": 1612,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Matthias": {
+      "name": "Matthias",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg/440px-Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1612,
+      "end": 1619,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand II": {
+      "name": "Ferdinand II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Ferdinand_II._1614.jpg/440px-Kaiser_Ferdinand_II._1614.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1619,
+      "end": 1637,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand III": {
+      "name": "Ferdinand III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg/440px-Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1637,
+      "end": 1657,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Leopold I": {
+      "name": "Leopold I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Benjamin_von_Block_001.jpg/440px-Benjamin_von_Block_001.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1658,
+      "end": 1705,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Joseph I": {
+      "name": "Joseph I",
+      "image": "http://www.holyromanempireassociation.com/image/118580078_scaled_199x285.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1705,
+      "end": 1711,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VI": {
+      "name": "Charles VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg/440px-Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1711,
+      "end": 1740,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VII": {
+      "name": "Charles VII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg/440px-Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg",
+      "house": "Wittelsbach",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
+      "start": 1742,
+      "end": 1745,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis I": {
+      "name": "Francis I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Martin_van_Meytens_006.jpg/440px-Martin_van_Meytens_006.jpg",
+      "house": "Lorraine",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coat_of_arms_of_the_House_of_Lorraine.png",
+      "start": 1745,
+      "end": 1765,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Joseph II": {
+      "name": "Joseph II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Anton_von_Maron_006.png/440px-Anton_von_Maron_006.png",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1765,
+      "end": 1790,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Leopold II": {
+      "name": "Leopold II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg/440px-Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1790,
+      "end": 1792,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis II and I": {
+      "name": "Francis II and I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg/440px-Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1792,
+      "end": 1806,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    }
+  },
+  "Spain": {
+    "Philip II": {
+      "name": "Philip II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Philip_II_portrait_by_Titian.jpg/440px-Philip_II_portrait_by_Titian.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1556,
+      "end": 1598,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip III": {
+      "name": "Philip III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Andres_L%C3%B3pez_001.jpg/440px-Andres_L%C3%B3pez_001.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1598,
+      "end": 1621,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip IV and III": {
+      "name": "Philip IV and III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Philip_IV_of_Spain_-_Vel%C3%A1zquez_1644.jpg/462px-Philip_IV_of_Spain_-_Vel%C3%A1zquez_1644.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1621,
+      "end": 1665,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles II": {
+      "name": "Charles II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Juan_de_Miranda_Carreno_002.jpg/440px-Juan_de_Miranda_Carreno_002.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1665,
+      "end": 1700,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Philip V": {
+      "name": "Philip V",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Felipe_V_de_Espa%C3%B1a.jpg/464px-Felipe_V_de_Espa%C3%B1a.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1700,
+      "end": 1746,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand VI": {
+      "name": "Ferdinand VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Fernando_VI_de_Espa%C3%B1a_%28Museo_del_Prado%29.jpg/440px-Fernando_VI_de_Espa%C3%B1a_%28Museo_del_Prado%29.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1746,
+      "end": 1759,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles III": {
+      "name": "Charles III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Charles_III_of_Spain_high_resolution.jpg/440px-Charles_III_of_Spain_high_resolution.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1759,
+      "end": 1788,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VI": {
+      "name": "Charles VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Carlos_IV_de_rojo.jpg/440px-Carlos_IV_de_rojo.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1788,
+      "end": 1808,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand VII": {
+      "name": "Ferdinand VII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg/484px-Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1808,
+      "end": 1808,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Joseph Bonaparte": {
+      "name": "Joseph Bonaparte",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Joseph_Bonaparte_%28by_Wicar%29.jpg/220px-Joseph_Bonaparte_%28by_Wicar%29.jpg",
+      "house": "Bonaparte",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Insigne_Francum_Napoleonis.svg/220px-Insigne_Francum_Napoleonis.svg.png",
+      "start": 1808,
+      "end": 1813,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand VII (2nd)": {
+      "name": "Ferdinand VII (2nd)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg/484px-Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1813,
+      "end": 1833,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Isabella II": {
+      "name": "Isabella II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Isabel_de_Borb%C3%B3n_y_Borb%C3%B3n-Dos_Sicilias.jpg/440px-Isabel_de_Borb%C3%B3n_y_Borb%C3%B3n-Dos_Sicilias.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1833,
+      "end": 1868,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Amadeo I": {
+      "name": "Amadeo I",
+      "image": "https://i.pinimg.com/236x/0e/5b/8c/0e5b8cc19e6abd28d7aca88ba629696c.jpg",
+      "house": "Savoy",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg/340px-Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg.png",
+      "start": 1870,
+      "end": 1873,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alfonso XII": {
+      "name": "Alfonso XII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/King_Alfonso_XII.jpg/440px-King_Alfonso_XII.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1874,
+      "end": 1885,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alfonso XIII": {
+      "name": "Alfonso XIII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Rey_Alfonso_XIII_de_Espa%C3%B1a%2C_by_Kaulak.jpg/440px-Rey_Alfonso_XIII_de_Espa%C3%B1a%2C_by_Kaulak.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1886,
+      "end": 1931,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francisco Franco": {
+      "name": "Francisco Franco",
+      "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0OTY4NzYzOTE5/francisco-franco-9300766-2-402.jpg",
+      "house": "Franco",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/COA_Spain_under_Franco_1938_1945.svg/400px-COA_Spain_under_Franco_1938_1945.svg.png",
+      "start": 1936,
+      "end": 1975,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Juan Carlos I": {
+      "name": "Juan Carlos I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Rey_Juan_Carlos_2013.jpg/440px-Rey_Juan_Carlos_2013.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 1975,
+      "end": 2014,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Felipe VI": {
+      "name": "Felipe VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%28Felipe_de_Borb%C3%B3n%29_Inauguraci%C3%B3n_de_FITUR_2018_%2839840659951%29_%28cropped%29.jpg/440px-%28Felipe_de_Borb%C3%B3n%29_Inauguraci%C3%B3n_de_FITUR_2018_%2839840659951%29_%28cropped%29.jpg",
+      "house": "Bourbon",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/220px-Grand_Royal_Coat_of_Arms_of_France.svg.png",
+      "start": 2014,
+      "end": 2019,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    }
+  },
+  "Italy": {},
+  "Russia": {}
 }

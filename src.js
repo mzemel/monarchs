@@ -8,19 +8,24 @@ var margin = { top: 20, left: 60, bottom: 40, right: 20 },
   countryIndex = 0;
 
 // Details config
-var detailsWidth = width / 2,
-  detailsHeight = height / 4 * 3,
-  detailsLineHeight = 20,
-  detailsMargin = 5,
-  detailsX = width / 4,
-  detailsY = height / 8,
+var detailsHeight = height / 4 * 3,
+  detailsWidth = detailsHeight * 2 / 3,
+  detailsMargin = detailsHeight / 48,
+  detailsHeightInterval = (detailsHeight - 2 * detailsMargin) / 7,
+  detailsWidthInterval = (detailsWidth - 2 * detailsMargin) / 12,
+  detailsLineHeight = detailsHeightInterval / 4,
+  detailsX = (width - detailsWidth) / 2,
+  detailsY = (height - detailsHeight) / 2,
+  detailsMiddle = detailsX + detailsWidth / 2,
   detailsRx = 15,
   detailsRy = 15,
-  detailsImageWidth = detailsWidth / 3,
-  detailsImageHeight = detailsImageWidth,
-  detailsImageY = detailsY + detailsHeight / 48,
-  detailsImageX = detailsX + detailsWidth / 12,
-  detailsNameY = detailsImageY + detailsImageHeight + detailsMargin + detailsLineHeight;
+  detailsImageHeight = detailsHeightInterval * 2,
+  detailsImageWidth = detailsImageHeight,
+  detailsImageX = detailsX + detailsWidthInterval,
+  detailsImageY  = detailsY + detailsMargin,
+  detailsNameY   = detailsY + 2 * detailsHeightInterval + detailsMargin,
+  detailsEventsY = detailsY + 3 * detailsHeightInterval + detailsMargin,
+  detailsWarsY   = detailsY + 4 * detailsHeightInterval + detailsMargin;
 
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
@@ -55,8 +60,7 @@ function render(data) {
 //    y: (height + margin.bottom + margin.top - detailsHeight) / 2,
     x: detailsX,
     y: detailsY,
-    fill: "black",
-    "fill-opacity": 0.1,
+    fill: "gainsboro",
     rx: detailsRx,
     ry: detailsRy
   });
@@ -92,10 +96,11 @@ function render(data) {
     detail.attr({class: 'detail hidden'});
     detail.selectAll("text").remove();
     detail.selectAll("image").remove();
+
+    detail.select(".details-name").remove();
   }
 
   function renderDetails(el) {
-    console.log(el);
     // Monarch
     detail.append("image").attr({
       x: detailsImageX,
@@ -105,52 +110,85 @@ function render(data) {
       "xlink:href": el.image,
       preserveAspectRatio: "none"
     })
-    detail.append("text").attr({
-      x: detailsImageX + detailsImageWidth / 2,
-      y: detailsNameY,
-      "text-anchor": "middle"
-    }).text(el.name);
 
     // House
     detail.append("image").attr({
-      x: detailsX + detailsWidth - detailsImageWidth - detailsWidth / 12,
+      x: detailsX + detailsWidth - detailsImageWidth - detailsWidthInterval,
       y: detailsImageY,
       width: detailsImageWidth,
       height: detailsImageHeight,
-      "xlink:href": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg",
+      "xlink:href": el.houseImage,
       preserveAspectRatio: "none"
     })
-    detail.append("text").attr({
-      x: detailsX + detailsWidth - detailsImageWidth / 2 - detailsWidth / 12,
-      y: detailsNameY,
-      "text-anchor": "middle"
-    }).text(el.house);
 
-    // Reign
+    // Details: Name, House, Reign
+//    detail.append("rect").attr({
+//      x: detailsImageX,
+//      y: detailsNameY,
+//      width: detailsWidth - 2 * detailsWidthInterval,
+//      height: detailsHeightInterval,
+//      "fill-opacity": 0.2,
+//      class: "details-name"
+//    })
     detail.append("text").attr({
-      x: detailsX + detailsWidth / 2,
+      x: detailsImageX + detailsImageWidth / 2,
       y: detailsNameY + detailsLineHeight,
+      "text-anchor": "middle",
+//      textLength: detailsImageWidth,
+//      lengthAdjust: "spacesAndGlyphs"
+    }).text(el.name);
+    detail.append("text").attr({
+      x: detailsX + detailsWidth - detailsImageWidth / 2 - detailsWidthInterval,
+      y: detailsNameY + detailsLineHeight,
+      "text-anchor": "middle",
+//      textLength: detailsImageWidth,
+//      lengthAdjust: "spacesAndGlyphs"
+    }).text(el.house);
+    detail.append("text").attr({
+      x: detailsMiddle,
+      y: detailsNameY + 2 * detailsLineHeight,
       "text-anchor": "middle"
     }).text(el.start + "-" + el.end + " (" + el.endReason + ")");
+    detail.append("text").attr({
+      x: detailsMiddle,
+      y: detailsNameY + 3 * detailsLineHeight,
+      "text-anchor": "middle"
+    }).text(el.religion);
 
     // Events
+    detail.append("text").attr({
+      x: detailsMiddle,
+      y: detailsEventsY + detailsLineHeight,
+      "text-anchor": "middle"
+    }).text("Events")
     _.map(el.events, function(event, idx) {
       detail.append("text").attr({
         x: detailsImageX,
-        y: detailsNameY + detailsLineHeight * (3 + idx)
+        y: detailsEventsY + detailsLineHeight * (2 + idx)
       }).text(event);
     })
 
     // Wars
+    detail.append("text").attr({
+      x: detailsMiddle,
+      y: detailsWarsY + detailsLineHeight,
+      "text-anchor": "middle"
+    }).text("Wars")
+    _.map(el.wars, function(war, idx) {
+      detail.append("text").attr({
+        x: detailsImageX,
+        y: detailsWarsY + detailsLineHeight * (2 + idx)
+      }).text(war);
+    })
+
     
     // Relationships
     var relationshipCount = el.relationships.length,
       relationshipContainerWidth = detailsWidth - detailsMargin * 2,
-      relationshipMaxImageWidth = detailsImageWidth / 2,
+      relationshipMaxImageWidth = detailsHeightInterval * 1.5,
       relationshipImageWidthCalculated = relationshipContainerWidth / relationshipCount / 1.5,
       relationshipImageWidth = Math.min(relationshipMaxImageWidth, relationshipImageWidthCalculated),
-      relationshipImagePadding = relationshipImageWidth / 2,
-      detailsMiddle = detailsX + detailsWidth / 2;
+      relationshipImagePadding = relationshipImageWidth / 2;
 
     // i: index
     // c: relationship count
@@ -158,13 +196,22 @@ function render(data) {
     // W: relationship image width
     // x(i, c) = m - (c - 1) * 0.75W + i * 1.5W - 0.5W
     _.map(el.relationships, function(rel, idx) {
+      var relationshipImageX = detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth,
+        relationshipImageY = detailsY + 5 * detailsHeightInterval + detailsMargin;
       detail.append("image").attr({
-        x: detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth,
-        y: detailsY + detailsHeight - detailsMargin - relationshipImageWidth,
+        x: relationshipImageX,
+        y: relationshipImageY,
         width: relationshipImageWidth,
         height: relationshipImageWidth,
         "xlink:href": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg"
       })
+      _.map(rel.split(","), function(relComponent, idx) {
+        detail.append("text").attr({
+          x: relationshipImageX + relationshipImageWidth / 2,
+          y: relationshipImageY + relationshipImageWidth + detailsLineHeight * (idx + 1),
+          "text-anchor": "middle",
+        }).text(relComponent);
+      });
     });
   }
 
