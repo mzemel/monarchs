@@ -24,4 +24,5 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Navigation arrows on detail
 - Hyperlinks to events, wars, etc.
 - Replace contemporary paintings with revisionist ones
+- Rectangle, on hover, transitions into thumbnail; on click, transitions into details box
 

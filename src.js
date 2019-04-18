@@ -78,12 +78,87 @@ function render(data) {
   }).call(xAxis);
 
   function handleMouseOver(el, i) {
-    d3.select(this).attr({"fill-opacity": 1.0});
+    var $this = $(this),
+      $x = parseFloat($this.attr('x')),
+      $y = parseFloat($this.attr('y')),
+      $width = $this.width(),
+      $height = $this.height();
+    
+    d3.select(this).transition().attr({
+      "fill-opacity": 1.0,
+    })
+
+    // enlargeBlock(this);
+
+    var thumbnailImageWidth = width / 8;
+
+    timeline.append("image").transition().attr({
+      x: $x + $width / 2 - thumbnailImageWidth / 2,
+      y: $y - thumbnailImageWidth - detailsLineHeight,
+      width: thumbnailImageWidth,
+      height: thumbnailImageWidth,
+      "xlink:href": el.image,
+      class: "thumbnail"
+    }).delay(0)
+
+    timeline.append("text").transition().attr({
+      x: $x + $width / 2,
+      y: $y - thumbnailImageWidth - detailsLineHeight * 2,
+      "text-anchor": "middle",
+      class: "thumbnail"
+    }).delay(0).text(el.name);
   };
 
   function handleMouseOut(el, i) {
-    d3.select(this).attr({"fill-opacity": 0.5});
+    d3.selectAll(".thumbnail").remove();
+    d3.select(this).transition().attr({
+      "fill-opacity": 0.5,
+    });
+    // reduceBlock(this);
   };
+
+  function enlargeBlock(rect) {
+    var $this = $(rect),
+      $x = parseFloat($this.attr('x')),
+      $y = parseFloat($this.attr('y')),
+      $width = $this.width(),
+      $height = $this.height();
+
+    d3.select(this).transition().attr({
+      x: $x - 5,
+      y: $y - 5,
+      width: $width + 10,
+      height: $height + 10,
+      "prevX": $x,
+      "prevY": $y,
+      "prevWidth": $width,
+      "prevHeight": $height,
+    })
+  }
+
+  function reduceBlock(rect) {
+    var $this = $(rect);
+    if ($this.attr('prevX') !== null) {
+      var $x = parseFloat($this.attr('x')),
+        $y = parseFloat($this.attr('y')),
+        $width = $this.width(),
+        $height = $this.height();
+
+      var rect = d3.select(rect);
+
+      d3.select(this).transition().attr({
+        "fill-opacity": 0.5,
+        x: rect.attr("prevX"),
+        y: rect.attr('prevY'),
+        width: rect.attr('prevWidth'),
+        height: rect.attr('prevHeight'),
+        "prevX": null,
+        "prevY": null,
+        "prevWidth": null,
+        "prevHeight": null
+      });
+    }
+  }
 
   function showDetail(el, i) {
     timeline.attr({class: 'timeline inactive'});
@@ -243,7 +318,8 @@ function formatDetails(el) {
         x: function(el) { return margin.left + (el.start - firstYear) * pixelsPerYear },
         y: height - margin.bottom - laneHeight * (countryIndex - 1) - lanePadding * countryIndex,
         fill: "blue",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.5,
+        class: "block"
       })
       .on("mouseover", handleMouseOver)
       .on("mouseout", handleMouseOut)
