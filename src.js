@@ -66,11 +66,11 @@ function render(data) {
   });
 
   // Create X-axis
-  var xScale = d3.scale.linear()
+  var xScale = d3.time.scale()
     .domain([firstYear, lastYear]) 
     .range([margin.left, width - margin.right])
 
-  var xAxis = d3.svg.axis().scale(xScale);
+  var xAxis = d3.svg.axis().scale(xScale).tickFormat(d3.format("d"));
 
   timeline.append("g").attr({
     "class": "axis",
