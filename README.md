@@ -27,4 +27,4 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Navigation arrows on detail
 - Hyperlinks to events, wars, etc.
 - Replace contemporary paintings with revisionist ones
-
+- Font size adjust: given width and height, let font be whatever it wants to fit itself (proportionally) to those dimensions

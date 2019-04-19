@@ -4,13 +4,18 @@ $.getJSON("dataset.json", function(data) { render(data) });
 var detailsColor = "#E2D4AC",
   backgroundColor = "#FEF6DF",
   thumbnailBackgroundColor = "#000000",
-  thumbnailNameBackgroundColor = "#4E4E4E";
+  thumbnailNameBackgroundColor = "#4E4E4E",
+  strokeColor = "#000000";
 
 // Fonts
 var fontSizeLarge = "1.9em",
   fontSizeMedium = "1.5em",
   fontSizeSmall = "1em",
-  fontFamily = "Georgia, serif";
+  fontFamily = "Georgia, serif",
+  strokeWidthLarge = 15,
+  strokeWidthMedium = 10,
+  strokeWidthSmall = 5,
+  strokeWidthTiny = 3;
 
 // General config
 var width = window.innerWidth,
@@ -37,7 +42,20 @@ var detailsHeight = height / 4 * 3,
   detailsEventsY = detailsY + 3 * detailsHeightInterval + detailsMargin,
   detailsWarsY   = detailsY + 4 * detailsHeightInterval + detailsMargin;
 
+// Thumbnail config
+var thumbnailImageWidth = width / 8,
+  thumbnailBorder = 10;
+
+// Date config
+var dateHeight = detailsLineHeight,
+  dateWidth = dateHeight * 8;
+
 function render(data) {
+
+  // Stores dates and remove from data object; render later
+  var dates = data["Dates"];
+  delete(data["Dates"]);
+
   // Flatten all reigns into a single array to determine start and end
   var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.start; }); })));
     lastYear = d3.max(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.end; }); })));
@@ -74,6 +92,96 @@ function render(data) {
     .attr("transform", "translate(0," + (height - margin.bottom) + ")")
     .call(xAxis);
 
+
+  _.map(dates, function(data, year) {
+    timeline.append("circle")
+      .attr("cx", margin.left + (data.date - firstYear) * pixelsPerYear)
+      .attr("cy", height - margin.bottom - laneHeight / 2)
+      .attr("r", 5)
+      .attr("fill", "white")
+      .attr("stroke", strokeColor)
+      .attr("stroke-width", strokeWidthTiny)
+      .on("mouseover", showDate.bind(data))
+      .on("mouseout", function(el, i) {
+        timeline.selectAll(".date").remove();
+      })
+  })
+
+  function showDate(el, i) {
+    var dateRect = timeline.append("rect")
+      .attr("x", margin.left + (this.date - firstYear) * pixelsPerYear)
+      .attr("y", height - margin.bottom - laneHeight / 2)
+
+    timeline.append("text")
+      .attr("x", margin.left + (this.date - firstYear) * pixelsPerYear)
+      .attr("y", height - margin.bottom + laneHeight / 2 + detailsLineHeight * 3 / 4)
+      .attr("text-anchor", "middle")
+      .attr("textLength", dateWidth * 3 / 4)
+      .attr("lengthAdjust", "spacing")
+      .attr("class", "date hidden")
+      .text(this.event)
+
+    dateRect.transition()
+      .attr("x", margin.left + (this.date - firstYear) * pixelsPerYear - dateWidth / 2)
+      .attr("y", height - margin.bottom + laneHeight / 2)
+      .attr("rx", 15)
+      .attr("ry", 15)
+      .attr("width", dateWidth)
+      .attr("height", dateHeight)
+      .attr("fill", detailsColor)
+      .attr("stroke", strokeColor)
+      .attr("stroke-width", strokeWidthSmall)
+      .attr("class", "date")
+      .on("end", function() { timeline.select("text.date").classed("hidden", false); })
+  };
+
+  // Create country timelines
+  _.forEach(data, function(countryData, countryName) {
+    countryIndex += 1;
+
+    // Add legend
+    timeline.append("text")
+      .attr("x", margin.left / 10)
+      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2 + laneHeight / 2)
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeSmall)
+      .attr("class", "legend")
+      .text(countryName);
+
+    // Add blocks
+    timeline.append("g")
+      .attr('id', countryName)
+      .selectAll("rect")
+      .data(_.map(countryData, function(monarchData, monarchName) { return monarchData; }))
+      .enter()
+      .append("rect")
+      .attr("width", function(el) { return (el.end - el.start) * pixelsPerYear - 1 })
+      .attr("height", laneHeight)
+      .attr("x", function(el) { return margin.left + (el.start - firstYear) * pixelsPerYear })
+      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
+      .attr("rx", 5)
+      .attr("ry", 5)
+      .attr("fill", function(el) { return fillColors[countryName][el.house] || "maroon"})
+      .attr("fill-opacity", 0.75)
+      .attr("class", "block")
+      .on("mouseover", handleMouseOver)
+      .on("mouseout", handleMouseOut)
+      .on("click", showDetail)
+
+    // Append detail to lay it on top of blocks
+    detail = timeline.append("rect")
+      .attr("width", 0)
+      .attr("height", 0)
+      .attr("x", width / 2)
+      .attr("y", height / 2)
+      .attr("fill", detailsColor)
+      .attr("rx", detailsRx)
+      .attr("ry", detailsRy)
+      .attr("stroke", strokeColor)
+      .attr("stroke-width", strokeWidthMedium)
+      .on("click", hideDetail)
+    });
+
   function handleMouseOver(el, i) {
     if (detailsOpen) return false
 
@@ -88,8 +196,6 @@ function render(data) {
       $width = $this.width(),
       $height = $this.height();
 
-    var thumbnailImageWidth = width / 8,
-      thumbnailBorder = 10;
 
     var thumbnailDimensions = [
       { // Background
@@ -139,8 +245,8 @@ function render(data) {
       .attr("fill", backgroundColor)
       .attr("rx", 15)
       .attr("ry", 15)
-      .attr("stroke", thumbnailBackgroundColor)
-      .attr("stroke-width", 3)
+      .attr("stroke", strokeColor)
+      .attr("stroke-width", strokeWidthTiny)
       .attr("class", "thumbnail")
 
     var thumbnailName = timeline.append("text")
@@ -363,58 +469,13 @@ function render(data) {
     });
   }
 
-function formatDetails(el) {
-  var data = [];
-  _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
-  return data;
-}
+  // Creates array of objects for a monarch
+  function formatDetails(el) {
+    var data = [];
+    _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
+    return data;
+  }
 
-  // Create country timelines
-  _.forEach(data, function(countryData, countryName) {
-    countryIndex += 1;
-
-    // Add legend
-    timeline.append("text")
-      .attr("x", margin.left / 10)
-      .attr("y", height - margin.bottom - laneHeight * countryIndex * 2 + laneHeight / 2)
-      .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeSmall)
-      .attr("class", "legend")
-      .text(countryName);
-
-    // Add blocks
-    timeline.append("g")
-      .attr('id', countryName)
-      .selectAll("rect")
-      .data(_.map(countryData, function(monarchData, monarchName) { return monarchData; }))
-      .enter()
-      .append("rect")
-      .attr("width", function(el) { return (el.end - el.start) * pixelsPerYear - 1 })
-      .attr("height", laneHeight)
-      .attr("x", function(el) { return margin.left + (el.start - firstYear) * pixelsPerYear })
-      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
-      .attr("rx", 5)
-      .attr("ry", 5)
-      .attr("fill", function(el) { return fillColors[countryName][el.house] || "maroon"})
-      .attr("fill-opacity", 0.75)
-      .attr("class", "block")
-      .on("mouseover", handleMouseOver)
-      .on("mouseout", handleMouseOut)
-      .on("click", showDetail)
-
-    // Append detail to lay it on top of blocks
-    detail = timeline.append("rect")
-      .attr("width", 0)
-      .attr("height", 0)
-      .attr("x", width / 2)
-      .attr("y", height / 2)
-      .attr("fill", detailsColor)
-      .attr("rx", detailsRx)
-      .attr("ry", detailsRy)
-      .attr("stroke", "black")
-      .attr("stroke-width", 10)
-      .on("click", hideDetail)
-    });
 };
 
 var fillColors = {

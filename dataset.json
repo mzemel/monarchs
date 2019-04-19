@@ -1,4 +1,84 @@
 {
+  "Dates": {
+    "1215": {
+      "date": 1215,
+      "event": "Magna Carta",
+      "description": "",
+      "type": ""
+    },
+    "1804": {
+      "date": 1804,
+      "event": "Battle of Austerlitz",
+      "description": "Holy Roman Empire dissolved",
+      "type": ""
+    },
+    "1815": {
+      "date": 1815,
+      "event": "Battle of Waterloo, Congress of Vienna",
+      "description": "Napoleon defeated",
+      "type": ""
+    },
+    "1848": {
+      "date": 1848,
+      "event": "Revolutions of 1848",
+      "description": "",
+      "type": ""
+    },
+    "1845": {
+      "date": 1845,
+      "event": "Great Famine",
+      "description": "",
+      "type": ""
+    },
+    "1871": {
+      "date": 1871,
+      "event": "Unification of Germany",
+      "description": "",
+      "type": ""
+    },
+    "1664": {
+      "date": 1664,
+      "event": "Newton discovers gravity",
+      "description": "",
+      "type": "science"
+    },
+    "1066": {
+      "date": 1066,
+      "event": "Norman conquest of England",
+      "description": "",
+      "type": ""
+    },
+    "1543": {
+      "date": 1543,
+      "event": "Copernicus discovers heliocentrism",
+      "description": "",
+      "type": "science"
+    },
+    "1752": {
+      "date": 1752,
+      "event": "Franklin discovers electricity",
+      "description": "",
+      "type": "science"
+    },
+    "1760": {
+      "date": 1760,
+      "event": "Industrial Revolution begins",
+      "description": "",
+      "type": ""
+    },
+    "1869": {
+      "date": 1869,
+      "event": "Mendeleev creates periodic table",
+      "description": "",
+      "type": "science"
+    },
+    "1859": {
+      "date": 1859,
+      "event": "Darwin publishes On the Origin of Species",
+      "description": "",
+      "type": ""
+    }
+  },
   "England": {
     "William the Conqueror": {
       "name": "William the Conqueror",
