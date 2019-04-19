@@ -18,6 +18,10 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Radio button to select active country; inactive countries have more opacity / less detail
 - Wars as rects above monarchy timeline
 - World event timeline
+  - Dots at the bottom, on hover show a paragraph
+  - Links up with beginning and end of timelines (e.g. "monarchy of Italy abolished")
+  - Tagged with science, monarchy, philosophy, etc, and display as different icons on the timeline
+  - On hover, straight line to top of page that allows you to trace which monarchs are in power at the time
 - Deploy to monarchy.thebackend.dev
 - Details SVG is only the size of the rectangle
 - Navigation arrows on detail

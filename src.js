@@ -33,6 +33,11 @@ var detailsHeight = height / 4 * 3,
 
 var detailsOpen = false, laneHeight; // yay global state variables
 
+var fontSizeLarge = "1.9em",
+  fontSizeMedium = "1.5em",
+  fontSizeSmall = "1em",
+  fontFamily = "Georgia, serif";
+
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
   var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.start; }); })));
@@ -76,15 +81,16 @@ function render(data) {
       $width = $this.width(),
       $height = $this.height();
     
-    enlargeBlock.bind(d3.select(this))(this);
+    var block = d3.select(this);
+    enlargeBlock.bind(block)(this);
 
     var thumbnailImageWidth = width / 8,
       thumbnailBorder = 10;
 
-    var thumbnailContainer = timeline.append("rect")
+    var thumbnailBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
-      .attr("fill", thumbnailBackgroundColor)
+      .attr("fill", "black")
       .attr("class", "thumbnail")
       .attr("rx", 15)
       .attr("ry", 15)
@@ -200,24 +206,32 @@ function render(data) {
       .attr("x", detailsImageX + detailsImageWidth / 2)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeLarge)
       .attr("class", "detail")
       .text(el.name);
     timeline.append("text")
       .attr("x", detailsX + detailsWidth - detailsImageWidth / 2 - detailsWidthInterval)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeLarge)
       .attr("class", "detail")
       .text(el.house);
     timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + 2 * detailsLineHeight)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeMedium)
       .attr("class", "detail")
       .text(el.start + "-" + el.end + " (" + el.endReason + ")");
     timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + 3 * detailsLineHeight)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeMedium)
       .attr("class", "detail")
       .text(el.religion);
 
@@ -226,12 +240,16 @@ function render(data) {
       .attr("x", detailsMiddle)
       .attr("y", detailsEventsY + detailsLineHeight)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeLarge)
       .attr("class", "detail")
       .text("Events")
     _.map(el.events, function(event, idx) {
       timeline.append("text")
         .attr("x", detailsImageX)
         .attr("y", detailsEventsY + detailsLineHeight * (2 + idx))
+        .attr("font-family", fontFamily)
+        .attr("font-size", fontSizeSmall)
         .attr("class", "detail")
         .text(event);
     })
@@ -241,12 +259,16 @@ function render(data) {
       .attr("x", detailsMiddle)
       .attr("y", detailsWarsY + detailsLineHeight)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeLarge)
       .attr("class", "detail")
       .text("Wars")
     _.map(el.wars, function(war, idx) {
       timeline.append("text")
         .attr("x", detailsImageX)
         .attr("y", detailsWarsY + detailsLineHeight * (2 + idx))
+        .attr("font-family", fontFamily)
+        .attr("font-size", fontSizeSmall)
         .attr("class", "detail")
         .text(war);
     })
@@ -281,6 +303,8 @@ function render(data) {
           .attr("x", relationshipImageX + relationshipImageWidth / 2)
           .attr("y", relationshipImageY + relationshipImageWidth + detailsLineHeight * (idx + 1))
           .attr("text-anchor", "middle")
+          .attr("font-family", fontFamily)
+          .attr("font-size", fontSizeSmall)
           .attr("class", "detail")
           .text(relComponent);
       });
@@ -299,8 +323,10 @@ function formatDetails(el) {
 
     // Add legend
     timeline.append("text")
-      .attr("x", 0)
+      .attr("x", margin.left / 10)
       .attr("y", height - margin.bottom - laneHeight * countryIndex * 2 + laneHeight / 2)
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeSmall)
       .attr("class", "legend")
       .text(countryName);
 
@@ -334,62 +360,73 @@ function formatDetails(el) {
       .attr("rx", detailsRx)
       .attr("ry", detailsRy)
       .attr("stroke", "black")
-      .attr("stroke-width", 3)
+      .attr("stroke-width", 10)
       .on("click", hideDetail)
     });
 };
 
 var fillColors = {
   "England": {
-    "Tudor": "#330BE8",
+    "Tudor": "#171A94",
     "Grey": "#0BC0E8",
     "Stuart": "#4DCB93",
     "Orange-Nassau": "#0BC0E8",
     "Hanover": "#0B8AE8",
-    "Saxe-Coburg and Gotha": "#4F39D4",
-    "Windsor": "#1D01C4",
-    "York": "#5C90F7",
-    "Lancaster": "#789ADD",
-    "Plantagenet": "#7D8CA9",
-    "Plantagenet/Angevin": "#9AA8C3",
-    "Blois": "#43516B",
-    "Normandy": "#041941"
+    "Saxe-Coburg and Gotha": "#0074E9",
+    "Windsor": "#0162C3",
+    "York": "#79D8F9",
+    "Lancaster": "#A2F4F2",
+    "Plantagenet": "#94CAC9",
+    "Plantagenet/Angevin": "#6E9796",
+    "Blois": "#CECECE",
+    "Normandy": "#506D6D"
   },
   "Scotland": {
     "Stuart": "#4DCB93",
-    "Balliol": "#1D6445",
+    "Balliol": "#CECECE",
     "Bruce": "#2AB075"
   },
   "France": {
-    "Capet": "#692AB0",
-    "Valois": "#AF02E1",
-    "Bourbon": "#922AB0",
-    "Valois-Angouleme": "#C003F6",
-    "Valois-Orleans": "#8E02B6",
-    "Bonaparte": "#DDB0EA",
-    "Orleans": "#7C009F"
+    "Capet": "#6F5176",
+    "Valois": "#E7A2F7",
+    "Bourbon": "#CD06FC",
+    "Valois-Angouleme": "#F6D8FD",
+    "Valois-Orleans": "#F0BDFC",
+    "Bonaparte": "#4C025D",
+    "Orleans": "#F0BDFC"
   },
   "Holy Roman Empire": {
     "Habsburg": "#FFA600",
-    "Wittelsbach": "#C81E00",
+    "Wittelsbach": "#F1C716",
     "Habsburg-Lorraine": "#FF7C00",
-    "Lorraine": "#FF4D00"
+    "Lorraine": "#FF4D00",
+    "Carolingian": "#CA9100",
+    "Widonid": "#CECECE",
+    "Bosonid": "#CECECE",
+    "Unruoching": "#CECECE",
+    "Ottonian": "#D6C08E",
+    "Salian": "#D9CDB4",
+    "Supplinburg": "#CECECE",
+    "Staufen": "#855C06",
+    "Welf": "#CECECE",
+    "Luxembourg": "#B7B698",
+    "Hohenzollern": "#1B1B0C"
   },
   "Spain": {
     "Habsburg": "#FFA600",
-    "Bourbon": "#922AB0",
-    "Bonaparte": "#DDB0EA",
-    "Franco": "#BD9933",
+    "Bourbon": "#CD06FC",
+    "Bonaparte": "#4C025D",
+    "Franco": "#CECECE",
     "Savoy": "#C3CC00"
   },
   "Italy": {
     "Savoy": "#C3CC00"
   },
   "Russia": {
-    "Rurik": "#EA1B2A",
-    "Godunov": "#AF252F",
-    "Shuyskiy": "#82060F",
-    "Vasa": "#F63F4C",
+    "Rurik": "#E67777",
+    "Godunov": "#CECECE",
+    "Shuyskiy": "#CECECE",
+    "Vasa": "#CECECE",
     "Romanov": "#5D0C12",
     "Holstein-Gottorp-Romanov": "#450006"
   }
