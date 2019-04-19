@@ -4,37 +4,37 @@
       "date": 1215,
       "event": "Magna Carta",
       "description": "",
-      "type": ""
+      "type": "philosophy"
     },
     "1804": {
       "date": 1804,
       "event": "Battle of Austerlitz",
       "description": "Holy Roman Empire dissolved",
-      "type": ""
+      "type": "military"
     },
     "1815": {
       "date": 1815,
-      "event": "Battle of Waterloo, Congress of Vienna",
+      "event": "Congress of Vienna",
       "description": "Napoleon defeated",
-      "type": ""
+      "type": "diplomacy"
     },
     "1848": {
       "date": 1848,
       "event": "Revolutions of 1848",
       "description": "",
-      "type": ""
+      "type": "philosophy"
     },
     "1845": {
       "date": 1845,
       "event": "Great Famine",
       "description": "",
-      "type": ""
+      "type": "catastrophe"
     },
     "1871": {
       "date": 1871,
       "event": "Unification of Germany",
       "description": "",
-      "type": ""
+      "type": "diplomacy"
     },
     "1664": {
       "date": 1664,
@@ -46,7 +46,7 @@
       "date": 1066,
       "event": "Norman conquest of England",
       "description": "",
-      "type": ""
+      "type": "military"
     },
     "1543": {
       "date": 1543,
@@ -64,7 +64,7 @@
       "date": 1760,
       "event": "Industrial Revolution begins",
       "description": "",
-      "type": ""
+      "type": "culture"
     },
     "1869": {
       "date": 1869,
@@ -76,7 +76,7 @@
       "date": 1859,
       "event": "Darwin publishes On the Origin of Species",
       "description": "",
-      "type": ""
+      "type": "science"
     }
   },
   "England": {

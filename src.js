@@ -5,7 +5,83 @@ var detailsColor = "#E2D4AC",
   backgroundColor = "#FEF6DF",
   thumbnailBackgroundColor = "#000000",
   thumbnailNameBackgroundColor = "#4E4E4E",
-  strokeColor = "#000000";
+  strokeColor = "#000000",
+  dateLineColor = "#858585",
+  dateColors = {
+    "science": "#4DCB93",
+    "culture": "#E7A2F7",
+    "military": "#E67777",
+    "catastrophe": "#CECECE",
+    "philosophy": "#FFA600",
+    "diplomacy": "#0B8AE8"
+  };
+
+var fillColors = {
+  "England": {
+    "Tudor": "#171A94",
+    "Grey": "#0BC0E8",
+    "Stuart": "#4DCB93",
+    "Orange-Nassau": "#0BC0E8",
+    "Hanover": "#0B8AE8",
+    "Saxe-Coburg and Gotha": "#0074E9",
+    "Windsor": "#0162C3",
+    "York": "#79D8F9",
+    "Lancaster": "#A2F4F2",
+    "Plantagenet": "#94CAC9",
+    "Plantagenet/Angevin": "#6E9796",
+    "Blois": "#CECECE",
+    "Normandy": "#506D6D"
+  },
+  "Scotland": {
+    "Stuart": "#4DCB93",
+    "Balliol": "#CECECE",
+    "Bruce": "#2AB075"
+  },
+  "France": {
+    "Capet": "#6F5176",
+    "Valois": "#E7A2F7",
+    "Bourbon": "#CD06FC",
+    "Valois-Angouleme": "#F6D8FD",
+    "Valois-Orleans": "#F0BDFC",
+    "Bonaparte": "#4C025D",
+    "Orleans": "#F0BDFC"
+  },
+  "Holy Roman Empire": {
+    "Habsburg": "#FFA600",
+    "Wittelsbach": "#F1C716",
+    "Habsburg-Lorraine": "#FF7C00",
+    "Lorraine": "#FF4D00",
+    "Carolingian": "#CA9100",
+    "Widonid": "#CECECE",
+    "Bosonid": "#CECECE",
+    "Unruoching": "#CECECE",
+    "Ottonian": "#D6C08E",
+    "Salian": "#D9CDB4",
+    "Supplinburg": "#CECECE",
+    "Staufen": "#855C06",
+    "Welf": "#CECECE",
+    "Luxembourg": "#B7B698",
+    "Hohenzollern": "#1B1B0C"
+  },
+  "Spain": {
+    "Habsburg": "#FFA600",
+    "Bourbon": "#CD06FC",
+    "Bonaparte": "#4C025D",
+    "Franco": "#CECECE",
+    "Savoy": "#C3CC00"
+  },
+  "Italy": {
+    "Savoy": "#C3CC00"
+  },
+  "Russia": {
+    "Rurik": "#E67777",
+    "Godunov": "#CECECE",
+    "Shuyskiy": "#CECECE",
+    "Vasa": "#CECECE",
+    "Romanov": "#5D0C12",
+    "Holstein-Gottorp-Romanov": "#450006"
+  }
+};
 
 // Fonts
 var fontSizeLarge = "1.9em",
@@ -15,7 +91,9 @@ var fontSizeLarge = "1.9em",
   strokeWidthLarge = 15,
   strokeWidthMedium = 10,
   strokeWidthSmall = 5,
-  strokeWidthTiny = 3;
+  strokeWidthTiny = 3
+  cornerRadiusSmall = 5
+  cornerRadiusLarge = 15;
 
 // General config
 var width = window.innerWidth,
@@ -32,8 +110,6 @@ var detailsHeight = height / 4 * 3,
   detailsX = (width - detailsWidth) / 2,
   detailsY = (height - detailsHeight) / 2,
   detailsMiddle = detailsX + detailsWidth / 2,
-  detailsRx = 15,
-  detailsRy = 15,
   detailsImageHeight = detailsHeightInterval * 2,
   detailsImageWidth = detailsImageHeight,
   detailsImageX = detailsX + detailsWidthInterval,
@@ -92,47 +168,68 @@ function render(data) {
     .attr("transform", "translate(0," + (height - margin.bottom) + ")")
     .call(xAxis);
 
+  timeline.append("g")
+    .selectAll("circle")
+    .data(_.map(dates, function(data, year) { return data; }))
+    .enter()
+    .append("circle")
+    .attr("cx", function(d) { return margin.left + (d.date - firstYear) * pixelsPerYear; })
+    .attr("cy", height - margin.bottom - laneHeight / 2)
+    .attr("r", 3)
+    .attr("fill", strokeColor)
+    .attr("stroke", strokeColor)
+    .attr("stroke-width", strokeWidthTiny)
+    .on("mouseover", showDate)
+    .on("mouseout", function() {
+      d3.select(this).transition().attr("r", 3);
+      timeline.selectAll(".date").remove();
+    })
 
-  _.map(dates, function(data, year) {
-    timeline.append("circle")
-      .attr("cx", margin.left + (data.date - firstYear) * pixelsPerYear)
-      .attr("cy", height - margin.bottom - laneHeight / 2)
-      .attr("r", 5)
-      .attr("fill", "white")
-      .attr("stroke", strokeColor)
-      .attr("stroke-width", strokeWidthTiny)
-      .on("mouseover", showDate.bind(data))
-      .on("mouseout", function(el, i) {
-        timeline.selectAll(".date").remove();
-      })
-  })
+  function showDate(data, i) {
+    var circle = d3.select(this),
+      dateTextString = data.date + ": " + data.event,
+      pixelsPerCharacter = 10, // Somehow calc this from width/height and multiply by sm/md/lg modifier
+      dateTextStringWidth = pixelsPerCharacter * dateTextString.length,
+      dateTextPadding = 6,
+      dateRectWidth = dateTextStringWidth + dateTextPadding * 2,
+      dateRectHeight = pixelsPerCharacter + dateTextPadding * 2;
 
-  function showDate(el, i) {
+    circle.transition().attr("r", 5);
+
     var dateRect = timeline.append("rect")
-      .attr("x", margin.left + (this.date - firstYear) * pixelsPerYear)
+      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
       .attr("y", height - margin.bottom - laneHeight / 2)
 
     timeline.append("text")
-      .attr("x", margin.left + (this.date - firstYear) * pixelsPerYear)
+      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
       .attr("y", height - margin.bottom + laneHeight / 2 + detailsLineHeight * 3 / 4)
       .attr("text-anchor", "middle")
-      .attr("textLength", dateWidth * 3 / 4)
-      .attr("lengthAdjust", "spacing")
       .attr("class", "date hidden")
-      .text(this.event)
+      .text(dateTextString)
 
     dateRect.transition()
-      .attr("x", margin.left + (this.date - firstYear) * pixelsPerYear - dateWidth / 2)
+      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear - dateRectWidth / 2)
       .attr("y", height - margin.bottom + laneHeight / 2)
-      .attr("rx", 15)
-      .attr("ry", 15)
-      .attr("width", dateWidth)
-      .attr("height", dateHeight)
-      .attr("fill", detailsColor)
-      .attr("stroke", strokeColor)
-      .attr("stroke-width", strokeWidthSmall)
+      .attr("rx", cornerRadiusSmall)
+      .attr("ry", cornerRadiusSmall)
+      .attr("width", dateRectWidth)
+      .attr("height", detailsLineHeight)
+      .attr("fill", dateColors[data.type])
+      .attr("fill-opacity", 0.75)
+      .attr("stroke", dateColors[data.type])
+      .attr("stroke-width", strokeWidthTiny)
       .attr("class", "date")
       .on("end", function() { timeline.select("text.date").classed("hidden", false); })
+
+    timeline.append("line")
+      .attr("x1", circle.attr("cx"))
+      .attr("y1", circle.attr("cy") - laneHeight / 4)
+      .attr("x2", circle.attr("cx"))
+      .attr("y2", margin.top)
+      .attr("stroke", dateLineColor) 
+      .attr("stroke-width", strokeWidthTiny)
+      .attr("opacity", 0.5)
+      .attr("class", "date")
   };
 
   // Create country timelines
@@ -175,8 +272,8 @@ function render(data) {
       .attr("x", width / 2)
       .attr("y", height / 2)
       .attr("fill", detailsColor)
-      .attr("rx", detailsRx)
-      .attr("ry", detailsRy)
+      .attr("rx", cornerRadiusLarge)
+      .attr("ry", cornerRadiusLarge)
       .attr("stroke", strokeColor)
       .attr("stroke-width", strokeWidthMedium)
       .on("click", hideDetail)
@@ -228,8 +325,8 @@ function render(data) {
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
       .attr("fill", thumbnailBackgroundColor)
-      .attr("rx", 15)
-      .attr("ry", 15)
+      .attr("rx", cornerRadiusLarge)
+      .attr("ry", cornerRadiusLarge)
       .attr("class", "thumbnail")
 
     var thumbnailImage = timeline.append("image")
@@ -243,8 +340,8 @@ function render(data) {
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
       .attr("fill", backgroundColor)
-      .attr("rx", 15)
-      .attr("ry", 15)
+      .attr("rx", cornerRadiusLarge)
+      .attr("ry", cornerRadiusLarge)
       .attr("stroke", strokeColor)
       .attr("stroke-width", strokeWidthTiny)
       .attr("class", "thumbnail")
@@ -476,71 +573,4 @@ function render(data) {
     return data;
   }
 
-};
-
-var fillColors = {
-  "England": {
-    "Tudor": "#171A94",
-    "Grey": "#0BC0E8",
-    "Stuart": "#4DCB93",
-    "Orange-Nassau": "#0BC0E8",
-    "Hanover": "#0B8AE8",
-    "Saxe-Coburg and Gotha": "#0074E9",
-    "Windsor": "#0162C3",
-    "York": "#79D8F9",
-    "Lancaster": "#A2F4F2",
-    "Plantagenet": "#94CAC9",
-    "Plantagenet/Angevin": "#6E9796",
-    "Blois": "#CECECE",
-    "Normandy": "#506D6D"
-  },
-  "Scotland": {
-    "Stuart": "#4DCB93",
-    "Balliol": "#CECECE",
-    "Bruce": "#2AB075"
-  },
-  "France": {
-    "Capet": "#6F5176",
-    "Valois": "#E7A2F7",
-    "Bourbon": "#CD06FC",
-    "Valois-Angouleme": "#F6D8FD",
-    "Valois-Orleans": "#F0BDFC",
-    "Bonaparte": "#4C025D",
-    "Orleans": "#F0BDFC"
-  },
-  "Holy Roman Empire": {
-    "Habsburg": "#FFA600",
-    "Wittelsbach": "#F1C716",
-    "Habsburg-Lorraine": "#FF7C00",
-    "Lorraine": "#FF4D00",
-    "Carolingian": "#CA9100",
-    "Widonid": "#CECECE",
-    "Bosonid": "#CECECE",
-    "Unruoching": "#CECECE",
-    "Ottonian": "#D6C08E",
-    "Salian": "#D9CDB4",
-    "Supplinburg": "#CECECE",
-    "Staufen": "#855C06",
-    "Welf": "#CECECE",
-    "Luxembourg": "#B7B698",
-    "Hohenzollern": "#1B1B0C"
-  },
-  "Spain": {
-    "Habsburg": "#FFA600",
-    "Bourbon": "#CD06FC",
-    "Bonaparte": "#4C025D",
-    "Franco": "#CECECE",
-    "Savoy": "#C3CC00"
-  },
-  "Italy": {
-    "Savoy": "#C3CC00"
-  },
-  "Russia": {
-    "Rurik": "#E67777",
-    "Godunov": "#CECECE",
-    "Shuyskiy": "#CECECE",
-    "Vasa": "#CECECE",
-    "Romanov": "#5D0C12",
-    "Holstein-Gottorp-Romanov": "#450006"
-  }
 };
