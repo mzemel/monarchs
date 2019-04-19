@@ -17,12 +17,10 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Cursor tracks year as it moves
 - Radio button to select active country; inactive countries have more opacity / less detail
 - Wars as rects above monarchy timeline
-- House colors; images in details pane
 - World event timeline
 - Deploy to monarchy.thebackend.dev
 - Details SVG is only the size of the rectangle
 - Navigation arrows on detail
 - Hyperlinks to events, wars, etc.
 - Replace contemporary paintings with revisionist ones
-- Rectangle, on hover, transitions into thumbnail; on click, transitions into details box
 

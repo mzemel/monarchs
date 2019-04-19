@@ -1,11 +1,15 @@
 $.getJSON("dataset.json", function(data) { render(data) });
 
-var margin = { top: 20, left: 60, bottom: 40, right: 20 },
-  width = window.innerWidth,
+var width = window.innerWidth,
   height = window.innerHeight,
-  lanePadding = 40,
-  laneHeight = 20,
+  margin = { top: height / 8, bottom: height / 4, right: width / 12, left: width / 12 },
   countryIndex = 0;
+
+// Colors
+var detailsColor = "#E2D4AC",
+  backgroundColor = "#FEF6DF",
+  thumbnailBackgroundColor = "#7A7977"
+
 
 // Details config
 var detailsHeight = height / 4 * 3,
@@ -27,14 +31,15 @@ var detailsHeight = height / 4 * 3,
   detailsEventsY = detailsY + 3 * detailsHeightInterval + detailsMargin,
   detailsWarsY   = detailsY + 4 * detailsHeightInterval + detailsMargin;
 
-var detailsOpen = false; // yay global state variables
+var detailsOpen = false, laneHeight; // yay global state variables
 
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
   var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.start; }); })));
-  var lastYear = d3.max(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.end; }); })));
-
-  var pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear);
+    lastYear = d3.max(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.end; }); })));
+    pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear),
+    countryCount = _.keys(data).length;
+  laneHeight = height / countryCount / 4;
 
   // Create Timeline
   var timeline = d3.select("body")
@@ -43,23 +48,19 @@ function render(data) {
     .attr("height", height)
     .attr("class", "timeline")
 
-  var detail = timeline.append("rect")
-    .attr("width", 0)
-    .attr("height", 0)
-    .attr("x", width / 2)
-    .attr("y", height / 2)
-    .attr("fill", "gainsboro")
-    .attr("rx", detailsRx)
-    .attr("ry", detailsRy)
-    .on("click", hideDetail)
+  timeline.append("rect")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("fill", backgroundColor)
 
+  var detail; // This will be appended after block creation
 
   // Create X-axis
   var xScale = d3.time.scale()
     .domain([firstYear, lastYear]) 
     .range([margin.left, width - margin.right])
 
-  var xAxis = d3.svg.axis().scale(xScale).tickFormat(d3.format("d"));
+  var xAxis = d3.axisBottom(xScale).tickFormat(d3.format("d"));
 
   timeline.append("g")
     .attr("class", "axis")
@@ -77,18 +78,30 @@ function render(data) {
     
     enlargeBlock.bind(d3.select(this))(this);
 
-    var thumbnailImageWidth = width / 8;
+    var thumbnailImageWidth = width / 8,
+      thumbnailBorder = 10;
 
-    timeline.append("image")
+    var thumbnailContainer = timeline.append("rect")
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
-      .transition()
-      .attr("x", $x + $width / 2 - thumbnailImageWidth / 2)
-      .attr("y", $y - thumbnailImageWidth - detailsLineHeight)
-      .attr("width", thumbnailImageWidth)
-      .attr("height", thumbnailImageWidth)
+      .attr("fill", thumbnailBackgroundColor)
+      .attr("class", "thumbnail")
+      .attr("rx", 15)
+      .attr("ry", 15)
+
+    var thumbnailImage = timeline.append("image")
+      .attr("x", $x + $width / 2)
+      .attr("y", $y + laneHeight / 2)
       .attr("xlink:href", el.image)
       .attr("class", "thumbnail")
+      .attr("preserveAspectRatio", "none")
+
+    timeline.selectAll('.thumbnail')
+      .transition()
+      .attr("x", function(d, i) { return $x + $width / 2 - thumbnailImageWidth / 2 - (1 - i) * thumbnailBorder })
+      .attr("y", function(d, i) { return $y - thumbnailImageWidth - detailsLineHeight - (1 - i) * thumbnailBorder })
+      .attr("width", function(d, i) { return thumbnailImageWidth + (1 - i) * thumbnailBorder * 2 })
+      .attr("height", function(d, i) { return thumbnailImageWidth + (1 - i) * thumbnailBorder * 2 })
   };
 
   function handleMouseOut(el, i) {
@@ -125,29 +138,32 @@ function render(data) {
       $height = $this.height();
 
     this
-      .attr("fill-opacity", 0.5)
       .attr("x", this.attr("smallX"))
       .attr("y", this.attr('smallY'))
       .attr("width", this.attr('smallWidth'))
       .attr("height", this.attr('smallHeight'))
-      .attr("fill-opacity", 0.5)
+      .attr("fill-opacity", 0.75)
   }
 
   function showDetail(el, i) {
-    timeline.classed('inactive', true);
+    if (detailsOpen) return false
+
+    timeline.selectAll('.block').classed('inactive', true);
+    timeline.selectAll('.legend').classed('inactive', true);
     detail.transition()
       .attr("width", detailsWidth)
       .attr("height", detailsHeight)
       .attr("x", detailsX)
       .attr("y", detailsY)
+      .attr("fill-opacity", 1)
       .duration(300).on("end", function() { renderDetails(el); });
-    handleMouseOut = handleMouseOut.bind(this);
-    handleMouseOut(el, i);
+    handleMouseOut.bind(this)(el, i);
     detailsOpen = true;
   }
 
   function hideDetail(el, i) {
-    timeline.classed('inactive', false);
+    timeline.selectAll('.block').classed('inactive', false);
+    timeline.selectAll('.legend').classed('inactive', false);
     detailsOpen = false;
     detail.transition()
       .attr("width", 0)
@@ -169,7 +185,7 @@ function render(data) {
       .attr("class", "detail")
 
     // House
-    detail.append("image")
+    timeline.append("image")
       .attr("x", detailsX + detailsWidth - detailsImageWidth - detailsWidthInterval)
       .attr("y", detailsImageY)
       .attr("width", detailsImageWidth)
@@ -179,25 +195,25 @@ function render(data) {
       .attr("class", "detail")
 
     // Details: Name, House, Reign
-    detail.append("text")
+    timeline.append("text")
       .attr("x", detailsImageX + detailsImageWidth / 2)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("class", "detail")
       .text(el.name);
-    detail.append("text")
+    timeline.append("text")
       .attr("x", detailsX + detailsWidth - detailsImageWidth / 2 - detailsWidthInterval)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("class", "detail")
       .text(el.house);
-    detail.append("text")
+    timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + 2 * detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("class", "detail")
       .text(el.start + "-" + el.end + " (" + el.endReason + ")");
-    detail.append("text")
+    timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + 3 * detailsLineHeight)
       .attr("text-anchor", "middle")
@@ -205,14 +221,14 @@ function render(data) {
       .text(el.religion);
 
     // Events
-    detail.append("text")
+    timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsEventsY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("class", "detail")
       .text("Events")
     _.map(el.events, function(event, idx) {
-      detail.append("text")
+      timeline.append("text")
         .attr("x", detailsImageX)
         .attr("y", detailsEventsY + detailsLineHeight * (2 + idx))
         .attr("class", "detail")
@@ -220,14 +236,14 @@ function render(data) {
     })
 
     // Wars
-    detail.append("text")
+    timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsWarsY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("class", "detail")
       .text("Wars")
     _.map(el.wars, function(war, idx) {
-      detail.append("text")
+      timeline.append("text")
         .attr("x", detailsImageX)
         .attr("y", detailsWarsY + detailsLineHeight * (2 + idx))
         .attr("class", "detail")
@@ -251,18 +267,20 @@ function render(data) {
     _.map(el.relationships, function(rel, idx) {
       var relationshipImageX = detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth,
         relationshipImageY = detailsY + 5 * detailsHeightInterval + detailsMargin;
-      detail.append("image")
+      timeline.append("image")
         .attr("x", relationshipImageX)
         .attr("y", relationshipImageY)
         .attr("width", relationshipImageWidth)
         .attr("height", relationshipImageWidth)
         .attr("xlink:href", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg")
+        .attr("class", "detail")
 
       _.map(rel.split(","), function(relComponent, idx) {
-        detail.append("text")
+        timeline.append("text")
           .attr("x", relationshipImageX + relationshipImageWidth / 2)
           .attr("y", relationshipImageY + relationshipImageWidth + detailsLineHeight * (idx + 1))
           .attr("text-anchor", "middle")
+          .attr("class", "detail")
           .text(relComponent);
       });
     });
@@ -281,10 +299,11 @@ function formatDetails(el) {
     // Add legend
     timeline.append("text")
       .attr("x", 0)
-      .attr("y", height - margin.bottom - laneHeight * (countryIndex - 1) - lanePadding * countryIndex)
+      .attr("y", height - margin.bottom - laneHeight * countryIndex * 2 + laneHeight / 2)
+      .attr("class", "legend")
       .text(countryName);
 
-    // Add elements
+    // Add blocks
     timeline.append("g")
       .attr('id', countryName)
       .selectAll("rect")
@@ -294,14 +313,70 @@ function formatDetails(el) {
       .attr("width", function(el) { return (el.end - el.start) * pixelsPerYear - 1 })
       .attr("height", laneHeight)
       .attr("x", function(el) { return margin.left + (el.start - firstYear) * pixelsPerYear })
-      .attr("y", height - margin.bottom - laneHeight * (countryIndex - 1) - lanePadding * countryIndex)
-      .attr("fill", "blue")
-      .attr("fill-opacity", 0.5)
+      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
+      .attr("rx", 5)
+      .attr("ry", 5)
+      .attr("fill", function(el) { return fillColors[countryName][el.house] || "maroon"})
+      .attr("fill-opacity", 0.75)
       .attr("class", "block")
       .on("mouseover", handleMouseOver)
       .on("mouseout", handleMouseOut)
       .on("click", showDetail)
-  });
+
+    // Append detail to lay it on top of blocks
+    detail = timeline.append("rect")
+      .attr("width", 0)
+      .attr("height", 0)
+      .attr("x", width / 2)
+      .attr("y", height / 2)
+      .attr("fill", detailsColor)
+      .attr("rx", detailsRx)
+      .attr("ry", detailsRy)
+      .attr("stroke", "black")
+      .attr("stroke-width", 3)
+      .on("click", hideDetail)
+    });
 };
 
-//$(document).ready(function() { $('#England > rect:nth-child(1)').click(); });
+var fillColors = {
+  "England": {
+    "Tudor": "#330BE8",
+    "Grey": "#0BC0E8",
+    "Stuart": "#4DCB93",
+    "Orange-Nassau": "#0BC0E8",
+    "Hanover": "#0B8AE8",
+    "Saxe-Coburg and Gotha": "#4F39D4",
+    "Windsor": "#1D01C4"
+  },
+  "Scotland": {
+    "Stuart": "#4DCB93",
+    "Balliol": "#1D6445",
+    "Bruce": "#2AB075"
+  },
+  "France": {
+    "Capet": "#692AB0",
+    "Valois": "#AF02E1",
+    "Bourbon": "#922AB0",
+    "Valois-Angouleme": "#C003F6",
+    "Valois-Orleans": "#8E02B6",
+    "Bonaparte": "#DDB0EA",
+    "Orleans": "#7C009F"
+  },
+  "Holy Roman Empire": {
+    "Habsburg": "#FFA600",
+    "Wittelsbach": "#C81E00",
+    "Habsburg-Lorraine": "#FF7C00",
+    "Lorraine": "#FF4D00"
+  },
+  "Spain": {
+    "Habsburg": "#FFA600",
+    "Bourbon": "#922AB0",
+    "Bonaparte": "#DDB0EA",
+    "Franco": "#BD9933",
+    "Savoy": "#C3CC00"
+  },
+  "Italy": {
+  },
+  "Russia": {
+  }
+};

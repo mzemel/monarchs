@@ -242,7 +242,7 @@
     "George II": {
       "name": "George II",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/George_II_by_Thomas_Hudson.jpg/220px-George_II_by_Thomas_Hudson.jpg",
-      "house": "Havover",
+      "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1727,
       "end": 1760,
@@ -262,7 +262,7 @@
     "George III": {
       "name": "George III",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/William_Augustus%2C_Duke_of_Cumberland_by_Sir_Joshua_Reynolds.jpg/220px-William_Augustus%2C_Duke_of_Cumberland_by_Sir_Joshua_Reynolds.jpg",
-      "house": "Havover",
+      "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1760,
       "end": 1820,
@@ -300,7 +300,7 @@
     "William IV": {
       "name": "William IV",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/William_IV_crop.jpg/220px-William_IV_crop.jpg",
-      "house": "Havover",
+      "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1830,
       "end": 1837,
@@ -364,7 +364,7 @@
     "George V": {
       "name": "George V",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/King_George_V_1911_color-crop.jpg/440px-King_George_V_1911_color-crop.jpg",
-      "house": "Saxe-Coburg and Gotha / Windsor",
+      "house": "Windsor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg/500px-Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg.png",
       "start": 1910,
       "end": 1936,
