@@ -1,15 +1,21 @@
 $.getJSON("dataset.json", function(data) { render(data) });
 
-var width = window.innerWidth,
-  height = window.innerHeight,
-  margin = { top: height / 8, bottom: height / 4, right: width / 12, left: width / 12 },
-  countryIndex = 0;
-
 // Colors
 var detailsColor = "#E2D4AC",
   backgroundColor = "#FEF6DF",
-  thumbnailBackgroundColor = "#7A7977"
+  thumbnailBackgroundColor = "#000000",
+  thumbnailNameBackgroundColor = "#4E4E4E";
 
+// Fonts
+var fontSizeLarge = "1.9em",
+  fontSizeMedium = "1.5em",
+  fontSizeSmall = "1em",
+  fontFamily = "Georgia, serif";
+
+// General config
+var width = window.innerWidth,
+  height = window.innerHeight,
+  margin = { top: height / 8, bottom: height / 4, right: width / 12, left: width / 12 };
 
 // Details config
 var detailsHeight = height / 4 * 3,
@@ -31,20 +37,16 @@ var detailsHeight = height / 4 * 3,
   detailsEventsY = detailsY + 3 * detailsHeightInterval + detailsMargin,
   detailsWarsY   = detailsY + 4 * detailsHeightInterval + detailsMargin;
 
-var detailsOpen = false, laneHeight; // yay global state variables
-
-var fontSizeLarge = "1.9em",
-  fontSizeMedium = "1.5em",
-  fontSizeSmall = "1em",
-  fontFamily = "Georgia, serif";
-
 function render(data) {
   // Flatten all reigns into a single array to determine start and end
   var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.start; }); })));
     lastYear = d3.max(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.end; }); })));
-    pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear),
-    countryCount = _.keys(data).length;
-  laneHeight = height / countryCount / 4;
+    pixelsPerYear = (width - margin.left - margin.right) / (lastYear - firstYear);
+
+  var detailsOpen = false,
+    countryIndex = 0,
+    countryCount = _.keys(data).length,
+    laneHeight = height / countryCount / 4;
 
   // Create Timeline
   var timeline = d3.select("body")
@@ -58,9 +60,9 @@ function render(data) {
     .attr("height", height)
     .attr("fill", backgroundColor)
 
-  var detail; // This will be appended after block creation
-
-  // Create X-axis
+  ///////////////////
+  // Create X-axis //
+  ///////////////////
   var xScale = d3.time.scale()
     .domain([firstYear, lastYear]) 
     .range([margin.left, width - margin.right])
@@ -75,39 +77,85 @@ function render(data) {
   function handleMouseOver(el, i) {
     if (detailsOpen) return false
 
+    enlargeBlock.bind(d3.select(this))(this);
+    showThumbnail.bind(this)(el);
+  };
+
+  function showThumbnail(el) {
     var $this = $(this),
       $x = parseFloat($this.attr('x')),
       $y = parseFloat($this.attr('y')),
       $width = $this.width(),
       $height = $this.height();
-    
-    var block = d3.select(this);
-    enlargeBlock.bind(block)(this);
 
     var thumbnailImageWidth = width / 8,
       thumbnailBorder = 10;
 
+    var thumbnailDimensions = [
+      { // Background
+        "x": $x + $width / 2 - thumbnailImageWidth / 2 - thumbnailBorder,
+        "y": $y - thumbnailImageWidth - detailsLineHeight - thumbnailBorder,
+        "width": thumbnailImageWidth + 2 * thumbnailBorder,
+        "height": thumbnailImageWidth + 2 * thumbnailBorder
+      },
+      { // Image
+        "x": $x + $width / 2 - thumbnailImageWidth / 2,
+        "y": $y - thumbnailImageWidth - detailsLineHeight,
+        "width": thumbnailImageWidth,
+        "height": thumbnailImageWidth
+      },
+      { // Name background
+        "x": $x + $width / 2 - thumbnailImageWidth / 2 + detailsWidthInterval / 2,
+        "y": $y - thumbnailImageWidth / 6 - detailsLineHeight,
+        "width": thumbnailImageWidth - detailsWidthInterval,
+        "height": thumbnailImageWidth / 6
+      },
+      { // Name
+        "x": $x + $width / 2,
+        "y": $y - thumbnailImageWidth / 6 - detailsLineHeight + thumbnailImageWidth / 9,
+        "width": thumbnailImageWidth,
+        "height": thumbnailImageWidth
+      }
+    ];
+
     var thumbnailBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
-      .attr("fill", "black")
-      .attr("class", "thumbnail")
+      .attr("fill", thumbnailBackgroundColor)
       .attr("rx", 15)
       .attr("ry", 15)
+      .attr("class", "thumbnail")
 
     var thumbnailImage = timeline.append("image")
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
       .attr("xlink:href", el.image)
-      .attr("class", "thumbnail")
       .attr("preserveAspectRatio", "none")
+      .attr("class", "thumbnail")
+
+    var thumbnailNameBackground = timeline.append("rect")
+      .attr("x", $x + $width / 2)
+      .attr("y", $y + laneHeight / 2)
+      .attr("fill", backgroundColor)
+      .attr("rx", 15)
+      .attr("ry", 15)
+      .attr("class", "thumbnail")
+
+    var thumbnailName = timeline.append("text")
+      .attr("x", $x + $width / 2)
+      .attr("y", $y + laneHeight / 2)
+      .attr("font-family", fontFamily)
+      .attr("font-size", fontSizeMedium)
+      .attr("text-anchor", "middle")
+      .attr("class", "thumbnail")
+      .text(el.name);
 
     timeline.selectAll('.thumbnail')
       .transition()
-      .attr("x", function(d, i) { return $x + $width / 2 - thumbnailImageWidth / 2 - (1 - i) * thumbnailBorder })
-      .attr("y", function(d, i) { return $y - thumbnailImageWidth - detailsLineHeight - (1 - i) * thumbnailBorder })
-      .attr("width", function(d, i) { return thumbnailImageWidth + (1 - i) * thumbnailBorder * 2 })
-      .attr("height", function(d, i) { return thumbnailImageWidth + (1 - i) * thumbnailBorder * 2 })
+      .attr("x", function(d, i)      { return thumbnailDimensions[i]["x"] })
+      .attr("y", function(d, i)      { return thumbnailDimensions[i]["y"] })
+      .attr("width", function(d, i)  { return thumbnailDimensions[i]["width"] })
+      .attr("height", function(d, i) { return thumbnailDimensions[i]["height"] }) 
   };
 
   function handleMouseOut(el, i) {
@@ -153,7 +201,7 @@ function render(data) {
 
   function showDetail(el, i) {
     if (detailsOpen) return false
-    if (!el.endReason) return false
+    if (!el.endReason) return false // For now, don't show details for monarchs without much data
 
     timeline.selectAll('.block').classed('inactive', true);
     timeline.selectAll('.legend').classed('inactive', true);
@@ -164,7 +212,7 @@ function render(data) {
       .attr("y", detailsY)
       .attr("fill-opacity", 1)
       .duration(300).on("end", function() { renderDetails(el); });
-    handleMouseOut.bind(this)(el, i);
+    handleMouseOut.bind(this)();
     detailsOpen = true;
   }
 
