@@ -147,6 +147,7 @@ function render(data) {
 
   function showDetail(el, i) {
     if (detailsOpen) return false
+    if (!el.endReason) return false
 
     timeline.selectAll('.block').classed('inactive', true);
     timeline.selectAll('.legend').classed('inactive', true);
@@ -346,7 +347,13 @@ var fillColors = {
     "Orange-Nassau": "#0BC0E8",
     "Hanover": "#0B8AE8",
     "Saxe-Coburg and Gotha": "#4F39D4",
-    "Windsor": "#1D01C4"
+    "Windsor": "#1D01C4",
+    "York": "#5C90F7",
+    "Lancaster": "#789ADD",
+    "Plantagenet": "#7D8CA9",
+    "Plantagenet/Angevin": "#9AA8C3",
+    "Blois": "#43516B",
+    "Normandy": "#041941"
   },
   "Scotland": {
     "Stuart": "#4DCB93",
@@ -376,7 +383,14 @@ var fillColors = {
     "Savoy": "#C3CC00"
   },
   "Italy": {
+    "Savoy": "#C3CC00"
   },
   "Russia": {
+    "Rurik": "#EA1B2A",
+    "Godunov": "#AF252F",
+    "Shuyskiy": "#82060F",
+    "Vasa": "#F63F4C",
+    "Romanov": "#5D0C12",
+    "Holstein-Gottorp-Romanov": "#450006"
   }
 };
