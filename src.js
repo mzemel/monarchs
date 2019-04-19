@@ -120,7 +120,7 @@ function render(data) {
 
     var thumbnailBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", $y - thumbnailImageWidth / 4 - detailsLineHeight - thumbnailBorder)
       .attr("fill", thumbnailBackgroundColor)
       .attr("rx", 15)
       .attr("ry", 15)
@@ -128,14 +128,14 @@ function render(data) {
 
     var thumbnailImage = timeline.append("image")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", $y - thumbnailImageWidth / 4 - detailsLineHeight - thumbnailBorder)
       .attr("xlink:href", el.image)
       .attr("preserveAspectRatio", "none")
       .attr("class", "thumbnail")
 
     var thumbnailNameBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", $y - thumbnailImageWidth / 4 - detailsLineHeight - thumbnailBorder)
       .attr("fill", backgroundColor)
       .attr("rx", 15)
       .attr("ry", 15)
@@ -143,12 +143,12 @@ function render(data) {
 
     var thumbnailName = timeline.append("text")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", $y - thumbnailImageWidth / 6 - detailsLineHeight + thumbnailImageWidth / 9)
       .attr("font-family", fontFamily)
       .attr("font-size", fontSizeMedium)
       .attr("text-anchor", "middle")
-      .attr("class", "thumbnail")
-      .text(el.name);
+      .attr("class", "thumbnail hidden")
+      .text(el.name)
 
     timeline.selectAll('.thumbnail')
       .transition()
@@ -156,6 +156,8 @@ function render(data) {
       .attr("y", function(d, i)      { return thumbnailDimensions[i]["y"] })
       .attr("width", function(d, i)  { return thumbnailDimensions[i]["width"] })
       .attr("height", function(d, i) { return thumbnailDimensions[i]["height"] }) 
+      .on("end", function() { timeline.select("text.thumbnail").classed("hidden", false) })
+
   };
 
   function handleMouseOut(el, i) {
