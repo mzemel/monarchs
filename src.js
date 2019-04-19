@@ -106,13 +106,13 @@ function render(data) {
       },
       { // Name background
         "x": $x + $width / 2 - thumbnailImageWidth / 2 + detailsWidthInterval / 2,
-        "y": $y - thumbnailImageWidth / 6 - detailsLineHeight,
+        "y": $y - thumbnailImageWidth / 5 - detailsLineHeight,
         "width": thumbnailImageWidth - detailsWidthInterval,
         "height": thumbnailImageWidth / 6
       },
       { // Name
         "x": $x + $width / 2,
-        "y": $y - thumbnailImageWidth / 6 - detailsLineHeight + thumbnailImageWidth / 9,
+        "y": $y - thumbnailImageWidth / 5 - detailsLineHeight + thumbnailImageWidth / 9,
         "width": thumbnailImageWidth,
         "height": thumbnailImageWidth
       }
@@ -120,7 +120,7 @@ function render(data) {
 
     var thumbnailBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
-      .attr("y", $y - thumbnailImageWidth / 4 - detailsLineHeight - thumbnailBorder)
+      .attr("y", $y + laneHeight / 2)
       .attr("fill", thumbnailBackgroundColor)
       .attr("rx", 15)
       .attr("ry", 15)
@@ -128,22 +128,24 @@ function render(data) {
 
     var thumbnailImage = timeline.append("image")
       .attr("x", $x + $width / 2)
-      .attr("y", $y - thumbnailImageWidth / 4 - detailsLineHeight - thumbnailBorder)
+      .attr("y", $y + laneHeight / 2)
       .attr("xlink:href", el.image)
       .attr("preserveAspectRatio", "none")
       .attr("class", "thumbnail")
 
     var thumbnailNameBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
-      .attr("y", $y - thumbnailImageWidth / 4 - detailsLineHeight - thumbnailBorder)
+      .attr("y", $y + laneHeight / 2)
       .attr("fill", backgroundColor)
       .attr("rx", 15)
       .attr("ry", 15)
+      .attr("stroke", thumbnailBackgroundColor)
+      .attr("stroke-width", 3)
       .attr("class", "thumbnail")
 
     var thumbnailName = timeline.append("text")
       .attr("x", $x + $width / 2)
-      .attr("y", $y - thumbnailImageWidth / 6 - detailsLineHeight + thumbnailImageWidth / 9)
+      .attr("y", $y + laneHeight / 2)
       .attr("font-family", fontFamily)
       .attr("font-size", fontSizeMedium)
       .attr("text-anchor", "middle")
