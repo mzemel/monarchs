@@ -95,7 +95,12 @@ var fontSizeLarge = "1.9em",
   cornerRadiusSmall = 5,
   cornerRadiusLarge = 15,
   circleRadiusSmall = 3,
-  circleRadiusLarge = 8;
+  circleRadiusLarge = 8,
+  pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
+    "small": 10,
+    "medium": 15,
+    "large": 20
+  };
 
 // General config
 var width = window.innerWidth,
@@ -106,19 +111,20 @@ var width = window.innerWidth,
 var detailsHeight = height / 4 * 3,
   detailsWidth = detailsHeight * 2 / 3,
   detailsMargin = detailsHeight / 48,
-  detailsHeightInterval = (detailsHeight - 2 * detailsMargin) / 7,
+  detailsHeightInterval = (detailsHeight - 2 * detailsMargin) / 7, // TODO: Be more consistent about this vs. detailsLineHeight
   detailsWidthInterval = (detailsWidth - 2 * detailsMargin) / 12,
-  detailsLineHeight = detailsHeightInterval / 4,
+  detailsLineHeight = detailsHeightInterval / 4, // Maximum height of a line of text
   detailsX = (width - detailsWidth) / 2,
   detailsY = (height - detailsHeight) / 2,
   detailsMiddle = detailsX + detailsWidth / 2,
   detailsImageHeight = detailsHeightInterval * 2,
   detailsImageWidth = detailsImageHeight,
   detailsImageX = detailsX + detailsWidthInterval,
-  detailsImageY  = detailsY + detailsMargin,
-  detailsNameY   = detailsY + 2 * detailsHeightInterval + detailsMargin,
-  detailsEventsY = detailsY + 3 * detailsHeightInterval + detailsMargin,
-  detailsWarsY   = detailsY + 4 * detailsHeightInterval + detailsMargin;
+  detailsImageY        = detailsY + detailsMargin,
+  detailsNameY         = detailsY + 2 * detailsHeightInterval + detailsMargin,
+  detailsEventsY       = detailsY + 3 * detailsHeightInterval + detailsMargin,
+  detailsWarsY         = detailsY + 4 * detailsHeightInterval + detailsMargin,
+  detailsRelationshipY = detailsY + 5 * detailsHeightInterval + detailsMargin;
 
 // Thumbnail config
 var thumbnailImageWidth = width / 8,
@@ -151,17 +157,16 @@ function render(data) {
     .attr("height", height)
     .attr("class", "timeline")
 
+  // Timeline background
   timeline.append("rect")
     .attr("width", width)
     .attr("height", height)
     .attr("fill", backgroundColor)
 
-  ///////////////////
-  // Create X-axis //
-  ///////////////////
+  // Create X-axis
   var xScale = d3.time.scale()
     .domain([firstYear, lastYear]) 
-    .range([margin.left, width - margin.right])
+    .range([margin.left, width - margin.right]);
 
   var xAxis = d3.axisBottom(xScale).tickFormat(d3.format("d"));
 
@@ -170,6 +175,7 @@ function render(data) {
     .attr("transform", "translate(0," + (height - margin.bottom) + ")")
     .call(xAxis);
 
+  // Add dates
   timeline.append("g")
     .selectAll("circle")
     .data(_.map(dates, function(data, year) { return data; }))
@@ -179,26 +185,13 @@ function render(data) {
     .attr("cy", height - margin.bottom - laneHeight / 2)
     .attr("r", circleRadiusSmall)
     .attr("fill", function(data) { return dateColors[data.type] })
-    .on("mouseover", showDate)
+    .on("mouseover", renderDate)
     .on("mouseout", function() {
       d3.select(this).transition().attr("r", circleRadiusSmall);
       timeline.selectAll(".date").remove();
     })
 
-  function getContainerFromText(text, size) {
-    var pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
-      "small": 10,
-      "medium": 15,
-      "large": 20
-    }
-    var pixelsPerCharacter = pixelsPerCharacterReference[size],
-      width = pixelsPerCharacter * text.length,
-      height = pixelsPerCharacter;
-
-    return [width, height];
-  }
-
-  function showDate(data, i) {
+  function renderDate(data, i) {
     var circle = d3.select(this),
       dateTextPadding = 6,
       dateTextString = data.date + ": " + data.event,
@@ -263,13 +256,13 @@ function render(data) {
       .data(_.map(countryData, function(monarchData, monarchName) { return monarchData; }))
       .enter()
       .append("rect")
-      .attr("width", function(el) { return (el.end - el.start) * pixelsPerYear - 1 })
+      .attr("width", function(data) { return (data.end - data.start) * pixelsPerYear - 1 })
       .attr("height", laneHeight)
-      .attr("x", function(el) { return margin.left + (el.start - firstYear) * pixelsPerYear })
+      .attr("x", function(data) { return margin.left + (data.start - firstYear) * pixelsPerYear })
       .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
       .attr("rx", 5)
       .attr("ry", 5)
-      .attr("fill", function(el) { return fillColors[countryName][el.house] || "maroon"})
+      .attr("fill", function(data) { return fillColors[countryName][data.house] || "maroon"})
       .attr("fill-opacity", 0.75)
       .attr("class", "block")
       .on("mouseover", handleMouseOver)
@@ -295,6 +288,13 @@ function render(data) {
 
     enlargeBlock.bind(d3.select(this))(this);
     showThumbnail.bind(this)(el);
+  };
+
+  function handleMouseOut(el, i) {
+    if (detailsOpen) return false
+
+    timeline.selectAll(".thumbnail").remove();
+    reduceBlock.bind(d3.select(this))(this);
   };
 
   function showThumbnail(el) {
@@ -373,53 +373,11 @@ function render(data) {
       .attr("width", function(d, i)  { return thumbnailDimensions[i]["width"] })
       .attr("height", function(d, i) { return thumbnailDimensions[i]["height"] }) 
       .on("end", function() { timeline.select("text.thumbnail").classed("hidden", false) })
-
   };
 
-  function handleMouseOut(el, i) {
+  function showDetail(data, i) {
     if (detailsOpen) return false
-
-    timeline.selectAll(".thumbnail").remove();
-    reduceBlock.bind(d3.select(this))(this);
-  };
-
-  function enlargeBlock(el) {
-    var $this = $(el),
-      $x = parseFloat($this.attr('x')),
-      $y = parseFloat($this.attr('y')),
-      $width = $this.width(),
-      $height = $this.height();
-
-    this
-      .attr("x", $x - 5)
-      .attr("y", $y - 5)
-      .attr("width", $width + 10)
-      .attr("height", $height + 10)
-      .attr("smallX", this.attr("smallX") || $x)
-      .attr("smallY", this.attr("smallY") || $y)
-      .attr("smallWidth", this.attr("smallWidth") || $width)
-      .attr("smallHeight", this.attr("smallHeight") || $height)
-      .attr("fill-opacity", 1.0);
-  }
-
-  function reduceBlock(el) {
-    var $this = $(el);
-    var $x = parseFloat($this.attr('x')),
-      $y = parseFloat($this.attr('y')),
-      $width = $this.width(),
-      $height = $this.height();
-
-    this
-      .attr("x", this.attr("smallX"))
-      .attr("y", this.attr('smallY'))
-      .attr("width", this.attr('smallWidth'))
-      .attr("height", this.attr('smallHeight'))
-      .attr("fill-opacity", 0.75)
-  }
-
-  function showDetail(el, i) {
-    if (detailsOpen) return false
-    if (!el.endReason) return false // For now, don't show details for monarchs without much data
+    if (!data.endReason) return false // For now, don't show details for monarchs without much data
 
     timeline.selectAll('.block').classed('inactive', true);
     timeline.selectAll('.legend').classed('inactive', true);
@@ -429,12 +387,12 @@ function render(data) {
       .attr("x", detailsX)
       .attr("y", detailsY)
       .attr("fill-opacity", 1)
-      .duration(300).on("end", function() { renderDetails(el); });
+      .duration(300).on("end", function() { renderDetails(data); });
     handleMouseOut.bind(this)();
     detailsOpen = true;
   }
 
-  function hideDetail(el, i) {
+  function hideDetail(data, i) {
     timeline.selectAll('.block').classed('inactive', false);
     timeline.selectAll('.legend').classed('inactive', false);
     detailsOpen = false;
@@ -446,60 +404,86 @@ function render(data) {
     timeline.selectAll('.detail').remove();
   }
 
-  function renderDetails(el) {
-    // Monarch
+  function renderDetails(data) {
+    // Monarch image
     timeline.append("image")
       .attr("x", detailsImageX)
       .attr("y", detailsImageY)
       .attr("width", detailsImageWidth)
       .attr("height", detailsImageHeight)
-      .attr("xlink:href", el.image)
+      .attr("xlink:href", data.image)
       .attr("preserveAspectRatio", "none")
       .attr("class", "detail")
 
-    // House
+    // House image
     timeline.append("image")
-      .attr("x", detailsX + detailsWidth - detailsImageWidth - detailsWidthInterval)
-      .attr("y", detailsImageY)
-      .attr("width", detailsImageWidth)
-      .attr("height", detailsImageHeight)
-      .attr("xlink:href", el.houseImage)
-      .attr("preserveAspectRatio", "none")
+      .attr("x", detailsX + detailsWidth - detailsImageWidth * 3 / 4 - detailsWidthInterval)
+      .attr("y", detailsImageY + detailsImageHeight / 4)
+      .attr("width", detailsImageWidth / 2)
+      .attr("height", detailsImageHeight / 2)
+      .attr("xlink:href", data.houseImage)
       .attr("class", "detail")
 
-    // Details: Name, House, Reign
+
+    var nameAndHouseFontSize = _.min(
+      _.map([data.name, data.house], function(text) {
+        return getFontSizeFromContainer(text, detailsImageWidth, detailsLineHeight);
+      })
+    )
+
+    // Name
     timeline.append("text")
       .attr("x", detailsImageX + detailsImageWidth / 2)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeLarge)
+      .attr("font-size", nameAndHouseFontSize)
       .attr("class", "detail")
-      .text(el.name);
+      .text(data.name);
+
+    // House
     timeline.append("text")
       .attr("x", detailsX + detailsWidth - detailsImageWidth / 2 - detailsWidthInterval)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeLarge)
+      .attr("font-size", nameAndHouseFontSize)
       .attr("class", "detail")
-      .text(el.house);
+      .text(data.house);
+
+    // Reign
+    var reignString = data.start + " - " + data.end + " (" + data.endReason + ")",
+      reignAndReligionFontSize = _.min(
+        _.map([data.religion, reignString], function(text) {
+          return getFontSizeFromContainer(text, detailsImageWidth * 2, detailsLineHeight);
+        })
+      )
+
     timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + 2 * detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeMedium)
+      .attr("font-size", reignAndReligionFontSize)
       .attr("class", "detail")
-      .text(el.start + "-" + el.end + " (" + el.endReason + ")");
+      .text(reignString)
+
+    // Religion
     timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + 3 * detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeMedium)
+      .attr("font-size", reignAndReligionFontSize)
       .attr("class", "detail")
-      .text(el.religion);
+      .text(data.religion);
+
+    // The `detailsImageWidth * 4` is purposefully wider than the details container to avoid bug in getFontSizeFromContainer
+    var eventsAndWarsFontSize = _.min(
+      _.map(data.events.concat(data.wars), function(text) {
+        return getFontSizeFromContainer(text, detailsImageWidth * 4, (detailsHeightInterval - detailsLineHeight) * 2 / 9);
+      })
+    )
 
     // Events
     timeline.append("text")
@@ -507,18 +491,20 @@ function render(data) {
       .attr("y", detailsEventsY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeLarge)
+      .attr("font-size", getFontSizeFromContainer("Events", detailsImageWidth, detailsLineHeight))
       .attr("class", "detail")
       .text("Events")
-    _.map(el.events, function(event, idx) {
-      timeline.append("text")
-        .attr("x", detailsImageX)
-        .attr("y", detailsEventsY + detailsLineHeight * (2 + idx))
-        .attr("font-family", fontFamily)
-        .attr("font-size", fontSizeSmall)
-        .attr("class", "detail")
-        .text(event);
-    })
+
+    timeline.append("g").selectAll("text")
+      .data(data.events)
+      .enter()
+      .append("text")
+      .attr("x", detailsImageX)
+      .attr("y", function(d, i) { return detailsEventsY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * (1 + i) / 3; })
+      .attr("font-family", fontFamily)
+      .attr("font-size", eventsAndWarsFontSize)
+      .attr("class", "detail")
+      .text(function(d) { return d; })
 
     // Wars
     timeline.append("text")
@@ -526,24 +512,29 @@ function render(data) {
       .attr("y", detailsWarsY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeLarge)
+      .attr("font-size", getFontSizeFromContainer("Wars", detailsImageWidth, detailsLineHeight))
       .attr("class", "detail")
       .text("Wars")
-    _.map(el.wars, function(war, idx) {
-      timeline.append("text")
-        .attr("x", detailsImageX)
-        .attr("y", detailsWarsY + detailsLineHeight * (2 + idx))
-        .attr("font-family", fontFamily)
-        .attr("font-size", fontSizeSmall)
-        .attr("class", "detail")
-        .text(war);
-    })
 
+    timeline.append("g").selectAll("text")
+      .data(data.wars)
+      .enter()
+      .append("text")
+      .attr("x", detailsImageX)
+      .attr("y", function(d, i) { return detailsWarsY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * (1 + i) / 3; })
+      .attr("font-family", fontFamily)
+      .attr("font-size", eventsAndWarsFontSize)
+      .attr("class", "detail")
+      .text(function(d) { return d; })
     
     // Relationships
-    var relationshipCount = el.relationships.length,
+    // 1/8i: padding
+    // 1i: image
+    // 1/8i: padding
+    // 1/4i: each relationship component (3)
+    var relationshipCount = data.relationships.length,
       relationshipContainerWidth = detailsWidth - detailsMargin * 2,
-      relationshipMaxImageWidth = detailsHeightInterval * 1.5,
+      relationshipMaxImageWidth = detailsHeightInterval,
       relationshipImageWidthCalculated = relationshipContainerWidth / relationshipCount / 1.5,
       relationshipImageWidth = Math.min(relationshipMaxImageWidth, relationshipImageWidthCalculated),
       relationshipImagePadding = relationshipImageWidth / 2;
@@ -553,35 +544,99 @@ function render(data) {
     // m: middle of details overlay
     // W: relationship image width
     // x(i, c) = m - (c - 1) * 0.75W + i * 1.5W - 0.5W
-    _.map(el.relationships, function(rel, idx) {
-      var relationshipImageX = detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth,
-        relationshipImageY = detailsY + 5 * detailsHeightInterval + detailsMargin;
+    _.map(data.relationships, function(rel, idx) {
+      var relationshipImageX = detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth;
       timeline.append("image")
         .attr("x", relationshipImageX)
-        .attr("y", relationshipImageY)
+        .attr("y", detailsRelationshipY + detailsHeightInterval / 8) // Just a little padding between wars and relationships
         .attr("width", relationshipImageWidth)
         .attr("height", relationshipImageWidth)
         .attr("xlink:href", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg")
         .attr("class", "detail")
 
+      var relationshipComponentFontSize = _.min(
+        _.map(rel.split(","), function(text) {
+          return getFontSizeFromContainer(text, detailsImageWidth * 2, detailsHeightInterval / 8);
+        })
+      );
+
       _.map(rel.split(","), function(relComponent, idx) {
         timeline.append("text")
           .attr("x", relationshipImageX + relationshipImageWidth / 2)
-          .attr("y", relationshipImageY + relationshipImageWidth + detailsLineHeight * (idx + 1))
+          .attr("y", detailsRelationshipY + relationshipImageWidth + detailsHeightInterval * (idx + 2) / 8)
           .attr("text-anchor", "middle")
           .attr("font-family", fontFamily)
-          .attr("font-size", fontSizeSmall)
+          .attr("font-size", relationshipComponentFontSize)
           .attr("class", "detail")
           .text(relComponent);
       });
     });
   }
-
-  // Creates array of objects for a monarch
-  function formatDetails(el) {
-    var data = [];
-    _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
-    return data;
-  }
-
 };
+
+//////////////////////////////
+// Stateless utility functions
+
+// Creates array of objects for a monarch
+function formatDetails(el) {
+  var data = [];
+  _.forEach(el, function(value, key) { return data.push({key: key, value: value}) });
+  return data;
+}
+
+function enlargeBlock(el) {
+  var $this = $(el),
+    $x = parseFloat($this.attr('x')),
+    $y = parseFloat($this.attr('y')),
+    $width = $this.width(),
+    $height = $this.height();
+
+  this
+    .attr("x", $x - 5)
+    .attr("y", $y - 5)
+    .attr("width", $width + 10)
+    .attr("height", $height + 10)
+    .attr("smallX", this.attr("smallX") || $x)
+    .attr("smallY", this.attr("smallY") || $y)
+    .attr("smallWidth", this.attr("smallWidth") || $width)
+    .attr("smallHeight", this.attr("smallHeight") || $height)
+    .attr("fill-opacity", 1.0);
+}
+
+function reduceBlock(el) {
+  var $this = $(el);
+  var $x = parseFloat($this.attr('x')),
+    $y = parseFloat($this.attr('y')),
+    $width = $this.width(),
+    $height = $this.height();
+
+  this
+    .attr("x", this.attr("smallX"))
+    .attr("y", this.attr('smallY'))
+    .attr("width", this.attr('smallWidth'))
+    .attr("height", this.attr('smallHeight'))
+    .attr("fill-opacity", 0.75)
+}
+
+// Given some text and size, how should we draw a container around it?
+function getContainerFromText(text, size) {
+  var pixelsPerCharacter = pixelsPerCharacterReference[size],
+    width = pixelsPerCharacter * text.length,
+    height = pixelsPerCharacter;
+
+  return [width, height];
+}
+
+// Given a container and text, what size should the font be?
+function getFontSizeFromContainer(text, width, height) {
+  var maxHeightPixels = height,
+    maxWidthPixels = width / text.length * 1,
+    // Bug: somehow width-bounding scales the text WAAAAY down for longer texts
+    // I think it has to do with the proportion of width to height, so that fudge factor should be derived from those
+    pixelSize = Math.floor(_.min([maxHeightPixels, maxWidthPixels]));
+
+  // console.log(text + " => (" + maxWidthPixels + ", " + maxHeightPixels + ")");
+
+  return pixelSize;
+}
+
