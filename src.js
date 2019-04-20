@@ -84,10 +84,7 @@ var fillColors = {
 };
 
 // Fonts
-var fontSizeLarge = "1.9em",
-  fontSizeMedium = "1.5em",
-  fontSizeSmall = "1em",
-  fontFamily = "Georgia, serif",
+var fontFamily = "Georgia, serif",
   strokeWidthLarge = 15,
   strokeWidthMedium = 10,
   strokeWidthSmall = 5,
@@ -236,6 +233,12 @@ function render(data) {
       .attr("class", "date")
   };
 
+  var legendFontSize = _.min(
+    _.map(_.keys(data), function(text) {
+      return getFontSizeFromContainer(text, margin.left * 1.5, laneHeight); // Setting 1.5 manually to avoid bug in getFontSizeFromContainer
+    })
+  )
+
   // Create country timelines
   _.forEach(data, function(countryData, countryName) {
     countryIndex += 1;
@@ -245,7 +248,7 @@ function render(data) {
       .attr("x", margin.left / 10)
       .attr("y", height - margin.bottom - countryIndex * laneHeight * 2 + laneHeight / 2)
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeSmall)
+      .attr("font-size", legendFontSize)
       .attr("class", "legend")
       .text(countryName);
 
@@ -361,7 +364,7 @@ function render(data) {
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
       .attr("font-family", fontFamily)
-      .attr("font-size", fontSizeMedium)
+      .attr("font-size", getFontSizeFromContainer(el.name, thumbnailDimensions[2]["width"] * 1.5, thumbnailDimensions[2]["height"] * 2 / 3))
       .attr("text-anchor", "middle")
       .attr("class", "thumbnail hidden")
       .text(el.name)
