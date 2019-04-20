@@ -1,62 +1,32 @@
 {
   "Dates": {
-    "1215": {
-      "date": 1215,
-      "event": "Magna Carta",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1804": {
-      "date": 1804,
-      "event": "Battle of Austerlitz",
-      "description": "Holy Roman Empire dissolved",
-      "type": "military"
-    },
-    "1815": {
-      "date": 1815,
-      "event": "Congress of Vienna",
-      "description": "Napoleon defeated",
-      "type": "diplomacy"
-    },
-    "1848": {
-      "date": 1848,
-      "event": "Revolutions of 1848",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1845": {
-      "date": 1845,
-      "event": "Great Famine",
-      "description": "",
-      "type": "catastrophe"
-    },
-    "1871": {
-      "date": 1871,
-      "event": "Unification of Germany",
-      "description": "",
-      "type": "diplomacy"
-    },
-    "1664": {
-      "date": 1664,
-      "event": "Newton discovers gravity",
-      "description": "",
-      "type": "science"
-    },
     "1066": {
       "date": 1066,
       "event": "Norman conquest of England",
       "description": "",
       "type": "military"
     },
+    "1215": {
+      "date": 1215,
+      "event": "Magna Carta signed",
+      "description": "",
+      "type": "philosophy"
+    },
     "1543": {
       "date": 1543,
-      "event": "Copernicus discovers heliocentrism",
+      "event": "Heliocentrism discovered (Copernicus)",
+      "description": "",
+      "type": "science"
+    },
+    "1687": {
+      "date": 1687,
+      "event": "Principia Mathematica (Newton)",
       "description": "",
       "type": "science"
     },
     "1752": {
       "date": 1752,
-      "event": "Franklin discovers electricity",
+      "event": "Electricity discovered (Franklin)",
       "description": "",
       "type": "science"
     },
@@ -66,17 +36,209 @@
       "description": "",
       "type": "culture"
     },
-    "1869": {
-      "date": 1869,
-      "event": "Mendeleev creates periodic table",
+    "1804": {
+      "date": 1804,
+      "event": "Battle of Austerlitz",
+      "description": "Holy Roman Empire dissolved",
+      "type": "military"
+    },
+    "1815": {
+      "date": 1815,
+      "event": "Napoleon defeated at Waterloo",
+      "description": "Napoleon defeated",
+      "type": "military"
+    },
+    "1845": {
+      "date": 1845,
+      "event": "Great Famine of Ireland",
       "description": "",
-      "type": "science"
+      "type": "catastrophe"
+    },
+    "1848": {
+      "date": 1848,
+      "event": "Revolutions of 1848",
+      "description": "",
+      "type": "philosophy"
     },
     "1859": {
       "date": 1859,
-      "event": "Darwin publishes On the Origin of Species",
+      "event": "On the Origin of Species (Darwin)",
       "description": "",
       "type": "science"
+    },
+    "1869": {
+      "date": 1869,
+      "event": "Periodic table (Mendeleev)",
+      "description": "",
+      "type": "science"
+    },
+    "1871": {
+      "date": 1871,
+      "event": "Unification of Germany",
+      "description": "",
+      "type": "diplomacy"
+    },
+    "1429": {
+      "date": 1429,
+      "event": "Joan of Arc defeats the English",
+      "description": "",
+      "type": "military"
+    },
+    "1588": {
+      "date": 1588,
+      "event": "Defeats of the Spanish Armada",
+      "description": "",
+      "type": "military"
+    },
+    "1776": {
+      "date": 1776,
+      "event": "American revolution",
+      "description": "",
+      "type": "diplomacy"
+    },
+    "1789": {
+      "date": 1789,
+      "event": "French revolution",
+      "description": "",
+      "type": "diplomacy"
+    },
+    "1756": {
+      "date": 1756,
+      "event": "Seven Years' War begins",
+      "description": "",
+      "type": "military"
+    },
+    "1347": {
+      "date": 1347,
+      "event": "Black Death",
+      "description": "",
+      "type": "catastrophe"
+    },
+    "1914": {
+      "date": 1914,
+      "event": "World War I begins",
+      "description": "",
+      "type": "military"
+    },
+    "1337": {
+      "date": 1337,
+      "event": "Hundred Years' War begins",
+      "description": "",
+      "type": "military"
+    },
+    "1883": {
+      "date": 1883,
+      "event": "Krakatoa erupts",
+      "description": "",
+      "type": "catastrophe"
+    },
+    "1939": {
+      "date": 1939,
+      "event": "World War II begins",
+      "description": "",
+      "type": "military"
+    },
+    "1933": {
+      "date": 1933,
+      "event": "Holodomor",
+      "description": "",
+      "type": "catastrophe"
+    },
+    "1918": {
+      "date": 1918,
+      "event": "Spanish flu",
+      "description": "",
+      "type": "catastrophe"
+    },
+    "1975": {
+      "date": 1975,
+      "event": "Cambodian genocide",
+      "description": "",
+      "type": "military"
+    },
+    "1095": {
+      "date": 1095,
+      "event": "First Crusade",
+      "description": "",
+      "type": "military"
+    },
+    "1991": {
+      "date": 1991,
+      "event": "Fall of the Berlin Wall",
+      "description": "",
+      "type": "diplomacy"
+    },
+    "1453": {
+      "date": 1453,
+      "event": "Fall of Constantinople",
+      "description": "",
+      "type": "military"
+    },
+    "1299": {
+      "date": 1299,
+      "event": "Ottoman Empire founded",
+      "description": "",
+      "type": "military"
+    },
+    "1759": {
+      "date": 1759,
+      "event": "Candide (Voltaire)",
+      "description": "",
+      "type": "culture"
+    },
+    "1517": {
+      "date": 1517,
+      "event": "Ninety-five Theses (Luther)",
+      "description": "",
+      "type": "religion"
+    },
+    "1641": {
+      "date": 1641,
+      "event": "Meditations on First Philosophy (Descartes)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1677": {
+      "date": 1677,
+      "event": "Ethics (Spinoza)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1886": {
+      "date": 1886,
+      "event": "Beyond Good and Evil (Nietzsche)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1739": {
+      "date": 1739,
+      "event": "A Treatise of Human Nature (Hume)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1762": {
+      "date": 1762,
+      "event": "The Social Contract (Rousseau)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1781": {
+      "date": 1781,
+      "event": "Critique of Pure Reason (Kant)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1651": {
+      "date": 1651,
+      "event": "Leviathan (Hobbes)",
+      "description": "",
+      "type": "philosophy"
+    },
+    "1536": {
+      "date": 1536,
+      "event": "Institutes of the Christian Religion (Calvin)",
+      "description": "",
+      "type": "religion"
     }
   },
   "England": {

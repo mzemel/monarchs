@@ -91,9 +91,11 @@ var fontSizeLarge = "1.9em",
   strokeWidthLarge = 15,
   strokeWidthMedium = 10,
   strokeWidthSmall = 5,
-  strokeWidthTiny = 3
-  cornerRadiusSmall = 5
-  cornerRadiusLarge = 15;
+  strokeWidthTiny = 1,
+  cornerRadiusSmall = 5,
+  cornerRadiusLarge = 15,
+  circleRadiusSmall = 3,
+  circleRadiusLarge = 8;
 
 // General config
 var width = window.innerWidth,
@@ -175,39 +177,40 @@ function render(data) {
     .append("circle")
     .attr("cx", function(d) { return margin.left + (d.date - firstYear) * pixelsPerYear; })
     .attr("cy", height - margin.bottom - laneHeight / 2)
-    .attr("r", 3)
-    .attr("fill", strokeColor)
-    .attr("stroke", strokeColor)
-    .attr("stroke-width", strokeWidthTiny)
+    .attr("r", circleRadiusSmall)
+    .attr("fill", function(data) { return dateColors[data.type] })
     .on("mouseover", showDate)
     .on("mouseout", function() {
-      d3.select(this).transition().attr("r", 3);
+      d3.select(this).transition().attr("r", circleRadiusSmall);
       timeline.selectAll(".date").remove();
     })
 
+  function getContainerFromText(text, size) {
+    var pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
+      "small": 10,
+      "medium": 15,
+      "large": 20
+    }
+    var pixelsPerCharacter = pixelsPerCharacterReference[size],
+      width = pixelsPerCharacter * text.length,
+      height = pixelsPerCharacter;
+
+    return [width, height];
+  }
+
   function showDate(data, i) {
     var circle = d3.select(this),
-      dateTextString = data.date + ": " + data.event,
-      pixelsPerCharacter = 10, // Somehow calc this from width/height and multiply by sm/md/lg modifier
-      dateTextStringWidth = pixelsPerCharacter * dateTextString.length,
       dateTextPadding = 6,
-      dateRectWidth = dateTextStringWidth + dateTextPadding * 2,
-      dateRectHeight = pixelsPerCharacter + dateTextPadding * 2;
+      dateTextString = data.date + ": " + data.event,
+      dateRectWidth,
+      dateRectHeight;
 
-    circle.transition().attr("r", 5);
+    [dateTextWidth, dateTextHeight] = getContainerFromText(dateTextString, "small");
+    var dateRectWidth = dateTextWidth + dateTextPadding * 2,
+      dateRectHeight = dateTextHeight + dateTextPadding * 2;
+
 
     var dateRect = timeline.append("rect")
-      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
-      .attr("y", height - margin.bottom - laneHeight / 2)
-
-    timeline.append("text")
-      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
-      .attr("y", height - margin.bottom + laneHeight / 2 + detailsLineHeight * 3 / 4)
-      .attr("text-anchor", "middle")
-      .attr("class", "date hidden")
-      .text(dateTextString)
-
-    dateRect.transition()
       .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear - dateRectWidth / 2)
       .attr("y", height - margin.bottom + laneHeight / 2)
       .attr("rx", cornerRadiusSmall)
@@ -218,8 +221,16 @@ function render(data) {
       .attr("fill-opacity", 0.75)
       .attr("stroke", dateColors[data.type])
       .attr("stroke-width", strokeWidthTiny)
-      .attr("class", "date")
-      .on("end", function() { timeline.select("text.date").classed("hidden", false); })
+      .attr("class", "date ")
+
+    var dateText = timeline.append("text")
+      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
+      .attr("y", height - margin.bottom + laneHeight / 2 + detailsLineHeight * 3 / 4)
+      .attr("text-anchor", "middle")
+      .attr("class", "date ")
+      .text(dateTextString)
+
+    circle.transition().attr("r", circleRadiusLarge)
 
     timeline.append("line")
       .attr("x1", circle.attr("cx"))
