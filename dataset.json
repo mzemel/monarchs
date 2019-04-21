@@ -4,247 +4,287 @@
       "date": 1066,
       "event": "Norman conquest of England",
       "description": "",
-      "type": "military"
-    },
-    "1215": {
-      "date": 1215,
-      "event": "Magna Carta signed",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1543": {
-      "date": 1543,
-      "event": "Heliocentrism discovered (Copernicus)",
-      "description": "",
-      "type": "science"
-    },
-    "1687": {
-      "date": 1687,
-      "event": "Principia Mathematica (Newton)",
-      "description": "",
-      "type": "science"
-    },
-    "1752": {
-      "date": 1752,
-      "event": "Electricity discovered (Franklin)",
-      "description": "",
-      "type": "science"
-    },
-    "1760": {
-      "date": 1760,
-      "event": "Industrial Revolution begins",
-      "description": "",
-      "type": "culture"
-    },
-    "1804": {
-      "date": 1804,
-      "event": "Battle of Austerlitz",
-      "description": "Holy Roman Empire dissolved",
-      "type": "military"
-    },
-    "1815": {
-      "date": 1815,
-      "event": "Napoleon defeated at Waterloo",
-      "description": "Napoleon defeated",
-      "type": "military"
-    },
-    "1845": {
-      "date": 1845,
-      "event": "Great Famine of Ireland",
-      "description": "",
-      "type": "catastrophe"
-    },
-    "1848": {
-      "date": 1848,
-      "event": "Revolutions of 1848",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1859": {
-      "date": 1859,
-      "event": "On the Origin of Species (Darwin)",
-      "description": "",
-      "type": "science"
-    },
-    "1869": {
-      "date": 1869,
-      "event": "Periodic table (Mendeleev)",
-      "description": "",
-      "type": "science"
-    },
-    "1871": {
-      "date": 1871,
-      "event": "Unification of Germany",
-      "description": "",
-      "type": "diplomacy"
-    },
-    "1429": {
-      "date": 1429,
-      "event": "Joan of Arc defeats the English",
-      "description": "",
-      "type": "military"
-    },
-    "1588": {
-      "date": 1588,
-      "event": "Defeats of the Spanish Armada",
-      "description": "",
-      "type": "military"
-    },
-    "1776": {
-      "date": 1776,
-      "event": "American revolution",
-      "description": "",
-      "type": "diplomacy"
-    },
-    "1789": {
-      "date": 1789,
-      "event": "French revolution",
-      "description": "",
-      "type": "diplomacy"
-    },
-    "1756": {
-      "date": 1756,
-      "event": "Seven Years' War begins",
-      "description": "",
-      "type": "military"
-    },
-    "1347": {
-      "date": 1347,
-      "event": "Black Death",
-      "description": "",
-      "type": "catastrophe"
-    },
-    "1914": {
-      "date": 1914,
-      "event": "World War I begins",
-      "description": "",
-      "type": "military"
-    },
-    "1337": {
-      "date": 1337,
-      "event": "Hundred Years' War begins",
-      "description": "",
-      "type": "military"
-    },
-    "1883": {
-      "date": 1883,
-      "event": "Krakatoa erupts",
-      "description": "",
-      "type": "catastrophe"
-    },
-    "1939": {
-      "date": 1939,
-      "event": "World War II begins",
-      "description": "",
-      "type": "military"
-    },
-    "1933": {
-      "date": 1933,
-      "event": "Holodomor",
-      "description": "",
-      "type": "catastrophe"
-    },
-    "1918": {
-      "date": 1918,
-      "event": "Spanish flu",
-      "description": "",
-      "type": "catastrophe"
-    },
-    "1975": {
-      "date": 1975,
-      "event": "Cambodian genocide",
-      "description": "",
-      "type": "military"
+      "type": "military",
+      "hidden": ""
     },
     "1095": {
       "date": 1095,
       "event": "First Crusade",
       "description": "",
-      "type": "military"
+      "type": "military",
+      "hidden": ""
     },
-    "1991": {
-      "date": 1991,
-      "event": "Fall of the Berlin Wall",
+    "1215": {
+      "date": 1215,
+      "event": "Magna Carta signed",
       "description": "",
-      "type": "diplomacy"
-    },
-    "1453": {
-      "date": 1453,
-      "event": "Fall of Constantinople",
-      "description": "",
-      "type": "military"
+      "type": "philosophy",
+      "hidden": ""
     },
     "1299": {
       "date": 1299,
       "event": "Ottoman Empire founded",
       "description": "",
-      "type": "military"
+      "type": "military",
+      "hidden": ""
     },
-    "1759": {
-      "date": 1759,
-      "event": "Candide (Voltaire)",
+    "1337": {
+      "date": 1337,
+      "event": "Hundred Years' War begins",
       "description": "",
-      "type": "culture"
+      "type": "military",
+      "hidden": ""
+    },
+    "1347": {
+      "date": 1347,
+      "event": "Black Death",
+      "description": "",
+      "type": "catastrophe",
+      "hidden": ""
+    },
+    "1429": {
+      "date": 1429,
+      "event": "Joan of Arc defeats the English",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1453": {
+      "date": 1453,
+      "event": "Fall of Constantinople",
+      "description": "",
+      "type": "military",
+      "hidden": ""
     },
     "1517": {
       "date": 1517,
       "event": "Ninety-five Theses (Luther)",
       "description": "",
-      "type": "religion"
-    },
-    "1641": {
-      "date": 1641,
-      "event": "Meditations on First Philosophy (Descartes)",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1677": {
-      "date": 1677,
-      "event": "Ethics (Spinoza)",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1886": {
-      "date": 1886,
-      "event": "Beyond Good and Evil (Nietzsche)",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1739": {
-      "date": 1739,
-      "event": "A Treatise of Human Nature (Hume)",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1762": {
-      "date": 1762,
-      "event": "The Social Contract (Rousseau)",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1781": {
-      "date": 1781,
-      "event": "Critique of Pure Reason (Kant)",
-      "description": "",
-      "type": "philosophy"
-    },
-    "1651": {
-      "date": 1651,
-      "event": "Leviathan (Hobbes)",
-      "description": "",
-      "type": "philosophy"
+      "type": "religion",
+      "hidden": ""
     },
     "1536": {
       "date": 1536,
       "event": "Institutes of the Christian Religion (Calvin)",
       "description": "",
-      "type": "religion"
+      "type": "religion",
+      "hidden": ""
+    },
+    "1543": {
+      "date": 1543,
+      "event": "Heliocentrism discovered (Copernicus)",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1588": {
+      "date": 1588,
+      "event": "Spanish Armada defeated",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1641": {
+      "date": 1641,
+      "event": "Meditations on First Philosophy (Descartes)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1651": {
+      "date": 1651,
+      "event": "Leviathan (Hobbes)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1677": {
+      "date": 1677,
+      "event": "Ethics (Spinoza)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1687": {
+      "date": 1687,
+      "event": "Principia Mathematica (Newton)",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1739": {
+      "date": 1739,
+      "event": "A Treatise of Human Nature (Hume)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1752": {
+      "date": 1752,
+      "event": "Electricity discovered (Franklin)",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1756": {
+      "date": 1756,
+      "event": "Seven Years' War begins",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1759": {
+      "date": 1759,
+      "event": "Candide (Voltaire)",
+      "description": "",
+      "type": "culture",
+      "hidden": true
+    },
+    "1760": {
+      "date": 1760,
+      "event": "Industrial Revolution begins",
+      "description": "",
+      "type": "culture",
+      "hidden": true
+    },
+    "1762": {
+      "date": 1762,
+      "event": "The Social Contract (Rousseau)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1776": {
+      "date": 1776,
+      "event": "American revolution",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1781": {
+      "date": 1781,
+      "event": "Critique of Pure Reason (Kant)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1789": {
+      "date": 1789,
+      "event": "French revolution",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1804": {
+      "date": 1804,
+      "event": "Battle of Austerlitz",
+      "description": "Holy Roman Empire dissolved",
+      "type": "military",
+      "hidden": ""
+    },
+    "1815": {
+      "date": 1815,
+      "event": "Napoleon defeated at Waterloo",
+      "description": "Napoleon defeated",
+      "type": "military",
+      "hidden": ""
+    },
+    "1845": {
+      "date": 1845,
+      "event": "Great Famine of Ireland",
+      "description": "",
+      "type": "catastrophe",
+      "hidden": ""
+    },
+    "1848": {
+      "date": 1848,
+      "event": "Revolutions of 1848",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1859": {
+      "date": 1859,
+      "event": "On the Origin of Species (Darwin)",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1869": {
+      "date": 1869,
+      "event": "Periodic table (Mendeleev)",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1871": {
+      "date": 1871,
+      "event": "Unification of Germany",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": true
+    },
+    "1883": {
+      "date": 1883,
+      "event": "Krakatoa erupts",
+      "description": "",
+      "type": "catastrophe",
+      "hidden": ""
+    },
+    "1886": {
+      "date": 1886,
+      "event": "Beyond Good and Evil (Nietzsche)",
+      "description": "",
+      "type": "philosophy",
+      "hidden": ""
+    },
+    "1914": {
+      "date": 1914,
+      "event": "World War I begins",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1918": {
+      "date": 1918,
+      "event": "Spanish flu",
+      "description": "",
+      "type": "catastrophe",
+      "hidden": true
+    },
+    "1933": {
+      "date": 1933,
+      "event": "Holodomor",
+      "description": "",
+      "type": "catastrophe",
+      "hidden": ""
+    },
+    "1939": {
+      "date": 1939,
+      "event": "World War II begins",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1975": {
+      "date": 1975,
+      "event": "Cambodian genocide",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1991": {
+      "date": 1991,
+      "event": "Fall of the Berlin Wall",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
     }
   },
   "England": {
     "William the Conqueror": {
       "name": "William the Conqueror",
-      "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNzQ3ODE5NTM0/william-the-conqueror-9542227-1-402.jpg",
+      "image": "img/england/william_the_conquerer.png",
       "house": "Normandy",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
       "start": 1066,
@@ -257,7 +297,7 @@
     },
     "William II": {
       "name": "William II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/William_II_of_England.jpg",
+      "image": "img/england/william_ii.png",
       "house": "Normandy",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
       "start": 1087,
@@ -270,7 +310,7 @@
     },
     "Henry I": {
       "name": "Henry I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Henry1.jpg/476px-Henry1.jpg",
+      "image": "img/england/henry_i.png",
       "house": "Normandy",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
       "start": 1100,
@@ -283,7 +323,7 @@
     },
     "Stephen": {
       "name": "Stephen",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Stepan_Blois.jpg",
+      "image": "img/england/stephen.png",
       "house": "Blois",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Old_Arms_of_Blois.svg/220px-Old_Arms_of_Blois.svg.png",
       "start": 1135,
@@ -296,7 +336,7 @@
     },
     "Henry II": {
       "name": "Henry II",
-      "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-DYEFWK_wxfa8z.jpg",
+      "image": "img/england/henry_ii.png",
       "house": "Plantagenet/Angevin",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1154,
@@ -309,7 +349,7 @@
     },
     "Richard I": {
       "name": "Richard I",
-      "image": "https://www.historyhit.com/wp-content/uploads/2018/06/painting-of-richard-the-lionheart-e1531319388701.jpg",
+      "image": "img/england/richard_i.jpeg",
       "house": "Plantagenet/Angevin",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1189,
@@ -322,7 +362,7 @@
     },
     "John": {
       "name": "John",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/King_John.jpg/250px-King_John.jpg",
+      "image": "img/england/john.png",
       "house": "Plantagenet/Angevin",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1199,
@@ -335,7 +375,7 @@
     },
     "Henry III": {
       "name": "Henry III",
-      "image": "http://enacademic.com/pictures/enwiki/75/King_Henry_III_from_NPG.jpg",
+      "image": "img/england/henry_iii.png",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1216,
@@ -348,7 +388,7 @@
     },
     "Edward I": {
       "name": "Edward I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Edward_I%2C_Westminster_Abbey.jpg/440px-Edward_I%2C_Westminster_Abbey.jpg",
+      "image": "img/england/edward_i.png",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1272,
@@ -361,7 +401,7 @@
     },
     "Edward II": {
       "name": "Edward II",
-      "image": "http://www.englishmonarchs.co.uk/images/ed244.jpg",
+      "image": "img/england/edward_ii.png",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1307,
@@ -374,7 +414,7 @@
     },
     "Edward III": {
       "name": "Edward III",
-      "image": "https://www.thoughtco.com/thmb/nWAtdEVySwY_AM771qJgLDjiuDQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/edward-iii-large-56a61b543df78cf7728b5f0e.jpg",
+      "image": "img/england/edward_iii.png",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1327,
@@ -387,7 +427,7 @@
     },
     "Richard II": {
       "name": "Richard II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Richard_II_King_of_England.jpg",
+      "image": "img/england/richard_ii.png",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1377,
@@ -400,7 +440,7 @@
     },
     "Henry IV": {
       "name": "Henry IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Illumination_of_Henry_IV_%28cropped%29.jpg",
+      "image": "img/england/henry_iv.png",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1399,
@@ -413,7 +453,7 @@
     },
     "Henry V": {
       "name": "Henry V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/King_Henry_V_from_NPG.jpg/464px-King_Henry_V_from_NPG.jpg",
+      "image": "img/england/henry_v.png",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1413,
@@ -426,7 +466,7 @@
     },
     "Henry VI": {
       "name": "Henry VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/King_Henry_VI_from_NPG_%282%29.jpg/440px-King_Henry_VI_from_NPG_%282%29.jpg",
+      "image": "img/england/henry_vi.png",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1422,
@@ -439,7 +479,7 @@
     },
     "Edward IV": {
       "name": "Edward IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/King_Edward_IV.jpg/460px-King_Edward_IV.jpg",
+      "image": "img/england/edward_iv.png",
       "house": "York",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1461,
@@ -452,7 +492,7 @@
     },
     "Henry VI (2nd)": {
       "name": "Henry VI (2nd)",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/King_Henry_VI_from_NPG_%282%29.jpg/440px-King_Henry_VI_from_NPG_%282%29.jpg",
+      "image": "img/england/henry_vi.png",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1470,
@@ -465,7 +505,7 @@
     },
     "Edward IV (2nd)": {
       "name": "Edward IV (2nd)",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/King_Edward_IV.jpg/460px-King_Edward_IV.jpg",
+      "image": "img/england/edward_iv.png",
       "house": "York",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1471,
@@ -478,7 +518,7 @@
     },
     "Edward V": {
       "name": "Edward V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Princes.jpg/440px-Princes.jpg",
+      "image": "img/england/edward_v.png",
       "house": "York",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1483,
@@ -491,7 +531,7 @@
     },
     "Richard III": {
       "name": "Richard III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Richard_III_earliest_surviving_portrait.jpg",
+      "image": "img/england/richard_iii.png",
       "house": "York",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1483,
@@ -504,7 +544,7 @@
     },
     "Henry VII": {
       "name": "Henry VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Enrique_VII_de_Inglaterra%2C_por_un_artista_an%C3%B3nimo.jpg/440px-Enrique_VII_de_Inglaterra%2C_por_un_artista_an%C3%B3nimo.jpg",
+      "image": "img/england/henry_vii.png",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1485,
@@ -517,7 +557,7 @@
     },
     "Henry VIII": {
       "name": "Henry VIII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Enrique_VIII_de_Inglaterra%2C_por_Hans_Holbein_el_Joven.jpg/220px-Enrique_VIII_de_Inglaterra%2C_por_Hans_Holbein_el_Joven.jpg",
+      "image": "img/england/henry_viii.png",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1509,
@@ -540,7 +580,7 @@
     },
     "Edward VI": {
       "name": "Edward VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Circle_of_William_Scrots_Edward_VI_of_England.jpg/220px-Circle_of_William_Scrots_Edward_VI_of_England.jpg",
+      "image": "img/england/edward_vi.png",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1547,
@@ -557,7 +597,7 @@
     },
     "Jane Grey": {
       "name": "Jane Grey",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg/300px-PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg",
+      "image": "img/england/jane_grey.png",
       "house": "Grey",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1553,
@@ -570,7 +610,7 @@
     },
     "Mary I": {
       "name": "Mary I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Maria_Tudor1.jpg/232px-Maria_Tudor1.jpg",
+      "image": "img/england/mary_i.png",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1553,
@@ -592,7 +632,7 @@
     },
     "Elizabeth I": {
       "name": "Elizabeth I",
-      "image": "https://cdn.britannica.com/s:300x300/85/285-004-1108CDAD.jpg",
+      "image": "img/england/elizabeth_i.png",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1558,
@@ -613,7 +653,7 @@
     },
     "James VI and I": {
       "name": "James VI and I",
-      "image": "https://www.encyclopediavirginia.org/filestore/3/8/2/4_6e355047fc6e205/3824pre_ae6eedc0c80510b.jpg",
+      "image": "img/england/james_vi_and_i.png",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1603,
@@ -632,7 +672,7 @@
     },
     "Charles I": {
       "name": "Charles I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/King_Charles_I_by_Gerrit_van_Honthorst_sm.jpg/220px-King_Charles_I_by_Gerrit_van_Honthorst_sm.jpg",
+      "image": "img/england/charles_i.png",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1625,
@@ -652,7 +692,7 @@
     },
     "Charles II": {
       "name": "Charles II",
-      "image": "https://www.onthisday.com/images/people/charles-ii-medium.jpg",
+      "image": "img/england/charles_ii.png",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1660,
@@ -676,7 +716,7 @@
     },
     "James II & VII": {
       "name": "James II & VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/James_II_by_John_Riley.png/220px-James_II_by_John_Riley.png",
+      "image": "img/england/james_ii_and_vii.png",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1685,
@@ -693,7 +733,7 @@
     },
     "William III & II": {
       "name": "William III & II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/King_William_III_of_England%2C_%281650-1702%29_%28lighter%29.jpg/220px-King_William_III_of_England%2C_%281650-1702%29_%28lighter%29.jpg",
+      "image": "img/england/william_iii_and_ii.png",
       "house": "Orange-Nassau",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_Arms_of_England_%281694-1702%29.svg/200px-Coat_of_Arms_of_England_%281694-1702%29.svg.png",
       "start": 1688,
@@ -715,7 +755,7 @@
     },
     "Anne": {
       "name": "Anne",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Queen_Anne_by_John_Closterman.jpg/220px-Queen_Anne_by_John_Closterman.jpg",
+      "image": "img/england/anne.png",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1702,
@@ -735,7 +775,7 @@
     },
     "George I": {
       "name": "George I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg/220px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg",
+      "image": "img/england/george_i.png",
       "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1714,
@@ -756,7 +796,7 @@
     },
     "George II": {
       "name": "George II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/George_II_by_Thomas_Hudson.jpg/220px-George_II_by_Thomas_Hudson.jpg",
+      "image": "img/england/george_ii.png",
       "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1727,
@@ -776,7 +816,7 @@
     },
     "George III": {
       "name": "George III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/William_Augustus%2C_Duke_of_Cumberland_by_Sir_Joshua_Reynolds.jpg/220px-William_Augustus%2C_Duke_of_Cumberland_by_Sir_Joshua_Reynolds.jpg",
+      "image": "img/england/george_iii.png",
       "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1760,
@@ -797,7 +837,7 @@
     },
     "George IV": {
       "name": "George IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/George_IV_van_het_Verenigd_Koninkrijk.jpg/220px-George_IV_van_het_Verenigd_Koninkrijk.jpg",
+      "image": "img/england/george_iv.png",
       "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1820,
@@ -814,7 +854,7 @@
     },
     "William IV": {
       "name": "William IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/William_IV_crop.jpg/220px-William_IV_crop.jpg",
+      "image": "img/england/william_iv.png",
       "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1830,
@@ -834,7 +874,7 @@
     },
     "Victoria": {
       "name": "Victoria",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dronning_victoria.jpg/220px-Dronning_victoria.jpg",
+      "image": "img/england/victoria.png",
       "house": "Hanover",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Royal_Arms_of_the_Kingdom_of_Hanover.svg/200px-Royal_Arms_of_the_Kingdom_of_Hanover.svg.png",
       "start": 1837,
@@ -857,7 +897,7 @@
     },
     "Edward VII": {
       "name": "Edward VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Edward_VII_in_coronation_robes.jpg/440px-Edward_VII_in_coronation_robes.jpg",
+      "image": "img/england/edward_vii.png",
       "house": "Saxe-Coburg and Gotha",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg/500px-Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg.png",
       "start": 1901,
@@ -878,7 +918,7 @@
     },
     "George V": {
       "name": "George V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/King_George_V_1911_color-crop.jpg/440px-King_George_V_1911_color-crop.jpg",
+      "image": "img/england/george_v.png",
       "house": "Windsor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg/500px-Coat_of_Arms_of_the_Duchy_of_Saxe-Coburg_and_Gotha.svg.png",
       "start": 1910,
@@ -899,7 +939,7 @@
     },
     "Edward VIII": {
       "name": "Edward VIII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg/440px-HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg",
+      "image": "img/england/edward_viii.png",
       "house": "Windsor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Badge_of_the_House_of_Windsor.svg/280px-Badge_of_the_House_of_Windsor.svg.png",
       "start": 1936,
@@ -914,7 +954,7 @@
     },
     "George VI": {
       "name": "George VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/King_George_VI_of_England%2C_formal_photo_portrait%2C_circa_1940-1946.jpg/440px-King_George_VI_of_England%2C_formal_photo_portrait%2C_circa_1940-1946.jpg",
+      "image": "img/england/george_vi.png",
       "house": "Windsor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Badge_of_the_House_of_Windsor.svg/280px-Badge_of_the_House_of_Windsor.svg.png",
       "start": 1936,
@@ -931,7 +971,7 @@
     },
     "Elizabeth II": {
       "name": "Elizabeth II",
-      "image": "https://cdn.foodbeast.com/wp-content/uploads/2018/07/so-delicious-queen-elizabeth.jpg",
+      "image": "img/england/elizabeth_ii.png",
       "house": "Windsor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Badge_of_the_House_of_Windsor.svg/280px-Badge_of_the_House_of_Windsor.svg.png",
       "start": 1952,

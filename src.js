@@ -124,7 +124,7 @@ var detailsHeight = height / 4 * 3,
   detailsRelationshipY = detailsY + 5 * detailsHeightInterval + detailsMargin;
 
 // Thumbnail config
-var thumbnailImageWidth = width / 8,
+var thumbnailImageWidth = _.max([width / 8, height / 4]),
   thumbnailBorder = 10;
 
 // Date config
@@ -380,7 +380,7 @@ function render(data) {
 
   function showDetail(data, i) {
     if (detailsOpen) return false
-    if (!data.endReason) return false // For now, don't show details for monarchs without much data
+    //if (!data.endReason) return false // For now, don't show details for monarchs without much data
 
     timeline.selectAll('.block').classed('inactive', true);
     timeline.selectAll('.legend').classed('inactive', true);
@@ -408,12 +408,22 @@ function render(data) {
   }
 
   function renderDetails(data) {
-    // Monarch image
-    timeline.append("image")
+    // Monarch image background
+    timeline.append("rect")
       .attr("x", detailsImageX)
       .attr("y", detailsImageY)
+      .attr("rx", cornerRadiusLarge)
+      .attr("ry", cornerRadiusLarge)
       .attr("width", detailsImageWidth)
       .attr("height", detailsImageHeight)
+      .attr("fill", thumbnailBackgroundColor)
+      .attr("class", "detail")
+    // Monarch image
+    timeline.append("image")
+      .attr("x", detailsImageX + strokeWidthMedium)
+      .attr("y", detailsImageY + strokeWidthMedium)
+      .attr("width", detailsImageWidth - 2 * strokeWidthMedium)
+      .attr("height", detailsImageHeight - 2 * strokeWidthMedium)
       .attr("xlink:href", data.image)
       .attr("preserveAspectRatio", "none")
       .attr("class", "detail")
