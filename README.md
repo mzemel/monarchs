@@ -28,3 +28,4 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Hyperlinks to events, wars, etc.
 - Replace contemporary paintings with revisionist ones
 - Add name of wars
+- Nation-state borders by year

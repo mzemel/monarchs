@@ -289,11 +289,23 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
       "start": 1066,
       "end": 1087,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Illness, 59",
+      "religion": "Catholic",
+      "events": [
+        "Fought for claim to be Duke of Normandy",
+        "Defeated Harold Godwinson at Battle of Hastings",
+        "Built the Tower of London"
+      ],
+      "wars": [
+        "Normal conquest, England, 1066",
+        "Harrying of the North, England, 1068",
+        "Revolt of the Earls, England, 1075"
+      ],
+      "relationships": [
+        "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
+        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg",
+        ""
+      ]
     },
     "William II": {
       "name": "William II",
@@ -574,8 +586,8 @@
       ],
       "relationships": [
         "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
-        "Holy Roman Empire, Charles V, Nephew-in-law",
-        "Scotland, Margaret, Sister"
+        "Holy Roman Empire, Charles V, Nephew-in-law, img/hre/charles_v.jpg",
+        "Scotland, Margaret, Sister, img/scotland/margaret_tudor.jpg"
       ]
     },
     "Edward VI": {

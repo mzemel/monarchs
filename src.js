@@ -163,12 +163,25 @@ function render(data) {
   // Title
   timeline.append("text")
     .attr("x", margin.left + (width / 2 - margin.left) / 2)
-    .attr("y", margin.top / 2)
+    .attr("y", margin.top)
     .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2 - margin.left, margin.top / 2))
     .attr("font-family", fontFamily)
     .attr("text-anchor", "middle")
     .attr("class", "title")
     .text("Monarchs")
+
+  // Link
+  timeline.append("a")
+    .attr("href", "https://thebackend.dev")
+    .append("text")
+    .attr("x", width - margin.right / 2)
+    .attr("y", height - margin.bottom / 4)
+    .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2 - margin.right, margin.bottom / 2) / 4)
+    .attr("font-family", fontFamily)
+    .attr("fill", "blue")
+    .attr("text-anchor", "middle")
+    .attr("class", "title")
+    .text("Blog")
 
   // Create X-axis
   var xScale = d3.time.scale()
@@ -191,15 +204,16 @@ function render(data) {
     .attr("cx", function(d) { return margin.left + (d.date - firstYear) * pixelsPerYear; })
     .attr("cy", height - margin.bottom - laneHeight / 2)
     .attr("r", circleRadiusSmall)
-    .attr("fill", function(data) { return dateColors[data.type] })
-    .attr("class", "date")
+    .attr("fill", function(d) { return dateColors[d.type] })
+    .attr("class", function(d) { return ['date', d.type].join(' '); })
     .on("mouseover", renderDate)
     .on("mouseout", function() {
       d3.select(this).transition().attr("r", circleRadiusSmall);
-      timeline.selectAll(".date").remove();
+      timeline.selectAll("g.date").remove();
     })
 
   function renderDate(data, i) {
+    if (detailsOpen) return false;
     var circle = d3.select(this),
       dateTextPadding = 6,
       dateTextString = data.date + ": " + data.event,
@@ -210,8 +224,10 @@ function render(data) {
     var dateRectWidth = dateTextWidth + dateTextPadding * 2,
       dateRectHeight = dateTextHeight + dateTextPadding * 2;
 
+    var dateContainer = timeline.append("g").attr("class", "date")
 
-    var dateRect = timeline.append("rect")
+
+    var dateRect = dateContainer.append("rect")
       .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear - dateRectWidth / 2)
       .attr("y", height - margin.bottom + laneHeight / 2)
       .attr("rx", cornerRadiusSmall)
@@ -224,7 +240,7 @@ function render(data) {
       .attr("stroke-width", strokeWidthTiny)
       .attr("class", "date ")
 
-    var dateText = timeline.append("text")
+    var dateText = dateContainer.append("text")
       .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
       .attr("y", height - margin.bottom + laneHeight / 2 + detailsLineHeight * 3 / 4)
       .attr("text-anchor", "middle")
@@ -233,7 +249,7 @@ function render(data) {
 
     circle.transition().attr("r", circleRadiusLarge)
 
-    timeline.append("line")
+    dateContainer.append("line")
       .attr("x1", circle.attr("cx"))
       .attr("y1", circle.attr("cy") - laneHeight / 4)
       .attr("x2", circle.attr("cx"))
@@ -581,7 +597,7 @@ function render(data) {
     _.map(data.relationships, function(rel, idx) {
       var relationshipImageX = detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth;
       var relComponents = rel.split(","),
-        relComponentImage = _.pullAt(relComponents, [3])[0] || "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg";
+        relComponentImage = _.pullAt(relComponents, [3])[0] || "img/not_found.png";
 
       timeline.append("image")
         .attr("x", relationshipImageX)
