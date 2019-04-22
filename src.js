@@ -443,7 +443,7 @@ function render(data) {
   function renderDetails(data) {
     // Monarch image background
     timeline.append("rect")
-      .attr("x", detailsImageX)
+      .attr("x", detailsMiddle - detailsImageWidth / 2)
       .attr("y", detailsImageY)
       .attr("rx", cornerRadiusLarge)
       .attr("ry", cornerRadiusLarge)
@@ -453,7 +453,7 @@ function render(data) {
       .attr("class", "detail")
     // Monarch image
     timeline.append("image")
-      .attr("x", detailsImageX + strokeWidthMedium)
+      .attr("x", detailsMiddle - detailsImageWidth / 2 + strokeWidthMedium)
       .attr("y", detailsImageY + strokeWidthMedium)
       .attr("width", detailsImageWidth - 2 * strokeWidthMedium)
       .attr("height", detailsImageHeight - 2 * strokeWidthMedium)
@@ -463,10 +463,10 @@ function render(data) {
 
     // House image
     timeline.append("image")
-      .attr("x", detailsX + detailsWidth - detailsImageWidth * 3 / 4 - detailsWidthInterval)
-      .attr("y", detailsImageY + detailsImageHeight / 4)
-      .attr("width", detailsImageWidth / 2)
-      .attr("height", detailsImageHeight / 2)
+      .attr("x", detailsMiddle + detailsImageWidth * 3 / 16)
+      .attr("y", detailsImageY + detailsImageHeight * 11 / 16)
+      .attr("width", detailsImageWidth / 4)
+      .attr("height", detailsImageHeight / 4)
       .attr("xlink:href", data.houseImage)
       .attr("class", "detail")
 
@@ -479,7 +479,7 @@ function render(data) {
 
     // Name
     timeline.append("text")
-      .attr("x", detailsImageX + detailsImageWidth / 2)
+      .attr("x", detailsMiddle)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
@@ -488,43 +488,43 @@ function render(data) {
       .attr("class", "detail")
       .text(data.name);
 
-    // House
-    timeline.append("text")
-      .attr("x", detailsX + detailsWidth - detailsImageWidth / 2 - detailsWidthInterval)
-      .attr("y", detailsNameY + detailsLineHeight)
-      .attr("text-anchor", "middle")
-      .attr("font-family", fontFamily)
-      .attr("font-size", nameAndHouseFontSize)
-      .attr("font-weight", "bolder")
-      .attr("class", "detail")
-      .text(data.house);
-
     // Reign
     var reignString = data.start + " - " + data.end + " (" + data.endReason + ")",
-      reignAndReligionFontSize = _.min(
-        _.map([data.religion, reignString], function(text) {
-          return getFontSizeFromContainer(text, detailsImageWidth * 2, detailsLineHeight);
+      reignReligionHouseFontSize = _.min(
+        _.map([data.religion, reignString, data.house], function(text) {
+          return getFontSizeFromContainer(text, detailsImageWidth * 4, (detailsHeightInterval - detailsLineHeight) * 2 / 9);
         })
       )
 
     timeline.append("text")
       .attr("x", detailsMiddle)
-      .attr("y", detailsNameY + 2 * detailsLineHeight)
+      .attr("y", detailsNameY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * 1 / 3)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", reignAndReligionFontSize)
+      .attr("font-size", reignReligionHouseFontSize)
       .attr("class", "detail")
       .text(reignString)
 
     // Religion
     timeline.append("text")
       .attr("x", detailsMiddle)
-      .attr("y", detailsNameY + 3 * detailsLineHeight)
+      .attr("y", detailsNameY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * 2 / 3)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", reignAndReligionFontSize)
+      .attr("font-size", reignReligionHouseFontSize)
       .attr("class", "detail")
       .text(data.religion);
+
+    // House
+    timeline.append("text")
+      .attr("x", detailsMiddle)
+      .attr("y", detailsNameY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * 3 / 3)
+      .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", reignReligionHouseFontSize)
+      .attr("font-weight", "bolder")
+      .attr("class", "detail")
+      .text(data.house);
 
     // The `detailsImageWidth * 4` is purposefully wider than the details container to avoid bug in getFontSizeFromContainer
     var eventsAndWarsFontSize = _.min(
