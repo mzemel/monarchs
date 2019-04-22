@@ -360,16 +360,25 @@
     },
     "Stephen": {
       "name": "Stephen",
-      "image": "img/england/stephen.png",
+      "image": "img/england/stephen.jpg",
       "house": "Blois",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Old_Arms_of_Blois.svg/220px-Old_Arms_of_Blois.svg.png",
       "start": 1135,
       "end": 1154,
-      "endReason": "",
+      "endReason": "Illness, 57",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Captured at Battle of Lincoln",
+        "Ended civil war by giving up heir to throne"
+      ],
+      "wars": [
+        "Scotland, 1136",
+        "The Anarchy, England, 1139-1154"
+      ],
+      "relationships": [
+        "Blois, Stephen, Father, img/france/stepan.jpg",
+        "Boulogne, Matilda, Wife, img/france/matilda_boulogne.jpg"
+      ]
     },
     "Henry II": {
       "name": "Henry II",
@@ -378,11 +387,22 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1154,
       "end": 1189,
-      "endReason": "",
+      "endReason": "Ulcer, 56",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Executed Archbishop of Canterbury, Thomas Becket",
+        "Consolidated Brittany, Toulouse, and Vexin",
+        "Laid foundation for English Common Law"
+      ],
+      "wars": [
+        "Great Revolt, England, 1173-1174",
+        "Norman invasion of Ireland, Ireland, 1169-1175"
+      ],
+      "relationships": [
+        "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
+        "Sicily, Joan, Daughter, img/italy/joan.jpg",
+        "Castille, Eleanor, Daughter, img/spain/eleanor.jpg"
+      ]
     },
     "Richard I": {
       "name": "Richard I",
@@ -391,11 +411,20 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1189,
       "end": 1199,
-      "endReason": "",
+      "endReason": "Assassinated, 41",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Led the 3rd Crusade",
+        "Captured by the Duke of Austria",
+        "Possibly murdered King of Jerusalem"
+      ],
+      "wars": [
+        "Sicily, 1190",
+        "Cyprus, 1191"
+      ],
+      "relationships": [
+        "Navarre, Berengaria, Wife, img/france/berengaria.JPG"
+      ]
     },
     "John": {
       "name": "John",
@@ -404,11 +433,22 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1199,
       "end": 1216,
-      "endReason": "",
+      "endReason": "Dysentary, 49",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Appointed Lord of Ireland",
+        "Lost Normandy to Philip II",
+        "Signed the Magna Carta"
+      ],
+      "wars": [
+        "Normandy Campaigns, France, 1202-1204",
+        "First Barons' War, England, 1215-1217"
+      ],
+      "relationships": [
+        "Germany, Richard, Son, img/hre/richard.jpg",
+        "Holy Roman Empire, Isabella, Daughter, img/hre/isabella.jpg",
+        "Scotland, Joan, Daughter, img/scotland/joan.jpg"
+      ]
     },
     "Henry III": {
       "name": "Henry III",

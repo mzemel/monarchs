@@ -29,3 +29,4 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Replace contemporary paintings with revisionist ones
 - Add name of wars
 - Nation-state borders by year
+- Make it work w/ Firefox & Linux
