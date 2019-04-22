@@ -84,7 +84,7 @@ var fillColors = {
 };
 
 // Fonts
-var fontFamily = "Georgia, serif",
+var fontFamily = "Lato, sans-serif",
   strokeWidthLarge = 15,
   strokeWidthMedium = 10,
   strokeWidthSmall = 5,
@@ -160,6 +160,16 @@ function render(data) {
     .attr("height", height)
     .attr("fill", backgroundColor)
 
+  // Title
+  timeline.append("text")
+    .attr("x", margin.left + (width / 2 - margin.left) / 2)
+    .attr("y", margin.top / 2)
+    .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2 - margin.left, margin.top / 2))
+    .attr("font-family", fontFamily)
+    .attr("text-anchor", "middle")
+    .attr("class", "title")
+    .text("Monarchs")
+
   // Create X-axis
   var xScale = d3.time.scale()
     .domain([firstYear, lastYear]) 
@@ -182,6 +192,7 @@ function render(data) {
     .attr("cy", height - margin.bottom - laneHeight / 2)
     .attr("r", circleRadiusSmall)
     .attr("fill", function(data) { return dateColors[data.type] })
+    .attr("class", "date")
     .on("mouseover", renderDate)
     .on("mouseout", function() {
       d3.select(this).transition().attr("r", circleRadiusSmall);
@@ -384,6 +395,9 @@ function render(data) {
 
     timeline.selectAll('.block').classed('inactive', true);
     timeline.selectAll('.legend').classed('inactive', true);
+    timeline.selectAll('.title').classed('inactive', true);
+    timeline.selectAll('.axis').classed('inactive', true);
+    timeline.selectAll('.date').classed('inactive', true);
     detail.transition()
       .attr("width", detailsWidth)
       .attr("height", detailsHeight)
@@ -398,6 +412,9 @@ function render(data) {
   function hideDetail(data, i) {
     timeline.selectAll('.block').classed('inactive', false);
     timeline.selectAll('.legend').classed('inactive', false);
+    timeline.selectAll('.title').classed('inactive', false);
+    timeline.selectAll('.axis').classed('inactive', false);
+    timeline.selectAll('.date').classed('inactive', false);
     detailsOpen = false;
     detail.transition()
       .attr("width", 0)
@@ -451,6 +468,7 @@ function render(data) {
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", nameAndHouseFontSize)
+      .attr("font-weight", "bolder")
       .attr("class", "detail")
       .text(data.name);
 
@@ -461,6 +479,7 @@ function render(data) {
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", nameAndHouseFontSize)
+      .attr("font-weight", "bolder")
       .attr("class", "detail")
       .text(data.house);
 
@@ -505,6 +524,7 @@ function render(data) {
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", getFontSizeFromContainer("Events", detailsImageWidth, detailsLineHeight))
+      .attr("font-weight", "bolder")
       .attr("class", "detail")
       .text("Events")
 
@@ -526,6 +546,7 @@ function render(data) {
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", getFontSizeFromContainer("Wars", detailsImageWidth, detailsLineHeight))
+      .attr("font-weight", "bolder")
       .attr("class", "detail")
       .text("Wars")
 
@@ -559,12 +580,15 @@ function render(data) {
     // x(i, c) = m - (c - 1) * 0.75W + i * 1.5W - 0.5W
     _.map(data.relationships, function(rel, idx) {
       var relationshipImageX = detailsMiddle - (relationshipCount - 1) * 0.75 * relationshipImageWidth + idx * 1.5 * relationshipImageWidth - 0.5 * relationshipImageWidth;
+      var relComponents = rel.split(","),
+        relComponentImage = _.pullAt(relComponents, [3])[0] || "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg";
+
       timeline.append("image")
         .attr("x", relationshipImageX)
         .attr("y", detailsRelationshipY + detailsHeightInterval / 8) // Just a little padding between wars and relationships
         .attr("width", relationshipImageWidth)
         .attr("height", relationshipImageWidth)
-        .attr("xlink:href", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Nicolas_Cage_2011_CC.jpg/220px-Nicolas_Cage_2011_CC.jpg")
+        .attr("xlink:href", relComponentImage) 
         .attr("class", "detail")
 
       var relationshipComponentFontSize = _.min(
@@ -573,7 +597,7 @@ function render(data) {
         })
       );
 
-      _.map(rel.split(","), function(relComponent, idx) {
+      _.map(relComponents, function(relComponent, idx) {
         timeline.append("text")
           .attr("x", relationshipImageX + relationshipImageWidth / 2)
           .attr("y", detailsRelationshipY + relationshipImageWidth + detailsHeightInterval * (idx + 2) / 8)
