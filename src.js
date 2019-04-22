@@ -294,7 +294,7 @@ function render(data) {
       .attr("ry", 5)
       .attr("fill", function(data) { return fillColors[countryName][data.house] || "maroon"})
       .attr("fill-opacity", 0.75)
-      .attr("class", "block")
+      .attr("class", function(data, i) { return ['block', 'block-' + i, countryName].join(' '); })
       .on("mouseover", handleMouseOver)
       .on("mouseout", handleMouseOut)
       .on("click", showDetail)
@@ -408,6 +408,8 @@ function render(data) {
   function showDetail(data, i) {
     if (detailsOpen) return false
     //if (!data.endReason) return false // For now, don't show details for monarchs without much data
+    
+    var currentBlock = d3.select(this);
 
     timeline.selectAll('.block').classed('inactive', true);
     timeline.selectAll('.legend').classed('inactive', true);
@@ -420,10 +422,58 @@ function render(data) {
       .attr("x", detailsX)
       .attr("y", detailsY)
       .attr("fill-opacity", 1)
-      .duration(300).on("end", function() { renderDetails(data); });
+      .duration(300).on("end", function() {
+        renderDetails(data);
+        createNavigation.bind(currentBlock)();
+      });
     handleMouseOut.bind(this)();
     detailsOpen = true;
-  }
+  };
+
+  function createNavigation() {
+    var currentBlockClass = this.attr("class"),
+      currentBlockNumber = parseInt(currentBlockClass.match(/block-(\d+)/)[1]),
+      nextBlockSelector = '.' + currentBlockClass.replace(currentBlockNumber, currentBlockNumber + 1).replace(/ /g, "."),
+      nextBlock = timeline.select(nextBlockSelector),
+      previousBlockSelector = '.' + currentBlockClass.replace(currentBlockNumber, currentBlockNumber - 1).replace(/ /g, "."),
+      previousBlock = timeline.select(previousBlockSelector);
+
+    // Next
+    timeline.append("rect") // UX TODO: Hide arrows if nextBlock.empty?
+      .attr("x", detailsMiddle + detailsWidth / 2 + 10)
+      .attr("y", height / 2 - 10)
+      .attr("width", detailsWidthInterval)
+      .attr("height", 10 * 2)
+      .attr("fill", "black")
+      .attr("class", "detail")
+      .on("click", function() {
+        if (nextBlock.empty()) {
+          hideDetail();
+        } else {
+          timeline.selectAll('.detail').remove();
+          renderDetails(nextBlock.data()[0]);
+          createNavigation.bind(nextBlock)();
+        }
+      })
+
+    // Previous
+    timeline.append("rect")
+      .attr("x", detailsMiddle - detailsWidth / 2 - detailsWidthInterval - 10)
+      .attr("y", height / 2 - 10)
+      .attr("width", detailsWidthInterval)
+      .attr("height", 10 * 2)
+      .attr("fill", "black")
+      .attr("class", "detail")
+      .on("click", function() {
+        if (previousBlock.empty()) {
+          hideDetail();
+        } else {
+          timeline.selectAll('.detail').remove();
+          renderDetails(previousBlock.data()[0]);
+          createNavigation.bind(previousBlock)();
+        }
+      })
+  };
 
   function hideDetail(data, i) {
     timeline.selectAll('.block').classed('inactive', false);
@@ -470,20 +520,13 @@ function render(data) {
       .attr("xlink:href", data.houseImage)
       .attr("class", "detail")
 
-
-    var nameAndHouseFontSize = _.min(
-      _.map([data.name, data.house], function(text) {
-        return getFontSizeFromContainer(text, detailsImageWidth, detailsLineHeight);
-      })
-    )
-
     // Name
     timeline.append("text")
       .attr("x", detailsMiddle)
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", nameAndHouseFontSize)
+      .attr("font-size", getFontSizeFromContainer(data.name, detailsImageWidth, detailsLineHeight))
       .attr("font-weight", "bolder")
       .attr("class", "detail")
       .text(data.name);
