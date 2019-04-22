@@ -279,6 +279,13 @@
       "description": "",
       "type": "diplomacy",
       "hidden": ""
+    },
+    "1050": {
+      "date": 1050,
+      "event": "Gregorian Reforms",
+      "description": "",
+      "type": "religion",
+      "hidden": ""
     }
   },
   "England": {
@@ -294,7 +301,7 @@
       "events": [
         "Fought for claim to be Duke of Normandy",
         "Defeated Harold Godwinson at Battle of Hastings",
-        "Built the Tower of London"
+        "Built the Tower of London and other castles"
       ],
       "wars": [
         "Normal conquest, England, 1066",
@@ -303,8 +310,7 @@
       ],
       "relationships": [
         "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
-        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg",
-        ""
+        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg"
       ]
     },
     "William II": {
@@ -314,11 +320,20 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
       "start": 1087,
       "end": 1100,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Hunting accident, 44",
+      "religion": "Catholic",
+      "events": [
+        "Exiled Archbishop of Canterbury Anselm",
+        "Defeated and killed Malcolm III of Scotland"
+      ],
+      "wars": [
+        "Rebellion of 1088, England, 1088-1091",
+        "Scotland, 1091-1903",
+        "France, 1097-1099"
+      ],
+      "relationships": [
+        "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
+      ]
     },
     "Henry I": {
       "name": "Henry I",
@@ -327,11 +342,21 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
       "start": 1100,
       "end": 1135,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Illness, 66",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned his brother Robert",
+        "Resumed Duke of Normandy afterwards",
+        "Heir William drowned, prompting succession crisis"
+      ],
+      "wars": [
+        "Normandy, 1106",
+        "France, 1116-1119"
+      ],
+      "relationships": [
+        "Scotland, Matilda, Wife, img/scotland/matilda.JPG",
+        "Anjou, Matilda, Daughter, img/france/mathilda.png"
+      ]
     },
     "Stephen": {
       "name": "Stephen",
@@ -341,7 +366,7 @@
       "start": 1135,
       "end": 1154,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -354,7 +379,7 @@
       "start": 1154,
       "end": 1189,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -367,7 +392,7 @@
       "start": 1189,
       "end": 1199,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -380,7 +405,7 @@
       "start": 1199,
       "end": 1216,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -393,7 +418,7 @@
       "start": 1216,
       "end": 1272,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -406,7 +431,7 @@
       "start": 1272,
       "end": 1307,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -419,7 +444,7 @@
       "start": 1307,
       "end": 1327,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -432,7 +457,7 @@
       "start": 1327,
       "end": 1377,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -445,7 +470,7 @@
       "start": 1377,
       "end": 1399,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -458,7 +483,7 @@
       "start": 1399,
       "end": 1413,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -471,7 +496,7 @@
       "start": 1413,
       "end": 1422,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -484,7 +509,7 @@
       "start": 1422,
       "end": 1461,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -497,7 +522,7 @@
       "start": 1461,
       "end": 1470,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -510,7 +535,7 @@
       "start": 1470,
       "end": 1471,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -523,7 +548,7 @@
       "start": 1471,
       "end": 1483,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -536,7 +561,7 @@
       "start": 1483,
       "end": 1483,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -549,7 +574,7 @@
       "start": 1483,
       "end": 1485,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
@@ -562,7 +587,7 @@
       "start": 1485,
       "end": 1509,
       "endReason": "",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
