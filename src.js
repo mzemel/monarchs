@@ -438,13 +438,46 @@ function render(data) {
       previousBlockSelector = '.' + currentBlockClass.replace(currentBlockNumber, currentBlockNumber - 1).replace(/ /g, "."),
       previousBlock = timeline.select(previousBlockSelector);
 
+    var arrowWidth = detailsWidth / 4,
+      prevArrowCoord = {
+        one: {
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval - arrowWidth,
+          y: height / 2
+        },
+        two: {
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval,
+          y: height / 2 - arrowWidth / 2
+        },
+        three: {
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval,
+          y: height / 2 + arrowWidth / 2
+        }
+      },
+      prevArrowPoints = [prevArrowCoord.one.x + ',' + prevArrowCoord.one.y, prevArrowCoord.two.x + ',' + prevArrowCoord.two.y, prevArrowCoord.three.x + ',' + prevArrowCoord.three.y].join(" "),
+      nextArrowCoord = {
+        one: {
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval + arrowWidth,
+          y: height / 2
+        },
+        two: {
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval,
+          y: height / 2 - arrowWidth / 2
+        },
+        three: {
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval,
+          y: height / 2 + arrowWidth / 2
+        }
+      },
+      nextArrowPoints = [nextArrowCoord.one.x + ',' + nextArrowCoord.one.y, nextArrowCoord.two.x + ',' + nextArrowCoord.two.y, nextArrowCoord.three.x + ',' + nextArrowCoord.three.y].join(" ");
+
     // Next
-    timeline.append("rect") // UX TODO: Hide arrows if nextBlock.empty?
-      .attr("x", detailsMiddle + detailsWidth / 2 + 10)
-      .attr("y", height / 2 - 10)
-      .attr("width", detailsWidthInterval)
-      .attr("height", 10 * 2)
-      .attr("fill", "black")
+    timeline.append("path") // UX TODO: Hide arrows if nextBlock.empty?
+      .attr("d", "M " + nextArrowPoints + " Z")
+      .attr("width", detailsWidth / 4)
+      .attr("height", detailsWidth / 4)
+      .attr("fill", detailsColor)
+      .attr("stroke", strokeColor)
+      .attr("stroke-width", strokeWidthSmall)
       .attr("class", "detail")
       .on("click", function() {
         if (nextBlock.empty()) {
@@ -456,13 +489,13 @@ function render(data) {
         }
       })
 
-    // Previous
-    timeline.append("rect")
-      .attr("x", detailsMiddle - detailsWidth / 2 - detailsWidthInterval - 10)
-      .attr("y", height / 2 - 10)
-      .attr("width", detailsWidthInterval)
-      .attr("height", 10 * 2)
-      .attr("fill", "black")
+    timeline.append("path")
+      .attr("d", "M " + prevArrowPoints + " Z")
+      .attr("width", detailsWidth / 4)
+      .attr("height", detailsWidth / 4)
+      .attr("fill", detailsColor)
+      .attr("stroke", strokeColor)
+      .attr("stroke-width", strokeWidthSmall)
       .attr("class", "detail")
       .on("click", function() {
         if (previousBlock.empty()) {

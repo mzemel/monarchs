@@ -457,11 +457,22 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1216,
       "end": 1272,
-      "endReason": "",
+      "endReason": "Illness, 65",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Great Charter of 1225 protects the rights of barons",
+        "Statute of Jewry segregated England's Jews",
+        "Provisions of Oxford created government of barons"
+      ],
+      "wars": [
+        "Second Barons' War, England, 1264-1267",
+        "France, 1230"
+      ],
+      "relationships": [
+        "Aquitaine, Isabella, Mother, img/france/isabella.jpg",
+        "Scotland, Margaret, Daughter, img/scotland/margaret_plantagenet.jpg",
+        "Provence, Eleanor, Wife, img/france/eleanor_provence.jpg"
+      ]
     },
     "Edward I": {
       "name": "Edward I",
@@ -470,24 +481,43 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1272,
       "end": 1307,
-      "endReason": "",
+      "endReason": "Dysentary, 68",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Expelled all Jews from England",
+        "Lost and regained Duchy of Aquitaine",
+        "Established Parliament as a permnanet institution"
+      ],
+      "wars": [
+        "Conquest of Wales, Wales, 1277-1283",
+        "Anglo-French War, France, 1294-1303"
+      ],
+      "relationships": [
+        "Castille, Eleanor, Wife, img/spain/eleanor_castille.jpg",
+        "France, Margaret, Wife, img/france/margaret.jpg"
+      ]
     },
     "Edward II": {
       "name": "Edward II",
-      "image": "img/england/edward_ii.png",
+      "image": "img/england/edward_ii.jpg",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1307,
       "end": 1327,
-      "endReason": "",
+      "endReason": "Unclear, 43",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Ordinances of 1311 restricted the power of the king",
+        "Forced to retreat into Wales; captured and deposed"
+      ],
+      "wars": [
+        "Despenser War, England, 1321-1322",
+        "War of Saint-Sardos, France, 1324"
+      ],
+      "relationships": [
+        "France, Isabella, Wife, img/france/isabella_plantagenet.jpg",
+        "Scotland, Joan, Daughter, img/scotland/joan_of_the_tower.jpg"
+      ]
     },
     "Edward III": {
       "name": "Edward III",
@@ -496,24 +526,42 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1327,
       "end": 1377,
-      "endReason": "",
+      "endReason": "Stroke, 64",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Black Death, 1347-1351",
+        "Parliament develops impeachment and office of Speaker",
+        "Claim to French throne sparks Hundred Years' War"
+      ],
+      "wars": [
+        "Hundred Years' War, France, 1337-1453",
+        "Second War of Scottish Independence, Scotland, 1332-1357"
+      ],
+      "relationships": [
+        "Brittany, Mary, Daughter, img/france/mary_plantagenet.jpg"
+      ]
     },
     "Richard II": {
       "name": "Richard II",
-      "image": "img/england/richard_ii.png",
+      "image": "img/england/richard_ii.jpg",
       "house": "Plantagenet",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Royal_Arms_of_England.svg/280px-Royal_Arms_of_England.svg.png",
       "start": 1377,
       "end": 1399,
-      "endReason": "",
+      "endReason": "Starvation, 33",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Lords Appellant briefly took government control in 1387",
+        "Deposed by his cousin, Henry of Bolingbroke"
+      ],
+      "wars": [
+        "Peasant's Revolt, England, 1381",
+        "Hundred Years' War, France, 1337-1453"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Anne, Wife, img/hre/anne_plantagenet.jpg",
+        "France, Isabella, Wife, img/france/isabella_valois.jpg"
+      ]
     },
     "Henry IV": {
       "name": "Henry IV",
@@ -522,37 +570,63 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1399,
       "end": 1413,
-      "endReason": "",
+      "endReason": "Disease, 45",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Foiled early assassination plot, Epiphany Rising",
+        "Son of Earl of Lancaster, richest landowner in England"
+      ],
+      "wars": [
+        "Welsh rebellion, Wales, 1400",
+        "Hundred Years' War, France, 1337-1453"
+      ],
+      "relationships": [
+        "Denmark, Philippa, Daughter, img/denmark/philippa.jpg",
+        "Portugal, Philippa, Sister, img/portugal/philippa.png",
+        "Scotland, James I, Prisoner, img/scotland/james_i.jpg"
+      ]
     },
     "Henry V": {
       "name": "Henry V",
-      "image": "img/england/henry_v.png",
+      "image": "img/england/henry_v.jpg",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1413,
       "end": 1422,
-      "endReason": "",
+      "endReason": "Dysentary, 35",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Reconquered Normandy since being lost by Edward III",
+        "Treaty of Troyes made him heir apparent to French throne"
+      ],
+      "wars": [
+        "Hundred Years' War, France, 1337-1453"
+      ],
+      "relationships": [
+        "France, Catherine of Valois, Wife, img/france/catherine_valois.jpg"
+      ]
     },
     "Henry VI": {
       "name": "Henry VI",
-      "image": "img/england/henry_vi.png",
+      "image": "img/england/henry_vi.jpg",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1422,
       "end": 1461,
-      "endReason": "",
+      "endReason": "Unclear, 49",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Disputed King of France from 1422-1453",
+        "Lost all French territories except Calais",
+        "Lost throne to House of York at Battle of Towton"
+      ],
+      "wars": [
+        "Hundred Years' War, France, 1337-1453",
+        "Wars of the Roses, England, 1455-1487"
+      ],
+      "relationships": [
+        "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
+      ]
     },
     "Edward IV": {
       "name": "Edward IV",
@@ -561,24 +635,36 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1461,
       "end": 1470,
-      "endReason": "",
+      "endReason": "Illness, 40",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "First Yorkist king of England",
+        "Fled England after the confrontation at Ludford Bridge",
+        "Fled England after Nevilles switched to Lancaster support"
+      ],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487"
+      ],
+      "relationships": [
+        "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
+      ]
     },
     "Henry VI (2nd)": {
       "name": "Henry VI (2nd)",
-      "image": "img/england/henry_vi.png",
+      "image": "img/england/henry_vi.jpg",
       "house": "Lancaster",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg/280px-Arms_of_Edmund_Crouchback%2C_Earl_of_Leicester_and_Lancaster.svg.png",
       "start": 1470,
       "end": 1471,
-      "endReason": "",
+      "endReason": "Unclear, 49",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Restored to the throne from the Tower of London for a year"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
+      ]
     },
     "Edward IV (2nd)": {
       "name": "Edward IV (2nd)",
@@ -587,11 +673,17 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1471,
       "end": 1483,
-      "endReason": "",
+      "endReason": "Illness, 40",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Killed the Lancaster heir at Battle of Tewksbury"
+      ],
+      "wars": [
+        "France, 1475"
+      ],
+      "relationships": [
+        "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
+      ]
     },
     "Edward V": {
       "name": "Edward V",
@@ -600,37 +692,50 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1483,
       "end": 1483,
-      "endReason": "",
+      "endReason": "Disappeared, 12",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Heir to House of York; likely killed by uncle Richard III"
+      ],
       "wars": [],
       "relationships": []
     },
     "Richard III": {
       "name": "Richard III",
-      "image": "img/england/richard_iii.png",
+      "image": "img/england/richard_iii.jpg",
       "house": "York",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1483,
       "end": 1485,
-      "endReason": "",
+      "endReason": "Injury, 32",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
+      "events": [
+        "Defeated by Henry Tudor at Battle of Bosworth Field"
+      ],
+      "wars": [
+        "Buckingham's Rebellion, England, 1483"
+      ],
       "relationships": []
     },
     "Henry VII": {
       "name": "Henry VII",
-      "image": "img/england/henry_vii.png",
+      "image": "img/england/henry_vii.jpg",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1485,
       "end": 1509,
-      "endReason": "",
+      "endReason": "Tuberculosis, 52",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Built up England's navy",
+        "Appointed Justices of the Peace to every shire",
+        "Arranged for Henry VIII to marry his brother's widow"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Spain, Catherine of Aragon, Daughter-in-law, img/spain/catherine_of_aragon.jpg",
+        "Scotland, Margaret, Daughter, img/scotland/margaret_tudor.jpg"
+      ]
     },
     "Henry VIII": {
       "name": "Henry VIII",
@@ -669,7 +774,7 @@
       ],
       "wars": [],
       "relationships": [
-        "Scotland, Mary, Betrothed"
+        "Scotland, Mary, Betrothed, img/scotland/mary.jpg"
       ]
     },
     "Jane Grey": {
@@ -702,9 +807,9 @@
         "France (1557-1558)"
       ],
       "relationships": [
-        "Holy Roman Empire, Charles V, Engaged",
-        "Spain, Philip, Husband",
-        "Spain, Catherine of Aragon, Mother"
+        "Holy Roman Empire, Charles V, Engaged, img/hre/charles_v.jpg",
+        "Spain, Philip, Husband, img/spain/philip_ii.jpg",
+        "Spain, Catherine of Aragon, Mother, img/spain/catherine_of_aragon.jpg"
       ]
     },
     "Elizabeth I": {
@@ -743,8 +848,8 @@
       ],
       "wars": [],
       "relationships": [
-        "Holy Roman Empire, Frederick V, Son-in-law",
-        "Spain, Infanta Maria Anna, Attempted match"
+        "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
+        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg"
       ]
     },
     "Charles I": {
@@ -764,7 +869,7 @@
         "Scotland (1639-1640)"
       ],
       "relationships": [
-        "France, Henriette Maria, Wife"
+        "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
       ]
     },
     "Charles II": {
@@ -787,8 +892,8 @@
         "Dutch Republic (1672-1674)"
       ],
       "relationships": [
-        "Portugal, Catherine of Braganza, Wife",
-        "Dutch Republic, William of Orange, Nephew"
+        "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
+        "Dutch Republic, William of Orange, Nephew, img/england/william_iii_and_ii.png"
       ]
     },
     "James II & VII": {
@@ -805,7 +910,7 @@
       ],
       "wars": [],
       "relationships": [
-        "Italy, Mary of Modena, Wife"
+        "Italy, Mary of Modena, Wife, img/italy/mary_modena.jpg"
       ]
     },
     "William III & II": {
@@ -827,7 +932,7 @@
         "France (1688-1697)"
       ],
       "relationships": [
-        "Dutch Republic, William II, Father"
+        "Dutch Republic, William II, Father, img/dutch/william_ii.jpg"
       ]
     },
     "Anne": {
@@ -847,7 +952,7 @@
         "France (1701-1714)"
       ],
       "relationships": [
-        "Denmark, Prince George, Husband"
+        "Denmark, Prince George, Husband, img/denmark/george.jpg"
       ]
     },
     "George I": {
@@ -867,8 +972,8 @@
         "Spain (1718-1720)"
       ],
       "relationships": [
-        "Holy Roman Empire, Ernest Augustus, Father",
-        "Holy Roman Empire, Sophia Dorothea, Wife"
+        "Holy Roman Empire, Ernest Augustus, Father, img/hre/ernest_augustus.jpg",
+        "Prussia, Sophia Dorothea, Wife, img/hre/sophia_dorothea.jpg"
       ]
     },
     "George II": {
@@ -887,8 +992,8 @@
         "France (1756-1763)"
       ],
       "relationships": [
-        "Prussia, Frederick the Great, Nephew",
-        "Holy Roman Empire, Caroline of Ansbach, Wife"
+        "Prussia, Frederick the Great, Nephew, img/hre/frederick_ii.jpg",
+        "Holy Roman Empire, Caroline of Ansbach, Wife, img/hre/caroline_ansbach.jpg"
       ]
     },
     "George III": {
@@ -909,7 +1014,7 @@
         "France (1793-1815)"
       ],
       "relationships": [
-        "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife"
+        "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife, img/hre/charlotte_mecklenburg.jpg"
       ]
     },
     "George IV": {
@@ -926,7 +1031,7 @@
       ],
       "wars": [],
       "relationships": [
-        "Holy Roman Empire, Caroline of Brunswick, Wife"
+        "Holy Roman Empire, Caroline of Brunswick, Wife, img/hre/caroline_brunswick.jpg"
       ]
     },
     "William IV": {
@@ -945,8 +1050,8 @@
       ],
       "wars": [],
       "relationships": [
-        "Holy Roman Empire, Adelaide of Saxe-Meinigen, Wife",
-        "Belgians, Leopold I, Nephew-in-law"
+        "Holy Roman Empire, Adelaide of Saxe-Meinigen, Wife, img/hre/adelaide.jpg",
+        "Belgians, Leopold I, Nephew-in-law, img/belgians/leopold_i.jpg"
       ]
     },
     "Victoria": {
@@ -968,8 +1073,8 @@
         "Boer States (1899-1902)"
       ],
       "relationships": [
-        "German Confederation, Prince Albert, Husband",
-        "German Empire, Frederick William, Son-in-law"
+        "German Confederation, Prince Albert, Husband, img/hre/prince_albert.jpg",
+        "German Empire, Frederick William, Son-in-law, img/hre/frederick_william.jpg"
       ]
     },
     "Edward VII": {
@@ -986,11 +1091,11 @@
       ],
       "wars": [],
       "relationships": [
-        "German Empire, Wilhelm II, Nephew",
-        "Denmark, Alexandra, Wife",
-        "Russia, Nicholas II, Nephew-in-law",
-        "Spain, Victoria Eugenia, Neice",
-        "Sweden, Margaret, Neice"
+        "German Empire, Wilhelm II, Nephew, img/hre/wilhelm_ii.jpg",
+        "Denmark, Alexandra, Wife, img/denmark/alexandra.jpg",
+        "Russia, Nicholas II, Nephew-in-law, img/russia/nicholas_ii.jpg",
+        "Spain, Victoria Eugenia, Niece, img/spain/victoria_eugenia.jpg",
+        "Sweden, Margaret, Niece, img/sweden/margaret.png"
       ]
     },
     "George V": {
@@ -1010,8 +1115,8 @@
         "Germany (1914-1918)"
       ],
       "relationships": [
-        "German Empire, Wilhelm II, Cousin",
-        "Russia, Nicholas II, Cousin"
+        "German Empire, Wilhelm II, Cousin, img/hre/wilhelm_ii.jpg",
+        "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg"
       ]
     },
     "Edward VIII": {
