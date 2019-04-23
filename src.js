@@ -559,7 +559,7 @@ function render(data) {
       .attr("y", detailsNameY + detailsLineHeight)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
-      .attr("font-size", getFontSizeFromContainer(data.name, detailsImageWidth, detailsLineHeight))
+      .attr("font-size", getFontSizeFromContainer(data.name, detailsWidth, detailsLineHeight))
       .attr("font-weight", "bolder")
       .attr("class", "detail")
       .text(data.name);
