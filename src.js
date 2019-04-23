@@ -441,7 +441,7 @@ function render(data) {
     var arrowWidth = detailsWidth / 4,
       prevArrowCoord = {
         one: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval - arrowWidth,
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval - arrowWidth / 2,
           y: height / 2
         },
         two: {
@@ -456,7 +456,7 @@ function render(data) {
       prevArrowPoints = [prevArrowCoord.one.x + ',' + prevArrowCoord.one.y, prevArrowCoord.two.x + ',' + prevArrowCoord.two.y, prevArrowCoord.three.x + ',' + prevArrowCoord.three.y].join(" "),
       nextArrowCoord = {
         one: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval + arrowWidth,
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval + arrowWidth / 2,
           y: height / 2
         },
         two: {
