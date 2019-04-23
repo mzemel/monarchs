@@ -7,81 +7,82 @@ var detailsColor = "#E2D4AC",
   thumbnailNameBackgroundColor = "#4E4E4E",
   strokeColor = "#000000",
   dateLineColor = "#858585",
+  gray = "#CECECE",
+  houseColors = {
+    "England": {
+      "Tudor": "#C1EEFD",
+      "Grey": "#0BC0E8",
+      "Stuart": "#4DCB93",
+      "Orange-Nassau": "#0BC0E8",
+      "Hanover": "#0B8AE8",
+      "Saxe-Coburg and Gotha": "#0074E9",
+      "Windsor": "#0162C3",
+      "York": "#97AECB",
+      "Lancaster": "#BAD1EF",
+      "Plantagenet": "#94CAC9",
+      "Plantagenet/Angevin": "#6E9796",
+      "Blois": gray,
+      "Normandy": "#506D6D"
+    },
+    "Scotland": {
+      "Stuart": "#4DCB93",
+      "Balliol": gray,
+      "Bruce": "#2AB075"
+    },
+    "France": {
+      "Capet": "#6F5176",
+      "Valois": "#E7A2F7",
+      "Bourbon": "#CD06FC",
+      "Valois-Angouleme": "#F6D8FD",
+      "Valois-Orleans": "#F0BDFC",
+      "Bonaparte": "#7E039C",
+      "Orleans": "#F0BDFC"
+    },
+    "Holy Roman Empire": {
+      "Habsburg": "#FFA600",
+      "Wittelsbach": "#D4C860",
+      "Habsburg-Lorraine": "#FF7C00",
+      "Lorraine": "#FF4D00",
+      "Carolingian": "#785701",
+      "Widonid": gray,
+      "Bosonid": gray,
+      "Unruoching": gray,
+      "Ottonian": "#A77901",
+      "Salian": "#CB9302",
+      "Supplinburg": gray,
+      "Staufen": "#D4B360",
+      "Welf": gray,
+      "Luxembourg": "#B7B698",
+      "Hohenzollern": "#1B1B0C"
+    },
+    "Spain": {
+      "Habsburg": "#FFA600",
+      "Bourbon": "#CD06FC",
+      "Bonaparte": "#7E039C",
+      "Franco": gray,
+      "Savoy": "#E0E221"
+    },
+    "Italy": {
+      "Savoy": "#E0E221"
+    },
+    "Russia": {
+      "Rurik": "#450006",
+      "Godunov": gray,
+      "Shuyskiy": gray,
+      "Vasa": gray,
+      "Romanov": "#C80012",
+      "Holstein-Gottorp-Romanov": "#E40115"
+    }
+  },
   dateColors = {
-    "science": "#4DCB93",
-    "culture": "#E7A2F7",
-    "military": "#E67777",
-    "catastrophe": "#CECECE",
-    "philosophy": "#FFA600",
-    "diplomacy": "#0B8AE8"
+    "science": houseColors["Scotland"]["Stuart"],
+    "culture": houseColors["France"]["Bourbon"],
+    "military": houseColors["Russia"]["Holstein-Gottorp-Romanov"],
+    "catastrophe": gray,
+    "philosophy": houseColors["Holy Roman Empire"]["Habsburg"],
+    "diplomacy": houseColors["England"]["Hanover"],
+    "religion": houseColors["Italy"]["Savoy"]
   };
-
-var fillColors = {
-  "England": {
-    "Tudor": "#171A94",
-    "Grey": "#0BC0E8",
-    "Stuart": "#4DCB93",
-    "Orange-Nassau": "#0BC0E8",
-    "Hanover": "#0B8AE8",
-    "Saxe-Coburg and Gotha": "#0074E9",
-    "Windsor": "#0162C3",
-    "York": "#79D8F9",
-    "Lancaster": "#A2F4F2",
-    "Plantagenet": "#94CAC9",
-    "Plantagenet/Angevin": "#6E9796",
-    "Blois": "#CECECE",
-    "Normandy": "#506D6D"
-  },
-  "Scotland": {
-    "Stuart": "#4DCB93",
-    "Balliol": "#CECECE",
-    "Bruce": "#2AB075"
-  },
-  "France": {
-    "Capet": "#6F5176",
-    "Valois": "#E7A2F7",
-    "Bourbon": "#CD06FC",
-    "Valois-Angouleme": "#F6D8FD",
-    "Valois-Orleans": "#F0BDFC",
-    "Bonaparte": "#4C025D",
-    "Orleans": "#F0BDFC"
-  },
-  "Holy Roman Empire": {
-    "Habsburg": "#FFA600",
-    "Wittelsbach": "#F1C716",
-    "Habsburg-Lorraine": "#FF7C00",
-    "Lorraine": "#FF4D00",
-    "Carolingian": "#CA9100",
-    "Widonid": "#CECECE",
-    "Bosonid": "#CECECE",
-    "Unruoching": "#CECECE",
-    "Ottonian": "#D6C08E",
-    "Salian": "#D9CDB4",
-    "Supplinburg": "#CECECE",
-    "Staufen": "#855C06",
-    "Welf": "#CECECE",
-    "Luxembourg": "#B7B698",
-    "Hohenzollern": "#1B1B0C"
-  },
-  "Spain": {
-    "Habsburg": "#FFA600",
-    "Bourbon": "#CD06FC",
-    "Bonaparte": "#4C025D",
-    "Franco": "#CECECE",
-    "Savoy": "#C3CC00"
-  },
-  "Italy": {
-    "Savoy": "#C3CC00"
-  },
-  "Russia": {
-    "Rurik": "#E67777",
-    "Godunov": "#CECECE",
-    "Shuyskiy": "#CECECE",
-    "Vasa": "#CECECE",
-    "Romanov": "#5D0C12",
-    "Holstein-Gottorp-Romanov": "#450006"
-  }
-};
 
 // Fonts
 var fontFamily = "Lato, sans-serif",
@@ -292,7 +293,7 @@ function render(data) {
       .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
       .attr("rx", 5)
       .attr("ry", 5)
-      .attr("fill", function(data) { return fillColors[countryName][data.house] || "maroon"})
+      .attr("fill", function(data) { return houseColors[countryName][data.house] || "maroon"})
       .attr("fill-opacity", 0.75)
       .attr("class", function(data, i) { return ['block', 'block-' + i, countryName].join(' '); })
       .on("mouseover", handleMouseOver)

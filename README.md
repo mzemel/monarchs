@@ -22,10 +22,13 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
   - Radio button to select active country; inactive countries have more opacity / less detail
   - Can toggle different types of dates (e.g. science, military) w/ colored circles
   - Nation-state borders by year
+  - Better colors
+  - Replace country names with flags?
 - Details
   - Hyperlinks to events, wars, etc.
   - Replace contemporary paintings with revisionist ones
   - Can click anywhere to dismiss
+  - Better spacing vertically
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting
