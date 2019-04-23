@@ -441,30 +441,30 @@ function render(data) {
     var arrowWidth = detailsWidth / 4,
       prevArrowCoord = {
         one: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval - arrowWidth / 2,
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval / 2 - arrowWidth / 2,
           y: height / 2
         },
         two: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval,
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval / 2,
           y: height / 2 - arrowWidth / 2
         },
         three: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval,
+          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval / 2,
           y: height / 2 + arrowWidth / 2
         }
       },
       prevArrowPoints = [prevArrowCoord.one.x + ',' + prevArrowCoord.one.y, prevArrowCoord.two.x + ',' + prevArrowCoord.two.y, prevArrowCoord.three.x + ',' + prevArrowCoord.three.y].join(" "),
       nextArrowCoord = {
         one: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval + arrowWidth / 2,
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval / 2 + arrowWidth / 2,
           y: height / 2
         },
         two: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval,
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval / 2,
           y: height / 2 - arrowWidth / 2
         },
         three: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval,
+          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval / 2,
           y: height / 2 + arrowWidth / 2
         }
       },
