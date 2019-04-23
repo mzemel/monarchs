@@ -289,8 +289,8 @@
     }
   },
   "England": {
-    "William the Conqueror": {
-      "name": "William the Conqueror",
+    "William I": {
+      "name": "William I",
       "image": "img/england/william_the_conquerer.png",
       "house": "Normandy",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arms_of_William_the_Conqueror_%281066-1087%29.svg/220px-Arms_of_William_the_Conqueror_%281066-1087%29.svg.png",
@@ -299,9 +299,9 @@
       "endReason": "Illness, 59",
       "religion": "Catholic",
       "events": [
-        "Fought for claim to be Duke of Normandy",
+        "Led the Norman invasion of England",
         "Defeated Harold Godwinson at Battle of Hastings",
-        "Built the Tower of London and other castles"
+        "Built the Tower of London and many other castles"
       ],
       "wars": [
         "Normal conquest, England, 1066",
@@ -323,7 +323,7 @@
       "endReason": "Hunting accident, 44",
       "religion": "Catholic",
       "events": [
-        "Exiled Archbishop of Canterbury Anselm",
+        "Exiled the Archbishop of Canterbury, Anselm",
         "Defeated and killed Malcolm III of Scotland"
       ],
       "wars": [
@@ -345,9 +345,9 @@
       "endReason": "Illness, 66",
       "religion": "Catholic",
       "events": [
-        "Imprisoned his brother Robert",
-        "Resumed Duke of Normandy afterwards",
-        "Heir William drowned, prompting succession crisis"
+        "Imprisoned his brother Robert, Duke of Normandy",
+        "Brought Normandy back into the English crown",
+        "Son William drowned, prompting succession crisis"
       ],
       "wars": [
         "Normandy, 1106",
@@ -368,8 +368,8 @@
       "endReason": "Illness, 57",
       "religion": "Catholic",
       "events": [
-        "Captured at Battle of Lincoln",
-        "Ended civil war by giving up heir to throne"
+        "Captured at Battle of Lincoln by aunt Matilda",
+        "Ended The Anarchy by naming cousin Henry II as heir"
       ],
       "wars": [
         "Scotland, 1136",
@@ -416,7 +416,7 @@
       "events": [
         "Led the 3rd Crusade",
         "Captured by the Duke of Austria",
-        "Possibly murdered King of Jerusalem"
+        "Accused of murdering Conrad, King of Jerusalem"
       ],
       "wars": [
         "Sicily, 1190",
@@ -436,8 +436,7 @@
       "endReason": "Dysentary, 49",
       "religion": "Catholic",
       "events": [
-        "Appointed Lord of Ireland",
-        "Lost Normandy to Philip II",
+        "Lost Normandy to Philip II of France",
         "Signed the Magna Carta"
       ],
       "wars": [
@@ -460,7 +459,7 @@
       "endReason": "Illness, 65",
       "religion": "Catholic",
       "events": [
-        "Great Charter of 1225 protects the rights of barons",
+        "Great Charter of 1225 protected the rights of barons",
         "Statute of Jewry segregated England's Jews",
         "Provisions of Oxford created government of barons"
       ],
@@ -470,7 +469,7 @@
       ],
       "relationships": [
         "Aquitaine, Isabella, Mother, img/france/isabella.jpg",
-        "Scotland, Margaret, Daughter, img/scotland/margaret_plantagenet.jpg",
+        "Scotland, Margaret, Daughter, img/scotland/margaret_plantagenet.JPG",
         "Provence, Eleanor, Wife, img/france/eleanor_provence.jpg"
       ]
     },
@@ -508,6 +507,7 @@
       "religion": "Catholic",
       "events": [
         "Ordinances of 1311 restricted the power of the king",
+        "Defeated by Robert the Bruce at Battle of Bannockburn",
         "Forced to retreat into Wales; captured and deposed"
       ],
       "wars": [
@@ -529,13 +529,13 @@
       "endReason": "Stroke, 64",
       "religion": "Catholic",
       "events": [
-        "Black Death, 1347-1351",
-        "Parliament develops impeachment and office of Speaker",
+        "Black Death, 1347-1351, wiped out 1/3 of England",
+        "Parliament develops the process of impeachment",
         "Claim to French throne sparks Hundred Years' War"
       ],
       "wars": [
         "Hundred Years' War, France, 1337-1453",
-        "Second War of Scottish Independence, Scotland, 1332-1357"
+        "2nd War of Scottish Independence, Scotland, 1332-1357"
       ],
       "relationships": [
         "Brittany, Mary, Daughter, img/france/mary_plantagenet.jpg"
@@ -551,7 +551,7 @@
       "endReason": "Starvation, 33",
       "religion": "Catholic",
       "events": [
-        "Lords Appellant briefly took government control in 1387",
+        "Government taken over by Lords Appellant in 1387",
         "Deposed by his cousin, Henry of Bolingbroke"
       ],
       "wars": [
@@ -560,7 +560,7 @@
       ],
       "relationships": [
         "Holy Roman Empire, Anne, Wife, img/hre/anne_plantagenet.jpg",
-        "France, Isabella, Wife, img/france/isabella_valois.jpg"
+        "France, Isabella, Wife, img/france/isabella_valois.JPG"
       ]
     },
     "Henry IV": {
@@ -573,8 +573,9 @@
       "endReason": "Disease, 45",
       "religion": "Catholic",
       "events": [
+        "Son of Earl of Lancaster, richest landowner in England",
         "Foiled early assassination plot, Epiphany Rising",
-        "Son of Earl of Lancaster, richest landowner in England"
+        "Imprisoned James I of Scotland for entire reign"
       ],
       "wars": [
         "Welsh rebellion, Wales, 1400",
@@ -582,8 +583,7 @@
       ],
       "relationships": [
         "Denmark, Philippa, Daughter, img/denmark/philippa.jpg",
-        "Portugal, Philippa, Sister, img/portugal/philippa.png",
-        "Scotland, James I, Prisoner, img/scotland/james_i.jpg"
+        "Portugal, Philippa, Sister, img/portugal/philippa.png"
       ]
     },
     "Henry V": {
@@ -638,9 +638,9 @@
       "endReason": "Illness, 40",
       "religion": "Catholic",
       "events": [
-        "First Yorkist king of England",
         "Fled England after the confrontation at Ludford Bridge",
-        "Fled England after Nevilles switched to Lancaster support"
+        "Became the first Yorkist king of England",
+        "Fled England after Nevilles switched sides to Lancasters"
       ],
       "wars": [
         "Wars of the Roses, England, 1455-1487"
@@ -659,9 +659,12 @@
       "endReason": "Unclear, 49",
       "religion": "Catholic",
       "events": [
-        "Restored to the throne from the Tower of London for a year"
+        "Restored to the throne from the Tower of London for a year",
+        "Likely killed by Edward IV on his return to power"
       ],
-      "wars": [],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487"
+      ],
       "relationships": [
         "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
       ]
@@ -679,6 +682,7 @@
         "Killed the Lancaster heir at Battle of Tewksbury"
       ],
       "wars": [
+        "Wars of the Roses, England, 1455-1487",
         "France, 1475"
       ],
       "relationships": [
@@ -695,9 +699,12 @@
       "endReason": "Disappeared, 12",
       "religion": "Catholic",
       "events": [
-        "Heir to House of York; likely killed by uncle Richard III"
+        "Heir to House of York",
+        "Likely killed by uncle Richard III"
       ],
-      "wars": [],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487"
+      ],
       "relationships": []
     },
     "Richard III": {
@@ -707,12 +714,14 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg/280px-Arms_of_Richard_of_York%2C_3rd_Duke_of_York.svg.png",
       "start": 1483,
       "end": 1485,
-      "endReason": "Injury, 32",
+      "endReason": "Battle, 32",
       "religion": "Catholic",
       "events": [
-        "Defeated by Henry Tudor at Battle of Bosworth Field"
+        "Defeated by Henry Tudor at Battle of Bosworth Field",
+        "His defeat ended the War of the Roses"
       ],
       "wars": [
+        "Wars of the Roses, England, 1455-1487",
         "Buckingham's Rebellion, England, 1483"
       ],
       "relationships": []
@@ -727,9 +736,9 @@
       "endReason": "Tuberculosis, 52",
       "religion": "Catholic",
       "events": [
-        "Built up England's navy",
+        "Built up England's navy and constructed drydocks",
         "Appointed Justices of the Peace to every shire",
-        "Arranged for Henry VIII to marry his brother's widow"
+        "Betrothed his son to princess of newly united Spain"
       ],
       "wars": [],
       "relationships": [
@@ -747,12 +756,13 @@
       "endReason": "Obesity, 55",
       "religion": "Catholic/Protestant",
       "events": [
-        "English Reformation",
-        "Divine right of kings"
+        "English Reformation separated Church of England from papal authority",
+        "Oversaw unification of England, Wales, and Ireland",
+        "Dissolved monastaries across England"
       ],
       "wars": [
-        "Scotland (1543-1551)",
-        "France (1544-1546)"
+        "Rough Wooing, Scotland (1543-1551)",
+        "Italian Wars, France (1544-1546)"
       ],
       "relationships": [
         "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
@@ -762,7 +772,7 @@
     },
     "Edward VI": {
       "name": "Edward VI",
-      "image": "img/england/edward_vi.png",
+      "image": "img/england/edward_vi.jpg",
       "house": "Tudor",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg/200px-Coat_of_Arms_of_the_Tudor_Princes_of_Wales_%281489-1574%29.svg.png",
       "start": 1547,
@@ -770,9 +780,13 @@
       "endReason": "Tuberculosis, 15",
       "religion": "Protestant",
       "events": [
-        "Book of Common Prayer Published"
+        "Book of Common Prayer Published",
+        "Abolished clerical celibacy and Mass",
+        "Named cousin Jane Grey to prevent return to Catholicism"
       ],
-      "wars": [],
+      "wars": [
+        "Prayer Book Rebellion, England, 1549"
+      ],
       "relationships": [
         "Scotland, Mary, Betrothed, img/scotland/mary.jpg"
       ]
@@ -786,7 +800,10 @@
       "end": 1553,
       "endReason": "Execution, 17",
       "religion": "Protestant",
-      "events": [],
+      "events": [
+        "Ruled for nine days",
+        "Executed by Mary Tudor"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -801,10 +818,10 @@
       "religion": "Catholic",
       "events": [
         "Marian persecution of Protestants",
-        "Queen Mary's Marraige Act"
+        "Queen Mary's Marraige Act kept the throne after husband's death"
       ],
       "wars": [
-        "France (1557-1558)"
+        "Italian Wars, France (1557-1558)"
       ],
       "relationships": [
         "Holy Roman Empire, Charles V, Engaged, img/hre/charles_v.jpg",
@@ -822,14 +839,14 @@
       "endReason": "Old age, 69",
       "religion": "Anglican",
       "events": [
-        "Founded Church of England",
-        "Executed Mary, Queen of Scots",
-        "William Shakespeare"
+        "Elizabethan Religion Settlement evolved into Church of England",
+        "Executed Mary, Queen of Scots, to end Catholic cause",
+        "English drama flourished during the Elizabethan Era"
       ],
       "wars": [
-        "Spain (1585-1604)",
-        "Scotland (1560)",
-        "Ireland (1594-1603)"
+        "Anglo-Spanish War, Spain (1585-1604)",
+        "Rising of the North, Scotland (1569)",
+        "Tudor conquest of Ireland, Ireland (1594-1603)"
       ],
       "relationships": []
     },
@@ -843,8 +860,8 @@
       "endReason": "Dysentary, 58",
       "religion": "Anglican",
       "events": [
-        "King James Bible",
-        "Gunpowder Plot"
+        "Authorized the English King James Bible",
+        "Guy Fawkes attemped the Gunpowder Plot"
       ],
       "wars": [],
       "relationships": [
@@ -863,10 +880,10 @@
       "religion": "Anglican",
       "events": [
         "Catholic leanings precipitate English Civil War",
-        "Oliver Cromwell leading English Commonwealth"
+        "Oliver Cromwell takes over the English Republic"
       ],
       "wars": [
-        "Scotland (1639-1640)"
+        "First Bishops' War, Scotland (1639-1640)"
       ],
       "relationships": [
         "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
@@ -884,12 +901,11 @@
       "events": [
         "Creation of Whig and Tory parties",
         "Dissolved English Parliament",
-        "Clarendon Code",
-        "Captured New Amsterdam (named New York)"
+        "Captured New Amsterdam from the Dutch"
       ],
       "wars": [
-        "Dutch Republic (1665-1667)",
-        "Dutch Republic (1672-1674)"
+        "2nd Anglo-Dutch War, Dutch Republic (1665-1667)",
+        "3rd Anglo-Dutch War, Dutch Republic (1672-1674)"
       ],
       "relationships": [
         "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
@@ -906,7 +922,8 @@
       "endReason": "Deposed, 53",
       "religion": "Catholic",
       "events": [
-        "Glorious Revolution"
+        "Prosecuted the Seven Bishops for seditious libel",
+        "Overthrown by William of Orange in the Glorious Revolution"
       ],
       "wars": [],
       "relationships": [
@@ -928,8 +945,8 @@
         "Royal Charter granted to Bank of England"
       ],
       "wars": [
-        "Ireland (1688-1691)",
-        "France (1688-1697)"
+        "Williamite War, Ireland (1688-1691)",
+        "Nine Years' War, France (1688-1697)"
       ],
       "relationships": [
         "Dutch Republic, William II, Father, img/dutch/william_ii.jpg"
@@ -946,10 +963,10 @@
       "religion": "Protestant",
       "events": [
         "Scotland and England become Great Britain",
-        "Exclusion Act (no catholic monarchs)"
+        "Exclusion Act forbade Catholic monarchs"
       ],
       "wars": [
-        "France (1701-1714)"
+        "War of Spanish Succession, France (1701-1714)"
       ],
       "relationships": [
         "Denmark, Prince George, Husband, img/denmark/george.jpg"
@@ -969,7 +986,7 @@
         "First Prime Minister (Robert Walpole)"
       ],
       "wars": [
-        "Spain (1718-1720)"
+        "War of the Quadruple Alliance, Spain (1718-1720)"
       ],
       "relationships": [
         "Holy Roman Empire, Ernest Augustus, Father, img/hre/ernest_augustus.jpg",
@@ -985,11 +1002,14 @@
       "end": 1760,
       "endReason": "Heart failure, 77",
       "religion": "Protestant",
-      "events": [],
+      "events": [
+        "Last monarch to lead an army in battle",
+        "Last of the Jacobite rebellions"
+      ],
       "wars": [
-        "Spain (1739-1748)",
-        "France (1740-1748)",
-        "France (1756-1763)"
+        "War of Jenkins' Ear, Spain (1739-1748)",
+        "War of the Austrian Succession, France (1740-1748)",
+        "Seven Years' War, France (1756-1763)"
       ],
       "relationships": [
         "Prussia, Frederick the Great, Nephew, img/hre/frederick_ii.jpg",
@@ -1006,12 +1026,12 @@
       "endReason": "Dementia, 81",
       "religion": "Protestant",
       "events": [
-        "American War of Independence",
+        "Lost American colonies during American Revolution",
         "Ireland joins Great Britain as United Kingdom"
       ],
       "wars": [
-        "America (1775-1783)",
-        "France (1793-1815)"
+        "American War of Independence, America (1775-1783)",
+        "Napoleonic Wars, France (1793-1815)"
       ],
       "relationships": [
         "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife, img/hre/charlotte_mecklenburg.jpg"
@@ -1027,7 +1047,7 @@
       "endReason": "Obesity, 67",
       "religion": "Protestant",
       "events": [
-        "Catholic emancipation"
+        "Catholic Emancipation removed restrictions on Catholics"
       ],
       "wars": [],
       "relationships": [
@@ -1044,9 +1064,9 @@
       "endReason": "Old age, 71",
       "religion": "Protestant",
       "events": [
-        "Slavery & child labor abolished",
-        "Reform Act (greater suffrage)",
-        "Poor Law (welfare for destitute)"
+        "Slavery and child labor abolished",
+        "Reform Act 1832 increased size of the electorate",
+        "Poor Law gave welfare to destitute"
       ],
       "wars": [],
       "relationships": [
@@ -1064,13 +1084,13 @@
       "endReason": "Old age, 81",
       "religion": "Protestant",
       "events": [
-        "Reform Act (greater suffrage)",
+        "Reform Act 1867 gave voting rights to working men",
         "Indian Rebellion causes British East India Company to dissolve"
       ],
       "wars": [
-        "Zulu Kingdom (1879)",
-        "Afghanistan (1878-1880)",
-        "Boer States (1899-1902)"
+        "Anglo-Zulu War, Zulu Kingdom (1879)",
+        "2nd Anglo-Afghan War, Afghanistan (1878-1880)",
+        "Boer War, Boer States (1899-1902)"
       ],
       "relationships": [
         "German Confederation, Prince Albert, Husband, img/hre/prince_albert.jpg",
@@ -1087,7 +1107,8 @@
       "endReason": "Heart attack, 68",
       "religion": "Protestant",
       "events": [
-        "Parliament Act (reduces power of House of Lords)"
+        "Parliament Act reduced the power of House of Lords",
+        "Edwardian Era saw the steam turbine and rise of socialism"
       ],
       "wars": [],
       "relationships": [
@@ -1109,10 +1130,11 @@
       "religion": "Protestant",
       "events": [
         "Irish Home Rule",
-        "First Labor Prime Minister"
+        "Renamed house to Windsor among anti-German sentiment",
+        "First Labor parliament"
       ],
       "wars": [
-        "Germany (1914-1918)"
+        "World War I, Germany (1914-1918)"
       ],
       "relationships": [
         "German Empire, Wilhelm II, Cousin, img/hre/wilhelm_ii.jpg",
@@ -1129,7 +1151,7 @@
       "endReason": "Abdication, 42",
       "religion": "Protestant",
       "events": [
-        "Abdicated to avoid constitutional crisis"
+        "Abdicated to marry actress and avoid constitutional crisis"
       ],
       "wars": [],
       "relationships": []
@@ -1144,10 +1166,11 @@
       "endReason": "Heart failure, 56",
       "religion": "Protestant",
       "events": [
-        "Independence of India and Pakistan"
+        "Breakup of British Empire towards Commonwealth of Nations",
+        "India and Pakistan became indepdendent"
       ],
       "wars": [
-        "Germany (1939-1945)"
+        "World War II, Germany (1939-1945)"
       ],
       "relationships": []
     },
