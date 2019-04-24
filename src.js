@@ -74,6 +74,8 @@ var detailsColor = "#E2D4AC",
       "Vasa": gray,
       "Romanov": "#C80012",
       "Holstein-Gottorp-Romanov": "#E40115"
+    },
+    "Denmark": {
     }
   },
   dateColors = {
@@ -139,6 +141,8 @@ function render(data) {
   // Stores dates and remove from data object; render later
   var dates = data["Dates"];
   delete(data["Dates"]);
+  // delete(data["Italy"]); // For now
+  delete(data["Denmark"]); // For now
 
   // Flatten all reigns into a single array to determine start and end
   var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.start; }); })));
@@ -349,6 +353,12 @@ function render(data) {
         "width": thumbnailImageWidth,
         "height": thumbnailImageWidth
       },
+      { // House image
+        "x": $x + $width / 2 + thumbnailImageWidth * 3 / 16,
+        "y": $y - thumbnailImageWidth ,
+        "width": thumbnailImageWidth / 4,
+        "height": thumbnailImageWidth / 4
+      },
       { // Name background
         "x": $x + $width / 2 - thumbnailImageWidth / 2 + detailsWidthInterval / 2,
         "y": $y - thumbnailImageWidth / 5 - detailsLineHeight,
@@ -378,6 +388,12 @@ function render(data) {
       .attr("preserveAspectRatio", "none")
       .attr("class", "thumbnail")
 
+    var thumbnailHouseImage = timeline.append("image")
+      .attr("x", $x + $width / 2)
+      .attr("y", $y + laneHeight / 2)
+      .attr("xlink:href", el.houseImage)
+      .attr("class", "thumbnail")
+
     var thumbnailNameBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
@@ -392,7 +408,7 @@ function render(data) {
       .attr("x", $x + $width / 2)
       .attr("y", $y + laneHeight / 2)
       .attr("font-family", fontFamily)
-      .attr("font-size", getFontSizeFromContainer(el.name, thumbnailDimensions[2]["width"] * 1.5, thumbnailDimensions[2]["height"] * 2 / 3))
+      .attr("font-size", getFontSizeFromContainer(el.name, thumbnailDimensions[3]["width"] * 1.5, thumbnailDimensions[3]["height"] * 2 / 3))
       .attr("text-anchor", "middle")
       .attr("class", "thumbnail hidden")
       .text(el.name)
@@ -548,7 +564,7 @@ function render(data) {
     // House image
     timeline.append("image")
       .attr("x", detailsMiddle + detailsImageWidth * 3 / 16)
-      .attr("y", detailsImageY + detailsImageHeight * 11 / 16)
+      .attr("y", detailsImageY + strokeWidthMedium + detailsImageHeight * 1 / 16)
       .attr("width", detailsImageWidth / 4)
       .attr("height", detailsImageHeight / 4)
       .attr("xlink:href", data.houseImage)
