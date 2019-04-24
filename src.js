@@ -108,6 +108,16 @@ var fontFamily = "Lato, sans-serif",
     "large": 20
   };
 
+// Flags
+var flags = {
+  "England": "img/flags/england.png",
+  "Scotland": "img/flags/scotland.png",
+  "France": "img/flags/france.png",
+  "Spain": "img/flags/spain.png",
+  "Holy Roman Empire": "img/flags/hre.png",
+  "Russia": "img/flags/russia.jpg",
+};
+
 // General config
 var width = window.innerWidth,
   height = window.innerHeight,
@@ -283,13 +293,14 @@ function render(data) {
     countryIndex += 1;
 
     // Add legend
-    timeline.append("text")
-      .attr("x", margin.left / 10)
-      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2 + laneHeight / 2)
-      .attr("font-family", fontFamily)
-      .attr("font-size", legendFontSize)
+    timeline.append("image")
+      .attr("x", margin.left / 8)
+      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
+      .attr("width", margin.left / 2)
+      .attr("height", laneHeight)
+      .attr("xlink:href", flags[countryName])
       .attr("class", "legend")
-      .text(countryName);
+      .append("title").text(countryName)
 
     // Add blocks
     timeline.append("g")
