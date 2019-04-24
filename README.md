@@ -24,6 +24,7 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
   - Nation-state borders by year
   - Better colors
   - Replace country names with flags?
+  - Subtitle
 - Details
   - Hyperlinks to events, wars, etc.
   - Replace contemporary paintings with revisionist ones
@@ -35,3 +36,4 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting
+- Blog post

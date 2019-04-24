@@ -27,7 +27,9 @@ var detailsColor = "#E2D4AC",
     "Scotland": {
       "Stuart": "#4DCB93",
       "Balliol": gray,
-      "Bruce": "#2AB075"
+      "Bruce": "#2AB075",
+      "Sverre": gray,
+      "Dunkeld": "#1F8659"
     },
     "France": {
       "Capet": "#6F5176",
@@ -176,12 +178,11 @@ function render(data) {
     .append("text")
     .attr("x", width - margin.right / 2)
     .attr("y", height - margin.bottom / 4)
-    .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2 - margin.right, margin.bottom / 2) / 4)
-    .attr("font-family", fontFamily)
+    .attr("font-size", getFontSizeFromContainer("Blogge", width / 2 - margin.right, margin.bottom / 2) / 4)
     .attr("fill", "blue")
     .attr("text-anchor", "middle")
-    .attr("class", "title")
-    .text("Blog")
+    .attr("class", "title stonehen-font")
+    .text("Blogge")
 
   // Create X-axis
   var xScale = d3.time.scale()
