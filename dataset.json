@@ -1347,53 +1347,78 @@
     },
     "John": {
       "name": "John",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/John_Balliol.jpg",
+      "image": "img/scotland/john.jpg",
       "house": "Balliol",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Balliol_arms.svg/440px-Balliol_arms.svg.png",
       "start": 1292,
       "end": 1296,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Abdicated, 47",
+      "religion": "Catholic",
+      "events": [
+        "Selected among competitors during Great Cause",
+        "Deposed by Scottish nobility and signed treaty with France",
+        "Imprisoned by Edward I in the Tower of London"
+      ],
+      "wars": [
+        "1st War of Scottish Independence, England, 1296-1328"
+      ],
       "relationships": []
     },
     "Robert I": {
       "name": "Robert I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/At_night_when_they_gathered_round_the_watch-fires%2C_the_king_would_read_stories_of_the_old_books.jpg/440px-At_night_when_they_gathered_round_the_watch-fires%2C_the_king_would_read_stories_of_the_old_books.jpg",
+      "image": "img/scotland/robert_i.jpg",
       "house": "Bruce",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Clan_member_crest_badge_-_Clan_Bruce.svg/380px-Clan_member_crest_badge_-_Clan_Bruce.svg.png",
       "start": 1306,
       "end": 1329,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unclear, 55",
+      "religion": "Catholic",
+      "events": [
+        "Claimed throne while under rule of Edward I",
+        "Defeated the English at Battle of Bannockburn",
+        "Peace with England concluded after deposition of Edward II"
+      ],
+      "wars": [
+        "1st War of Scottish Independence, England, 1296-1328"
+      ],
+      "relationships": [
+        "Ireland, Elizabeth de Burgh, Wife, img/ireland/elizabeth_de_burgh.jpg"
+      ]
     },
     "David II": {
       "name": "David II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Filip6_David2_Joan_of_the_Tower.jpg",
+      "image": "img/scotland/david_ii.jpg",
       "house": "Bruce",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Clan_member_crest_badge_-_Clan_Bruce.svg/380px-Clan_member_crest_badge_-_Clan_Bruce.svg.png",
       "start": 1329,
       "end": 1371,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unknown, 46",
+      "religion": "Catholic",
+      "events": [
+        "Sent to France for safety after Battle of Halidon Hill",
+        "Captured by the English and held for 11 years",
+        ""
+      ],
+      "wars": [
+        "2nd War of Scottish Independence, England, 1332-1357"
+      ],
+      "relationships": [
+        "England, Joan of the Tower, Wife, img/england/joan_of_the_tower.jpg"
+      ]
     },
     "Robert II": {
       "name": "Robert II",
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/ca/Robert_II_of_Scotland.png",
+      "image": "img/scotland/robert_ii.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1371,
       "end": 1390,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unknown, 74",
+      "religion": "Catholic",
+      "events": [
+        "Defeated the return of Edward Baliol and the English",
+        "Included Scotland in the Anglo-French truce of 1384"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -1404,9 +1429,13 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1390,
       "end": 1406,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unknown, 68",
+      "religion": "Catholic",
+      "events": [
+        "Ascended throne with power already moved to brother, Robert",
+        "Son made lieutenant; imprisoned and killed in 1402",
+        "Son James escaped from new lieutenant, uncle Albany Stewart"
+      ],
       "wars": [],
       "relationships": []
     },
