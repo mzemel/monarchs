@@ -292,15 +292,24 @@ function render(data) {
   _.forEach(data, function(countryData, countryName) {
     countryIndex += 1;
 
-    // Add legend
+    // Add country name
     timeline.append("image")
-      .attr("x", margin.left / 8)
+      .attr("x", width - margin.right * 3 / 4)
       .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
-      .attr("width", margin.left / 2)
+      .attr("width", margin.right / 2)
       .attr("height", laneHeight)
       .attr("xlink:href", flags[countryName])
       .attr("class", "legend")
       .append("title").text(countryName)
+
+    // Add country flag
+    timeline.append("text")
+      .attr("x", margin.left / 10)
+      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2 + laneHeight / 2)
+      .attr("font-family", fontFamily)
+      .attr("font-size", legendFontSize)
+      .attr("class", "legend stonehen-font")
+      .text(countryName);
 
     // Add blocks
     timeline.append("g")
