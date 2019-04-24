@@ -55,7 +55,6 @@ var detailsColor = "#E2D4AC",
       "Staufen": "#D4B360",
       "Welf": gray,
       "Luxembourg": "#B7B698",
-      "Hohenzollern": "#1B1B0C"
     },
     "Spain": {
       "Habsburg": "#FFA600",
@@ -75,7 +74,12 @@ var detailsColor = "#E2D4AC",
       "Romanov": "#C80012",
       "Holstein-Gottorp-Romanov": "#E40115"
     },
-    "Denmark": {
+    "Denmark": {},
+    "Norway": {},
+    "Austria": {
+    },
+    "Prussia": {
+      "Hohenzollern": "#1B1B0C"
     }
   },
   dateColors = {
@@ -141,8 +145,11 @@ function render(data) {
   // Stores dates and remove from data object; render later
   var dates = data["Dates"];
   delete(data["Dates"]);
-  // delete(data["Italy"]); // For now
-  delete(data["Denmark"]); // For now
+  delete(data["Italy"]);
+  delete(data["Prussia"]);
+  delete(data["Austria"]);
+  delete(data["Denmark"]); // V2: Scandinavia
+  delete(data["Norway"]); // V2: Scandinavia
 
   // Flatten all reigns into a single array to determine start and end
   var firstYear = d3.min(_.flatten(_.map(data, function(countryData, countryName) { return _.map(countryData, function(monarchData, monarchName) { return monarchData.start; }); })));
@@ -355,7 +362,7 @@ function render(data) {
       },
       { // House image
         "x": $x + $width / 2 + thumbnailImageWidth * 3 / 16,
-        "y": $y - thumbnailImageWidth ,
+        "y": $y - thumbnailImageWidth - detailsLineHeight + thumbnailImageWidth * 1 / 16,
         "width": thumbnailImageWidth / 4,
         "height": thumbnailImageWidth / 4
       },
