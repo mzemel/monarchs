@@ -163,12 +163,11 @@ function render(data) {
 
   // Title
   timeline.append("text")
-    .attr("x", margin.left + (width / 2 - margin.left) / 2)
+    .attr("x", width / 2)
     .attr("y", margin.top)
-    .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2 - margin.left, margin.top / 2))
-    .attr("font-family", fontFamily)
+    .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2, margin.top))
     .attr("text-anchor", "middle")
-    .attr("class", "title")
+    .attr("class", "title stonehen-font")
     .text("Monarchs")
 
   // Link

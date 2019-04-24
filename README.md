@@ -29,6 +29,9 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
   - Replace contemporary paintings with revisionist ones
   - Can click anywhere to dismiss
   - Better spacing vertically
+  - Smaller pictures
+  - Full names for relationships (e.g. Mary -> Mary of Guise)
+  - Local house images
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting

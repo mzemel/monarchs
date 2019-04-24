@@ -1243,7 +1243,7 @@
     },
     "Robert III": {
       "name": "Robert III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Robert_III%2C_King_of_Scotland.png",
+      "image": "img/scotland/robert_iii.png",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1390,
@@ -1256,94 +1256,149 @@
     },
     "James I": {
       "name": "James I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/King_James_I_of_Scotland.jpg/440px-King_James_I_of_Scotland.jpg",
+      "image": "img/scotland/james_i.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1406,
       "end": 1437,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Assassinated, 42",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned and raised at the court of Henry IV",
+        "Arrested Lord of the Isles and Douglas clan leaders",
+        "Murdered during failed coup by uncle Walter Stewart"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "France, Louis XI, Son-in-law, img/france/louis_xi.jpg"
+      ]
     },
     "James II": {
       "name": "James II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/James_II_of_Scotland_17th_century.jpg/440px-James_II_of_Scotland_17th_century.jpg",
+      "image": "img/scotland/james_ii.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1437,
       "end": 1460,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Battle, 29",
+      "religion": "Catholic",
+      "events": [
+        "Had Earl of Douglas murdered for consipiring with Lord of the Isles",
+        "Killed by exploding artillery during seige of English castle"
+      ],
+      "wars": [
+        "Black Douglas civil war, Scotland, 1455"
+      ],
+      "relationships": [
+        "Flanders, Mary of Guelders, Wife, img/france/mary_guelders.jpg"
+      ]
     },
     "James III": {
       "name": "James III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/James_III_of_Scotland.jpg/440px-James_III_of_Scotland.jpg",
+      "image": "img/scotland/james_iii.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1460,
       "end": 1488,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Battle, 36",
+      "religion": "Catholic",
+      "events": [
+        "Received Orkney and Shetland Islands as a dowry",
+        "Imprisoned by Edward IV in Edinburgh Castle",
+        "Killed during rebellion at Battle of Sauchieburn"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Denmark, Margaret, Wife, img/denmark/margaret.jpg"
+      ]
     },
     "James IV": {
       "name": "James IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/James_IV_of_Scotland.jpg/440px-James_IV_of_Scotland.jpg",
+      "image": "img/scotland/james_iv.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1488,
       "end": 1513,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Battle, 40",
+      "religion": "Catholic",
+      "events": [
+        "Defeated his father, James III, at Battle of Sauchieburn",
+        "Signed the Treaty of Perpetual Peace with Henry VII",
+        "Took away the Lord of the Isles title from the MacDonalds"
+      ],
+      "wars": [
+        "War of the League of Cambrai, England, 1513"
+      ],
+      "relationships": [
+        "England, Margaret Tudor, Wife, img/england/margaret_tudor.jpg",
+        "Denmark, Christian I, Grandfather, img/denmark/christian_i.jpg"
+      ]
     },
     "James V": {
       "name": "James V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/James_V_of_Scotland2.jpg/440px-James_V_of_Scotland2.jpg",
+      "image": "img/scotland/james_v.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1513,
       "end": 1542,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Illness, 30",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned by stepfather Archibald Douglas for 3 years",
+        "Persecuted Protestants",
+        "Allied with France against the Protestant cause"
+      ],
+      "wars": [
+        "Anglo-Scottish Wars, England, 1542"
+      ],
+      "relationships": [
+        "England, Henry VIII, Uncle, img/england/henry_viii.png",
+        "France, Madeleine, Wife, img/france/madeleine_valois.jpg",
+        "France, Mary of Guise, Wife, img/france/mary_guise.jpg"
+      ]
     },
     "Mary, Queen of Scots": {
       "name": "Mary, Queen of Scots",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg/440px-Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg",
+      "image": "img/scotland/mary.jpg",
       "house": "Stuart",
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1542,
       "end": 1567,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Beheaded, 44",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned in Loch Leven Castle by Protestants and forced to abdicate",
+        "Believed by Catholics to be the legitimate heir to Mary I",
+        "After 18 years in custody, beheaded by Elizabeth I"
+      ],
+      "wars": [
+        "Rough Wooing, England, 1543-1551"
+      ],
+      "relationships": [
+        "France, Francis II, Husband, img/france/francis_ii.jpg",
+        "England, Edward VI, Betrothed, img/england/edward_vi.jpg"
+      ]
     },
     "James VI and I": {
       "name": "James VI and I",
-      "image": "https://www.encyclopediavirginia.org/filestore/3/8/2/4_6e355047fc6e205/3824pre_ae6eedc0c80510b.jpg",
+      "image": "img/england/james_vi_and_i.png",
       "house": "Stuart",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/400px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg/200px-Coat_of_Arms_of_Great_Britain_%281707-1714%29.svg.png",
       "start": 1567,
       "end": 1603,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Dysentary, 58",
+      "religion": "Protestant",
+      "events": [
+        "Mother Mary forced to abdicate by Protestant rebels",
+        "Ingratiated himself to Elizabeth, who was childless",
+        "Colonized the Hebrides in an attempt to de-gaelicise it"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
+        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg",
+        "Denmark, Anne, Wife, img/denmark/anne.jpg"
+      ]
     }
   },
   "France": {
@@ -2235,11 +2290,11 @@
     },
     "Frederick III": {
       "name": "Frederick III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Emperor_Friedrich_III.png/440px-Emperor_Friedrich_III.png",
-      "house": "Hohenzollern",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Wappen_Hohenzollern.svg/350px-Wappen_Hohenzollern.svg.png",
-      "start": 1888,
-      "end": 1888,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hans_Burgkmair_d._%C3%84._005.jpg/200px-Hans_Burgkmair_d._%C3%84._005.jpg",
+      "house": "Habsburg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
+      "start": 1440,
+      "end": 1493,
       "endReason": "",
       "religion": "",
       "events": [],
@@ -2448,32 +2503,6 @@
       "houseImage": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Familienwappen_Habsburg-Stroehl.jpg",
       "start": 1792,
       "end": 1806,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "William I": {
-      "name": "William I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Kaiser_Wilhelm_I._.JPG/440px-Kaiser_Wilhelm_I._.JPG",
-      "house": "Hohenzollern",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Wappen_Hohenzollern.svg/350px-Wappen_Hohenzollern.svg.png",
-      "start": 1871,
-      "end": 1888,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Wilhelm II": {
-      "name": "Wilhelm II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg/440px-Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Wappen_Hohenzollern.svg/350px-Wappen_Hohenzollern.svg.png",
-      "start": 1888,
-      "end": 1918,
       "endReason": "",
       "religion": "",
       "events": [],
