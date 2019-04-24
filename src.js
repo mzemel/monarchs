@@ -424,7 +424,7 @@ function render(data) {
 
   function showDetail(data, i) {
     if (detailsOpen) return false
-    //if (!data.endReason) return false // For now, don't show details for monarchs without much data
+    if (!data.endReason) return false // For now, don't show details for monarchs without much data
     
     var currentBlock = d3.select(this);
 
