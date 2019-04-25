@@ -226,6 +226,17 @@ function render(data) {
     .attr("class", "title stonehen-font")
     .text("Monarchs")
 
+  // Subtitle
+  var subtitleString = "1,000 years of European history";
+  timeline.append("text")
+    .attr("x", width / 2)
+    .attr("y", margin.top + laneHeight)
+    .attr("font-size", getFontSizeFromContainer(subtitleString, width / 2, laneHeight))
+    .attr("text-anchor", "middle")
+    .attr("class", "title stonehen-font")
+    .text(subtitleString)
+
+
   // Link
   timeline.append("a")
     .attr("href", "https://thebackend.dev")
