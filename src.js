@@ -97,14 +97,35 @@ var detailsColor = "#E2D4AC",
       "Hohenzollern": "#1B1B0C"
     }
   },
-  dateColors = {
-    "science": houseColors["Scotland"]["Stuart"],
-    "military": houseColors["Russia"]["Holstein-Gottorp-Romanov"],
-    "diplomacy": houseColors["England"]["Hanover"],
-    "culture": houseColors["France"]["Bourbon"],
-    "philosophy": houseColors["Holy Roman Empire"]["Habsburg"],
-    "religion": houseColors["Italy"]["Savoy"],
-    "catastrophe": gray
+  dateColorsIcons = {
+    "science": {
+      "color": houseColors["Scotland"]["Stuart"],
+      "icon": "icons/atom.svg"
+    },
+    "military": {
+      "color": houseColors["Russia"]["Holstein-Gottorp-Romanov"],
+      "icon": "icons/knife.svg"
+    },
+    "diplomacy": {
+      "color": houseColors["England"]["Hanover"],
+      "icon": "icons/scroll.svg"
+    },
+    "culture": {
+      "color": houseColors["France"]["Bourbon"],
+      "icon": "icons/brush.svg"
+    },
+    "philosophy": {
+      "color": houseColors["Holy Roman Empire"]["Habsburg"],
+      "icon": "icons/open-magazine.svg"
+    },
+    "religion": {
+      "color": houseColors["Italy"]["Savoy"],
+      "icon": "icons/christianity.svg"
+    },
+    "catastrophe": {
+      "color": gray,
+      "icon": "icons/fire.svg"
+    }
   };
 
 // Fonts
@@ -115,9 +136,9 @@ var fontFamily = "Lato, sans-serif",
   strokeWidthTiny = 1,
   cornerRadiusSmall = 5,
   cornerRadiusLarge = 15,
-  circleRadiusSmall = 3,
-  circleRadiusMedium = 8,
-  circleRadiusLarge = 15,
+  circleRadiusLarge = margin.bottom / 10,
+  circleRadiusMedium = circleRadiusLarge / 2,
+  circleRadiusSmall = circleRadiusMedium / 2,
   pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
     "small": 10,
     "medium": 15,
@@ -161,7 +182,7 @@ var thumbnailImageWidth = _.max([width / 8, height / 4]),
 // Date config
 var dateHeight = detailsLineHeight,
   dateWidth = dateHeight * 8,
-  dateControlInterval = (width - margin.left - margin.right) / (_.size(dateColors) + 1);
+  dateControlInterval = (width - margin.left - margin.right) / (_.size(dateColorsIcons) + 1);
 
 function render(data) {
 
@@ -230,22 +251,35 @@ function render(data) {
     .call(xAxis);
 
   // Add date controls
-  timeline.append("g")
-    .selectAll("circle")
-    .data(_.map(dateColors, function(value, key) { return { key: key, value: value }; }))
+  var dateControlContainer = timeline.append("g"),
+    dateControlData = _.map(dateColorsIcons, function(value, key) { return { key: key, color: value.color, icon: value.icon }; });
+
+  // Icons
+  dateControlContainer.selectAll("image")
+    .data(dateControlData)
+    .enter()
+    .append("image")
+    .attr("xlink:href", function(d) { return d.icon })
+    .attr("x", function(d, i) { return margin.left + dateControlInterval / 2 + (i * dateControlInterval) - circleRadiusLarge / 2; })
+    .attr("y", height - margin.bottom / 2 - circleRadiusLarge / 2)
+    .attr("width", circleRadiusLarge)
+    .attr("height", circleRadiusLarge)
+    .attr("class", function(d) { return ['control',  d.key].join(' ') }) 
+
+  dateControlContainer.selectAll("circle")
+    .data(dateControlData)
     .enter()
     .append("circle")
     .attr("cx", function(d, i) { return margin.left + dateControlInterval / 2 + (i * dateControlInterval); })
     .attr("cy", height - margin.bottom / 2)
     .attr("r", circleRadiusLarge)
-    .attr("fill", function (d) { return d.value })
-    .attr("fill-opacity", 0.75)
+    .attr("fill", function (d) { return d.color })
+    .attr("fill-opacity", 0.5)
     .attr("class", function(d) { return ['control',  d.key].join(' ') }) 
     .on("click", focusDates)
     .on("mouseover", function(d) { enlargeCircle.bind(d3.select(this))(this); })
     .on("mouseout", function() { reduceCircle.bind(d3.select(this))(this); })
-    .append("title").text(function(d) { return d.key })
-
+    .append("title").text(function(d) { return d.key; });
 
   // Add dates
   timeline.append("g")
@@ -256,7 +290,7 @@ function render(data) {
     .attr("cx", function(d) { return margin.left + (d.date - firstYear) * pixelsPerYear; })
     .attr("cy", height - margin.bottom - laneHeight / 2)
     .attr("r", circleRadiusSmall)
-    .attr("fill", function(d) { return dateColors[d.type] })
+    .attr("fill", function(d) { return dateColorsIcons[d.type].color })
     .attr("class", function(d) { return ['date', d.type].join(' '); })
     .on("mouseover", renderDate)
     .on("mouseout", function() {
@@ -286,9 +320,9 @@ function render(data) {
       .attr("ry", cornerRadiusSmall)
       .attr("width", dateRectWidth)
       .attr("height", detailsLineHeight)
-      .attr("fill", dateColors[data.type])
+      .attr("fill", dateColorsIcons[data.type].color)
       .attr("fill-opacity", 0.75)
-      .attr("stroke", dateColors[data.type])
+      .attr("stroke", dateColorsIcons[data.type].color)
       .attr("stroke-width", strokeWidthTiny)
       .attr("class", "date ")
 
@@ -305,7 +339,7 @@ function render(data) {
       .attr("x1", circle.attr("cx"))
       .attr("y1", circle.attr("cy") - laneHeight / 4)
       .attr("x2", circle.attr("cx"))
-      .attr("y2", margin.top)
+      .attr("y2", margin.top + laneHeight)
       .attr("stroke", dateLineColor) 
       .attr("stroke-width", strokeWidthTiny)
       .attr("opacity", 0.5)
@@ -844,7 +878,7 @@ function enlargeBlock(el) {
     .attr("smallY", this.attr("smallY") || $y)
     .attr("smallWidth", this.attr("smallWidth") || $width)
     .attr("smallHeight", this.attr("smallHeight") || $height)
-    .attr("fill-opacity", 1.0);
+    .attr("fill-opacity", 0.75);
 }
 
 function reduceBlock(el) {
@@ -859,7 +893,7 @@ function reduceBlock(el) {
     .attr("y", this.attr('smallY'))
     .attr("width", this.attr('smallWidth'))
     .attr("height", this.attr('smallHeight'))
-    .attr("fill-opacity", 0.75)
+    .attr("fill-opacity", 0.5)
 }
 
 function enlargeCircle(el) {
@@ -869,7 +903,7 @@ function enlargeCircle(el) {
   this
     .attr("r", $r * 1.25)
     .attr("smallR", this.attr("smallR") || $r)
-    .attr("fill-opacity", 1.0);
+    .attr("fill-opacity", 0.75);
 }
 
 function reduceCircle(el) {
@@ -878,7 +912,7 @@ function reduceCircle(el) {
 
   this
     .attr("r", this.attr("smallR"))
-    .attr("fill-opacity", 0.75)
+    .attr("fill-opacity", 0.5)
 }
 
 // Given some text and size, how should we draw a container around it?
