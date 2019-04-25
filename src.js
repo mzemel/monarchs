@@ -1,5 +1,11 @@
 $.getJSON("dataset.json", function(data) { render(data) });
 
+// General config
+var width = window.innerWidth,
+  height = window.innerHeight,
+  margin = { top: height / 8, bottom: height / 4, right: width / 12, left: width / 12 };
+
+
 // Colors
 var detailsColor = "#E2D4AC",
   backgroundColor = "#FEF6DF",
@@ -129,11 +135,6 @@ var flags = {
   "Denmark": "img/flags/denmark.png"
 };
 
-// General config
-var width = window.innerWidth,
-  height = window.innerHeight,
-  margin = { top: height / 8, bottom: height / 4, right: width / 12, left: width / 12 };
-
 // Details config
 var detailsHeight = height / 4 * 3,
   detailsWidth = detailsHeight * 2 / 3,
@@ -238,8 +239,11 @@ function render(data) {
     .attr("cy", height - margin.bottom / 2)
     .attr("r", circleRadiusLarge)
     .attr("fill", function (d) { return d.value })
+    .attr("fill-opacity", 0.75)
     .attr("class", function(d) { return ['control',  d.key].join(' ') }) 
     .on("click", focusDates)
+    .on("mouseover", function(d) { enlargeCircle.bind(d3.select(this))(this); })
+    .on("mouseout", function() { reduceCircle.bind(d3.select(this))(this); })
     .append("title").text(function(d) { return d.key })
 
 
@@ -855,6 +859,25 @@ function reduceBlock(el) {
     .attr("y", this.attr('smallY'))
     .attr("width", this.attr('smallWidth'))
     .attr("height", this.attr('smallHeight'))
+    .attr("fill-opacity", 0.75)
+}
+
+function enlargeCircle(el) {
+  var $this = $(el),
+    $r = parseFloat($this.attr('r'));
+
+  this
+    .attr("r", $r * 1.25)
+    .attr("smallR", this.attr("smallR") || $r)
+    .attr("fill-opacity", 1.0);
+}
+
+function reduceCircle(el) {
+  var $this = $(el),
+    $r = parseFloat($this.attr('r'));
+
+  this
+    .attr("r", this.attr("smallR"))
     .attr("fill-opacity", 0.75)
 }
 
