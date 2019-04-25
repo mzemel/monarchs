@@ -10,15 +10,15 @@ var detailsColor = "#E2D4AC",
   gray = "#CECECE",
   houseColors = {
     "England": {
-      "Tudor": "#C1EEFD",
+      "Tudor": "#60ADFF",
       "Grey": "#0BC0E8",
       "Stuart": "#4DCB93",
-      "Orange-Nassau": "#0BC0E8",
-      "Hanover": "#0B8AE8",
-      "Saxe-Coburg and Gotha": "#0074E9",
-      "Windsor": "#0162C3",
-      "York": "#97AECB",
-      "Lancaster": "#BAD1EF",
+      "Orange-Nassau": "#01DF7B",
+      "Hanover": "#5092D8",
+      "Saxe-Coburg and Gotha": "#0766CA",
+      "Windsor": "#0766CA",
+      "York": "#04A9A7",
+      "Lancaster": "#AFF4F3",
       "Plantagenet": "#94CAC9",
       "Plantagenet/Angevin": "#6E9796",
       "Blois": gray,
@@ -74,7 +74,16 @@ var detailsColor = "#E2D4AC",
       "Romanov": "#C80012",
       "Holstein-Gottorp-Romanov": "#E40115"
     },
-    "Denmark": {},
+    "Denmark": {
+      "Glucksburg": "#AFD1F5",
+      "Oldenburg": "#668AB0",
+      "Palantinate-Neumarkt": gray,
+      "Estridsen": "#285C93",
+      "Griffins": gray,
+      "St. Olaf": gray,
+      "Denmark": "#486482",
+      "Gorm": "#6B737A"
+    },
     "Norway": {},
     "Austria": {
     },
@@ -84,12 +93,12 @@ var detailsColor = "#E2D4AC",
   },
   dateColors = {
     "science": houseColors["Scotland"]["Stuart"],
-    "culture": houseColors["France"]["Bourbon"],
     "military": houseColors["Russia"]["Holstein-Gottorp-Romanov"],
-    "catastrophe": gray,
-    "philosophy": houseColors["Holy Roman Empire"]["Habsburg"],
     "diplomacy": houseColors["England"]["Hanover"],
-    "religion": houseColors["Italy"]["Savoy"]
+    "culture": houseColors["France"]["Bourbon"],
+    "philosophy": houseColors["Holy Roman Empire"]["Habsburg"],
+    "religion": houseColors["Italy"]["Savoy"],
+    "catastrophe": gray
   };
 
 // Fonts
@@ -101,7 +110,8 @@ var fontFamily = "Lato, sans-serif",
   cornerRadiusSmall = 5,
   cornerRadiusLarge = 15,
   circleRadiusSmall = 3,
-  circleRadiusLarge = 8,
+  circleRadiusMedium = 8,
+  circleRadiusLarge = 15,
   pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
     "small": 10,
     "medium": 15,
@@ -116,6 +126,7 @@ var flags = {
   "Spain": "img/flags/spain.png",
   "Holy Roman Empire": "img/flags/hre.png",
   "Russia": "img/flags/russia.jpg",
+  "Denmark": "img/flags/denmark.png"
 };
 
 // General config
@@ -148,7 +159,8 @@ var thumbnailImageWidth = _.max([width / 8, height / 4]),
 
 // Date config
 var dateHeight = detailsLineHeight,
-  dateWidth = dateHeight * 8;
+  dateWidth = dateHeight * 8,
+  dateControlInterval = (width - margin.left - margin.right) / (_.size(dateColors) + 1);
 
 function render(data) {
 
@@ -158,7 +170,6 @@ function render(data) {
   delete(data["Italy"]);
   delete(data["Prussia"]);
   delete(data["Austria"]);
-  delete(data["Denmark"]); // V2: Scandinavia
   delete(data["Norway"]); // V2: Scandinavia
 
   // Flatten all reigns into a single array to determine start and end
@@ -217,6 +228,21 @@ function render(data) {
     .attr("transform", "translate(0," + (height - margin.bottom) + ")")
     .call(xAxis);
 
+  // Add date controls
+  timeline.append("g")
+    .selectAll("circle")
+    .data(_.map(dateColors, function(value, key) { return { key: key, value: value }; }))
+    .enter()
+    .append("circle")
+    .attr("cx", function(d, i) { return margin.left + dateControlInterval / 2 + (i * dateControlInterval); })
+    .attr("cy", height - margin.bottom / 2)
+    .attr("r", circleRadiusLarge)
+    .attr("fill", function (d) { return d.value })
+    .attr("class", function(d) { return ['control',  d.key].join(' ') }) 
+    .on("click", focusDates)
+    .append("title").text(function(d) { return d.key })
+
+
   // Add dates
   timeline.append("g")
     .selectAll("circle")
@@ -269,7 +295,7 @@ function render(data) {
       .attr("class", "date ")
       .text(dateTextString)
 
-    circle.transition().attr("r", circleRadiusLarge)
+    circle.transition().attr("r", circleRadiusMedium)
 
     dateContainer.append("line")
       .attr("x1", circle.attr("cx"))
@@ -294,11 +320,12 @@ function render(data) {
 
     // Add country name
     timeline.append("image")
-      .attr("x", width - margin.right * 3 / 4)
+      .attr("x", width - margin.right * 2 / 3)
       .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
-      .attr("width", margin.right / 2)
+      .attr("width", margin.right / 3)
       .attr("height", laneHeight)
       .attr("xlink:href", flags[countryName])
+      .attr("preserveAspectRatio", "none")
       .attr("class", "legend")
       .append("title").text(countryName)
 
@@ -324,7 +351,7 @@ function render(data) {
       .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
       .attr("rx", 5)
       .attr("ry", 5)
-      .attr("fill", function(data) { return houseColors[countryName][data.house] || "maroon"})
+      .attr("fill", function(data) { return houseColors[countryName][data.house] || gray})
       .attr("fill-opacity", 0.75)
       .attr("class", function(data, i) { return ['block', 'block-' + i, countryName].join(' '); })
       .on("mouseover", handleMouseOver)
@@ -748,6 +775,42 @@ function render(data) {
           .text(relComponent);
       });
     });
+  }
+
+  function focusDates(data) {
+    var control = d3.select(this),
+      controls = timeline.selectAll('circle.control'),
+      allOtherControls = timeline.selectAll('circle.control:not(.' + data.key + ')'),
+      allDates = timeline.selectAll("circle.date"),
+      selectedDates = allDates.filter('.' + data.key),
+      allOtherDates = timeline.selectAll('circle.date:not(.' + data.key + ')');
+
+    allDates.classed('hidden', false);
+
+
+    if (!control.classed("selected")) {
+      controls
+        .classed("inactive", false)
+        .classed("selected", false);
+      control.classed("selected", true);
+      allOtherControls.classed("inactive", true);
+      selectedDates
+        .transition()
+        .duration(250)
+        .attr("r", circleRadiusMedium)
+        .transition()
+        .attr("r", circleRadiusSmall)
+      allOtherDates.classed("hidden", true);
+    } else {
+      control.classed("selected", false);
+      controls.classed('inactive', false);
+      allDates
+        .transition()
+        .duration(250)
+        .attr("r", circleRadiusMedium)
+        .transition()
+        .attr("r", circleRadiusSmall)
+    }
   }
 };
 
