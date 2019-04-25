@@ -525,6 +525,7 @@ function render(data) {
     timeline.selectAll('.title').classed('inactive', true);
     timeline.selectAll('.axis').classed('inactive', true);
     timeline.selectAll('.date').classed('inactive', true);
+    timeline.selectAll('.control').classed('inactive', true);
     detail.transition()
       .attr("width", detailsWidth)
       .attr("height", detailsHeight)
@@ -623,6 +624,7 @@ function render(data) {
     timeline.selectAll('.title').classed('inactive', false);
     timeline.selectAll('.axis').classed('inactive', false);
     timeline.selectAll('.date').classed('inactive', false);
+    timeline.selectAll('.control').classed('inactive', false);
     detailsOpen = false;
     detail.transition()
       .attr("width", 0)
@@ -816,6 +818,7 @@ function render(data) {
   }
 
   function focusDates(data) {
+    if (detailsOpen) return false
     var control = d3.select(this),
       controls = timeline.selectAll('circle.control'),
       allOtherControls = timeline.selectAll('circle.control:not(.' + data.key + ')'),
@@ -850,6 +853,27 @@ function render(data) {
         .attr("r", circleRadiusSmall)
     }
   }
+
+  function enlargeCircle(el) {
+    if (detailsOpen) return false
+    var $this = $(el),
+      $r = parseFloat($this.attr('r'));
+
+    this
+      .attr("r", $r * 1.25)
+      .attr("smallR", this.attr("smallR") || $r)
+      .attr("fill-opacity", 0.75);
+  }
+
+  function reduceCircle(el) {
+    if (detailsOpen) return false
+    var $this = $(el),
+      $r = parseFloat($this.attr('r'));
+
+    this
+      .attr("r", this.attr("smallR"))
+      .attr("fill-opacity", 0.5)
+  }
 };
 
 //////////////////////////////
@@ -878,7 +902,7 @@ function enlargeBlock(el) {
     .attr("smallY", this.attr("smallY") || $y)
     .attr("smallWidth", this.attr("smallWidth") || $width)
     .attr("smallHeight", this.attr("smallHeight") || $height)
-    .attr("fill-opacity", 0.75);
+    .attr("fill-opacity", 1.0);
 }
 
 function reduceBlock(el) {
@@ -893,27 +917,9 @@ function reduceBlock(el) {
     .attr("y", this.attr('smallY'))
     .attr("width", this.attr('smallWidth'))
     .attr("height", this.attr('smallHeight'))
-    .attr("fill-opacity", 0.5)
+    .attr("fill-opacity", 0.75)
 }
 
-function enlargeCircle(el) {
-  var $this = $(el),
-    $r = parseFloat($this.attr('r'));
-
-  this
-    .attr("r", $r * 1.25)
-    .attr("smallR", this.attr("smallR") || $r)
-    .attr("fill-opacity", 0.75);
-}
-
-function reduceCircle(el) {
-  var $this = $(el),
-    $r = parseFloat($this.attr('r'));
-
-  this
-    .attr("r", this.attr("smallR"))
-    .attr("fill-opacity", 0.5)
-}
 
 // Given some text and size, how should we draw a container around it?
 function getContainerFromText(text, size) {

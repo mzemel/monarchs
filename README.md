@@ -15,15 +15,12 @@ In version 2, I'd like to have a way of relating the monarchs to each other via 
 
 - Data
   - Compile and enter all data
-  - Add more kingdoms (Denmark, Greece, etc.)
 - Timeline
   - Cursor tracks year as it moves
   - Wars as rects above monarchy timeline
   - Radio button to select active country; inactive countries have more opacity / less detail
-  - Can toggle different types of dates (e.g. science, military) w/ colored circles
   - Nation-state borders by year
   - Better colors
-  - Replace country names with flags?
   - Subtitle
 - Details
   - Hyperlinks to events, wars, etc.
