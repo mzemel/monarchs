@@ -295,7 +295,7 @@ function render(data) {
   // Add dates
   timeline.append("g")
     .selectAll("circle")
-    .data(_.map(dates, function(data, year) { return data; }))
+    .data(_.filter(_.values(dates), function(date) { return !date.hidden; }))
     .enter()
     .append("circle")
     .attr("cx", function(d) { return margin.left + (d.date - firstYear) * pixelsPerYear; })
