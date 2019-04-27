@@ -3311,7 +3311,7 @@
   "Spain": {
     "Philip II": {
       "name": "Philip II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Philip_II_portrait_by_Titian.jpg/440px-Philip_II_portrait_by_Titian.jpg",
+      "image": "img/spain/philip_ii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1556,
@@ -3324,7 +3324,7 @@
     },
     "Philip III": {
       "name": "Philip III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Andres_L%C3%B3pez_001.jpg/440px-Andres_L%C3%B3pez_001.jpg",
+      "image": "img/spain/philip_iii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1598,
@@ -3337,7 +3337,7 @@
     },
     "Philip IV and III": {
       "name": "Philip IV and III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Philip_IV_of_Spain_-_Vel%C3%A1zquez_1644.jpg/462px-Philip_IV_of_Spain_-_Vel%C3%A1zquez_1644.jpg",
+      "image": "img/spain/philip_iv.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1621,
@@ -3350,7 +3350,7 @@
     },
     "Charles II": {
       "name": "Charles II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Juan_de_Miranda_Carreno_002.jpg/440px-Juan_de_Miranda_Carreno_002.jpg",
+      "image": "img/spain/charles_ii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1665,
@@ -3363,7 +3363,7 @@
     },
     "Philip V": {
       "name": "Philip V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Felipe_V_de_Espa%C3%B1a.jpg/464px-Felipe_V_de_Espa%C3%B1a.jpg",
+      "image": "img/spain/philip_v.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1700,
@@ -3376,7 +3376,7 @@
     },
     "Ferdinand VI": {
       "name": "Ferdinand VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Fernando_VI_de_Espa%C3%B1a_%28Museo_del_Prado%29.jpg/440px-Fernando_VI_de_Espa%C3%B1a_%28Museo_del_Prado%29.jpg",
+      "image": "img/spain/ferdinand_vi.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1746,
@@ -3389,7 +3389,7 @@
     },
     "Charles III": {
       "name": "Charles III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Charles_III_of_Spain_high_resolution.jpg/440px-Charles_III_of_Spain_high_resolution.jpg",
+      "image": "img/spain/charles_iii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1759,
@@ -3400,9 +3400,9 @@
       "wars": [],
       "relationships": []
     },
-    "Charles VI": {
-      "name": "Charles VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Carlos_IV_de_rojo.jpg/440px-Carlos_IV_de_rojo.jpg",
+    "Charles IV": {
+      "name": "Charles IV",
+      "image": "img/spain/charles_iv.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1788,
@@ -3415,7 +3415,7 @@
     },
     "Ferdinand VII": {
       "name": "Ferdinand VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg/484px-Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg",
+      "image": "img/spain/ferdinand_vii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1808,
@@ -3428,9 +3428,9 @@
     },
     "Joseph Bonaparte": {
       "name": "Joseph Bonaparte",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Joseph_Bonaparte_%28by_Wicar%29.jpg/220px-Joseph_Bonaparte_%28by_Wicar%29.jpg",
+      "image": "img/spain/joseph_bonaparte.jpg",
       "house": "Bonaparte",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Insigne_Francum_Napoleonis.svg/220px-Insigne_Francum_Napoleonis.svg.png",
+      "houseImage": "img/houses/bonaparte.png",
       "start": 1808,
       "end": 1813,
       "endReason": "",
@@ -3441,7 +3441,7 @@
     },
     "Ferdinand VII (2nd)": {
       "name": "Ferdinand VII (2nd)",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg/484px-Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg",
+      "image": "img/spain/ferdinand_vii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1813,
@@ -3454,7 +3454,7 @@
     },
     "Isabella II": {
       "name": "Isabella II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Isabel_de_Borb%C3%B3n_y_Borb%C3%B3n-Dos_Sicilias.jpg/440px-Isabel_de_Borb%C3%B3n_y_Borb%C3%B3n-Dos_Sicilias.jpg",
+      "image": "img/spain/isabella_ii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1833,
@@ -3467,9 +3467,9 @@
     },
     "Amadeo I": {
       "name": "Amadeo I",
-      "image": "https://i.pinimg.com/236x/0e/5b/8c/0e5b8cc19e6abd28d7aca88ba629696c.jpg",
+      "image": "img/spain/amadeo.jpg",
       "house": "Savoy",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg/340px-Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg.png",
+      "houseImage": "img/houses/savoy.png",
       "start": 1870,
       "end": 1873,
       "endReason": "",
@@ -3480,7 +3480,7 @@
     },
     "Alfonso XII": {
       "name": "Alfonso XII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/King_Alfonso_XII.jpg/440px-King_Alfonso_XII.jpg",
+      "image": "img/spain/alfonso_xii.png",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1874,
@@ -3493,7 +3493,7 @@
     },
     "Alfonso XIII": {
       "name": "Alfonso XIII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Rey_Alfonso_XIII_de_Espa%C3%B1a%2C_by_Kaulak.jpg/440px-Rey_Alfonso_XIII_de_Espa%C3%B1a%2C_by_Kaulak.jpg",
+      "image": "img/spain/alfonso_xiii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1886,
@@ -3506,9 +3506,9 @@
     },
     "Francisco Franco": {
       "name": "Francisco Franco",
-      "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0OTY4NzYzOTE5/francisco-franco-9300766-2-402.jpg",
+      "image": "img/spain/franco.jpg",
       "house": "Franco",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/COA_Spain_under_Franco_1938_1945.svg/400px-COA_Spain_under_Franco_1938_1945.svg.png",
+      "houseImage": "img/houses/franco.png",
       "start": 1936,
       "end": 1975,
       "endReason": "",
@@ -3519,7 +3519,7 @@
     },
     "Juan Carlos I": {
       "name": "Juan Carlos I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Rey_Juan_Carlos_2013.jpg/440px-Rey_Juan_Carlos_2013.jpg",
+      "image": "img/spain/juan_carlos.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1975,
@@ -3532,7 +3532,7 @@
     },
     "Felipe VI": {
       "name": "Felipe VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%28Felipe_de_Borb%C3%B3n%29_Inauguraci%C3%B3n_de_FITUR_2018_%2839840659951%29_%28cropped%29.jpg/440px-%28Felipe_de_Borb%C3%B3n%29_Inauguraci%C3%B3n_de_FITUR_2018_%2839840659951%29_%28cropped%29.jpg",
+      "image": "img/spain/felipe_vi.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 2014,
