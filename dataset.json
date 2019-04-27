@@ -2853,11 +2853,18 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 814,
       "end": 840,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unknown, 61",
+      "religion": "Catholic",
+      "events": [
+        "Upon death, civil war broke out between his 3 sons",
+        "France split into East, Middle, and West Francia in Treaty of Verdun"
+      ],
+      "wars": [
+        "Umayaad Caliphate, 801"
+      ],
+      "relationships": [
+        "Bavaria, Welf, Father-in-law, img/hre/welf_i.jpg"
+      ]
     },
     "Charles the Bald": {
       "name": "Charles the Bald",
@@ -2866,10 +2873,17 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 843,
       "end": 877,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Illness, 54",
+      "religion": "Catholic",
+      "events": [
+        "Lost Brittany to a Breton revolt",
+        "Invaded by brother, Louis the German, but recovered",
+        "Crowned Emperor of the Romans after death of Louis II",
+        ""
+      ],
+      "wars": [
+        "Carolingian Civil War, France, 840-843"
+      ],
       "relationships": []
     },
     "Louis the Stammerer": {
