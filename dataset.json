@@ -2031,7 +2031,7 @@
     },
     "Elizabeth I": {
       "name": "Elizabeth I",
-      "image": "img/england/elizabeth_i.jpg",
+      "image": "¸",
       "house": "Tudor",
       "houseImage": "img/houses/tudor.png",
       "start": 1558,
@@ -2052,7 +2052,7 @@
     },
     "James VI and I": {
       "name": "James VI and I",
-      "image": "img/england/james_vi_and_i.png",
+      "image": "]'[",
       "house": "Stuart",
       "houseImage": "img/houses/stuart.png",
       "start": 1603,
@@ -2787,6 +2787,234 @@
     }
   },
   "France": {
+    "Pepin the Short": {
+      "name": "Pepin the Short",
+      "image": "img/france/pepin_the_short.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 751,
+      "end": 768,
+      "endReason": "Campaigning, 54",
+      "religion": "Catholic",
+      "events": [
+        "Pushed out last Merovingian king to become first Carolingian monarch",
+        "Donated Italian Lombardi land to the pope, establishing Papal States",
+        "Annointed Patrician of the Romans by Pope Stephen II"
+      ],
+      "wars": [
+        "Lombards, 751",
+        "Islamic Umayaads, 752-759",
+        "Aquitaine, 760-767"
+      ],
+      "relationships": []
+    },
+    "Carloman I": {
+      "name": "Carloman I",
+      "image": "img/france/carloman_i.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 768,
+      "end": 771,
+      "endReason": "Nosebleed, 20",
+      "religion": "Catholic",
+      "events": [
+        "Competed with brother Charlemagne for control of Frankish lands"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "Charlemagne": {
+      "name": "Charlemagne",
+      "image": "img/france/charlemagne.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 768,
+      "end": 814,
+      "endReason": "Pleurisy, 65",
+      "religion": "Catholic",
+      "events": [
+        "Crowned Emperor of the Romans by Pope Leo III",
+        "Conquered and Christianized the Saxons",
+        "Spurred the Carolingian Renaissance"
+      ],
+      "wars": [
+        "Lombards, 772-774",
+        "Umayaad Caliphate, 785-811",
+        "Saxon Wars, Saxony, 772-804"
+      ],
+      "relationships": [
+        "Lombards, Desiderius, Father-in-law, img/italy/desiderius.jpg"
+      ]
+    },
+    "Louis the Pious": {
+      "name": "Louis the Pious",
+      "image": "img/france/louis_the_pious.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 814,
+      "end": 840,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles the Bald": {
+      "name": "Charles the Bald",
+      "image": "img/france/charles_the_bald.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 843,
+      "end": 877,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis the Stammerer": {
+      "name": "Louis the Stammerer",
+      "image": "img/france/louis_the_stammerer.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 877,
+      "end": 879,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis III": {
+      "name": "Louis III",
+      "image": "img/france/louis_iii.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 879,
+      "end": 882,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Carloman II": {
+      "name": "Carloman II",
+      "image": "img/france/carloman_ii.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 879,
+      "end": 884,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles the Fat": {
+      "name": "Charles the Fat",
+      "image": "img/france/charles_the_fat.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 884,
+      "end": 888,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Odo": {
+      "name": "Odo",
+      "image": "img/france/odo.png",
+      "house": "Robertian",
+      "houseImage": "",
+      "start": 888,
+      "end": 898,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles III": {
+      "name": "Charles III",
+      "image": "img/france/charles_iii.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 898,
+      "end": 922,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Robert I": {
+      "name": "Robert I",
+      "image": "img/france/robert_i.jpg",
+      "house": "Robertian",
+      "houseImage": "",
+      "start": 922,
+      "end": 923,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Rudolph": {
+      "name": "Rudolph",
+      "image": "img/france/rudolph.jpg",
+      "house": "Bosonid",
+      "houseImage": "",
+      "start": 923,
+      "end": 936,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis IV": {
+      "name": "Louis IV",
+      "image": "img/france/louis_iv.png",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 936,
+      "end": 954,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Lothair III": {
+      "name": "Lothair III",
+      "image": "img/france/lothair_iii.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 954,
+      "end": 986,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Louis V": {
+      "name": "Louis V",
+      "image": "img/france/louis_v.jpg",
+      "house": "Carolingian",
+      "houseImage": "img/houses/carolingian.png",
+      "start": 986,
+      "end": 987,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
     "Hugh Capet": {
       "name": "Hugh Capet",
       "image": "img/france/hugh_capet.jpg",
@@ -2796,9 +3024,13 @@
       "end": 996,
       "endReason": "",
       "religion": "",
-      "events": [],
+      "events": [
+        "Succeeded last Carolingian king to found House of Capet"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Charlemagne, Grandfather, img/hre/charlemagne.jpg"
+      ]
     },
     "Robert II": {
       "name": "Robert II",
@@ -2828,7 +3060,7 @@
     },
     "Philip I": {
       "name": "Philip I",
-      "image": "img/france/philip_i.jpeg",
+      "image": "img/france/philip_i.jpg",
       "house": "Capet",
       "houseImage": "img/houses/capet.png",
       "start": 1060,
@@ -3545,149 +3777,6 @@
     }
   },
   "Holy Roman Empire": {
-    "Charlemagne": {
-      "name": "Charlemagne",
-      "image": "https://static.tvtropes.org/pmwiki/pub/images/charlemagne_hero_ab.jpeg",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 800,
-      "end": 814,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Louis the Pious": {
-      "name": "Louis the Pious",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ludwik_I_Pobo%C5%BCny.jpg/440px-Ludwik_I_Pobo%C5%BCny.jpg",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 813,
-      "end": 840,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Lothair I": {
-      "name": "Lothair I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lothar_I.jpg/440px-Lothar_I.jpg",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 817,
-      "end": 855,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Louis II": {
-      "name": "Louis II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Louis_II_of_Italy.png",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 855,
-      "end": 875,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Charles II": {
-      "name": "Charles II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%D0%9A%D0%B0%D1%80%D0%BB_%D0%9B%D1%8B%D1%81%D1%8B%D0%B9.jpg/983px-%D0%9A%D0%B0%D1%80%D0%BB_%D0%9B%D1%8B%D1%81%D1%8B%D0%B9.jpg",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 875,
-      "end": 877,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Charles III": {
-      "name": "Charles III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sceau_de_Charles_le_gros.jpg/200px-Sceau_de_Charles_le_gros.jpg",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 881,
-      "end": 888,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Guy I": {
-      "name": "Guy I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Wido_rex_Italiae.jpg/200px-Wido_rex_Italiae.jpg",
-      "house": "Widonid",
-      "houseImage": "",
-      "start": 891,
-      "end": 894,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Lambert I": {
-      "name": "Lambert I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Four_kings_of_Italy.jpg",
-      "house": "Widonid",
-      "houseImage": "",
-      "start": 892,
-      "end": 898,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Arnulph": {
-      "name": "Arnulph",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Seal_of_Arnulph_of_Carinthia_%28896%29.jpg/200px-Seal_of_Arnulph_of_Carinthia_%28896%29.jpg",
-      "house": "Carolingian",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Triquetra-Cross.svg/220px-Triquetra-Cross.svg.png",
-      "start": 896,
-      "end": 899,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Louis III": {
-      "name": "Louis III",
-      "image": "",
-      "house": "Bosonid",
-      "houseImage": "",
-      "start": 901,
-      "end": 905,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Berengar I": {
-      "name": "Berengar I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Berengar_I_on_a_seal.jpg/200px-Berengar_I_on_a_seal.jpg",
-      "house": "Unruoching",
-      "houseImage": "",
-      "start": 915,
-      "end": 924,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
     "Otto I": {
       "name": "Otto I",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/017_otto_siegel_2.jpg/200px-017_otto_siegel_2.jpg",
