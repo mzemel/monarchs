@@ -25,6 +25,7 @@ I'd like to have an easy visual reference for who was concurrently in power and 
   - Local house images
 - Dates
   - Better font size & container around text
+    - https://github.com/rikschennink/fitty
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting

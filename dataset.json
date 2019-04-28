@@ -2893,11 +2893,17 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 877,
       "end": 879,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unknown, 32",
+      "religion": "Catholic",
+      "events": [
+        "Declined the crown of Emperor of the Romans",
+        "Died during march against invading Vikings",
+        "Realms divided between sons Carloman II and Louis III"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Burgundy, Ansgarde, Wife"
+      ]
     },
     "Louis III": {
       "name": "Louis III",
@@ -2906,9 +2912,11 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 879,
       "end": 882,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Injury, 18",
+      "religion": "Catholic",
+      "events": [
+        "Received the northern part of his father's kingdom, Neustria"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2919,9 +2927,11 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 879,
       "end": 884,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Hunting, 18",
+      "religion": "Catholic",
+      "events": [
+        "Received the southern part of his father's kingdom, Burgundy & Aquitaine"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2932,9 +2942,13 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 884,
       "end": 888,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Illness, 48",
+      "religion": "Catholic",
+      "events": [
+        "Reunited Francia through inheritance from father, brother, and cousin",
+        "Crowned Emperor of the Romans in 881",
+        "Upon death, Francia split back into 5 territories"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2945,9 +2959,12 @@
       "houseImage": "",
       "start": 888,
       "end": 898,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unknown, 41",
+      "religion": "Catholic",
+      "events": [
+        "As Count of Paris, defended it from the Vikings",
+        "Elected King of Francia after deposition of Charles the Fat"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2958,9 +2975,13 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 898,
       "end": 922,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 50",
+      "religion": "Catholic",
+      "events": [
+        "Succeeded Odo with support of cousin Arnulf of East Francia",
+        "Crowned king of Lotharia (middle Francia) in 911",
+        "Overthrown by Frankish nobles led by Robert I"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2971,9 +2992,12 @@
       "houseImage": "",
       "start": 922,
       "end": 923,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Battle, 57",
+      "religion": "Catholic",
+      "events": [
+        "Overthrew Charles III during revolt of the nobles",
+        "Killed by returning Charles at the Battle of Soissons"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2984,10 +3008,16 @@
       "houseImage": "",
       "start": 923,
       "end": 936,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Illness, 45",
+      "religion": "Catholic",
+      "events": [
+        "Son-in-law of Robert I, who was killed overthrowing Charles III",
+        "Made peace with Normans, granting them the Channel Islands"
+      ],
+      "wars": [
+        "East Francia, 923",
+        "Normandy, 924"
+      ],
       "relationships": []
     },
     "Louis IV": {
@@ -2997,11 +3027,20 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 936,
       "end": 954,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Injury, 33",
+      "religion": "Catholic",
+      "events": [
+        "Given throne by Hugh the Great after death of Rudolph",
+        "Captured (and released) by Hugh the Great in 945",
+        "Repeatedly confirmed Hugh the Great as Duke of the Franks"
+      ],
+      "wars": [
+        "East Francia, 939-940",
+        "Normandy, 945"
+      ],
+      "relationships": [
+        "England, Edward the Elder, Grandfather, img/england/edward_the_elder.jpg"
+      ]
     },
     "Lothair III": {
       "name": "Lothair III",
@@ -3010,11 +3049,20 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 954,
       "end": 986,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unknown, 44",
+      "religion": "Catholic",
+      "events": [
+        "Lost Aquitaine and Burgundy to Hugh the Great",
+        "Attempted alliance with count of Anjou in south of Francia"
+      ],
+      "wars": [
+        "Holy Roman Empire, 978-980"
+      ],
+      "relationships": [
+        "Saxony, Gerberga, Mother, img/hre/gerberga.jpg",
+        "Holy Roman Empire, Otto I, Uncle, img/hre/otto_i.jpg",
+        "Italy, Emma, Wife, img/italy/emma.jpg"
+      ]
     },
     "Louis V": {
       "name": "Louis V",
@@ -3023,9 +3071,13 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 986,
       "end": 987,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Hunting, 20",
+      "religion": "Catholic",
+      "events": [
+        "Last Carolingian King of Francia",
+        "Carolingian influence was eclipsed by Robertian",
+        ""
+      ],
       "wars": [],
       "relationships": []
     },
@@ -3039,12 +3091,10 @@
       "endReason": "",
       "religion": "",
       "events": [
-        "Succeeded last Carolingian king to found House of Capet"
+        "Grandson of Robert I, first of the Capetian branch of Robertian dynasty."
       ],
       "wars": [],
-      "relationships": [
-        "Holy Roman Empire, Charlemagne, Grandfather, img/hre/charlemagne.jpg"
-      ]
+      "relationships": []
     },
     "Robert II": {
       "name": "Robert II",
