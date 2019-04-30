@@ -2853,7 +2853,7 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 814,
       "end": 840,
-      "endReason": "Unknown, 61",
+      "endReason": "Unspecified, 61",
       "religion": "Catholic",
       "events": [
         "Upon death, civil war broke out between his 3 sons",
@@ -2893,7 +2893,7 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 877,
       "end": 879,
-      "endReason": "Unknown, 32",
+      "endReason": "Unspecified, 32",
       "religion": "Catholic",
       "events": [
         "Declined the crown of Emperor of the Romans",
@@ -2959,7 +2959,7 @@
       "houseImage": "",
       "start": 888,
       "end": 898,
-      "endReason": "Unknown, 41",
+      "endReason": "Unspecified, 41",
       "religion": "Catholic",
       "events": [
         "As Count of Paris, defended it from the Vikings",
@@ -3049,7 +3049,7 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 954,
       "end": 986,
-      "endReason": "Unknown, 44",
+      "endReason": "Unspecified, 44",
       "religion": "Catholic",
       "events": [
         "Lost Aquitaine and Burgundy to Hugh the Great",
@@ -3088,13 +3088,16 @@
       "houseImage": "img/houses/capet.png",
       "start": 987,
       "end": 996,
-      "endReason": "",
-      "religion": "",
+      "endReason": "Unspecified, 56",
+      "religion": "Catholic",
       "events": [
-        "Grandson of Robert I, first of the Capetian branch of Robertian dynasty."
+        "Grandson of Robert I, first of the Capetian branch of Robertian dynasty",
+        "Elected King over the claim of Charles, a disliked Carolingian"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Otto I, Uncle, img/hre/otto_i.jpg"
+      ]
     },
     "Robert II": {
       "name": "Robert II",
@@ -3103,11 +3106,18 @@
       "houseImage": "img/houses/capet.png",
       "start": 996,
       "end": 1031,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Battle, 59",
+      "religion": "Catholic",
+      "events": [
+        "Brought Burgundy back under Frankish control"
+      ],
+      "wars": [
+        "Burgundy, 1003-1016"
+      ],
+      "relationships": [
+        "Italy, Rozala, Wife, img/italy/rozala.jpg",
+        ""
+      ]
     },
     "Henry I": {
       "name": "Henry I",
@@ -3116,11 +3126,19 @@
       "houseImage": "img/houses/capet.png",
       "start": 1031,
       "end": 1060,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 52",
+      "religion": "Catholic",
+      "events": [
+        "Supported, then fought William the Conquerer",
+        "Signed decree of friendship with Henry III, Holy Roman Emperor"
+      ],
+      "wars": [
+        "Normandy, 1054-1057"
+      ],
+      "relationships": [
+        "England, William the Conquerer, Nephew, img/england/william_the_conqueror.png",
+        "Russia, Yaroslav the Wise, Father-in-law, img/russia/yaroslav.jpg"
+      ]
     },
     "Philip I": {
       "name": "Philip I",
@@ -3129,11 +3147,17 @@
       "houseImage": "img/houses/capet.png",
       "start": 1060,
       "end": 1108,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 56",
+      "religion": "Catholic",
+      "events": [
+        "Added the Vexin and Bourges to Frankish rule"
+      ],
+      "wars": [
+        "England, 1077"
+      ],
+      "relationships": [
+        "Flanders, Bertha, Wife, img/france/bertha.jpg"
+      ]
     },
     "Louis VI": {
       "name": "Louis VI",
@@ -3142,10 +3166,16 @@
       "houseImage": "img/houses/capet.png",
       "start": 1108,
       "end": 1137,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Dysentary, 55",
+      "religion": "Catholic",
+      "events": [
+        "Contested the Vexin with Henry I of England",
+        "Rallied France against Anglo-German alliance",
+        "Added Aquitaine to Francia by marrying Eleanor"
+      ],
+      "wars": [
+        "England, 1109-1120"
+      ],
       "relationships": []
     },
     "Louis VII": {
@@ -3155,11 +3185,18 @@
       "houseImage": "img/houses/capet.png",
       "start": 1137,
       "end": 1180,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Illness, 59",
+      "religion": "Catholic",
+      "events": [
+        "Marriage to Eleanor annulled, losing Aquitaine to England",
+        "Supported Thomas Becket, Archbishop of Canterbury, against Henry II",
+        "Supported Henry II's children's in an attempt to disunite English crown"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
+        "Castille, Constance, Wife, img/spain/constance.jpg"
+      ]
     },
     "Philip II": {
       "name": "Philip II",
@@ -3168,11 +3205,20 @@
       "houseImage": "img/houses/capet.png",
       "start": 1180,
       "end": 1223,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 57",
+      "religion": "Catholic",
+      "events": [
+        "First to call himself King of France",
+        "Participated in Third Crusade with Richard I of England",
+        "Reclaimed Angevin Empire from John I of England"
+      ],
+      "wars": [
+        "Anglo-French War, England, 1202-1214",
+        "Albisengian Crusade, Cathars, 1209-1229"
+      ],
+      "relationships": [
+        "Denmark, Ingeborg, Wife, img/denmark/ingeborg.jpg"
+      ]
     },
     "Louis VIII": {
       "name": "Louis VIII",
@@ -3181,11 +3227,18 @@
       "houseImage": "img/houses/capet.png",
       "start": 1223,
       "end": 1226,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Dysentary, 39",
+      "religion": "Catholic",
+      "events": [
+        "Proclaimed King of England by rebellious English barons",
+        "Forbade officials from recording debts owed to Jews"
+      ],
+      "wars": [
+        "Albisengian Crusade, Cathars, 1209-1229"
+      ],
+      "relationships": [
+        "Castille, Blanche, Wife, img/spain/blanche.jpg"
+      ]
     },
     "Louis IX": {
       "name": "Louis IX",
@@ -3194,10 +3247,16 @@
       "houseImage": "img/houses/capet.png",
       "start": 1226,
       "end": 1270,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Dysentary, 56",
+      "religion": "Catholic",
+      "events": [
+        "Prevented English Henry III from reclaiming Angevin land",
+        "Created provosts, bailiffs, and presumption of innocence",
+        "Captured and ransomed during Seventh Crusade"
+      ],
+      "wars": [
+        "Saintonge War, England, 1242"
+      ],
       "relationships": []
     },
     "Philip III": {
@@ -3207,11 +3266,17 @@
       "houseImage": "img/houses/capet.png",
       "start": 1270,
       "end": 1285,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Dysentary, 40",
+      "religion": "Catholic",
+      "events": [
+        "Annexed Toulouse to the French crown"
+      ],
+      "wars": [
+        "War of the Sicilian Vespers, Sicily, 1282"
+      ],
+      "relationships": [
+        "Sicily, Charles I, Uncle, img/italy/charles_i.jpg"
+      ]
     },
     "Philip IV": {
       "name": "Philip IV",
@@ -3220,11 +3285,19 @@
       "houseImage": "img/houses/capet.png",
       "start": 1285,
       "end": 1314,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Stroke, 46",
+      "religion": "Catholic",
+      "events": [
+        "Crowned King of Navarre through marriage to Joan I",
+        "Attempted to place relatives on thrones of Naples, Hungary, and Holy Roman Empire",
+        "Transfered papl court to Avignon"
+      ],
+      "wars": [
+        "Franco-Flemish War, Flanders, 1297-1305"
+      ],
+      "relationships": [
+        "Navarre, Joan, Wife, img/spain/joan_navarre.jpg"
+      ]
     },
     "Louis X": {
       "name": "Louis X",
@@ -3233,9 +3306,12 @@
       "houseImage": "img/houses/capet.png",
       "start": 1314,
       "end": 1316,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Pneumonia, 26",
+      "religion": "Catholic",
+      "events": [
+        "Allowed serfs to buy their freedom",
+        "Re-admitted Jews to France"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -3246,9 +3322,11 @@
       "houseImage": "img/houses/capet.png",
       "start": 1316,
       "end": 1316,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unspecified, 5 days",
+      "religion": "Catholic",
+      "events": [
+        "Died 5 days after birth, giving throne to uncle Philip V"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -3259,9 +3337,13 @@
       "houseImage": "img/houses/capet.png",
       "start": 1316,
       "end": 1322,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Dysentary, 29",
+      "religion": "Catholic",
+      "events": [
+        "Succession of Philip, over neice, set precedent for Salic law",
+        "Created independent Court of Finances and single currency",
+        "Created standardization of weights and measures"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -3272,11 +3354,19 @@
       "houseImage": "img/houses/capet.png",
       "start": 1322,
       "end": 1328,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 33",
+      "religion": "Catholic",
+      "events": [
+        "Captured some of the Aquitaine from vassal, Edward II of England",
+        "Died without heir, with kingdom going to cousin, Philip of Valois"
+      ],
+      "wars": [
+        "War of Saint-Sardos, England, 1324"
+      ],
+      "relationships": [
+        "England, Edward II, Brother-in-law, img/england/edward_ii.jpg",
+        "Holy Roman Empire, Henry VII, Father-in-law, img/hre/henry_vii.jpg"
+      ]
     },
     "Philip VI": {
       "name": "Philip VI",
@@ -3285,11 +3375,19 @@
       "houseImage": "img/houses/valois.png",
       "start": 1328,
       "end": 1350,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 56",
+      "religion": "Catholic",
+      "events": [
+        "Started the Hundred Years' War over dispute with England over succession",
+        "Added the Dauphiné to French holdings",
+        "Black Death (1348) killed 1/3 of the French population"
+      ],
+      "wars": [
+        "Hundred Years' War, England, 1337-1453"
+      ],
+      "relationships": [
+        "England, Edward III, Nephew, img/england/edward_iii.jpg"
+      ]
     },
     "John II": {
       "name": "John II",
@@ -3298,11 +3396,19 @@
       "houseImage": "img/houses/valois.png",
       "start": 1350,
       "end": 1364,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Illness, 44",
+      "religion": "Catholic",
+      "events": [
+        "Inherited Hundred Years' War; captured at Poitiers",
+        "Created the franc to stablize French currency",
+        "Died in English captivity"
+      ],
+      "wars": [
+        "Hundred Years' War, England, 1337-1453"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Bonne, Wife, img/hre/bonne_of_luxembourg.jpg"
+      ]
     },
     "Charles V": {
       "name": "Charles V",
@@ -3311,10 +3417,16 @@
       "houseImage": "img/houses/valois.png",
       "start": 1364,
       "end": 1380,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Infection, 42",
+      "religion": "Catholic",
+      "events": [
+        "First heir apparent to use title of Dauphin",
+        "Gave Aquitaine to English to pay for ransom of John II",
+        "Reconquered all ceded territories by the end of his reign"
+      ],
+      "wars": [
+        "Hundred Years' War, England, 1337-1453"
+      ],
       "relationships": []
     },
     "Charles VI": {
@@ -3324,11 +3436,20 @@
       "houseImage": "img/houses/valois.png",
       "start": 1380,
       "end": 1422,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 53",
+      "religion": "Catholic",
+      "events": [
+        "Had frequent bouts of insanity during rule",
+        "After murder of brother by cousin, civil war broke out",
+        "Signed Treaty of Troyes, giving succession to Henry V of England"
+      ],
+      "wars": [
+        "Hundred Years' War, England, 1337-1453",
+        "Armagnac-Burgundian Civil War, Burgundy, 1407-1435"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Isabeau, Wife, img/hre/isabeau_bavaria.jpg"
+      ]
     },
     "Charles VII": {
       "name": "Charles VII",
@@ -3337,10 +3458,17 @@
       "houseImage": "img/houses/valois.png",
       "start": 1422,
       "end": 1461,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Infection, 58",
+      "religion": "Catholic",
+      "events": [
+        "Disinherited by father in favor of Henry V of England",
+        "Reclaimed Paris and northern France with help of Joan of Arc",
+        "Ended the civil war between houses of Valois and Valois-Orleans"
+      ],
+      "wars": [
+        "Hundred Years' War, England, 1337-1453",
+        "Armagnac-Burgundian Civil War, Burgundy, 1407-1435"
+      ],
       "relationships": []
     },
     "Louis XI": {
@@ -3350,11 +3478,19 @@
       "houseImage": "img/houses/valois.png",
       "start": 1461,
       "end": 1483,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 60",
+      "religion": "Catholic",
+      "events": [
+        "Signed Treaty of Picquigny to end Hundred Years' War",
+        "Lost Burgundy via marriage to Holy Roman Empire",
+        "Reclaimed Burgundy after death of Charles the Bold"
+      ],
+      "wars": [
+        "Praguerie, France, 1440"
+      ],
+      "relationships": [
+        "Italy, Charlotte of Savoy, Wife, img/italy/charlotte_savoy.jpg"
+      ]
     },
     "Charles VIII": {
       "name": "Charles VIII",
@@ -3363,11 +3499,21 @@
       "houseImage": "img/houses/valois.png",
       "start": 1483,
       "end": 1498,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Injury, 27",
+      "religion": "Catholic",
+      "events": [
+        "Married Anne of Brittany to prevent encirclement by Holy Roman Empire",
+        "Offered Naples by force from Pope Innocent VIII",
+        "Conquered Naples, then removed by League of Venice"
+      ],
+      "wars": [
+        "Mad War, France, 1485-1488",
+        "Italian Wars, Italy, 1494-1498"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Margaret of Austria, Betrothed, img/hre/margaret_of_austria.jpg",
+        "Naples, Marie of Anjou, Grandmother, img/italy/marie_of_anjou.jpg"
+      ]
     },
     "Louis XII": {
       "name": "Louis XII",
@@ -3376,11 +3522,21 @@
       "houseImage": "img/houses/valois.png",
       "start": 1498,
       "end": 1515,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Gout, 52",
+      "religion": "Catholic",
+      "events": [
+        "First of Valois-Orleans, receiving throne from second cousin",
+        "Conquered Milan and Naples; ceded Naples to Spain",
+        "Annexed Brittany through marraige to Anne, and daughter to heir presumptive"
+      ],
+      "wars": [
+        "Second Italian War, Italy, 1499-1504",
+        "Third Italian War, Italy, 1508-1516"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Margaret of Austria, Wife, img/hre/margaret_of_austria.jpg",
+        "England, Mary Tudor, Wife, img/england/mary_tudor.jpg"
+      ]
     },
     "Francis I": {
       "name": "Francis I",
@@ -3389,11 +3545,20 @@
       "houseImage": "img/houses/valois.png",
       "start": 1515,
       "end": 1547,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 52",
+      "religion": "Catholic",
+      "events": [
+        "Married daughter of Louis XII to secure claim",
+        "Initiated the French Renaissance from Italian influence",
+        "Surrounded by Habsburgs, formed an alliance with Sultanate"
+      ],
+      "wars": [
+        "Italian Wars, Venice, 1508-1516"
+      ],
+      "relationships": [
+        "Scotland, James V, Son-in-law, img/scotland/james_v.jpg",
+        "Italy, Duke of Savoy, Son-in-law, img/italy/emmanuel_savoy.jpg"
+      ]
     },
     "Henry II": {
       "name": "Henry II",
@@ -3402,11 +3567,19 @@
       "houseImage": "img/houses/valois.png",
       "start": 1547,
       "end": 1559,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Jousting, 40",
+      "religion": "Catholic",
+      "events": [
+        "Spent 4 years as Spanish hostage for father Francis",
+        "Tried to suppress Protestants as Huguenot population rose",
+        ""
+      ],
+      "wars": [
+        "Italian Wars, Holy Roman Empire, 1551-1559"
+      ],
+      "relationships": [
+        "Florence, Catherine de' Medici, Wife, img/italy/catherine_de_medici.jpg"
+      ]
     },
     "Francis II": {
       "name": "Francis II",
@@ -3415,11 +3588,19 @@
       "houseImage": "img/houses/valois.png",
       "start": 1559,
       "end": 1560,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Ear condition, 16",
+      "religion": "Catholic",
+      "events": [
+        "Advised by unpopular House of Lorraine during minority",
+        "Forced to sign Treaty of Edinburgh: end of Scottish influence"
+      ],
+      "wars": [
+        "French Wars of Religion, France, 1562-1598"
+      ],
+      "relationships": [
+        "Scotland, Mary Queen of Scots, Wife, img/scotland/mary.jpg",
+        "Florence, Catherine de' Medici, Mother, img/italy/catherine_de_medici.jpg"
+      ]
     },
     "Charles IX": {
       "name": "Charles IX",
@@ -3428,11 +3609,20 @@
       "houseImage": "img/houses/valois.png",
       "start": 1560,
       "end": 1574,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Tuberculosis, 23",
+      "religion": "Catholic",
+      "events": [
+        "Married sister to Protestant Henry IV to pacify Huguenots",
+        "Allowed Huguenots to be massacred at the wedding",
+        ""
+      ],
+      "wars": [
+        "French Wars of Religion, France, 1562-1598"
+      ],
+      "relationships": [
+        "Florence, Catherine de' Medici, Mother, img/italy/catherine_de_medici.jpg",
+        "Holy Roman Empire, Maximilian II, Father-in-law, img/hre/maximillian_ii.jpg"
+      ]
     },
     "Henry III": {
       "name": "Henry III",
@@ -3441,10 +3631,17 @@
       "houseImage": "img/houses/valois.png",
       "start": 1574,
       "end": 1589,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Assassinated, 37",
+      "religion": "Catholic",
+      "events": [
+        "Elected King of Poland-Lithuania; later resigned",
+        "Fought Catholic League (Spain/Pope) and Huguenots (England/Dutch)",
+        "Murdered Duke of Guise and was charged by parliament"
+      ],
+      "wars": [
+        "French Wars of Religion, France, 1562-1598",
+        "War of the Three Henrys, France, 1587-1589"
+      ],
       "relationships": []
     },
     "Henry IV": {
@@ -3454,11 +3651,21 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1589,
       "end": 1610,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Assassinated, 56",
+      "religion": "Protestant, then Catholic",
+      "events": [
+        "First of Bourbons, descended from Louis IX via cadet line",
+        "Created Edict of Nantes, giving religious freedom to Protestants",
+        "First colony in New World: Acadia, including Montreal"
+      ],
+      "wars": [
+        "French Wars of Religion, France, 1562-1598",
+        "Franco-Spanish War, Spain, 1595-1598",
+        "Franco-Savoyard War, Savoy, 1600-1601"
+      ],
+      "relationships": [
+        "Florence, Marie de Medici, Wife, img/italy/marie_de_medici.jpg"
+      ]
     },
     "Louis XIII": {
       "name": "Louis XIII",
@@ -3467,11 +3674,17 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1610,
       "end": 1643,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Tuberculosis, 41",
+      "religion": "Catholic",
+      "events": [
+        "Merged Navarre with the French crown",
+        "Monopolized force by outlawing private arms and armies",
+        ""
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Spain, Anne of Austria, Wife, img/spain/anne_of_austria.jpg"
+      ]
     },
     "Louis XIV": {
       "name": "Louis XIV",
@@ -3480,11 +3693,21 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1643,
       "end": 1715,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Gangrene, 76",
+      "religion": "Catholic",
+      "events": [
+        "Eliminated remnants of feudalism, centralizing power",
+        "Revoked Edict of Nantes, causing Protestants to emigrate",
+        "Remembered for patronage of arts as the Sun King"
+      ],
+      "wars": [
+        "Franco-Dutch War, Dutch Republic, 1672-1678",
+        "Nine Years' War, Holy Roman Empire, 1688-1697",
+        "War of the Spanish Succession, Holy Roman Empire, 1701-1714"
+      ],
+      "relationships": [
+        "Spain, Maria Theresa, Wife, img/spain/maria_theresa.jpg"
+      ]
     },
     "Louis XV": {
       "name": "Louis XV",
@@ -3493,11 +3716,19 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1715,
       "end": 1774,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Smallpox, 64",
+      "religion": "Catholic",
+      "events": [
+        "Ceded New France to Britain after Seven Years' War",
+        "Incorporated Lorraine and Corsican Republic",
+        "Economic mismanagement helped set stage for French Revolution"
+      ],
+      "wars": [
+        "Seven Years' War, England, 1756-1763"
+      ],
+      "relationships": [
+        "Poland, Stanislaw I, Father-in-law, img/poland/stanislaw.jpg"
+      ]
     },
     "Louis XVI": {
       "name": "Louis XVI",
@@ -3506,11 +3737,21 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1774,
       "end": 1792,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Executed, 38",
+      "religion": "Catholic",
+      "events": [
+        "Attempted to impose Englightenment ideas, e.g abolition of serfdom",
+        "Supported American Revolution against Great Britain",
+        "Arrested and executed during French Revolution"
+      ],
+      "wars": [
+        "American Revolution, England, 1776-1783",
+        "French Revolution, France, 1789-1792"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Maria Josepha of Saxony, Mother, img/hre/maria_josepha.jpg",
+        "Holy Roman Empire, Marie Antoinette, Wife, img/hre/marie_antoinette.jpg"
+      ]
     },
     "Napoleon I": {
       "name": "Napoleon I",
@@ -3519,11 +3760,18 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1804,
       "end": 1814,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 45",
+      "religion": "Deist",
+      "events": [
+        "From general at 24, become Emperor of the French",
+        "Defeated Third Coalition at Austerlitz, ending Holy Roman Empire",
+        "Defeated and exiled after collapse of army in Russia"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
+        "Austria, Francis I, Father-in-law, Marie Louise, img/hre/marie_louise.jpg"
+      ]
     },
     "Louis XVIII": {
       "name": "Louis XVIII",
@@ -3532,11 +3780,17 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1814,
       "end": 1815,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 59",
+      "religion": "Catholic",
+      "events": [
+        "Spent 23 years in exile until crowned during Bourbon Restoration",
+        "Burned constitution of Napoleon's senate",
+        "Introduced Charter of 1814 introduced legislative bodies"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Savoy, Marie Josephine, Wife, img/italy/marie_josephine.jpg"
+      ]
     },
     "Napoleon I (2nd)": {
       "name": "Napoleon I (2nd)",
@@ -3545,9 +3799,13 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1815,
       "end": 1815,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 46",
+      "religion": "Deist",
+      "events": [
+        "Returned from Elba, leading an army against Louis XVIII",
+        "Defeated by Seventh Coalition at Waterloo",
+        "Exiled to Helena and died six years later"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -3558,11 +3816,17 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1815,
       "end": 1824,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Gout, 68",
+      "religion": "Catholic",
+      "events": [
+        "Appointed Talleyrand as the first Prime Minister",
+        "Inherited massive debt from Napoleonic Wars",
+        "France returned to pre-Napoleonic borders"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Savoy, Marie Josephine, Wife, img/italy/marie_josephine.jpg"
+      ]
     },
     "Charles X": {
       "name": "Charles X",
@@ -3571,11 +3835,19 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1824,
       "end": 1830,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Deposed, 73",
+      "religion": "Catholic",
+      "events": [
+        "Led ultra-royalists, affirming divine right over civil liberties",
+        "Reimposed capital punishment for sacrilege",
+        "Overthrown during July Revolution"
+      ],
+      "wars": [
+        "French conquest of Algeria, Algeria, 1830"
+      ],
+      "relationships": [
+        "Savoy, Marie Theresa, Wife, img/italy/marie_therese.jpg"
+      ]
     },
     "Louis Philippe I": {
       "name": "Louis Philippe I",
@@ -3584,11 +3856,16 @@
       "houseImage": "img/houses/orleans.png",
       "start": 1830,
       "end": 1848,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 73",
+      "religion": "Catholic",
+      "events": [
+        "Support of bourgeoisie led to economic crisis",
+        "Abdicated during Revolutions of 1848"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Belgians, Leopold I, Son-in-law, img/belgians/leopold_i.jpg"
+      ]
     },
     "Napoleon III": {
       "name": "Napoleon III",
@@ -3597,10 +3874,17 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1852,
       "end": 1870,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Deposed, 62",
+      "religion": "Catholic",
+      "events": [
+        "Elected President of Second Republic after Revolution of 1848",
+        "Declared himself emperor of Second French Empire",
+        "Doubled overseas empire in Asia, Pacific, and Africa"
+      ],
+      "wars": [
+        "Crimean War, Russia, 1853-1856",
+        "Franco-Prussian War, Germany, 1870"
+      ],
       "relationships": []
     }
   },
