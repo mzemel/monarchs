@@ -171,9 +171,9 @@ var detailsHeight = height / 4 * 3,
   detailsImageX = detailsX + detailsWidthInterval,
   detailsImageY        = detailsY + detailsMargin,
   detailsNameY         = detailsY + 2 * detailsHeightInterval + detailsMargin,
-  detailsEventsY       = detailsY + 3 * detailsHeightInterval + detailsMargin,
-  detailsWarsY         = detailsY + 4 * detailsHeightInterval + detailsMargin,
-  detailsRelationshipY = detailsY + 5 * detailsHeightInterval + detailsMargin;
+  detailsEventsY       = detailsY + 3 * detailsHeightInterval + detailsMargin + detailsLineHeight / 2,
+  detailsWarsY         = detailsY + 4 * detailsHeightInterval + detailsMargin + detailsLineHeight,
+  detailsRelationshipY = detailsY + 5 * detailsHeightInterval + detailsMargin + detailsLineHeight * 3 / 2;
 
 // Thumbnail config
 var thumbnailImageWidth = _.max([width / 8, height / 4]),
@@ -727,7 +727,7 @@ function render(data) {
     // The `detailsImageWidth * 4` is purposefully wider than the details container to avoid bug in getFontSizeFromContainer
     var eventsAndWarsFontSize = _.min(
       _.map(data.events.concat(data.wars), function(text) {
-        return getFontSizeFromContainer(text, detailsImageWidth * 4, (detailsHeightInterval - detailsLineHeight) * 2 / 9);
+        return getFontSizeFromContainer(text, detailsImageWidth * 9 / 2, (detailsHeightInterval - detailsLineHeight) * 2 / 9);
       })
     )
 
@@ -747,7 +747,7 @@ function render(data) {
         .data(data.events)
         .enter()
         .append("text")
-        .attr("x", detailsImageX)
+        .attr("x", detailsX + detailsMargin * 2)
         .attr("y", function(d, i) { return detailsEventsY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * (1 + i) / 3; })
         .attr("font-family", fontFamily)
         .attr("font-size", eventsAndWarsFontSize)
@@ -771,7 +771,7 @@ function render(data) {
         .data(data.wars)
         .enter()
         .append("text")
-        .attr("x", detailsImageX)
+        .attr("x", detailsX + detailsMargin * 2)
         .attr("y", function(d, i) { return detailsWarsY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * (1 + i) / 3; })
         .attr("font-family", fontFamily)
         .attr("font-size", eventsAndWarsFontSize)
