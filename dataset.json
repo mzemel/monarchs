@@ -2396,11 +2396,19 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1058,
       "end": 1093,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Battle, 62",
+      "religion": "Catholic",
+      "events": [
+        "Killed Lulach, who'd killed Macbeth",
+        "Attempted conquest of Northumbria",
+        ""
+      ],
+      "wars": [
+        "Harrying of the North, England, 1069-1070"
+      ],
+      "relationships": [
+        "England, Edgar Æthling, Brother-in-law, img/england/edgar_aethling.jpg"
+      ]
     },
     "Donald III": {
       "name": "Donald III",
@@ -2409,9 +2417,11 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1093,
       "end": 1094,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 62",
+      "religion": "Catholic",
+      "events": [
+        "Overthrown by invading nephew, Duncan II"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2422,11 +2432,16 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1094,
       "end": 1094,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Battle, 34",
+      "religion": "Catholic",
+      "events": [
+        "Supported by unpopular Anglo-Norman troops",
+        "Killed immediately by associate of uncle Donald III"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
+      ]
     },
     "Donald III (2nd)": {
       "name": "Donald III (2nd)",
@@ -2435,9 +2450,11 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1094,
       "end": 1097,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Imprisoned, 67",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned by nephew Edgar with support of William II of England"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2448,11 +2465,16 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1097,
       "end": 1107,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unspecified, 43",
+      "religion": "Catholic",
+      "events": [
+        "Supported Northumbrian revolt against William II of England",
+        "Ceded claim to the Hebrides to Magnus Barefoot of Norway"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
+      ]
     },
     "Alexander I": {
       "name": "Alexander I",
@@ -2461,11 +2483,15 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1107,
       "end": 1124,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Unspecified, 45",
+      "religion": "Catholic",
+      "events": [
+        "Attacked by and fought the Mormaer of Moray"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "England, Henry I, Father-in-law, img/england/henry_i.jpg"
+      ]
     },
     "David I": {
       "name": "David I",
@@ -2474,11 +2500,19 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1124,
       "end": 1153,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 68",
+      "religion": "Catholic",
+      "events": [
+        "Annexed the Mormaer of Moray to the Scottish crown",
+        "Davidian Revolution saw Gregorian Reforms, burghs, and feudalism",
+        "Supported Empress Matilda over Stephen of Blois during The Anarchy"
+      ],
+      "wars": [
+        "The Anarchy, England, 1135-1153"
+      ],
+      "relationships": [
+        "England, Henry I, Brother-in-law, img/england/henry_i.jpg"
+      ]
     },
     "Malcolm IV": {
       "name": "Malcolm IV",
@@ -2487,9 +2521,12 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1153,
       "end": 1165,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Paget's disease, 24",
+      "religion": "Catholic",
+      "events": [
+        "Forced to give Northumbria and Cumbria back to Henry II",
+        "Knighted by Henry II as Earl of Huntingdon"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -2500,10 +2537,15 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1165,
       "end": 1214,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Unspecified, 72",
+      "religion": "Catholic",
+      "events": [
+        "Signed Treaty of Falaise, making Scotland an English vassal",
+        "Bought Scotland's independence back from Richard I"
+      ],
+      "wars": [
+        "Revolt of 1173-74, England"
+      ],
       "relationships": []
     },
     "Alexander II": {
@@ -2513,11 +2555,19 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1214,
       "end": 1249,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Fever, 50",
+      "religion": "Catholic",
+      "events": [
+        "Supported barons and Louis VIII against England",
+        "Established Anglo-Scottish border in Treaty of York",
+        ""
+      ],
+      "wars": [
+        "First Baron's War, England, 1215-1217"
+      ],
+      "relationships": [
+        "England, Henry III, Brother-in-law, img/england/henry_iii.jpg"
+      ]
     },
     "Alexander III": {
       "name": "Alexander III",
@@ -2526,11 +2576,17 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1249,
       "end": 1286,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Injury, 44",
+      "religion": "Catholic",
+      "events": [
+        "Gained Isle of Man and Hebrides from Norway"
+      ],
+      "wars": [
+        "Scottish-Norwegian War, Norway, 1262-1266"
+      ],
+      "relationships": [
+        "England, Henry III, Father-in-law, img/england/henry_iii.jpg"
+      ]
     },
     "Margaret": {
       "name": "Margaret",
@@ -2539,11 +2595,16 @@
       "houseImage": "img/houses/norway.png",
       "start": 1286,
       "end": 1290,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Illness, 7",
+      "religion": "Catholic",
+      "events": [
+        "Died, uncrowned, on her way to Scotland",
+        "Death led to thirteen claims to the throne"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Norway, Eric II, Father, img/norway/eric_ii.jpg"
+      ]
     },
     "John": {
       "name": "John",
