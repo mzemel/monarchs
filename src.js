@@ -239,7 +239,7 @@ function render(data) {
 
   // Link
   timeline.append("a")
-    .attr("href", "https://thebackend.dev")
+    .attr("href", "https://thebackend.dev/building-monarchs")
     .append("text")
     .attr("x", width - margin.right / 2)
     .attr("y", height - margin.bottom / 4)
