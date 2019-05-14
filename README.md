@@ -17,15 +17,8 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 - Timeline
   - Better colors
 - Details
-  - Replace contemporary paintings with revisionist ones
-  - Can click anywhere to dismiss
-  - Better spacing vertically
   - Smaller pictures
   - Full names for relationships (e.g. Mary -> Mary of Guise)
-  - Local house images
-- Dates
-  - Better font size & container around text
-    - https://github.com/rikschennink/fitty
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting
@@ -34,7 +27,7 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 ## V2
 
 - Data
-  - The rest of Scandinavia, Greece, Austria, Prussia, popes, Wales, Ireland
+  - The rest of Scandinavia, Greece, popes, Wales, Ireland
 - Timeline
   - Nation-state borders by year
 - Details
