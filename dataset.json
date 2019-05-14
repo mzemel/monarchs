@@ -743,697 +743,6 @@
       "hidden": ""
     }
   },
-  "Denmark": {
-    "Margrethe II": {
-      "name": "Margrethe II",
-      "image": "img/denmark/margrethe_ii.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1972,
-      "end": 2019,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick IX": {
-      "name": "Frederick IX",
-      "image": "img/denmark/frederick_ix.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1947,
-      "end": 1972,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian X": {
-      "name": "Christian X",
-      "image": "img/denmark/christian_x.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1912,
-      "end": 1947,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick VIII": {
-      "name": "Frederick VIII",
-      "image": "img/denmark/frederick_viii.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1906,
-      "end": 1912,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian IX": {
-      "name": "Christian IX",
-      "image": "img/denmark/christian_ix.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1863,
-      "end": 1906,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick VII": {
-      "name": "Frederick VII",
-      "image": "img/denmark/frederick_vii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1848,
-      "end": 1863,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian VIII": {
-      "name": "Christian VIII",
-      "image": "img/denmark/christian_viii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1839,
-      "end": 1848,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick VI": {
-      "name": "Frederick VI",
-      "image": "img/denmark/frederick_vi.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1808,
-      "end": 1839,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian VII": {
-      "name": "Christian VII",
-      "image": "img/denmark/christian_vii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1766,
-      "end": 1808,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick V": {
-      "name": "Frederick V",
-      "image": "img/denmark/frederick_v.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1746,
-      "end": 1766,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian VI": {
-      "name": "Christian VI",
-      "image": "img/denmark/christian_vi.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1730,
-      "end": 1746,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick IV": {
-      "name": "Frederick IV",
-      "image": "img/denmark/frederick_iv.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1699,
-      "end": 1730,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian V": {
-      "name": "Christian V",
-      "image": "img/denmark/christian_v.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1670,
-      "end": 1699,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick III": {
-      "name": "Frederick III",
-      "image": "img/denmark/frederick_iii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1648,
-      "end": 1670,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian IV": {
-      "name": "Christian IV",
-      "image": "img/denmark/christian_iv.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1588,
-      "end": 1648,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick II": {
-      "name": "Frederick II",
-      "image": "img/denmark/frederick_ii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1559,
-      "end": 1588,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian III": {
-      "name": "Christian III",
-      "image": "img/denmark/christian_iii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1534,
-      "end": 1559,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick I": {
-      "name": "Frederick I",
-      "image": "img/denmark/frederick_i.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1523,
-      "end": 1533,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian II": {
-      "name": "Christian II",
-      "image": "img/denmark/christian_ii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1513,
-      "end": 1523,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "John": {
-      "name": "John",
-      "image": "img/denmark/john.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1481,
-      "end": 1513,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian I": {
-      "name": "Christian I",
-      "image": "img/denmark/christian_i.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1448,
-      "end": 1481,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher III": {
-      "name": "Christopher III",
-      "image": "img/denmark/christopher_iii.jpg",
-      "house": "Palantinate-Neumarkt",
-      "houseImage": "",
-      "start": 1440,
-      "end": 1448,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric VII": {
-      "name": "Eric VII",
-      "image": "img/denmark/eric_vii.jpg",
-      "house": "Griffins",
-      "houseImage": "img/houses/griffin.png",
-      "start": 1396,
-      "end": 1439,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Margaret I": {
-      "name": "Margaret I",
-      "image": "img/denmark/margaret_i.png",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1387,
-      "end": 1412,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Olaf II and IV": {
-      "name": "Olaf II and IV",
-      "image": "img/denmark/olaf_ii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1376,
-      "end": 1387,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar IV": {
-      "name": "Valdemar IV",
-      "image": "img/denmark/valdemar_iv.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1340,
-      "end": 1375,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher II (2nd)": {
-      "name": "Christopher II (2nd)",
-      "image": "img/denmark/christopher_ii.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1329,
-      "end": 1332,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar III": {
-      "name": "Valdemar III",
-      "image": "img/denmark/valdemar_iii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1326,
-      "end": 1330,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher II": {
-      "name": "Christopher II",
-      "image": "img/denmark/christopher_ii.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1320,
-      "end": 1326,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric VI": {
-      "name": "Eric VI",
-      "image": "img/denmark/eric_vi.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1286,
-      "end": 1319,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric V": {
-      "name": "Eric V",
-      "image": "img/denmark/eric_v.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1259,
-      "end": 1286,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher I": {
-      "name": "Christopher I",
-      "image": "img/denmark/christopher_i.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1252,
-      "end": 1259,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Abel": {
-      "name": "Abel",
-      "image": "img/denmark/abel.jpeg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1250,
-      "end": 1252,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric IV": {
-      "name": "Eric IV",
-      "image": "img/denmark/eric_iv.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1232,
-      "end": 1250,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar II": {
-      "name": "Valdemar II",
-      "image": "img/denmark/valdemar_ii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1202,
-      "end": 1241,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Canute VI": {
-      "name": "Canute VI",
-      "image": "img/denmark/canute_vi.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1182,
-      "end": 1202,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar I": {
-      "name": "Valdemar I",
-      "image": "img/denmark/valdemar_i.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1154,
-      "end": 1182,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sweyn III": {
-      "name": "Sweyn III",
-      "image": "img/denmark/sweyn_iii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1146,
-      "end": 1157,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric III": {
-      "name": "Eric III",
-      "image": "img/denmark/eric_iii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1137,
-      "end": 1146,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric II": {
-      "name": "Eric II",
-      "image": "img/denmark/eric_ii.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1134,
-      "end": 1137,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Neils": {
-      "name": "Neils",
-      "image": "img/denmark/niels.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1104,
-      "end": 1134,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric I": {
-      "name": "Eric I",
-      "image": "img/denmark/eric_i.png",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1095,
-      "end": 1103,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Olaf I": {
-      "name": "Olaf I",
-      "image": "img/denmark/olaf_i.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1086,
-      "end": 1095,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Canute IV": {
-      "name": "Canute IV",
-      "image": "img/denmark/canute_iv.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1080,
-      "end": 1086,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Harald III": {
-      "name": "Harald III",
-      "image": "img/denmark/harald_iii.png",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1076,
-      "end": 1080,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sweyn II": {
-      "name": "Sweyn II",
-      "image": "img/denmark/sweyn_ii.jpeg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1047,
-      "end": 1076,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Magnus": {
-      "name": "Magnus",
-      "image": "img/denmark/magnus.jpg",
-      "house": "St. Olaf",
-      "houseImage": "",
-      "start": 1035,
-      "end": 1047,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Cnut the Great": {
-      "name": "Cnut the Great",
-      "image": "img/denmark/cnut_the_great.jpg",
-      "house": "Denmark",
-      "houseImage": "",
-      "start": 1016,
-      "end": 1035,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Harald II": {
-      "name": "Harald II",
-      "image": "img/denmark/harald_ii.jpg",
-      "house": "",
-      "houseImage": "",
-      "start": 1014,
-      "end": 1018,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sweyn Forkbeard": {
-      "name": "Sweyn Forkbeard",
-      "image": "img/denmark/sweyn_forkbeard.jpg",
-      "house": "Denmark",
-      "houseImage": "",
-      "start": 986,
-      "end": 1014,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Harald Bluetooth": {
-      "name": "Harald Bluetooth",
-      "image": "img/denmark/harald_bluetooth.jpg",
-      "house": "Gorm",
-      "houseImage": "",
-      "start": 958,
-      "end": 986,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Gorm": {
-      "name": "Gorm",
-      "image": "img/denmark/gorm.jpg",
-      "house": "Gorm",
-      "houseImage": "",
-      "start": 936,
-      "end": 958,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Harthacnut": {
-      "name": "Harthacnut",
-      "image": "img/denmark/harthacnut.jpg",
-      "house": "",
-      "houseImage": "",
-      "start": 916,
-      "end": 936,
-      "endReason": "",
-      "religion": "Norse Paganism",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    }
-  },
   "Norway": {
     "Harald V": {
       "name": "Harald V",
@@ -1488,1363 +797,294 @@
       "relationships": []
     }
   },
-  "England": {
-    "William I": {
-      "name": "William I",
-      "image": "img/england/william_the_conquerer.png",
-      "house": "Normandy",
-      "houseImage": "img/houses/normandy.png",
-      "start": 1066,
-      "end": 1087,
-      "endReason": "Illness, 59",
-      "religion": "Catholic",
-      "events": [
-        "Led the Norman invasion of England",
-        "Defeated Harold Godwinson at Battle of Hastings",
-        "Built the Tower of London and many other castles"
-      ],
-      "wars": [
-        "Normal conquest, England, 1066",
-        "Harrying of the North, England, 1068",
-        "Revolt of the Earls, England, 1075"
-      ],
-      "relationships": [
-        "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
-        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg"
-      ]
-    },
-    "William II": {
-      "name": "William II",
-      "image": "img/england/william_ii.png",
-      "house": "Normandy",
-      "houseImage": "img/houses/normandy.png",
-      "start": 1087,
-      "end": 1100,
-      "endReason": "Hunting accident, 44",
-      "religion": "Catholic",
-      "events": [
-        "Exiled the Archbishop of Canterbury, Anselm",
-        "Defeated and killed Malcolm III of Scotland"
-      ],
-      "wars": [
-        "Rebellion of 1088, England, 1088-1091",
-        "Scotland, 1091-1903",
-        "France, 1097-1099"
-      ],
-      "relationships": [
-        "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
-      ]
-    },
-    "Henry I": {
-      "name": "Henry I",
-      "image": "img/england/henry_i.png",
-      "house": "Normandy",
-      "houseImage": "img/houses/normandy.png",
-      "start": 1100,
-      "end": 1135,
-      "endReason": "Illness, 66",
-      "religion": "Catholic",
-      "events": [
-        "Imprisoned his brother Robert, Duke of Normandy",
-        "Brought Normandy back into the English crown",
-        "Son William drowned, prompting succession crisis"
-      ],
-      "wars": [
-        "Normandy, 1106",
-        "France, 1116-1119"
-      ],
-      "relationships": [
-        "Scotland, Matilda, Wife, img/scotland/matilda.JPG",
-        "Anjou, Matilda, Daughter, img/france/mathilda.png"
-      ]
-    },
-    "Stephen": {
-      "name": "Stephen",
-      "image": "img/england/stephen.jpg",
-      "house": "Blois",
-      "houseImage": "img/houses/blois.png",
-      "start": 1135,
-      "end": 1154,
-      "endReason": "Illness, 57",
-      "religion": "Catholic",
-      "events": [
-        "Captured at Battle of Lincoln by aunt Matilda",
-        "Ended The Anarchy by naming cousin Henry II as heir"
-      ],
-      "wars": [
-        "Scotland, 1136",
-        "The Anarchy, England, 1139-1154"
-      ],
-      "relationships": [
-        "Blois, Stephen, Father, img/france/stepan.jpg",
-        "Boulogne, Matilda, Wife, img/france/matilda_boulogne.jpg"
-      ]
-    },
-    "Henry II": {
-      "name": "Henry II",
-      "image": "img/england/henry_ii.png",
-      "house": "Plantagenet/Angevin",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1154,
-      "end": 1189,
-      "endReason": "Ulcer, 56",
-      "religion": "Catholic",
-      "events": [
-        "Executed Archbishop of Canterbury, Thomas Becket",
-        "Consolidated Brittany, Toulouse, and Vexin",
-        "Laid foundation for English Common Law"
-      ],
-      "wars": [
-        "Great Revolt, England, 1173-1174",
-        "Norman invasion of Ireland, Ireland, 1169-1175"
-      ],
-      "relationships": [
-        "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
-        "Sicily, Joan, Daughter, img/italy/joan.jpg",
-        "Castille, Eleanor, Daughter, img/spain/eleanor.jpg"
-      ]
-    },
-    "Richard I": {
-      "name": "Richard I",
-      "image": "img/england/richard_i.jpeg",
-      "house": "Plantagenet/Angevin",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1189,
-      "end": 1199,
-      "endReason": "Assassinated, 41",
-      "religion": "Catholic",
-      "events": [
-        "Led the 3rd Crusade",
-        "Captured by the Duke of Austria",
-        "Accused of murdering Conrad, King of Jerusalem"
-      ],
-      "wars": [
-        "Sicily, 1190",
-        "Cyprus, 1191"
-      ],
-      "relationships": [
-        "Navarre, Berengaria, Wife, img/france/berengaria.JPG"
-      ]
-    },
-    "John": {
-      "name": "John",
-      "image": "img/england/john.png",
-      "house": "Plantagenet/Angevin",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1199,
-      "end": 1216,
-      "endReason": "Dysentary, 49",
-      "religion": "Catholic",
-      "events": [
-        "Lost Normandy to Philip II of France",
-        "Signed the Magna Carta"
-      ],
-      "wars": [
-        "Normandy Campaigns, France, 1202-1204",
-        "First Barons' War, England, 1215-1217"
-      ],
-      "relationships": [
-        "Germany, Richard, Son, img/hre/richard.jpg",
-        "Holy Roman Empire, Isabella, Daughter, img/hre/isabella.jpg",
-        "Scotland, Joan, Daughter, img/scotland/joan.jpg"
-      ]
-    },
-    "Henry III": {
-      "name": "Henry III",
-      "image": "img/england/henry_iii.png",
-      "house": "Plantagenet",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1216,
-      "end": 1272,
-      "endReason": "Illness, 65",
-      "religion": "Catholic",
-      "events": [
-        "Great Charter of 1225 protected the rights of barons",
-        "Statute of Jewry segregated England's Jews",
-        "Provisions of Oxford created government of barons"
-      ],
-      "wars": [
-        "Second Barons' War, England, 1264-1267",
-        "France, 1230"
-      ],
-      "relationships": [
-        "Aquitaine, Isabella, Mother, img/france/isabella.jpg",
-        "Scotland, Margaret, Daughter, img/scotland/margaret_plantagenet.JPG",
-        "Provence, Eleanor, Wife, img/france/eleanor_provence.jpg"
-      ]
-    },
-    "Edward I": {
-      "name": "Edward I",
-      "image": "img/england/edward_i.png",
-      "house": "Plantagenet",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1272,
-      "end": 1307,
-      "endReason": "Dysentary, 68",
-      "religion": "Catholic",
-      "events": [
-        "Expelled all Jews from England",
-        "Lost and regained Duchy of Aquitaine",
-        "Established Parliament as a permnanet institution"
-      ],
-      "wars": [
-        "Conquest of Wales, Wales, 1277-1283",
-        "Anglo-French War, France, 1294-1303"
-      ],
-      "relationships": [
-        "Castille, Eleanor, Wife, img/spain/eleanor_castille.jpg",
-        "France, Margaret, Wife, img/france/margaret.jpg"
-      ]
-    },
-    "Edward II": {
-      "name": "Edward II",
-      "image": "img/england/edward_ii.jpg",
-      "house": "Plantagenet",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1307,
-      "end": 1327,
-      "endReason": "Unclear, 43",
-      "religion": "Catholic",
-      "events": [
-        "Ordinances of 1311 restricted the power of the king",
-        "Defeated by Robert the Bruce at Battle of Bannockburn",
-        "Forced to retreat into Wales; captured and deposed"
-      ],
-      "wars": [
-        "Despenser War, England, 1321-1322",
-        "War of Saint-Sardos, France, 1324"
-      ],
-      "relationships": [
-        "France, Isabella, Wife, img/france/isabella_plantagenet.jpg",
-        "Scotland, Joan, Daughter, img/scotland/joan_of_the_tower.jpg"
-      ]
-    },
-    "Edward III": {
-      "name": "Edward III",
-      "image": "img/england/edward_iii.png",
-      "house": "Plantagenet",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1327,
-      "end": 1377,
-      "endReason": "Stroke, 64",
-      "religion": "Catholic",
-      "events": [
-        "Black Death, 1347-1351, wiped out 1/3 of England",
-        "Parliament develops the process of impeachment",
-        "Claim to French throne sparks Hundred Years' War"
-      ],
-      "wars": [
-        "Hundred Years' War, France, 1337-1453",
-        "2nd War of Scottish Independence, Scotland, 1332-1357"
-      ],
-      "relationships": [
-        "Brittany, Mary, Daughter, img/france/mary_plantagenet.jpg"
-      ]
-    },
-    "Richard II": {
-      "name": "Richard II",
-      "image": "img/england/richard_ii.jpg",
-      "house": "Plantagenet",
-      "houseImage": "img/houses/plantagenet.png",
-      "start": 1377,
-      "end": 1399,
-      "endReason": "Starvation, 33",
-      "religion": "Catholic",
-      "events": [
-        "Government taken over by Lords Appellant in 1387",
-        "Deposed by his cousin, Henry of Bolingbroke"
-      ],
-      "wars": [
-        "Peasant's Revolt, England, 1381",
-        "Hundred Years' War, France, 1337-1453"
-      ],
-      "relationships": [
-        "Holy Roman Empire, Anne, Wife, img/hre/anne_plantagenet.jpg",
-        "France, Isabella, Wife, img/france/isabella_valois.JPG"
-      ]
-    },
-    "Henry IV": {
-      "name": "Henry IV",
-      "image": "img/england/henry_iv.png",
-      "house": "Lancaster",
-      "houseImage": "img/houses/lancaster.png",
-      "start": 1399,
-      "end": 1413,
-      "endReason": "Disease, 45",
-      "religion": "Catholic",
-      "events": [
-        "Son of Earl of Lancaster, richest landowner in England",
-        "Foiled early assassination plot, Epiphany Rising",
-        "Imprisoned James I of Scotland for entire reign"
-      ],
-      "wars": [
-        "Welsh rebellion, Wales, 1400",
-        "Hundred Years' War, France, 1337-1453"
-      ],
-      "relationships": [
-        "Denmark, Philippa, Daughter, img/denmark/philippa.jpg",
-        "Portugal, Philippa, Sister, img/portugal/philippa.png"
-      ]
-    },
-    "Henry V": {
-      "name": "Henry V",
-      "image": "img/england/henry_v.jpg",
-      "house": "Lancaster",
-      "houseImage": "img/houses/lancaster.png",
-      "start": 1413,
-      "end": 1422,
-      "endReason": "Dysentary, 35",
-      "religion": "Catholic",
-      "events": [
-        "Reconquered Normandy since being lost by Edward III",
-        "Treaty of Troyes made him heir apparent to French throne"
-      ],
-      "wars": [
-        "Hundred Years' War, France, 1337-1453"
-      ],
-      "relationships": [
-        "France, Catherine of Valois, Wife, img/france/catherine_valois.jpg"
-      ]
-    },
-    "Henry VI": {
-      "name": "Henry VI",
-      "image": "img/england/henry_vi.jpg",
-      "house": "Lancaster",
-      "houseImage": "img/houses/lancaster.png",
-      "start": 1422,
-      "end": 1461,
-      "endReason": "Unclear, 49",
-      "religion": "Catholic",
-      "events": [
-        "Disputed King of France from 1422-1453",
-        "Lost all French territories except Calais",
-        "Lost throne to House of York at Battle of Towton"
-      ],
-      "wars": [
-        "Hundred Years' War, France, 1337-1453",
-        "Wars of the Roses, England, 1455-1487"
-      ],
-      "relationships": [
-        "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
-      ]
-    },
-    "Edward IV": {
-      "name": "Edward IV",
-      "image": "img/england/edward_iv.jpg",
-      "house": "York",
-      "houseImage": "img/houses/york.png",
-      "start": 1461,
-      "end": 1470,
-      "endReason": "Illness, 40",
-      "religion": "Catholic",
-      "events": [
-        "Fled England after the confrontation at Ludford Bridge",
-        "Became the first Yorkist king of England",
-        "Fled England after Nevilles switched sides to Lancasters"
-      ],
-      "wars": [
-        "Wars of the Roses, England, 1455-1487"
-      ],
-      "relationships": [
-        "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
-      ]
-    },
-    "Henry VI (2nd)": {
-      "name": "Henry VI (2nd)",
-      "image": "img/england/henry_vi.jpg",
-      "house": "Lancaster",
-      "houseImage": "img/houses/lancaster.png",
-      "start": 1470,
-      "end": 1471,
-      "endReason": "Unclear, 49",
-      "religion": "Catholic",
-      "events": [
-        "Restored to the throne from the Tower of London for a year",
-        "Likely killed by Edward IV on his return to power"
-      ],
-      "wars": [
-        "Wars of the Roses, England, 1455-1487"
-      ],
-      "relationships": [
-        "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
-      ]
-    },
-    "Edward IV (2nd)": {
-      "name": "Edward IV (2nd)",
-      "image": "img/england/edward_iv.jpg",
-      "house": "York",
-      "houseImage": "img/houses/york.png",
-      "start": 1471,
-      "end": 1483,
-      "endReason": "Illness, 40",
-      "religion": "Catholic",
-      "events": [
-        "Killed the Lancaster heir at Battle of Tewksbury"
-      ],
-      "wars": [
-        "Wars of the Roses, England, 1455-1487",
-        "France, 1475"
-      ],
-      "relationships": [
-        "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
-      ]
-    },
-    "Edward V": {
-      "name": "Edward V",
-      "image": "img/england/edward_v.png",
-      "house": "York",
-      "houseImage": "img/houses/york.png",
-      "start": 1483,
-      "end": 1483,
-      "endReason": "Disappeared, 12",
-      "religion": "Catholic",
-      "events": [
-        "Heir to House of York",
-        "Likely killed by uncle Richard III"
-      ],
-      "wars": [
-        "Wars of the Roses, England, 1455-1487"
-      ],
-      "relationships": []
-    },
-    "Richard III": {
-      "name": "Richard III",
-      "image": "img/england/richard_iii.jpg",
-      "house": "York",
-      "houseImage": "img/houses/york.png",
-      "start": 1483,
-      "end": 1485,
-      "endReason": "Battle, 32",
-      "religion": "Catholic",
-      "events": [
-        "Defeated by Henry Tudor at Battle of Bosworth Field",
-        "His defeat ended the War of the Roses"
-      ],
-      "wars": [
-        "Wars of the Roses, England, 1455-1487",
-        "Buckingham's Rebellion, England, 1483"
-      ],
-      "relationships": []
-    },
-    "Henry VII": {
-      "name": "Henry VII",
-      "image": "img/england/henry_vii.jpg",
-      "house": "Tudor",
-      "houseImage": "img/houses/tudor.png",
-      "start": 1485,
-      "end": 1509,
-      "endReason": "Tuberculosis, 52",
-      "religion": "Catholic",
-      "events": [
-        "Built up England's navy and constructed drydocks",
-        "Appointed Justices of the Peace to every shire",
-        "Betrothed his son to princess of newly united Spain"
-      ],
-      "wars": [],
-      "relationships": [
-        "Spain, Catherine of Aragon, Daughter-in-law, img/spain/catherine_of_aragon.jpg",
-        "Scotland, Margaret, Daughter, img/scotland/margaret_tudor.jpg"
-      ]
-    },
-    "Henry VIII": {
-      "name": "Henry VIII",
-      "image": "img/england/henry_viii.jpg",
-      "house": "Tudor",
-      "houseImage": "img/houses/tudor.png",
-      "start": 1509,
-      "end": 1547,
-      "endReason": "Obesity, 55",
-      "religion": "Catholic/Protestant",
-      "events": [
-        "English Reformation separated Church of England from papal authority",
-        "Oversaw unification of England, Wales, and Ireland",
-        "Dissolved monastaries across England"
-      ],
-      "wars": [
-        "Rough Wooing, Scotland (1543-1551)",
-        "Italian Wars, France (1544-1546)"
-      ],
-      "relationships": [
-        "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
-        "Holy Roman Empire, Charles V, Nephew-in-law, img/hre/charles_v.jpg",
-        "Scotland, Margaret, Sister, img/scotland/margaret_tudor.jpg"
-      ]
-    },
-    "Edward VI": {
-      "name": "Edward VI",
-      "image": "img/england/edward_vi.jpg",
-      "house": "Tudor",
-      "houseImage": "img/houses/tudor.png",
-      "start": 1547,
-      "end": 1553,
-      "endReason": "Tuberculosis, 15",
-      "religion": "Protestant",
-      "events": [
-        "Book of Common Prayer Published",
-        "Abolished clerical celibacy and Mass",
-        "Named cousin Jane Grey to prevent return to Catholicism"
-      ],
-      "wars": [
-        "Prayer Book Rebellion, England, 1549"
-      ],
-      "relationships": [
-        "Scotland, Mary, Betrothed, img/scotland/mary.jpg"
-      ]
-    },
-    "Jane Grey": {
-      "name": "Jane Grey",
-      "image": "img/england/jane_grey.png",
-      "house": "Grey",
-      "houseImage": "img/houses/grey.png",
-      "start": 1553,
-      "end": 1553,
-      "endReason": "Execution, 17",
-      "religion": "Protestant",
-      "events": [
-        "Ruled for nine days",
-        "Executed by Mary Tudor"
-      ],
-      "wars": [],
-      "relationships": []
-    },
-    "Mary I": {
-      "name": "Mary I",
-      "image": "img/england/mary_i.png",
-      "house": "Tudor",
-      "houseImage": "img/houses/tudor.png",
-      "start": 1553,
-      "end": 1558,
-      "endReason": "Ovarian cancer, 42",
-      "religion": "Catholic",
-      "events": [
-        "Marian persecution of Protestants",
-        "Queen Mary's Marraige Act kept the throne after husband's death"
-      ],
-      "wars": [
-        "Italian Wars, France (1557-1558)"
-      ],
-      "relationships": [
-        "Holy Roman Empire, Charles V, Engaged, img/hre/charles_v.jpg",
-        "Spain, Philip, Husband, img/spain/philip_ii.jpg",
-        "Spain, Catherine of Aragon, Mother, img/spain/catherine_of_aragon.jpg"
-      ]
-    },
-    "Elizabeth I": {
-      "name": "Elizabeth I",
-      "image": "¸",
-      "house": "Tudor",
-      "houseImage": "img/houses/tudor.png",
-      "start": 1558,
-      "end": 1603,
-      "endReason": "Old age, 69",
-      "religion": "Anglican",
-      "events": [
-        "Elizabethan Religion Settlement evolved into Church of England",
-        "Executed Mary, Queen of Scots, to end Catholic cause",
-        "English drama flourished during the Elizabethan Era"
-      ],
-      "wars": [
-        "Anglo-Spanish War, Spain (1585-1604)",
-        "Rising of the North, Scotland (1569)",
-        "Tudor conquest of Ireland, Ireland (1594-1603)"
-      ],
-      "relationships": []
-    },
-    "James VI and I": {
-      "name": "James VI and I",
-      "image": "]'[",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1603,
-      "end": 1625,
-      "endReason": "Dysentary, 58",
-      "religion": "Anglican",
-      "events": [
-        "Authorized the English King James Bible",
-        "Guy Fawkes attemped the Gunpowder Plot"
-      ],
-      "wars": [],
-      "relationships": [
-        "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
-        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg"
-      ]
-    },
-    "Charles I": {
-      "name": "Charles I",
-      "image": "img/england/charles_i.png",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1625,
-      "end": 1649,
-      "endReason": "Execution, 48",
-      "religion": "Anglican",
-      "events": [
-        "Catholic leanings precipitate English Civil War",
-        "Oliver Cromwell takes over the English Republic"
-      ],
-      "wars": [
-        "First Bishops' War, Scotland (1639-1640)"
-      ],
-      "relationships": [
-        "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
-      ]
-    },
-    "Charles II": {
-      "name": "Charles II",
-      "image": "img/england/charles_ii.png",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1660,
-      "end": 1685,
-      "endReason": "Uraemia, 54",
-      "religion": "Protestant, then Catholic",
-      "events": [
-        "Creation of Whig and Tory parties",
-        "Dissolved English Parliament",
-        "Captured New Amsterdam from the Dutch"
-      ],
-      "wars": [
-        "2nd Anglo-Dutch War, Dutch Republic (1665-1667)",
-        "3rd Anglo-Dutch War, Dutch Republic (1672-1674)"
-      ],
-      "relationships": [
-        "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
-        "Dutch Republic, William of Orange, Nephew, img/england/william_iii_and_ii.png"
-      ]
-    },
-    "James II & VII": {
-      "name": "James II & VII",
-      "image": "img/england/james_ii_and_vii.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1685,
-      "end": 1688,
-      "endReason": "Deposed, 53",
-      "religion": "Catholic",
-      "events": [
-        "Prosecuted the Seven Bishops for seditious libel",
-        "Overthrown by William of Orange in the Glorious Revolution"
-      ],
-      "wars": [],
-      "relationships": [
-        "Italy, Mary of Modena, Wife, img/italy/mary_modena.jpg"
-      ]
-    },
-    "William III & II": {
-      "name": "William III & II",
-      "image": "img/england/william_iii_and_ii.jpg",
-      "house": "Orange-Nassau",
-      "houseImage": "img/houses/orange_nassau.png",
-      "start": 1688,
-      "end": 1702,
-      "endReason": "Pneumonia, 51",
-      "religion": "Protestant",
-      "events": [
-        "Signed Bill of Rights in exchange for crown",
-        "Jacobites try to return house Stuart to throne",
-        "Royal Charter granted to Bank of England"
-      ],
-      "wars": [
-        "Williamite War, Ireland (1688-1691)",
-        "Nine Years' War, France (1688-1697)"
-      ],
-      "relationships": [
-        "Dutch Republic, William II, Father, img/dutch/william_ii.jpg"
-      ]
-    },
-    "Anne": {
-      "name": "Anne",
-      "image": "img/england/anne.png",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1702,
-      "end": 1714,
-      "endReason": "Poor health, 49",
-      "religion": "Protestant",
-      "events": [
-        "Scotland and England become Great Britain",
-        "Exclusion Act forbade Catholic monarchs"
-      ],
-      "wars": [
-        "War of Spanish Succession, France (1701-1714)"
-      ],
-      "relationships": [
-        "Denmark, Prince George, Husband, img/denmark/george.jpg"
-      ]
-    },
-    "George I": {
-      "name": "George I",
-      "image": "img/england/george_i.jpg",
-      "house": "Hanover",
-      "houseImage": "img/houses/hanover.png",
-      "start": 1714,
-      "end": 1727,
-      "endReason": "Stroke, 67",
-      "religion": "Protestant",
-      "events": [
-        "South Sea Bubble (economic crisis)",
-        "First Prime Minister (Robert Walpole)"
-      ],
-      "wars": [
-        "War of the Quadruple Alliance, Spain (1718-1720)"
-      ],
-      "relationships": [
-        "Holy Roman Empire, Ernest Augustus, Father, img/hre/ernest_augustus.jpg",
-        "Prussia, Sophia Dorothea, Wife, img/hre/sophia_dorothea.jpg"
-      ]
-    },
-    "George II": {
-      "name": "George II",
-      "image": "img/england/george_ii.jpg",
-      "house": "Hanover",
-      "houseImage": "img/houses/hanover.png",
-      "start": 1727,
-      "end": 1760,
-      "endReason": "Heart failure, 77",
-      "religion": "Protestant",
-      "events": [
-        "Last monarch to lead an army in battle",
-        "Last of the Jacobite rebellions"
-      ],
-      "wars": [
-        "War of Jenkins' Ear, Spain (1739-1748)",
-        "War of the Austrian Succession, France (1740-1748)",
-        "Seven Years' War, France (1756-1763)"
-      ],
-      "relationships": [
-        "Prussia, Frederick the Great, Nephew, img/hre/frederick_ii.jpg",
-        "Holy Roman Empire, Caroline of Ansbach, Wife, img/hre/caroline_ansbach.jpg"
-      ]
-    },
-    "George III": {
-      "name": "George III",
-      "image": "img/england/george_iii.jpg",
-      "house": "Hanover",
-      "houseImage": "img/houses/hanover.png",
-      "start": 1760,
-      "end": 1820,
-      "endReason": "Dementia, 81",
-      "religion": "Protestant",
-      "events": [
-        "Lost American colonies during American Revolution",
-        "Ireland joins Great Britain as United Kingdom"
-      ],
-      "wars": [
-        "American War of Independence, America (1775-1783)",
-        "Napoleonic Wars, France (1793-1815)"
-      ],
-      "relationships": [
-        "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife, img/hre/charlotte_mecklenburg.jpg"
-      ]
-    },
-    "George IV": {
-      "name": "George IV",
-      "image": "img/england/george_iv.jpg",
-      "house": "Hanover",
-      "houseImage": "img/houses/hanover.png",
-      "start": 1820,
-      "end": 1830,
-      "endReason": "Obesity, 67",
-      "religion": "Protestant",
-      "events": [
-        "Catholic Emancipation removed restrictions on Catholics"
-      ],
-      "wars": [],
-      "relationships": [
-        "Holy Roman Empire, Caroline of Brunswick, Wife, img/hre/caroline_brunswick.jpg"
-      ]
-    },
-    "William IV": {
-      "name": "William IV",
-      "image": "img/england/william_iv.jpg",
-      "house": "Hanover",
-      "houseImage": "img/houses/hanover.png",
-      "start": 1830,
-      "end": 1837,
-      "endReason": "Old age, 71",
-      "religion": "Protestant",
-      "events": [
-        "Slavery and child labor abolished",
-        "Reform Act 1832 increased size of the electorate",
-        "Poor Law gave welfare to destitute"
-      ],
-      "wars": [],
-      "relationships": [
-        "Holy Roman Empire, Adelaide of Saxe-Meinigen, Wife, img/hre/adelaide.jpg",
-        "Belgians, Leopold I, Nephew-in-law, img/belgians/leopold_i.jpg"
-      ]
-    },
-    "Victoria": {
-      "name": "Victoria",
-      "image": "img/england/victoria.jpg",
-      "house": "Hanover",
-      "houseImage": "img/houses/hanover.png",
-      "start": 1837,
-      "end": 1901,
-      "endReason": "Old age, 81",
-      "religion": "Protestant",
-      "events": [
-        "Reform Act 1867 gave voting rights to working men",
-        "Indian Rebellion causes British East India Company to dissolve"
-      ],
-      "wars": [
-        "Anglo-Zulu War, Zulu Kingdom (1879)",
-        "2nd Anglo-Afghan War, Afghanistan (1878-1880)",
-        "Boer War, Boer States (1899-1902)"
-      ],
-      "relationships": [
-        "German Confederation, Prince Albert, Husband, img/hre/prince_albert.jpg",
-        "German Empire, Frederick William, Son-in-law, img/hre/frederick_william.jpg"
-      ]
-    },
-    "Edward VII": {
-      "name": "Edward VII",
-      "image": "img/england/edward_vii.jpg",
-      "house": "Saxe-Coburg and Gotha",
-      "houseImage": "img/houses/saxe_coburg_and_gotha.png",
-      "start": 1901,
-      "end": 1910,
-      "endReason": "Heart attack, 68",
-      "religion": "Protestant",
-      "events": [
-        "Parliament Act reduced the power of House of Lords",
-        "Edwardian Era saw the steam turbine and rise of socialism"
-      ],
-      "wars": [],
-      "relationships": [
-        "German Empire, Wilhelm II, Nephew, img/hre/wilhelm_ii.jpg",
-        "Denmark, Alexandra, Wife, img/denmark/alexandra.jpg",
-        "Russia, Nicholas II, Nephew-in-law, img/russia/nicholas_ii.jpg",
-        "Spain, Victoria Eugenia, Niece, img/spain/victoria_eugenia.jpg",
-        "Sweden, Margaret, Niece, img/sweden/margaret.png"
-      ]
-    },
-    "George V": {
-      "name": "George V",
-      "image": "img/england/george_v.jpg",
-      "house": "Windsor",
-      "houseImage": "img/houses/windsor.png",
-      "start": 1910,
-      "end": 1936,
-      "endReason": "Cold, 70",
-      "religion": "Protestant",
-      "events": [
-        "Irish Home Rule",
-        "Renamed house to Windsor among anti-German sentiment",
-        "First Labor parliament"
-      ],
-      "wars": [
-        "World War I, Germany (1914-1918)"
-      ],
-      "relationships": [
-        "German Empire, Wilhelm II, Cousin, img/hre/wilhelm_ii.jpg",
-        "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg"
-      ]
-    },
-    "Edward VIII": {
-      "name": "Edward VIII",
-      "image": "img/england/edward_viii.png",
-      "house": "Windsor",
-      "houseImage": "img/houses/windsor.png",
-      "start": 1936,
-      "end": 1936,
-      "endReason": "Abdication, 42",
-      "religion": "Protestant",
-      "events": [
-        "Abdicated to marry actress and avoid constitutional crisis"
-      ],
-      "wars": [],
-      "relationships": []
-    },
-    "George VI": {
-      "name": "George VI",
-      "image": "img/england/george_vi.png",
-      "house": "Windsor",
-      "houseImage": "img/houses/windsor.png",
-      "start": 1936,
-      "end": 1952,
-      "endReason": "Heart failure, 56",
-      "religion": "Protestant",
-      "events": [
-        "Breakup of British Empire towards Commonwealth of Nations",
-        "India and Pakistan became indepdendent"
-      ],
-      "wars": [
-        "World War II, Germany (1939-1945)"
-      ],
-      "relationships": []
-    },
-    "Elizabeth II": {
-      "name": "Elizabeth II",
-      "image": "img/england/elizabeth_ii.jpg",
-      "house": "Windsor",
-      "houseImage": "img/houses/windsor.png",
-      "start": 1952,
-      "end": 2019,
+  "Italy": {
+    "Victor Emmanuel II": {
+      "name": "Victor Emmanuel II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/VictorEmmanuel2.jpg/420px-VictorEmmanuel2.jpg",
+      "house": "Savoy",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg/340px-Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg.png",
+      "start": 1861,
+      "end": 1878,
       "endReason": "",
-      "religion": "Protestant",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Umberto I": {
+      "name": "Umberto I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Neurdein_-_Umberto_I_di_Savoia_come_principe_ereditario.jpg",
+      "house": "Savoy",
+      "houseImage": "",
+      "start": 1878,
+      "end": 1900,
+      "endReason": "Assassinated, 56",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Victor Emmanuel III": {
+      "name": "Victor Emmanuel III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Eduardo_Gioja_Viktor_Emanuel_III_1913.jpg/400px-Eduardo_Gioja_Viktor_Emanuel_III_1913.jpg",
+      "house": "Savoy",
+      "houseImage": "",
+      "start": 1900,
+      "end": 1946,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Umberto II": {
+      "name": "Umberto II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Philip_de_L%C3%A1szl%C3%B3_-_Prince_Umberto_of_Savoy%2C_Prince_of_Piedmont_1928.jpg/440px-Philip_de_L%C3%A1szl%C3%B3_-_Prince_Umberto_of_Savoy%2C_Prince_of_Piedmont_1928.jpg",
+      "house": "Savoy",
+      "houseImage": "",
+      "start": 1946,
+      "end": 1946,
+      "endReason": "",
+      "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     }
   },
-  "Scotland": {
-    "Malcolm III": {
-      "name": "Malcolm III",
-      "image": "img/scotland/malcolm_iii.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1058,
-      "end": 1093,
-      "endReason": "Battle, 62",
-      "religion": "Catholic",
-      "events": [
-        "Killed Lulach, who'd killed Macbeth",
-        "Attempted conquest of Northumbria",
-        ""
-      ],
-      "wars": [
-        "Harrying of the North, England, 1069-1070"
-      ],
-      "relationships": [
-        "England, Edgar Æthling, Brother-in-law, img/england/edgar_aethling.jpg"
-      ]
-    },
-    "Donald III": {
-      "name": "Donald III",
-      "image": "img/scotland/donald_iii.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1093,
-      "end": 1094,
-      "endReason": "Deposed, 62",
-      "religion": "Catholic",
-      "events": [
-        "Overthrown by invading nephew, Duncan II"
-      ],
+  "Spain": {
+    "Philip II": {
+      "name": "Philip II",
+      "image": "img/spain/philip_ii.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1556,
+      "end": 1598,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
       "relationships": []
     },
-    "Duncan II": {
-      "name": "Duncan II",
-      "image": "img/scotland/duncan_ii.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1094,
-      "end": 1094,
-      "endReason": "Battle, 34",
-      "religion": "Catholic",
-      "events": [
-        "Supported by unpopular Anglo-Norman troops",
-        "Killed immediately by associate of uncle Donald III"
-      ],
-      "wars": [],
-      "relationships": [
-        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
-      ]
-    },
-    "Donald III (2nd)": {
-      "name": "Donald III (2nd)",
-      "image": "img/scotland/donald_iii.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1094,
-      "end": 1097,
-      "endReason": "Imprisoned, 67",
-      "religion": "Catholic",
-      "events": [
-        "Imprisoned by nephew Edgar with support of William II of England"
-      ],
+    "Philip III": {
+      "name": "Philip III",
+      "image": "img/spain/philip_iii.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1598,
+      "end": 1621,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
       "relationships": []
     },
-    "Edgar": {
-      "name": "Edgar",
-      "image": "img/scotland/edgar.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1097,
-      "end": 1107,
-      "endReason": "Unspecified, 43",
-      "religion": "Catholic",
-      "events": [
-        "Supported Northumbrian revolt against William II of England",
-        "Ceded claim to the Hebrides to Magnus Barefoot of Norway"
-      ],
-      "wars": [],
-      "relationships": [
-        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
-      ]
-    },
-    "Alexander I": {
-      "name": "Alexander I",
-      "image": "img/scotland/alexander_i.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1107,
-      "end": 1124,
-      "endReason": "Unspecified, 45",
-      "religion": "Catholic",
-      "events": [
-        "Attacked by and fought the Mormaer of Moray"
-      ],
-      "wars": [],
-      "relationships": [
-        "England, Henry I, Father-in-law, img/england/henry_i.jpg"
-      ]
-    },
-    "David I": {
-      "name": "David I",
-      "image": "img/scotland/david_i.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1124,
-      "end": 1153,
-      "endReason": "Unspecified, 68",
-      "religion": "Catholic",
-      "events": [
-        "Annexed the Mormaer of Moray to the Scottish crown",
-        "Davidian Revolution saw Gregorian Reforms, burghs, and feudalism",
-        "Supported Empress Matilda over Stephen of Blois during The Anarchy"
-      ],
-      "wars": [
-        "The Anarchy, England, 1135-1153"
-      ],
-      "relationships": [
-        "England, Henry I, Brother-in-law, img/england/henry_i.jpg"
-      ]
-    },
-    "Malcolm IV": {
-      "name": "Malcolm IV",
-      "image": "img/scotland/malcolm_iv.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1153,
-      "end": 1165,
-      "endReason": "Paget's disease, 24",
-      "religion": "Catholic",
-      "events": [
-        "Forced to give Northumbria and Cumbria back to Henry II",
-        "Knighted by Henry II as Earl of Huntingdon"
-      ],
+    "Philip IV and III": {
+      "name": "Philip IV and III",
+      "image": "img/spain/philip_iv.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1621,
+      "end": 1665,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
       "relationships": []
     },
-    "William I": {
-      "name": "William I",
-      "image": "img/scotland/william_i.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1165,
-      "end": 1214,
-      "endReason": "Unspecified, 72",
-      "religion": "Catholic",
-      "events": [
-        "Signed Treaty of Falaise, making Scotland an English vassal",
-        "Bought Scotland's independence back from Richard I"
-      ],
-      "wars": [
-        "Revolt of 1173-74, England"
-      ],
-      "relationships": []
-    },
-    "Alexander II": {
-      "name": "Alexander II",
-      "image": "img/scotland/alexander_ii.jpg",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1214,
-      "end": 1249,
-      "endReason": "Fever, 50",
-      "religion": "Catholic",
-      "events": [
-        "Supported barons and Louis VIII against England",
-        "Established Anglo-Scottish border in Treaty of York",
-        ""
-      ],
-      "wars": [
-        "First Baron's War, England, 1215-1217"
-      ],
-      "relationships": [
-        "England, Henry III, Brother-in-law, img/england/henry_iii.jpg"
-      ]
-    },
-    "Alexander III": {
-      "name": "Alexander III",
-      "image": "img/scotland/alexander_iii.JPG",
-      "house": "Dunkeld",
-      "houseImage": "img/houses/dunkeld.png",
-      "start": 1249,
-      "end": 1286,
-      "endReason": "Injury, 44",
-      "religion": "Catholic",
-      "events": [
-        "Gained Isle of Man and Hebrides from Norway"
-      ],
-      "wars": [
-        "Scottish-Norwegian War, Norway, 1262-1266"
-      ],
-      "relationships": [
-        "England, Henry III, Father-in-law, img/england/henry_iii.jpg"
-      ]
-    },
-    "Margaret": {
-      "name": "Margaret",
-      "image": "img/scotland/margaret_maid_of_norway.jpg",
-      "house": "Sverre",
-      "houseImage": "img/houses/norway.png",
-      "start": 1286,
-      "end": 1290,
-      "endReason": "Illness, 7",
-      "religion": "Catholic",
-      "events": [
-        "Died, uncrowned, on her way to Scotland",
-        "Death led to thirteen claims to the throne"
-      ],
-      "wars": [],
-      "relationships": [
-        "Norway, Eric II, Father, img/norway/eric_ii.jpg"
-      ]
-    },
-    "John": {
-      "name": "John",
-      "image": "img/scotland/john.jpg",
-      "house": "Balliol",
-      "houseImage": "img/houses/balliol.png",
-      "start": 1292,
-      "end": 1296,
-      "endReason": "Abdicated, 47",
-      "religion": "Catholic",
-      "events": [
-        "Selected among competitors during Great Cause",
-        "Deposed by Scottish nobility and signed treaty with France",
-        "Imprisoned by Edward I in the Tower of London"
-      ],
-      "wars": [
-        "1st War of Scottish Independence, England, 1296-1328"
-      ],
-      "relationships": []
-    },
-    "Robert I": {
-      "name": "Robert I",
-      "image": "img/scotland/robert_i.jpg",
-      "house": "Bruce",
-      "houseImage": "img/houses/bruce.png",
-      "start": 1306,
-      "end": 1329,
-      "endReason": "Unclear, 55",
-      "religion": "Catholic",
-      "events": [
-        "Claimed throne while under rule of Edward I",
-        "Defeated the English at Battle of Bannockburn",
-        "Peace with England concluded after deposition of Edward II"
-      ],
-      "wars": [
-        "1st War of Scottish Independence, England, 1296-1328"
-      ],
-      "relationships": [
-        "Ireland, Elizabeth de Burgh, Wife, img/ireland/elizabeth_de_burgh.jpg"
-      ]
-    },
-    "David II": {
-      "name": "David II",
-      "image": "img/scotland/david_ii.jpg",
-      "house": "Bruce",
-      "houseImage": "img/houses/bruce.png",
-      "start": 1329,
-      "end": 1371,
-      "endReason": "Unknown, 46",
-      "religion": "Catholic",
-      "events": [
-        "Sent to France for safety after Battle of Halidon Hill",
-        "Captured by the English and held for 11 years",
-        ""
-      ],
-      "wars": [
-        "2nd War of Scottish Independence, England, 1332-1357"
-      ],
-      "relationships": [
-        "England, Joan of the Tower, Wife, img/england/joan_of_the_tower.jpg"
-      ]
-    },
-    "Robert II": {
-      "name": "Robert II",
-      "image": "img/scotland/robert_ii.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1371,
-      "end": 1390,
-      "endReason": "Unknown, 74",
-      "religion": "Catholic",
-      "events": [
-        "Defeated the return of Edward Balliol and the English",
-        "Included Scotland in the Anglo-French truce of 1384"
-      ],
+    "Charles II": {
+      "name": "Charles II",
+      "image": "img/spain/charles_ii.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1665,
+      "end": 1700,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
       "relationships": []
     },
-    "Robert III": {
-      "name": "Robert III",
-      "image": "img/scotland/robert_iii.png",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1390,
-      "end": 1406,
-      "endReason": "Unknown, 68",
-      "religion": "Catholic",
-      "events": [
-        "Ascended throne with power already moved to brother, Robert",
-        "Son made lieutenant; imprisoned and killed in 1402",
-        "Son James escaped from new lieutenant, uncle Albany Stewart"
-      ],
+    "Philip V": {
+      "name": "Philip V",
+      "image": "img/spain/philip_v.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1700,
+      "end": 1746,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
       "relationships": []
     },
-    "James I": {
-      "name": "James I",
-      "image": "img/scotland/james_i.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1406,
-      "end": 1437,
-      "endReason": "Assassinated, 42",
-      "religion": "Catholic",
-      "events": [
-        "Imprisoned and raised at the court of Henry IV",
-        "Arrested Lord of the Isles and Douglas clan leaders",
-        "Murdered during failed coup by uncle Walter Stewart"
-      ],
+    "Ferdinand VI": {
+      "name": "Ferdinand VI",
+      "image": "img/spain/ferdinand_vi.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1746,
+      "end": 1759,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
-      "relationships": [
-        "France, Louis XI, Son-in-law, img/france/louis_xi.jpg"
-      ]
+      "relationships": []
     },
-    "James II": {
-      "name": "James II",
-      "image": "img/scotland/james_ii.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1437,
-      "end": 1460,
-      "endReason": "Battle, 29",
-      "religion": "Catholic",
-      "events": [
-        "Had Earl of Douglas murdered for consipiring with Lord of the Isles",
-        "Killed by exploding artillery during seige of English castle"
-      ],
-      "wars": [
-        "Black Douglas civil war, Scotland, 1455"
-      ],
-      "relationships": [
-        "Flanders, Mary of Guelders, Wife, img/france/mary_guelders.jpg"
-      ]
-    },
-    "James III": {
-      "name": "James III",
-      "image": "img/scotland/james_iii.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1460,
-      "end": 1488,
-      "endReason": "Battle, 36",
-      "religion": "Catholic",
-      "events": [
-        "Received Orkney and Shetland Islands as a dowry",
-        "Imprisoned by Edward IV in Edinburgh Castle",
-        "Killed during rebellion at Battle of Sauchieburn"
-      ],
+    "Charles III": {
+      "name": "Charles III",
+      "image": "img/spain/charles_iii.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1759,
+      "end": 1788,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
-      "relationships": [
-        "Denmark, Margaret, Wife, img/denmark/margaret.jpg"
-      ]
+      "relationships": []
     },
-    "James IV": {
-      "name": "James IV",
-      "image": "img/scotland/james_iv.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1488,
-      "end": 1513,
-      "endReason": "Battle, 40",
-      "religion": "Catholic",
-      "events": [
-        "Defeated his father, James III, at Battle of Sauchieburn",
-        "Signed the Treaty of Perpetual Peace with Henry VII",
-        "Took away the Lord of the Isles title from the MacDonalds"
-      ],
-      "wars": [
-        "War of the League of Cambrai, England, 1513"
-      ],
-      "relationships": [
-        "England, Margaret Tudor, Wife, img/england/margaret_tudor.jpg",
-        "Denmark, Christian I, Grandfather, img/denmark/christian_i.jpg"
-      ]
-    },
-    "James V": {
-      "name": "James V",
-      "image": "img/scotland/james_v.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1513,
-      "end": 1542,
-      "endReason": "Illness, 30",
-      "religion": "Catholic",
-      "events": [
-        "Imprisoned by stepfather Archibald Douglas for 3 years",
-        "Persecuted Protestants",
-        "Allied with France against the Protestant cause"
-      ],
-      "wars": [
-        "Anglo-Scottish Wars, England, 1542"
-      ],
-      "relationships": [
-        "England, Henry VIII, Uncle, img/england/henry_viii.png",
-        "France, Madeleine, Wife, img/france/madeleine_valois.jpg",
-        "France, Mary of Guise, Wife, img/france/mary_guise.jpg"
-      ]
-    },
-    "Mary, Queen of Scots": {
-      "name": "Mary, Queen of Scots",
-      "image": "img/scotland/mary.jpg",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1542,
-      "end": 1567,
-      "endReason": "Beheaded, 44",
-      "religion": "Catholic",
-      "events": [
-        "Imprisoned in Loch Leven Castle by Protestants and forced to abdicate",
-        "Believed by Catholics to be the legitimate heir to Mary I",
-        "After 18 years in custody, beheaded by Elizabeth I"
-      ],
-      "wars": [
-        "Rough Wooing, England, 1543-1551"
-      ],
-      "relationships": [
-        "France, Francis II, Husband, img/france/francis_ii.jpg",
-        "England, Edward VI, Betrothed, img/england/edward_vi.jpg"
-      ]
-    },
-    "James VI and I": {
-      "name": "James VI and I",
-      "image": "img/england/james_vi_and_i.png",
-      "house": "Stuart",
-      "houseImage": "img/houses/stuart.png",
-      "start": 1567,
-      "end": 1603,
-      "endReason": "Dysentary, 58",
-      "religion": "Protestant",
-      "events": [
-        "Mother Mary forced to abdicate by Protestant rebels",
-        "Ingratiated himself to Elizabeth, who was childless",
-        "Colonized the Hebrides in an attempt to de-gaelicise it"
-      ],
+    "Charles IV": {
+      "name": "Charles IV",
+      "image": "img/spain/charles_iv.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1788,
+      "end": 1808,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
-      "relationships": [
-        "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
-        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg",
-        "Denmark, Anne, Wife, img/denmark/anne.jpg"
-      ]
+      "relationships": []
+    },
+    "Ferdinand VII": {
+      "name": "Ferdinand VII",
+      "image": "img/spain/ferdinand_vii.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1808,
+      "end": 1808,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Joseph Bonaparte": {
+      "name": "Joseph Bonaparte",
+      "image": "img/spain/joseph_bonaparte.jpg",
+      "house": "Bonaparte",
+      "houseImage": "img/houses/bonaparte.png",
+      "start": 1808,
+      "end": 1813,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand VII (2nd)": {
+      "name": "Ferdinand VII (2nd)",
+      "image": "img/spain/ferdinand_vii.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1813,
+      "end": 1833,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Isabella II": {
+      "name": "Isabella II",
+      "image": "img/spain/isabella_ii.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1833,
+      "end": 1868,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Amadeo I": {
+      "name": "Amadeo I",
+      "image": "img/spain/amadeo.jpg",
+      "house": "Savoy",
+      "houseImage": "img/houses/savoy.png",
+      "start": 1870,
+      "end": 1873,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alfonso XII": {
+      "name": "Alfonso XII",
+      "image": "img/spain/alfonso_xii.png",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1874,
+      "end": 1885,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alfonso XIII": {
+      "name": "Alfonso XIII",
+      "image": "img/spain/alfonso_xiii.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1886,
+      "end": 1931,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francisco Franco": {
+      "name": "Francisco Franco",
+      "image": "img/spain/franco.jpg",
+      "house": "Franco",
+      "houseImage": "img/houses/franco.png",
+      "start": 1936,
+      "end": 1975,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Juan Carlos I": {
+      "name": "Juan Carlos I",
+      "image": "img/spain/juan_carlos.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1975,
+      "end": 2014,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Felipe VI": {
+      "name": "Felipe VI",
+      "image": "img/spain/felipe_vi.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 2014,
+      "end": 2019,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
     }
   },
   "France": {
@@ -3949,65 +2189,143 @@
       "relationships": []
     }
   },
-  "Spain": {
-    "Philip II": {
-      "name": "Philip II",
-      "image": "img/spain/philip_ii.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1556,
-      "end": 1598,
+  "Denmark": {
+    "Margrethe II": {
+      "name": "Margrethe II",
+      "image": "img/denmark/margrethe_ii.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1972,
+      "end": 2019,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Philip III": {
-      "name": "Philip III",
-      "image": "img/spain/philip_iii.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1598,
-      "end": 1621,
+    "Frederick IX": {
+      "name": "Frederick IX",
+      "image": "img/denmark/frederick_ix.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1947,
+      "end": 1972,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Philip IV and III": {
-      "name": "Philip IV and III",
-      "image": "img/spain/philip_iv.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1621,
-      "end": 1665,
+    "Christian X": {
+      "name": "Christian X",
+      "image": "img/denmark/christian_x.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1912,
+      "end": 1947,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Charles II": {
-      "name": "Charles II",
-      "image": "img/spain/charles_ii.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1665,
-      "end": 1700,
+    "Frederick VIII": {
+      "name": "Frederick VIII",
+      "image": "img/denmark/frederick_viii.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1906,
+      "end": 1912,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Philip V": {
-      "name": "Philip V",
-      "image": "img/spain/philip_v.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1700,
+    "Christian IX": {
+      "name": "Christian IX",
+      "image": "img/denmark/christian_ix.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1863,
+      "end": 1906,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick VII": {
+      "name": "Frederick VII",
+      "image": "img/denmark/frederick_vii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1848,
+      "end": 1863,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian VIII": {
+      "name": "Christian VIII",
+      "image": "img/denmark/christian_viii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1839,
+      "end": 1848,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick VI": {
+      "name": "Frederick VI",
+      "image": "img/denmark/frederick_vi.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1808,
+      "end": 1839,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian VII": {
+      "name": "Christian VII",
+      "image": "img/denmark/christian_vii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1766,
+      "end": 1808,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick V": {
+      "name": "Frederick V",
+      "image": "img/denmark/frederick_v.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1746,
+      "end": 1766,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian VI": {
+      "name": "Christian VI",
+      "image": "img/denmark/christian_vi.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1730,
       "end": 1746,
       "endReason": "",
       "religion": "",
@@ -4015,392 +2333,26 @@
       "wars": [],
       "relationships": []
     },
-    "Ferdinand VI": {
-      "name": "Ferdinand VI",
-      "image": "img/spain/ferdinand_vi.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1746,
-      "end": 1759,
+    "Frederick IV": {
+      "name": "Frederick IV",
+      "image": "img/denmark/frederick_iv.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1699,
+      "end": 1730,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Charles III": {
-      "name": "Charles III",
-      "image": "img/spain/charles_iii.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1759,
-      "end": 1788,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Charles IV": {
-      "name": "Charles IV",
-      "image": "img/spain/charles_iv.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1788,
-      "end": 1808,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Ferdinand VII": {
-      "name": "Ferdinand VII",
-      "image": "img/spain/ferdinand_vii.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1808,
-      "end": 1808,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Joseph Bonaparte": {
-      "name": "Joseph Bonaparte",
-      "image": "img/spain/joseph_bonaparte.jpg",
-      "house": "Bonaparte",
-      "houseImage": "img/houses/bonaparte.png",
-      "start": 1808,
-      "end": 1813,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Ferdinand VII (2nd)": {
-      "name": "Ferdinand VII (2nd)",
-      "image": "img/spain/ferdinand_vii.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1813,
-      "end": 1833,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Isabella II": {
-      "name": "Isabella II",
-      "image": "img/spain/isabella_ii.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1833,
-      "end": 1868,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Amadeo I": {
-      "name": "Amadeo I",
-      "image": "img/spain/amadeo.jpg",
-      "house": "Savoy",
-      "houseImage": "img/houses/savoy.png",
-      "start": 1870,
-      "end": 1873,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Alfonso XII": {
-      "name": "Alfonso XII",
-      "image": "img/spain/alfonso_xii.png",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1874,
-      "end": 1885,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Alfonso XIII": {
-      "name": "Alfonso XIII",
-      "image": "img/spain/alfonso_xiii.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1886,
-      "end": 1931,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Francisco Franco": {
-      "name": "Francisco Franco",
-      "image": "img/spain/franco.jpg",
-      "house": "Franco",
-      "houseImage": "img/houses/franco.png",
-      "start": 1936,
-      "end": 1975,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Juan Carlos I": {
-      "name": "Juan Carlos I",
-      "image": "img/spain/juan_carlos.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 1975,
-      "end": 2014,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Felipe VI": {
-      "name": "Felipe VI",
-      "image": "img/spain/felipe_vi.jpg",
-      "house": "Bourbon",
-      "houseImage": "img/houses/bourbon.png",
-      "start": 2014,
-      "end": 2019,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    }
-  },
-  "Holy Roman Empire": {
-    "Otto I": {
-      "name": "Otto I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/017_otto_siegel_2.jpg/200px-017_otto_siegel_2.jpg",
-      "house": "Ottonian",
-      "houseImage": "",
-      "start": 962,
-      "end": 973,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Otto II": {
-      "name": "Otto II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Otto_II._%28HRR%29.jpg/200px-Otto_II._%28HRR%29.jpg",
-      "house": "Ottonian",
-      "houseImage": "",
-      "start": 967,
-      "end": 983,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Otto III": {
-      "name": "Otto III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Meister_der_Reichenauer_Schule_002.jpg/200px-Meister_der_Reichenauer_Schule_002.jpg",
-      "house": "Ottonian",
-      "houseImage": "",
-      "start": 996,
-      "end": 1002,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Henry II": {
-      "name": "Henry II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Kronung_Heinrich_II.jpg/200px-Kronung_Heinrich_II.jpg",
-      "house": "Ottonian",
-      "houseImage": "",
-      "start": 1014,
-      "end": 1024,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Conrad II": {
-      "name": "Conrad II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Konrad2Salsky-2.jpg/200px-Konrad2Salsky-2.jpg",
-      "house": "Salian",
-      "houseImage": "",
-      "start": 1027,
-      "end": 1039,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Henry III": {
-      "name": "Henry III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Heinrich_III._%28HRR%29_Miniatur.jpg/200px-Heinrich_III._%28HRR%29_Miniatur.jpg",
-      "house": "Salian",
-      "houseImage": "",
-      "start": 1046,
-      "end": 1056,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Henry IV": {
-      "name": "Henry IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Heinrich_4_g.jpg",
-      "house": "Salian",
-      "houseImage": "",
-      "start": 1056,
-      "end": 1106,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Henry V": {
-      "name": "Henry V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Paschalis.jpg/200px-Paschalis.jpg",
-      "house": "Salian",
-      "houseImage": "",
-      "start": 1111,
-      "end": 1125,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Lothair II": {
-      "name": "Lothair II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lothair_II%2C_Holy_Roman_Emperor.jpg/200px-Lothair_II%2C_Holy_Roman_Emperor.jpg",
-      "house": "Supplinburg",
-      "houseImage": "",
-      "start": 1133,
-      "end": 1137,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick I": {
-      "name": "Frederick I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Frederick_I_%28HRE%29.jpg/200px-Frederick_I_%28HRE%29.jpg",
-      "house": "Staufen",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Or_three_leopards_sable.svg/220px-Or_three_leopards_sable.svg.png",
-      "start": 1155,
-      "end": 1190,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Henry VI": {
-      "name": "Henry VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Codex_Manesse_Heinrich_VI._%28HRR%29.jpg/200px-Codex_Manesse_Heinrich_VI._%28HRR%29.jpg",
-      "house": "Staufen",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Or_three_leopards_sable.svg/220px-Or_three_leopards_sable.svg.png",
-      "start": 1191,
-      "end": 1197,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Otto IV": {
-      "name": "Otto IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ottta4Brunsvicky.jpg/200px-Ottta4Brunsvicky.jpg",
-      "house": "Welf",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coat_of_Arms_of_Brunswick-L%C3%BCneburg.svg/200px-Coat_of_Arms_of_Brunswick-L%C3%BCneburg.svg.png",
-      "start": 1198,
-      "end": 1215,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick II": {
-      "name": "Frederick II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Frederick_II_%28HRE%29.jpg/200px-Frederick_II_%28HRE%29.jpg",
-      "house": "Staufen",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Or_three_leopards_sable.svg/220px-Or_three_leopards_sable.svg.png",
-      "start": 1220,
-      "end": 1250,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Henry VII": {
-      "name": "Henry VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Henry_Lux_head.jpg",
-      "house": "Luxembourg",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
-      "start": 1312,
-      "end": 1313,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Louis IV": {
-      "name": "Louis IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ludovico_il_Bavaro.jpeg",
-      "house": "Wittelsbach",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
-      "start": 1314,
-      "end": 1347,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Charles IV": {
-      "name": "Charles IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Charles_IV-John_Ocko_votive_picture-fragment.jpg/200px-Charles_IV-John_Ocko_votive_picture-fragment.jpg",
-      "house": "Luxembourg",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
-      "start": 1346,
-      "end": 1378,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sigismund": {
-      "name": "Sigismund",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Zikmund_Zho%C5%99elecka_radnice.jpg/200px-Zikmund_Zho%C5%99elecka_radnice.jpg",
-      "house": "Luxembourg",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
-      "start": 1433,
-      "end": 1437,
+    "Christian V": {
+      "name": "Christian V",
+      "image": "img/denmark/christian_v.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1670,
+      "end": 1699,
       "endReason": "",
       "religion": "",
       "events": [],
@@ -4409,281 +2361,1885 @@
     },
     "Frederick III": {
       "name": "Frederick III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hans_Burgkmair_d._%C3%84._005.jpg/200px-Hans_Burgkmair_d._%C3%84._005.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
+      "image": "img/denmark/frederick_iii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1648,
+      "end": 1670,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian IV": {
+      "name": "Christian IV",
+      "image": "img/denmark/christian_iv.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1588,
+      "end": 1648,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick II": {
+      "name": "Frederick II",
+      "image": "img/denmark/frederick_ii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1559,
+      "end": 1588,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian III": {
+      "name": "Christian III",
+      "image": "img/denmark/christian_iii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1534,
+      "end": 1559,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick I": {
+      "name": "Frederick I",
+      "image": "img/denmark/frederick_i.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1523,
+      "end": 1533,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian II": {
+      "name": "Christian II",
+      "image": "img/denmark/christian_ii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1513,
+      "end": 1523,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "John": {
+      "name": "John",
+      "image": "img/denmark/john.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1481,
+      "end": 1513,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian I": {
+      "name": "Christian I",
+      "image": "img/denmark/christian_i.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1448,
+      "end": 1481,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christopher III": {
+      "name": "Christopher III",
+      "image": "img/denmark/christopher_iii.jpg",
+      "house": "Palantinate-Neumarkt",
+      "houseImage": "",
       "start": 1440,
-      "end": 1493,
+      "end": 1448,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Maximilian I": {
-      "name": "Maximilian I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Maximilian_I_as_Emperor.JPG/200px-Maximilian_I_as_Emperor.JPG",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1493,
-      "end": 1519,
+    "Eric VII": {
+      "name": "Eric VII",
+      "image": "img/denmark/eric_vii.jpg",
+      "house": "Griffins",
+      "houseImage": "img/houses/griffin.png",
+      "start": 1396,
+      "end": 1439,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Charles V": {
-      "name": "Charles V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elderly_Karl_V.jpg/440px-Elderly_Karl_V.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1519,
-      "end": 1556,
+    "Margaret I": {
+      "name": "Margaret I",
+      "image": "img/denmark/margaret_i.png",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1387,
+      "end": 1412,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Ferdinand I": {
-      "name": "Ferdinand I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg/220px-Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1558,
-      "end": 1564,
+    "Olaf II and IV": {
+      "name": "Olaf II and IV",
+      "image": "img/denmark/olaf_ii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1376,
+      "end": 1387,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Maximilian II": {
-      "name": "Maximilian II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nicolas_Neufch%C3%A2tel_002.jpg/440px-Nicolas_Neufch%C3%A2tel_002.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1564,
-      "end": 1576,
+    "Valdemar IV": {
+      "name": "Valdemar IV",
+      "image": "img/denmark/valdemar_iv.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1340,
+      "end": 1375,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Rudolf II": {
-      "name": "Rudolf II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg/440px-AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1576,
-      "end": 1612,
+    "Christopher II (2nd)": {
+      "name": "Christopher II (2nd)",
+      "image": "img/denmark/christopher_ii.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1329,
+      "end": 1332,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Matthias": {
-      "name": "Matthias",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg/440px-Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1612,
-      "end": 1619,
+    "Valdemar III": {
+      "name": "Valdemar III",
+      "image": "img/denmark/valdemar_iii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1326,
+      "end": 1330,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Ferdinand II": {
-      "name": "Ferdinand II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Ferdinand_II._1614.jpg/440px-Kaiser_Ferdinand_II._1614.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1619,
-      "end": 1637,
+    "Christopher II": {
+      "name": "Christopher II",
+      "image": "img/denmark/christopher_ii.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1320,
+      "end": 1326,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Ferdinand III": {
-      "name": "Ferdinand III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg/440px-Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1637,
-      "end": 1657,
+    "Eric VI": {
+      "name": "Eric VI",
+      "image": "img/denmark/eric_vi.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1286,
+      "end": 1319,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Leopold I": {
-      "name": "Leopold I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Benjamin_von_Block_001.jpg/440px-Benjamin_von_Block_001.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1658,
-      "end": 1705,
+    "Eric V": {
+      "name": "Eric V",
+      "image": "img/denmark/eric_v.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1259,
+      "end": 1286,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Joseph I": {
-      "name": "Joseph I",
-      "image": "http://www.holyromanempireassociation.com/image/118580078_scaled_199x285.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1705,
-      "end": 1711,
+    "Christopher I": {
+      "name": "Christopher I",
+      "image": "img/denmark/christopher_i.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1252,
+      "end": 1259,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Charles VI": {
-      "name": "Charles VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg/440px-Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg",
-      "house": "Habsburg",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1711,
-      "end": 1740,
+    "Abel": {
+      "name": "Abel",
+      "image": "img/denmark/abel.jpeg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1250,
+      "end": 1252,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Charles VII": {
-      "name": "Charles VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg/440px-Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg",
-      "house": "Wittelsbach",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
-      "start": 1742,
-      "end": 1745,
+    "Eric IV": {
+      "name": "Eric IV",
+      "image": "img/denmark/eric_iv.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1232,
+      "end": 1250,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Francis I": {
-      "name": "Francis I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Martin_van_Meytens_006.jpg/440px-Martin_van_Meytens_006.jpg",
-      "house": "Lorraine",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coat_of_arms_of_the_House_of_Lorraine.png",
-      "start": 1745,
-      "end": 1765,
+    "Valdemar II": {
+      "name": "Valdemar II",
+      "image": "img/denmark/valdemar_ii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1202,
+      "end": 1241,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Joseph II": {
-      "name": "Joseph II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Anton_von_Maron_006.png/440px-Anton_von_Maron_006.png",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1765,
-      "end": 1790,
+    "Canute VI": {
+      "name": "Canute VI",
+      "image": "img/denmark/canute_vi.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1182,
+      "end": 1202,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Leopold II": {
-      "name": "Leopold II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg/440px-Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1790,
-      "end": 1792,
+    "Valdemar I": {
+      "name": "Valdemar I",
+      "image": "img/denmark/valdemar_i.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1154,
+      "end": 1182,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Francis II and I": {
-      "name": "Francis II and I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg/440px-Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1792,
-      "end": 1806,
+    "Sweyn III": {
+      "name": "Sweyn III",
+      "image": "img/denmark/sweyn_iii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1146,
+      "end": 1157,
       "endReason": "",
       "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric III": {
+      "name": "Eric III",
+      "image": "img/denmark/eric_iii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1137,
+      "end": 1146,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric II": {
+      "name": "Eric II",
+      "image": "img/denmark/eric_ii.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1134,
+      "end": 1137,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Neils": {
+      "name": "Neils",
+      "image": "img/denmark/niels.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1104,
+      "end": 1134,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric I": {
+      "name": "Eric I",
+      "image": "img/denmark/eric_i.png",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1095,
+      "end": 1103,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Olaf I": {
+      "name": "Olaf I",
+      "image": "img/denmark/olaf_i.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1086,
+      "end": 1095,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Canute IV": {
+      "name": "Canute IV",
+      "image": "img/denmark/canute_iv.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1080,
+      "end": 1086,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Harald III": {
+      "name": "Harald III",
+      "image": "img/denmark/harald_iii.png",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1076,
+      "end": 1080,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Sweyn II": {
+      "name": "Sweyn II",
+      "image": "img/denmark/sweyn_ii.jpeg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1047,
+      "end": 1076,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Magnus": {
+      "name": "Magnus",
+      "image": "img/denmark/magnus.jpg",
+      "house": "St. Olaf",
+      "houseImage": "",
+      "start": 1035,
+      "end": 1047,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Cnut the Great": {
+      "name": "Cnut the Great",
+      "image": "img/denmark/cnut_the_great.jpg",
+      "house": "Denmark",
+      "houseImage": "",
+      "start": 1016,
+      "end": 1035,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Harald II": {
+      "name": "Harald II",
+      "image": "img/denmark/harald_ii.jpg",
+      "house": "",
+      "houseImage": "",
+      "start": 1014,
+      "end": 1018,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Sweyn Forkbeard": {
+      "name": "Sweyn Forkbeard",
+      "image": "img/denmark/sweyn_forkbeard.jpg",
+      "house": "Denmark",
+      "houseImage": "",
+      "start": 986,
+      "end": 1014,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Harald Bluetooth": {
+      "name": "Harald Bluetooth",
+      "image": "img/denmark/harald_bluetooth.jpg",
+      "house": "Gorm",
+      "houseImage": "",
+      "start": 958,
+      "end": 986,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Gorm": {
+      "name": "Gorm",
+      "image": "img/denmark/gorm.jpg",
+      "house": "Gorm",
+      "houseImage": "",
+      "start": 936,
+      "end": 958,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Harthacnut": {
+      "name": "Harthacnut",
+      "image": "img/denmark/harthacnut.jpg",
+      "house": "",
+      "houseImage": "",
+      "start": 916,
+      "end": 936,
+      "endReason": "",
+      "religion": "Norse Paganism",
       "events": [],
       "wars": [],
       "relationships": []
     }
   },
-  "Austria": {
-    "Francis I": {
-      "name": "Francis I",
-      "image": "",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1804,
-      "end": 1835,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+  "England": {
+    "William I": {
+      "name": "William I",
+      "image": "img/england/william_the_conquerer.png",
+      "house": "Normandy",
+      "houseImage": "img/houses/normandy.png",
+      "start": 1066,
+      "end": 1087,
+      "endReason": "Illness, 59",
+      "religion": "Catholic",
+      "events": [
+        "Led the Norman invasion of England",
+        "Defeated Harold Godwinson at Battle of Hastings",
+        "Built the Tower of London and many other castles"
+      ],
+      "wars": [
+        "Normal conquest, England, 1066",
+        "Harrying of the North, England, 1068",
+        "Revolt of the Earls, England, 1075"
+      ],
+      "relationships": [
+        "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
+        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg"
+      ]
+    },
+    "William II": {
+      "name": "William II",
+      "image": "img/england/william_ii.png",
+      "house": "Normandy",
+      "houseImage": "img/houses/normandy.png",
+      "start": 1087,
+      "end": 1100,
+      "endReason": "Hunting accident, 44",
+      "religion": "Catholic",
+      "events": [
+        "Exiled the Archbishop of Canterbury, Anselm",
+        "Defeated and killed Malcolm III of Scotland"
+      ],
+      "wars": [
+        "Rebellion of 1088, England, 1088-1091",
+        "Scotland, 1091-1903",
+        "France, 1097-1099"
+      ],
+      "relationships": [
+        "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
+      ]
+    },
+    "Henry I": {
+      "name": "Henry I",
+      "image": "img/england/henry_i.png",
+      "house": "Normandy",
+      "houseImage": "img/houses/normandy.png",
+      "start": 1100,
+      "end": 1135,
+      "endReason": "Illness, 66",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned his brother Robert, Duke of Normandy",
+        "Brought Normandy back into the English crown",
+        "Son William drowned, prompting succession crisis"
+      ],
+      "wars": [
+        "Normandy, 1106",
+        "France, 1116-1119"
+      ],
+      "relationships": [
+        "Scotland, Matilda, Wife, img/scotland/matilda.JPG",
+        "Anjou, Matilda, Daughter, img/france/mathilda.png"
+      ]
+    },
+    "Stephen": {
+      "name": "Stephen",
+      "image": "img/england/stephen.jpg",
+      "house": "Blois",
+      "houseImage": "img/houses/blois.png",
+      "start": 1135,
+      "end": 1154,
+      "endReason": "Illness, 57",
+      "religion": "Catholic",
+      "events": [
+        "Captured at Battle of Lincoln by aunt Matilda",
+        "Ended The Anarchy by naming cousin Henry II as heir"
+      ],
+      "wars": [
+        "Scotland, 1136",
+        "The Anarchy, England, 1139-1154"
+      ],
+      "relationships": [
+        "Blois, Stephen, Father, img/france/stepan.jpg",
+        "Boulogne, Matilda, Wife, img/france/matilda_boulogne.jpg"
+      ]
+    },
+    "Henry II": {
+      "name": "Henry II",
+      "image": "img/england/henry_ii.png",
+      "house": "Plantagenet/Angevin",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1154,
+      "end": 1189,
+      "endReason": "Ulcer, 56",
+      "religion": "Catholic",
+      "events": [
+        "Executed Archbishop of Canterbury, Thomas Becket",
+        "Consolidated Brittany, Toulouse, and Vexin",
+        "Laid foundation for English Common Law"
+      ],
+      "wars": [
+        "Great Revolt, England, 1173-1174",
+        "Norman invasion of Ireland, Ireland, 1169-1175"
+      ],
+      "relationships": [
+        "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
+        "Sicily, Joan, Daughter, img/italy/joan.jpg",
+        "Castille, Eleanor, Daughter, img/spain/eleanor.jpg"
+      ]
+    },
+    "Richard I": {
+      "name": "Richard I",
+      "image": "img/england/richard_i.jpeg",
+      "house": "Plantagenet/Angevin",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1189,
+      "end": 1199,
+      "endReason": "Assassinated, 41",
+      "religion": "Catholic",
+      "events": [
+        "Led the 3rd Crusade",
+        "Captured by the Duke of Austria",
+        "Accused of murdering Conrad, King of Jerusalem"
+      ],
+      "wars": [
+        "Sicily, 1190",
+        "Cyprus, 1191"
+      ],
+      "relationships": [
+        "Navarre, Berengaria, Wife, img/france/berengaria.JPG"
+      ]
+    },
+    "John": {
+      "name": "John",
+      "image": "img/england/john.png",
+      "house": "Plantagenet/Angevin",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1199,
+      "end": 1216,
+      "endReason": "Dysentary, 49",
+      "religion": "Catholic",
+      "events": [
+        "Lost Normandy to Philip II of France",
+        "Signed the Magna Carta"
+      ],
+      "wars": [
+        "Normandy Campaigns, France, 1202-1204",
+        "First Barons' War, England, 1215-1217"
+      ],
+      "relationships": [
+        "Germany, Richard, Son, img/hre/richard.jpg",
+        "Holy Roman Empire, Isabella, Daughter, img/hre/isabella.jpg",
+        "Scotland, Joan, Daughter, img/scotland/joan.jpg"
+      ]
+    },
+    "Henry III": {
+      "name": "Henry III",
+      "image": "img/england/henry_iii.png",
+      "house": "Plantagenet",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1216,
+      "end": 1272,
+      "endReason": "Illness, 65",
+      "religion": "Catholic",
+      "events": [
+        "Great Charter of 1225 protected the rights of barons",
+        "Statute of Jewry segregated England's Jews",
+        "Provisions of Oxford created government of barons"
+      ],
+      "wars": [
+        "Second Barons' War, England, 1264-1267",
+        "France, 1230"
+      ],
+      "relationships": [
+        "Aquitaine, Isabella, Mother, img/france/isabella.jpg",
+        "Scotland, Margaret, Daughter, img/scotland/margaret_plantagenet.JPG",
+        "Provence, Eleanor, Wife, img/france/eleanor_provence.jpg"
+      ]
+    },
+    "Edward I": {
+      "name": "Edward I",
+      "image": "img/england/edward_i.png",
+      "house": "Plantagenet",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1272,
+      "end": 1307,
+      "endReason": "Dysentary, 68",
+      "religion": "Catholic",
+      "events": [
+        "Expelled all Jews from England",
+        "Lost and regained Duchy of Aquitaine",
+        "Established Parliament as a permnanet institution"
+      ],
+      "wars": [
+        "Conquest of Wales, Wales, 1277-1283",
+        "Anglo-French War, France, 1294-1303"
+      ],
+      "relationships": [
+        "Castille, Eleanor, Wife, img/spain/eleanor_castille.jpg",
+        "France, Margaret, Wife, img/france/margaret.jpg"
+      ]
+    },
+    "Edward II": {
+      "name": "Edward II",
+      "image": "img/england/edward_ii.jpg",
+      "house": "Plantagenet",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1307,
+      "end": 1327,
+      "endReason": "Unclear, 43",
+      "religion": "Catholic",
+      "events": [
+        "Ordinances of 1311 restricted the power of the king",
+        "Defeated by Robert the Bruce at Battle of Bannockburn",
+        "Forced to retreat into Wales; captured and deposed"
+      ],
+      "wars": [
+        "Despenser War, England, 1321-1322",
+        "War of Saint-Sardos, France, 1324"
+      ],
+      "relationships": [
+        "France, Isabella, Wife, img/france/isabella_plantagenet.jpg",
+        "Scotland, Joan, Daughter, img/scotland/joan_of_the_tower.jpg"
+      ]
+    },
+    "Edward III": {
+      "name": "Edward III",
+      "image": "img/england/edward_iii.png",
+      "house": "Plantagenet",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1327,
+      "end": 1377,
+      "endReason": "Stroke, 64",
+      "religion": "Catholic",
+      "events": [
+        "Black Death, 1347-1351, wiped out 1/3 of England",
+        "Parliament develops the process of impeachment",
+        "Claim to French throne sparks Hundred Years' War"
+      ],
+      "wars": [
+        "Hundred Years' War, France, 1337-1453",
+        "2nd War of Scottish Independence, Scotland, 1332-1357"
+      ],
+      "relationships": [
+        "Brittany, Mary, Daughter, img/france/mary_plantagenet.jpg"
+      ]
+    },
+    "Richard II": {
+      "name": "Richard II",
+      "image": "img/england/richard_ii.jpg",
+      "house": "Plantagenet",
+      "houseImage": "img/houses/plantagenet.png",
+      "start": 1377,
+      "end": 1399,
+      "endReason": "Starvation, 33",
+      "religion": "Catholic",
+      "events": [
+        "Government taken over by Lords Appellant in 1387",
+        "Deposed by his cousin, Henry of Bolingbroke"
+      ],
+      "wars": [
+        "Peasant's Revolt, England, 1381",
+        "Hundred Years' War, France, 1337-1453"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Anne, Wife, img/hre/anne_plantagenet.jpg",
+        "France, Isabella, Wife, img/france/isabella_valois.JPG"
+      ]
+    },
+    "Henry IV": {
+      "name": "Henry IV",
+      "image": "img/england/henry_iv.png",
+      "house": "Lancaster",
+      "houseImage": "img/houses/lancaster.png",
+      "start": 1399,
+      "end": 1413,
+      "endReason": "Disease, 45",
+      "religion": "Catholic",
+      "events": [
+        "Son of Earl of Lancaster, richest landowner in England",
+        "Foiled early assassination plot, Epiphany Rising",
+        "Imprisoned James I of Scotland for entire reign"
+      ],
+      "wars": [
+        "Welsh rebellion, Wales, 1400",
+        "Hundred Years' War, France, 1337-1453"
+      ],
+      "relationships": [
+        "Denmark, Philippa, Daughter, img/denmark/philippa.jpg",
+        "Portugal, Philippa, Sister, img/portugal/philippa.png"
+      ]
+    },
+    "Henry V": {
+      "name": "Henry V",
+      "image": "img/england/henry_v.jpg",
+      "house": "Lancaster",
+      "houseImage": "img/houses/lancaster.png",
+      "start": 1413,
+      "end": 1422,
+      "endReason": "Dysentary, 35",
+      "religion": "Catholic",
+      "events": [
+        "Reconquered Normandy since being lost by Edward III",
+        "Treaty of Troyes made him heir apparent to French throne"
+      ],
+      "wars": [
+        "Hundred Years' War, France, 1337-1453"
+      ],
+      "relationships": [
+        "France, Catherine of Valois, Wife, img/france/catherine_valois.jpg"
+      ]
+    },
+    "Henry VI": {
+      "name": "Henry VI",
+      "image": "img/england/henry_vi.jpg",
+      "house": "Lancaster",
+      "houseImage": "img/houses/lancaster.png",
+      "start": 1422,
+      "end": 1461,
+      "endReason": "Unclear, 49",
+      "religion": "Catholic",
+      "events": [
+        "Disputed King of France from 1422-1453",
+        "Lost all French territories except Calais",
+        "Lost throne to House of York at Battle of Towton"
+      ],
+      "wars": [
+        "Hundred Years' War, France, 1337-1453",
+        "Wars of the Roses, England, 1455-1487"
+      ],
+      "relationships": [
+        "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
+      ]
+    },
+    "Edward IV": {
+      "name": "Edward IV",
+      "image": "img/england/edward_iv.jpg",
+      "house": "York",
+      "houseImage": "img/houses/york.png",
+      "start": 1461,
+      "end": 1470,
+      "endReason": "Illness, 40",
+      "religion": "Catholic",
+      "events": [
+        "Fled England after the confrontation at Ludford Bridge",
+        "Became the first Yorkist king of England",
+        "Fled England after Nevilles switched sides to Lancasters"
+      ],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487"
+      ],
+      "relationships": [
+        "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
+      ]
+    },
+    "Henry VI (2nd)": {
+      "name": "Henry VI (2nd)",
+      "image": "img/england/henry_vi.jpg",
+      "house": "Lancaster",
+      "houseImage": "img/houses/lancaster.png",
+      "start": 1470,
+      "end": 1471,
+      "endReason": "Unclear, 49",
+      "religion": "Catholic",
+      "events": [
+        "Restored to the throne from the Tower of London for a year",
+        "Likely killed by Edward IV on his return to power"
+      ],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487"
+      ],
+      "relationships": [
+        "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
+      ]
+    },
+    "Edward IV (2nd)": {
+      "name": "Edward IV (2nd)",
+      "image": "img/england/edward_iv.jpg",
+      "house": "York",
+      "houseImage": "img/houses/york.png",
+      "start": 1471,
+      "end": 1483,
+      "endReason": "Illness, 40",
+      "religion": "Catholic",
+      "events": [
+        "Killed the Lancaster heir at Battle of Tewksbury"
+      ],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487",
+        "France, 1475"
+      ],
+      "relationships": [
+        "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
+      ]
+    },
+    "Edward V": {
+      "name": "Edward V",
+      "image": "img/england/edward_v.png",
+      "house": "York",
+      "houseImage": "img/houses/york.png",
+      "start": 1483,
+      "end": 1483,
+      "endReason": "Disappeared, 12",
+      "religion": "Catholic",
+      "events": [
+        "Heir to House of York",
+        "Likely killed by uncle Richard III"
+      ],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487"
+      ],
+      "relationships": []
+    },
+    "Richard III": {
+      "name": "Richard III",
+      "image": "img/england/richard_iii.jpg",
+      "house": "York",
+      "houseImage": "img/houses/york.png",
+      "start": 1483,
+      "end": 1485,
+      "endReason": "Battle, 32",
+      "religion": "Catholic",
+      "events": [
+        "Defeated by Henry Tudor at Battle of Bosworth Field",
+        "His defeat ended the War of the Roses"
+      ],
+      "wars": [
+        "Wars of the Roses, England, 1455-1487",
+        "Buckingham's Rebellion, England, 1483"
+      ],
+      "relationships": []
+    },
+    "Henry VII": {
+      "name": "Henry VII",
+      "image": "img/england/henry_vii.jpg",
+      "house": "Tudor",
+      "houseImage": "img/houses/tudor.png",
+      "start": 1485,
+      "end": 1509,
+      "endReason": "Tuberculosis, 52",
+      "religion": "Catholic",
+      "events": [
+        "Built up England's navy and constructed drydocks",
+        "Appointed Justices of the Peace to every shire",
+        "Betrothed his son to princess of newly united Spain"
+      ],
+      "wars": [],
+      "relationships": [
+        "Spain, Catherine of Aragon, Daughter-in-law, img/spain/catherine_of_aragon.jpg",
+        "Scotland, Margaret, Daughter, img/scotland/margaret_tudor.jpg"
+      ]
+    },
+    "Henry VIII": {
+      "name": "Henry VIII",
+      "image": "img/england/henry_viii.jpg",
+      "house": "Tudor",
+      "houseImage": "img/houses/tudor.png",
+      "start": 1509,
+      "end": 1547,
+      "endReason": "Obesity, 55",
+      "religion": "Catholic/Protestant",
+      "events": [
+        "English Reformation separated Church of England from papal authority",
+        "Oversaw unification of England, Wales, and Ireland",
+        "Dissolved monastaries across England"
+      ],
+      "wars": [
+        "Rough Wooing, Scotland (1543-1551)",
+        "Italian Wars, France (1544-1546)"
+      ],
+      "relationships": [
+        "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
+        "Holy Roman Empire, Charles V, Nephew-in-law, img/hre/charles_v.jpg",
+        "Scotland, Margaret, Sister, img/scotland/margaret_tudor.jpg"
+      ]
+    },
+    "Edward VI": {
+      "name": "Edward VI",
+      "image": "img/england/edward_vi.jpg",
+      "house": "Tudor",
+      "houseImage": "img/houses/tudor.png",
+      "start": 1547,
+      "end": 1553,
+      "endReason": "Tuberculosis, 15",
+      "religion": "Protestant",
+      "events": [
+        "Book of Common Prayer Published",
+        "Abolished clerical celibacy and Mass",
+        "Named cousin Jane Grey to prevent return to Catholicism"
+      ],
+      "wars": [
+        "Prayer Book Rebellion, England, 1549"
+      ],
+      "relationships": [
+        "Scotland, Mary, Betrothed, img/scotland/mary.jpg"
+      ]
+    },
+    "Jane Grey": {
+      "name": "Jane Grey",
+      "image": "img/england/jane_grey.png",
+      "house": "Grey",
+      "houseImage": "img/houses/grey.png",
+      "start": 1553,
+      "end": 1553,
+      "endReason": "Execution, 17",
+      "religion": "Protestant",
+      "events": [
+        "Ruled for nine days",
+        "Executed by Mary Tudor"
+      ],
       "wars": [],
       "relationships": []
     },
-    "Ferdinand I": {
-      "name": "Ferdinand I",
-      "image": "",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1835,
-      "end": 1848,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+    "Mary I": {
+      "name": "Mary I",
+      "image": "img/england/mary_i.png",
+      "house": "Tudor",
+      "houseImage": "img/houses/tudor.png",
+      "start": 1553,
+      "end": 1558,
+      "endReason": "Ovarian cancer, 42",
+      "religion": "Catholic",
+      "events": [
+        "Known as  Bloody Mary  for Protestant persections",
+        "Marraige Act established herself as first queen regant"
+      ],
+      "wars": [
+        "Italian Wars, France (1557-1558)"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Charles V, Engaged, img/hre/charles_v.jpg",
+        "Spain, Philip, Husband, img/spain/philip_ii.jpg",
+        "Spain, Catherine of Aragon, Mother, img/spain/catherine_of_aragon.jpg"
+      ]
+    },
+    "Elizabeth I": {
+      "name": "Elizabeth I",
+      "image": "¸",
+      "house": "Tudor",
+      "houseImage": "img/houses/tudor.png",
+      "start": 1558,
+      "end": 1603,
+      "endReason": "Old age, 69",
+      "religion": "Anglican",
+      "events": [
+        "Elizabethan Religion Settlement evolved into Church of England",
+        "Executed Mary, Queen of Scots, to end Catholic cause",
+        "English drama flourished during the Elizabethan Era"
+      ],
+      "wars": [
+        "Anglo-Spanish War, Spain (1585-1604)",
+        "Rising of the North, Scotland (1569)",
+        "Tudor conquest of Ireland, Ireland (1594-1603)"
+      ],
       "relationships": []
     },
-    "Francis Joseph I": {
-      "name": "Francis Joseph I",
-      "image": "",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1848,
-      "end": 1916,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+    "James VI and I": {
+      "name": "James VI and I",
+      "image": "]'[",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1603,
+      "end": 1625,
+      "endReason": "Dysentary, 58",
+      "religion": "Anglican",
+      "events": [
+        "Authorized the English King James Bible",
+        "Guy Fawkes attemped the Gunpowder Plot"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
+        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg"
+      ]
     },
     "Charles I": {
       "name": "Charles I",
-      "image": "",
-      "house": "Habsburg-Lorraine",
-      "houseImage": "img/houses/habsburg.png",
-      "start": 1916,
-      "end": 1918,
+      "image": "img/england/charles_i.png",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1625,
+      "end": 1649,
+      "endReason": "Execution, 48",
+      "religion": "Anglican",
+      "events": [
+        "Catholic leanings precipitate English Civil War",
+        "Oliver Cromwell takes over the English Republic"
+      ],
+      "wars": [
+        "First Bishops' War, Scotland (1639-1640)"
+      ],
+      "relationships": [
+        "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
+      ]
+    },
+    "Charles II": {
+      "name": "Charles II",
+      "image": "img/england/charles_ii.png",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1660,
+      "end": 1685,
+      "endReason": "Uraemia, 54",
+      "religion": "Protestant, then Catholic",
+      "events": [
+        "Creation of Whig and Tory parties",
+        "Dissolved English Parliament",
+        "Captured New Amsterdam from the Dutch"
+      ],
+      "wars": [
+        "2nd Anglo-Dutch War, Dutch Republic (1665-1667)",
+        "3rd Anglo-Dutch War, Dutch Republic (1672-1674)"
+      ],
+      "relationships": [
+        "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
+        "Dutch Republic, William of Orange, Nephew, img/england/william_iii_and_ii.png"
+      ]
+    },
+    "James II & VII": {
+      "name": "James II & VII",
+      "image": "img/england/james_ii_and_vii.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1685,
+      "end": 1688,
+      "endReason": "Deposed, 53",
+      "religion": "Catholic",
+      "events": [
+        "Prosecuted the Seven Bishops for seditious libel",
+        "Overthrown by William of Orange in the Glorious Revolution"
+      ],
+      "wars": [],
+      "relationships": [
+        "Italy, Mary of Modena, Wife, img/italy/mary_modena.jpg"
+      ]
+    },
+    "William III & II": {
+      "name": "William III & II",
+      "image": "img/england/william_iii_and_ii.jpg",
+      "house": "Orange-Nassau",
+      "houseImage": "img/houses/orange_nassau.png",
+      "start": 1688,
+      "end": 1702,
+      "endReason": "Pneumonia, 51",
+      "religion": "Protestant",
+      "events": [
+        "Signed Bill of Rights in exchange for crown",
+        "Jacobites try to return house Stuart to throne",
+        "Royal Charter granted to Bank of England"
+      ],
+      "wars": [
+        "Williamite War, Ireland (1688-1691)",
+        "Nine Years' War, France (1688-1697)"
+      ],
+      "relationships": [
+        "Dutch Republic, William II, Father, img/dutch/william_ii.jpg"
+      ]
+    },
+    "Anne": {
+      "name": "Anne",
+      "image": "img/england/anne.png",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1702,
+      "end": 1714,
+      "endReason": "Poor health, 49",
+      "religion": "Protestant",
+      "events": [
+        "Scotland and England become Great Britain",
+        "Exclusion Act forbade Catholic monarchs"
+      ],
+      "wars": [
+        "War of Spanish Succession, France (1701-1714)"
+      ],
+      "relationships": [
+        "Denmark, Prince George, Husband, img/denmark/george.jpg"
+      ]
+    },
+    "George I": {
+      "name": "George I",
+      "image": "img/england/george_i.jpg",
+      "house": "Hanover",
+      "houseImage": "img/houses/hanover.png",
+      "start": 1714,
+      "end": 1727,
+      "endReason": "Stroke, 67",
+      "religion": "Protestant",
+      "events": [
+        "South Sea Bubble (economic crisis)",
+        "First Prime Minister (Robert Walpole)"
+      ],
+      "wars": [
+        "War of the Quadruple Alliance, Spain (1718-1720)"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Ernest Augustus, Father, img/hre/ernest_augustus.jpg",
+        "Prussia, Sophia Dorothea, Wife, img/hre/sophia_dorothea.jpg"
+      ]
+    },
+    "George II": {
+      "name": "George II",
+      "image": "img/england/george_ii.jpg",
+      "house": "Hanover",
+      "houseImage": "img/houses/hanover.png",
+      "start": 1727,
+      "end": 1760,
+      "endReason": "Heart failure, 77",
+      "religion": "Protestant",
+      "events": [
+        "Last monarch to lead an army in battle",
+        "Last of the Jacobite rebellions"
+      ],
+      "wars": [
+        "War of Jenkins' Ear, Spain (1739-1748)",
+        "War of the Austrian Succession, France (1740-1748)",
+        "Seven Years' War, France (1756-1763)"
+      ],
+      "relationships": [
+        "Prussia, Frederick the Great, Nephew, img/hre/frederick_ii.jpg",
+        "Holy Roman Empire, Caroline of Ansbach, Wife, img/hre/caroline_ansbach.jpg"
+      ]
+    },
+    "George III": {
+      "name": "George III",
+      "image": "img/england/george_iii.jpg",
+      "house": "Hanover",
+      "houseImage": "img/houses/hanover.png",
+      "start": 1760,
+      "end": 1820,
+      "endReason": "Dementia, 81",
+      "religion": "Protestant",
+      "events": [
+        "Lost American colonies during American Revolution",
+        "Ireland joins Great Britain as United Kingdom"
+      ],
+      "wars": [
+        "American War of Independence, America (1775-1783)",
+        "Napoleonic Wars, France (1793-1815)"
+      ],
+      "relationships": [
+        "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife, img/hre/charlotte_mecklenburg.jpg"
+      ]
+    },
+    "George IV": {
+      "name": "George IV",
+      "image": "img/england/george_iv.jpg",
+      "house": "Hanover",
+      "houseImage": "img/houses/hanover.png",
+      "start": 1820,
+      "end": 1830,
+      "endReason": "Obesity, 67",
+      "religion": "Protestant",
+      "events": [
+        "Catholic Emancipation removed restrictions on Catholics"
+      ],
+      "wars": [],
+      "relationships": [
+        "Holy Roman Empire, Caroline of Brunswick, Wife, img/hre/caroline_brunswick.jpg"
+      ]
+    },
+    "William IV": {
+      "name": "William IV",
+      "image": "img/england/william_iv.jpg",
+      "house": "Hanover",
+      "houseImage": "img/houses/hanover.png",
+      "start": 1830,
+      "end": 1837,
+      "endReason": "Old age, 71",
+      "religion": "Protestant",
+      "events": [
+        "Slavery and child labor abolished",
+        "Reform Act 1832 increased size of the electorate",
+        "Poor Law gave welfare to destitute"
+      ],
+      "wars": [],
+      "relationships": [
+        "Holy Roman Empire, Adelaide of Saxe-Meinigen, Wife, img/hre/adelaide.jpg",
+        "Belgians, Leopold I, Nephew-in-law, img/belgians/leopold_i.jpg"
+      ]
+    },
+    "Victoria": {
+      "name": "Victoria",
+      "image": "img/england/victoria.jpg",
+      "house": "Hanover",
+      "houseImage": "img/houses/hanover.png",
+      "start": 1837,
+      "end": 1901,
+      "endReason": "Old age, 81",
+      "religion": "Protestant",
+      "events": [
+        "Reform Act 1867 gave voting rights to working men",
+        "Indian Rebellion causes British East India Company to dissolve"
+      ],
+      "wars": [
+        "Anglo-Zulu War, Zulu Kingdom (1879)",
+        "2nd Anglo-Afghan War, Afghanistan (1878-1880)",
+        "Boer War, Boer States (1899-1902)"
+      ],
+      "relationships": [
+        "German Confederation, Prince Albert, Husband, img/hre/prince_albert.jpg",
+        "German Empire, Frederick William, Son-in-law, img/hre/frederick_william.jpg"
+      ]
+    },
+    "Edward VII": {
+      "name": "Edward VII",
+      "image": "img/england/edward_vii.jpg",
+      "house": "Saxe-Coburg and Gotha",
+      "houseImage": "img/houses/saxe_coburg_and_gotha.png",
+      "start": 1901,
+      "end": 1910,
+      "endReason": "Heart attack, 68",
+      "religion": "Protestant",
+      "events": [
+        "Parliament Act reduced the power of House of Lords",
+        "Edwardian Era saw the steam turbine and rise of socialism"
+      ],
+      "wars": [],
+      "relationships": [
+        "German Empire, Wilhelm II, Nephew, img/hre/wilhelm_ii.jpg",
+        "Denmark, Alexandra, Wife, img/denmark/alexandra.jpg",
+        "Russia, Nicholas II, Nephew-in-law, img/russia/nicholas_ii.jpg",
+        "Spain, Victoria Eugenia, Niece, img/spain/victoria_eugenia.jpg",
+        "Sweden, Margaret, Niece, img/sweden/margaret.png"
+      ]
+    },
+    "George V": {
+      "name": "George V",
+      "image": "img/england/george_v.jpg",
+      "house": "Windsor",
+      "houseImage": "img/houses/windsor.png",
+      "start": 1910,
+      "end": 1936,
+      "endReason": "Cold, 70",
+      "religion": "Protestant",
+      "events": [
+        "Irish Home Rule",
+        "Renamed house to Windsor among anti-German sentiment",
+        "First Labor parliament"
+      ],
+      "wars": [
+        "World War I, Germany (1914-1918)"
+      ],
+      "relationships": [
+        "German Empire, Wilhelm II, Cousin, img/hre/wilhelm_ii.jpg",
+        "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg"
+      ]
+    },
+    "Edward VIII": {
+      "name": "Edward VIII",
+      "image": "img/england/edward_viii.png",
+      "house": "Windsor",
+      "houseImage": "img/houses/windsor.png",
+      "start": 1936,
+      "end": 1936,
+      "endReason": "Abdication, 42",
+      "religion": "Protestant",
+      "events": [
+        "Abdicated to marry actress and avoid constitutional crisis"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "George VI": {
+      "name": "George VI",
+      "image": "img/england/george_vi.png",
+      "house": "Windsor",
+      "houseImage": "img/houses/windsor.png",
+      "start": 1936,
+      "end": 1952,
+      "endReason": "Heart failure, 56",
+      "religion": "Protestant",
+      "events": [
+        "Breakup of British Empire towards Commonwealth of Nations",
+        "India and Pakistan became indepdendent"
+      ],
+      "wars": [
+        "World War II, Germany (1939-1945)"
+      ],
+      "relationships": []
+    },
+    "Elizabeth II": {
+      "name": "Elizabeth II",
+      "image": "img/england/elizabeth_ii.jpg",
+      "house": "Windsor",
+      "houseImage": "img/houses/windsor.png",
+      "start": 1952,
+      "end": 2019,
       "endReason": "",
-      "religion": "",
+      "religion": "Protestant",
       "events": [],
       "wars": [],
       "relationships": []
     }
   },
-  "Prussia": {
+  "Scotland": {
+    "Malcolm III": {
+      "name": "Malcolm III",
+      "image": "img/scotland/malcolm_iii.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1058,
+      "end": 1093,
+      "endReason": "Battle, 62",
+      "religion": "Catholic",
+      "events": [
+        "Killed Lulach, who'd killed Macbeth",
+        "Attempted conquest of Northumbria",
+        ""
+      ],
+      "wars": [
+        "Harrying of the North, England, 1069-1070"
+      ],
+      "relationships": [
+        "England, Edgar Æthling, Brother-in-law, img/england/edgar_aethling.jpg"
+      ]
+    },
+    "Donald III": {
+      "name": "Donald III",
+      "image": "img/scotland/donald_iii.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1093,
+      "end": 1094,
+      "endReason": "Deposed, 62",
+      "religion": "Catholic",
+      "events": [
+        "Overthrown by invading nephew, Duncan II"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "Duncan II": {
+      "name": "Duncan II",
+      "image": "img/scotland/duncan_ii.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1094,
+      "end": 1094,
+      "endReason": "Battle, 34",
+      "religion": "Catholic",
+      "events": [
+        "Supported by unpopular Anglo-Norman troops",
+        "Killed immediately by associate of uncle Donald III"
+      ],
+      "wars": [],
+      "relationships": [
+        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
+      ]
+    },
+    "Donald III (2nd)": {
+      "name": "Donald III (2nd)",
+      "image": "img/scotland/donald_iii.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1094,
+      "end": 1097,
+      "endReason": "Imprisoned, 67",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned by nephew Edgar with support of William II of England"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "Edgar": {
+      "name": "Edgar",
+      "image": "img/scotland/edgar.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1097,
+      "end": 1107,
+      "endReason": "Unspecified, 43",
+      "religion": "Catholic",
+      "events": [
+        "Supported Northumbrian revolt against William II of England",
+        "Ceded claim to the Hebrides to Magnus Barefoot of Norway"
+      ],
+      "wars": [],
+      "relationships": [
+        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
+      ]
+    },
+    "Alexander I": {
+      "name": "Alexander I",
+      "image": "img/scotland/alexander_i.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1107,
+      "end": 1124,
+      "endReason": "Unspecified, 45",
+      "religion": "Catholic",
+      "events": [
+        "Attacked by and fought the Mormaer of Moray"
+      ],
+      "wars": [],
+      "relationships": [
+        "England, Henry I, Father-in-law, img/england/henry_i.jpg"
+      ]
+    },
+    "David I": {
+      "name": "David I",
+      "image": "img/scotland/david_i.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1124,
+      "end": 1153,
+      "endReason": "Unspecified, 68",
+      "religion": "Catholic",
+      "events": [
+        "Annexed the Mormaer of Moray to the Scottish crown",
+        "Davidian Revolution saw Gregorian Reforms, burghs, and feudalism",
+        "Supported Empress Matilda over Stephen of Blois during The Anarchy"
+      ],
+      "wars": [
+        "The Anarchy, England, 1135-1153"
+      ],
+      "relationships": [
+        "England, Henry I, Brother-in-law, img/england/henry_i.jpg"
+      ]
+    },
+    "Malcolm IV": {
+      "name": "Malcolm IV",
+      "image": "img/scotland/malcolm_iv.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1153,
+      "end": 1165,
+      "endReason": "Paget's disease, 24",
+      "religion": "Catholic",
+      "events": [
+        "Forced to give Northumbria and Cumbria back to Henry II",
+        "Knighted by Henry II as Earl of Huntingdon"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "William I": {
+      "name": "William I",
+      "image": "img/scotland/william_i.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1165,
+      "end": 1214,
+      "endReason": "Unspecified, 72",
+      "religion": "Catholic",
+      "events": [
+        "Signed Treaty of Falaise, making Scotland an English vassal",
+        "Bought Scotland's independence back from Richard I"
+      ],
+      "wars": [
+        "Revolt of 1173-74, England"
+      ],
+      "relationships": []
+    },
+    "Alexander II": {
+      "name": "Alexander II",
+      "image": "img/scotland/alexander_ii.jpg",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1214,
+      "end": 1249,
+      "endReason": "Fever, 50",
+      "religion": "Catholic",
+      "events": [
+        "Supported barons and Louis VIII against England",
+        "Established Anglo-Scottish border in Treaty of York",
+        ""
+      ],
+      "wars": [
+        "First Baron's War, England, 1215-1217"
+      ],
+      "relationships": [
+        "England, Henry III, Brother-in-law, img/england/henry_iii.jpg"
+      ]
+    },
+    "Alexander III": {
+      "name": "Alexander III",
+      "image": "img/scotland/alexander_iii.JPG",
+      "house": "Dunkeld",
+      "houseImage": "img/houses/dunkeld.png",
+      "start": 1249,
+      "end": 1286,
+      "endReason": "Injury, 44",
+      "religion": "Catholic",
+      "events": [
+        "Gained Isle of Man and Hebrides from Norway"
+      ],
+      "wars": [
+        "Scottish-Norwegian War, Norway, 1262-1266"
+      ],
+      "relationships": [
+        "England, Henry III, Father-in-law, img/england/henry_iii.jpg"
+      ]
+    },
+    "Margaret": {
+      "name": "Margaret",
+      "image": "img/scotland/margaret_maid_of_norway.jpg",
+      "house": "Sverre",
+      "houseImage": "img/houses/norway.png",
+      "start": 1286,
+      "end": 1290,
+      "endReason": "Illness, 7",
+      "religion": "Catholic",
+      "events": [
+        "Died, uncrowned, on her way to Scotland",
+        "Death led to thirteen claims to the throne"
+      ],
+      "wars": [],
+      "relationships": [
+        "Norway, Eric II, Father, img/norway/eric_ii.jpg"
+      ]
+    },
+    "John": {
+      "name": "John",
+      "image": "img/scotland/john.jpg",
+      "house": "Balliol",
+      "houseImage": "img/houses/balliol.png",
+      "start": 1292,
+      "end": 1296,
+      "endReason": "Abdicated, 47",
+      "religion": "Catholic",
+      "events": [
+        "Selected among competitors during Great Cause",
+        "Deposed by Scottish nobility and signed treaty with France",
+        "Imprisoned by Edward I in the Tower of London"
+      ],
+      "wars": [
+        "1st War of Scottish Independence, England, 1296-1328"
+      ],
+      "relationships": []
+    },
+    "Robert I": {
+      "name": "Robert I",
+      "image": "img/scotland/robert_i.jpg",
+      "house": "Bruce",
+      "houseImage": "img/houses/bruce.png",
+      "start": 1306,
+      "end": 1329,
+      "endReason": "Unclear, 55",
+      "religion": "Catholic",
+      "events": [
+        "Claimed throne while under rule of Edward I",
+        "Defeated the English at Battle of Bannockburn",
+        "Peace with England concluded after deposition of Edward II"
+      ],
+      "wars": [
+        "1st War of Scottish Independence, England, 1296-1328"
+      ],
+      "relationships": [
+        "Ireland, Elizabeth de Burgh, Wife, img/ireland/elizabeth_de_burgh.jpg"
+      ]
+    },
+    "David II": {
+      "name": "David II",
+      "image": "img/scotland/david_ii.jpg",
+      "house": "Bruce",
+      "houseImage": "img/houses/bruce.png",
+      "start": 1329,
+      "end": 1371,
+      "endReason": "Unknown, 46",
+      "religion": "Catholic",
+      "events": [
+        "Sent to France for safety after Battle of Halidon Hill",
+        "Captured by the English and held for 11 years",
+        ""
+      ],
+      "wars": [
+        "2nd War of Scottish Independence, England, 1332-1357"
+      ],
+      "relationships": [
+        "England, Joan of the Tower, Wife, img/england/joan_of_the_tower.jpg"
+      ]
+    },
+    "Robert II": {
+      "name": "Robert II",
+      "image": "img/scotland/robert_ii.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1371,
+      "end": 1390,
+      "endReason": "Unknown, 74",
+      "religion": "Catholic",
+      "events": [
+        "Defeated the return of Edward Balliol and the English",
+        "Included Scotland in the Anglo-French truce of 1384"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "Robert III": {
+      "name": "Robert III",
+      "image": "img/scotland/robert_iii.png",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1390,
+      "end": 1406,
+      "endReason": "Unknown, 68",
+      "religion": "Catholic",
+      "events": [
+        "Ascended throne with power already moved to brother, Robert",
+        "Son made lieutenant; imprisoned and killed in 1402",
+        "Son James escaped from new lieutenant, uncle Albany Stewart"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "James I": {
+      "name": "James I",
+      "image": "img/scotland/james_i.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1406,
+      "end": 1437,
+      "endReason": "Assassinated, 42",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned and raised at the court of Henry IV",
+        "Arrested Lord of the Isles and Douglas clan leaders",
+        "Murdered during failed coup by uncle Walter Stewart"
+      ],
+      "wars": [],
+      "relationships": [
+        "France, Louis XI, Son-in-law, img/france/louis_xi.jpg"
+      ]
+    },
+    "James II": {
+      "name": "James II",
+      "image": "img/scotland/james_ii.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1437,
+      "end": 1460,
+      "endReason": "Battle, 29",
+      "religion": "Catholic",
+      "events": [
+        "Had Earl of Douglas murdered for consipiring with Lord of the Isles",
+        "Killed by exploding artillery during seige of English castle"
+      ],
+      "wars": [
+        "Black Douglas civil war, Scotland, 1455"
+      ],
+      "relationships": [
+        "Flanders, Mary of Guelders, Wife, img/france/mary_guelders.jpg"
+      ]
+    },
+    "James III": {
+      "name": "James III",
+      "image": "img/scotland/james_iii.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1460,
+      "end": 1488,
+      "endReason": "Battle, 36",
+      "religion": "Catholic",
+      "events": [
+        "Received Orkney and Shetland Islands as a dowry",
+        "Imprisoned by Edward IV in Edinburgh Castle",
+        "Killed during rebellion at Battle of Sauchieburn"
+      ],
+      "wars": [],
+      "relationships": [
+        "Denmark, Margaret, Wife, img/denmark/margaret.jpg"
+      ]
+    },
+    "James IV": {
+      "name": "James IV",
+      "image": "img/scotland/james_iv.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1488,
+      "end": 1513,
+      "endReason": "Battle, 40",
+      "religion": "Catholic",
+      "events": [
+        "Defeated his father, James III, at Battle of Sauchieburn",
+        "Signed the Treaty of Perpetual Peace with Henry VII",
+        "Took away the Lord of the Isles title from the MacDonalds"
+      ],
+      "wars": [
+        "War of the League of Cambrai, England, 1513"
+      ],
+      "relationships": [
+        "England, Margaret Tudor, Wife, img/england/margaret_tudor.jpg",
+        "Denmark, Christian I, Grandfather, img/denmark/christian_i.jpg"
+      ]
+    },
+    "James V": {
+      "name": "James V",
+      "image": "img/scotland/james_v.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1513,
+      "end": 1542,
+      "endReason": "Illness, 30",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned by stepfather Archibald Douglas for 3 years",
+        "Persecuted Protestants",
+        "Allied with France against the Protestant cause"
+      ],
+      "wars": [
+        "Anglo-Scottish Wars, England, 1542"
+      ],
+      "relationships": [
+        "England, Henry VIII, Uncle, img/england/henry_viii.png",
+        "France, Madeleine, Wife, img/france/madeleine_valois.jpg",
+        "France, Mary of Guise, Wife, img/france/mary_guise.jpg"
+      ]
+    },
+    "Mary, Queen of Scots": {
+      "name": "Mary, Queen of Scots",
+      "image": "img/scotland/mary.jpg",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1542,
+      "end": 1567,
+      "endReason": "Beheaded, 44",
+      "religion": "Catholic",
+      "events": [
+        "Imprisoned in Loch Leven Castle by Protestants and forced to abdicate",
+        "Believed by Catholics to be the legitimate heir to Mary I",
+        "After 18 years in custody, beheaded by Elizabeth I"
+      ],
+      "wars": [
+        "Rough Wooing, England, 1543-1551"
+      ],
+      "relationships": [
+        "France, Francis II, Husband, img/france/francis_ii.jpg",
+        "England, Edward VI, Betrothed, img/england/edward_vi.jpg"
+      ]
+    },
+    "James VI and I": {
+      "name": "James VI and I",
+      "image": "img/england/james_vi_and_i.png",
+      "house": "Stuart",
+      "houseImage": "img/houses/stuart.png",
+      "start": 1567,
+      "end": 1603,
+      "endReason": "Dysentary, 58",
+      "religion": "Protestant",
+      "events": [
+        "Mother Mary forced to abdicate by Protestant rebels",
+        "Ingratiated himself to Elizabeth, who was childless",
+        "Colonized the Hebrides in an attempt to de-gaelicise it"
+      ],
+      "wars": [],
+      "relationships": [
+        "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
+        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg",
+        "Denmark, Anne, Wife, img/denmark/anne.jpg"
+      ]
+    }
+  },
+  "Germany": {
     "Frederick I": {
       "name": "Frederick I",
       "image": "",
@@ -4802,53 +4358,583 @@
       "relationships": []
     }
   },
-  "Italy": {
-    "Victor Emmanuel II": {
-      "name": "Victor Emmanuel II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/VictorEmmanuel2.jpg/420px-VictorEmmanuel2.jpg",
-      "house": "Savoy",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg/340px-Great_coat_of_arms_of_the_king_of_italy_%281890-1946%29.svg.png",
-      "start": 1861,
-      "end": 1878,
+  "Holy Roman Empire": {
+    "Otto I": {
+      "name": "Otto I",
+      "image": "img/hre/otto_i.jpg",
+      "house": "Ottonian",
+      "houseImage": "img/houses/saxony.png",
+      "start": 962,
+      "end": 973,
+      "endReason": "Illness, 60",
+      "religion": "Catholic",
+      "events": [
+        "Ended the Hungarian invasions of Western Europe",
+        "Conquered Northern Italy",
+        "Invaded papal states and installed Leo VIII as pope"
+      ],
+      "wars": [
+        "Hungarian Invasions, Hungarian Tribes, 955-970"
+      ],
+      "relationships": [
+        "Byzantine Empire, Theophanu, Daughter-in-law, img/byzantine/theophano.jpg",
+        "Italy, Adelaide, Wife, img/italy/adelaide.jpg",
+        "England, Edward the Elder, Father-in-law, img/england/edward_the_elder.jpg"
+      ]
+    },
+    "Otto II": {
+      "name": "Otto II",
+      "image": "img/hre/otto_ii.jpg",
+      "house": "Ottonian",
+      "houseImage": "img/houses/saxony.png",
+      "start": 967,
+      "end": 983,
+      "endReason": "Malaria, 28",
+      "religion": "Catholic",
+      "events": [
+        "Subjugated and converted the Danes",
+        "Attempted and failed to take Italy from the Muslims"
+      ],
+      "wars": [
+        "Emirate of Sicily, 982",
+        "Great Slav Rising, Germany, 983"
+      ],
+      "relationships": [
+        "Byzantine Empire, Theophanu, Wife, img/byzantine/theophano.jpg"
+      ]
+    },
+    "Otto III": {
+      "name": "Otto III",
+      "image": "img/hre/otto_iii.jpg",
+      "house": "Ottonian",
+      "houseImage": "img/houses/saxony.png",
+      "start": 996,
+      "end": 1002,
+      "endReason": "Illness, 21",
+      "religion": "Catholic",
+      "events": [
+        "Inherited throne at 3; regency held for 13 years",
+        "Lost territories east of the Elbe to Slavs",
+        "Without successor, Italy broke away from empire"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "Henry II": {
+      "name": "Henry II",
+      "image": "img/hre/henry_ii.jpg",
+      "house": "Ottonian",
+      "houseImage": "img/houses/saxony.png",
+      "start": 1014,
+      "end": 1024,
+      "endReason": "Illness, 51",
+      "religion": "Catholic",
+      "events": [
+        "Crowned King of Germany following death of Otto III",
+        "Added Bohemia to the empire",
+        "Papal primacy led to Great Schism of the Church"
+      ],
+      "wars": [
+        "German-Polish War, Poland, 1002-1018",
+        "Battle of Cannae, Byzantine Empire, 1018"
+      ],
+      "relationships": []
+    },
+    "Conrad II": {
+      "name": "Conrad II",
+      "image": "img/hre/conrad_ii.jpg",
+      "house": "Salian",
+      "houseImage": "",
+      "start": 1027,
+      "end": 1039,
+      "endReason": "Gout, 49",
+      "religion": "Catholic",
+      "events": [
+        "Named son as heir to vacant Dukedom of Bavaria",
+        "Incorporated heirless Kingdom of Burgundy"
+      ],
+      "wars": [],
+      "relationships": []
+    },
+    "Henry III": {
+      "name": "Henry III",
+      "image": "img/hre/henry_iii.jpg",
+      "house": "Salian",
+      "houseImage": "",
+      "start": 1046,
+      "end": 1056,
+      "endReason": "Illness, 39",
+      "religion": "Catholic",
+      "events": [
+        "Given Bavaria, Swabia, and Burgundy from father Conrad II",
+        "Trial of Italian bishop precipitated Investiture Controversy",
+        "Split Lorraine into Upper and Lower Lorraine"
+      ],
+      "wars": [],
+      "relationships": [
+        "Aquitaine, Agnes, Wife, img/france/agnes.jpg",
+        "Denmark, Cnut the Great, Father-in-law, img/denmark/cnut_the_great.jpg"
+      ]
+    },
+    "Henry IV": {
+      "name": "Henry IV",
+      "image": "img/hre/henry_iv.jpg",
+      "house": "Salian",
+      "houseImage": "",
+      "start": 1056,
+      "end": 1106,
+      "endReason": "Abdication, 55",
+      "religion": "Catholic",
+      "events": [
+        "Attempted to appoint bishops instead of the papacy",
+        "Excommunicated 5 times during Investiture Controversy",
+        "Defeated by son Henry with support of papacy"
+      ],
+      "wars": [
+        "Saxon Rebellion, Saxony, 1073-1075",
+        "Great Saxon Revolt, Saxony, 1077-1088"
+      ],
+      "relationships": [
+        "Savoy, Bertha, Wife, img/italy/bertha.jpg",
+        "Russia, Vsevolod I, Father-in-law, img/russia/vsevolod.jpg"
+      ]
+    },
+    "Henry V": {
+      "name": "Henry V",
+      "image": "img/hre/henry_v.jpg",
+      "house": "Salian",
+      "houseImage": "",
+      "start": 1111,
+      "end": 1125,
+      "endReason": "Cancer, 39",
+      "religion": "Catholic",
+      "events": [
+        "Captured Pope Paschal II",
+        "Settled Investiture Controversy in Concordat of Worms"
+      ],
+      "wars": [],
+      "relationships": [
+        "England, Henry I, Father-in-law, img/england/henry_i.jpg"
+      ]
+    },
+    "Lothair II": {
+      "name": "Lothair II",
+      "image": "img/hre/lothair_ii.jpg",
+      "house": "Supplinburg",
+      "houseImage": "",
+      "start": 1133,
+      "end": 1137,
+      "endReason": "Unspecified, 62",
+      "religion": "Catholic",
+      "events": [
+        "Appointed Duke of Saxony for supporting Henry V against father",
+        "First elected Emperor without hereditary claim",
+        ""
+      ],
+      "wars": [
+        "Sicily, 1136-1137"
+      ],
+      "relationships": []
+    },
+    "Frederick I": {
+      "name": "Frederick I",
+      "image": "img/hre/frederick_i.jpg",
+      "house": "Hohenstaufen",
+      "houseImage": "img/houses/hohenstaufen.png",
+      "start": 1155,
+      "end": 1190,
+      "endReason": "Drowned, ",
+      "religion": "Catholic",
+      "events": [
+        "Created feudal court via Landfrieden of 1152",
+        "Defeated at Alessandria by pro-papal Lombard League",
+        "Reconciled with Pope Alexander II at Peace of Venice"
+      ],
+      "wars": [
+        "Italy, 1154-1155",
+        "Italy, 1158-1174",
+        "Third Crusade, 1189-1192"
+      ],
+      "relationships": [
+        "Sicily, Constance, Daughter-in-law, img/italy/constance.jpg"
+      ]
+    },
+    "Henry VI": {
+      "name": "Henry VI",
+      "image": "img/hre/henry_vi.jpg",
+      "house": "Hohenstaufen",
+      "houseImage": "img/houses/hohenstaufen.png",
+      "start": 1191,
+      "end": 1197,
+      "endReason": "Illness, 31",
+      "religion": "Catholic",
+      "events": [
+        "Captured and ransomed Richard the Lionheart of England",
+        "Captured and added Sicily to the Empire",
+        "Attempted and failed to make imperial crown hereditary"
+      ],
+      "wars": [
+        "Sicily, 1136-1137"
+      ],
+      "relationships": [
+        "Sicily, Constance, Wife, img/italy/constance.jpg"
+      ]
+    },
+    "Otto IV": {
+      "name": "Otto IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ottta4Brunsvicky.jpg/200px-Ottta4Brunsvicky.jpg",
+      "house": "Welf",
+      "houseImage": "img/houses/welf.png",
+      "start": 1209,
+      "end": 1215,
+      "endReason": "Abdication, 40",
+      "religion": "Catholic",
+      "events": [
+        "Son of anti-king Henry the Lion",
+        "Excommunicated by Pope Innocent III",
+        "Frederick II elected concurrently by dissatisfied princes and Pope"
+      ],
+      "wars": [
+        "Anglo-French War, France, 1213-1214"
+      ],
+      "relationships": [
+        "England, Henry II, Grandfather, img/england/henry_ii.jpg"
+      ]
+    },
+    "Frederick II": {
+      "name": "Frederick II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Frederick_II_%28HRE%29.jpg/200px-Frederick_II_%28HRE%29.jpg",
+      "house": "Hohenstaufen",
+      "houseImage": "img/houses/hohenstaufen.png",
+      "start": 1220,
+      "end": 1250,
       "endReason": "",
       "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Umberto I": {
-      "name": "Umberto I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Neurdein_-_Umberto_I_di_Savoia_come_principe_ereditario.jpg",
-      "house": "Savoy",
-      "houseImage": "",
-      "start": 1878,
-      "end": 1900,
-      "endReason": "Assassinated, 56",
+    "Henry VII": {
+      "name": "Henry VII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Henry_Lux_head.jpg",
+      "house": "Luxembourg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
+      "start": 1312,
+      "end": 1313,
+      "endReason": "",
       "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Victor Emmanuel III": {
-      "name": "Victor Emmanuel III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Eduardo_Gioja_Viktor_Emanuel_III_1913.jpg/400px-Eduardo_Gioja_Viktor_Emanuel_III_1913.jpg",
-      "house": "Savoy",
-      "houseImage": "",
-      "start": 1900,
-      "end": 1946,
+    "Louis IV": {
+      "name": "Louis IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ludovico_il_Bavaro.jpeg",
+      "house": "Wittelsbach",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
+      "start": 1314,
+      "end": 1347,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles IV": {
+      "name": "Charles IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Charles_IV-John_Ocko_votive_picture-fragment.jpg/200px-Charles_IV-John_Ocko_votive_picture-fragment.jpg",
+      "house": "Luxembourg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
+      "start": 1346,
+      "end": 1378,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Sigismund": {
+      "name": "Sigismund",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Zikmund_Zho%C5%99elecka_radnice.jpg/200px-Zikmund_Zho%C5%99elecka_radnice.jpg",
+      "house": "Luxembourg",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
+      "start": 1433,
+      "end": 1437,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick III": {
+      "name": "Frederick III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hans_Burgkmair_d._%C3%84._005.jpg/200px-Hans_Burgkmair_d._%C3%84._005.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1440,
+      "end": 1493,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Maximilian I": {
+      "name": "Maximilian I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Maximilian_I_as_Emperor.JPG/200px-Maximilian_I_as_Emperor.JPG",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1493,
+      "end": 1519,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles V": {
+      "name": "Charles V",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elderly_Karl_V.jpg/440px-Elderly_Karl_V.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1519,
+      "end": 1556,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand I": {
+      "name": "Ferdinand I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg/220px-Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1558,
+      "end": 1564,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Maximilian II": {
+      "name": "Maximilian II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nicolas_Neufch%C3%A2tel_002.jpg/440px-Nicolas_Neufch%C3%A2tel_002.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1564,
+      "end": 1576,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Rudolf II": {
+      "name": "Rudolf II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg/440px-AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1576,
+      "end": 1612,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Matthias": {
+      "name": "Matthias",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg/440px-Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1612,
+      "end": 1619,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand II": {
+      "name": "Ferdinand II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Ferdinand_II._1614.jpg/440px-Kaiser_Ferdinand_II._1614.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1619,
+      "end": 1637,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ferdinand III": {
+      "name": "Ferdinand III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg/440px-Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1637,
+      "end": 1657,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Leopold I": {
+      "name": "Leopold I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Benjamin_von_Block_001.jpg/440px-Benjamin_von_Block_001.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1658,
+      "end": 1705,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Joseph I": {
+      "name": "Joseph I",
+      "image": "http://www.holyromanempireassociation.com/image/118580078_scaled_199x285.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1705,
+      "end": 1711,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VI": {
+      "name": "Charles VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg/440px-Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg",
+      "house": "Habsburg",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1711,
+      "end": 1740,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles VII": {
+      "name": "Charles VII",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg/440px-Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg",
+      "house": "Wittelsbach",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
+      "start": 1742,
+      "end": 1745,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis I": {
+      "name": "Francis I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Martin_van_Meytens_006.jpg/440px-Martin_van_Meytens_006.jpg",
+      "house": "Lorraine",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coat_of_arms_of_the_House_of_Lorraine.png",
+      "start": 1745,
+      "end": 1765,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Joseph II": {
+      "name": "Joseph II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Anton_von_Maron_006.png/440px-Anton_von_Maron_006.png",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1765,
+      "end": 1790,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Leopold II": {
+      "name": "Leopold II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg/440px-Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1790,
+      "end": 1792,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis II and I": {
+      "name": "Francis II and I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg/440px-Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1792,
+      "end": 1806,
+      "endReason": "",
+      "religion": "Catholic",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    }
+  },
+  "Austria": {
+    "Francis I": {
+      "name": "Francis I",
+      "image": "",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1804,
+      "end": 1835,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Umberto II": {
-      "name": "Umberto II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Philip_de_L%C3%A1szl%C3%B3_-_Prince_Umberto_of_Savoy%2C_Prince_of_Piedmont_1928.jpg/440px-Philip_de_L%C3%A1szl%C3%B3_-_Prince_Umberto_of_Savoy%2C_Prince_of_Piedmont_1928.jpg",
-      "house": "Savoy",
-      "houseImage": "",
-      "start": 1946,
-      "end": 1946,
+    "Ferdinand I": {
+      "name": "Ferdinand I",
+      "image": "",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1835,
+      "end": 1848,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Francis Joseph I": {
+      "name": "Francis Joseph I",
+      "image": "",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1848,
+      "end": 1916,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Charles I": {
+      "name": "Charles I",
+      "image": "",
+      "house": "Habsburg-Lorraine",
+      "houseImage": "img/houses/habsburg.png",
+      "start": 1916,
+      "end": 1918,
       "endReason": "",
       "religion": "",
       "events": [],

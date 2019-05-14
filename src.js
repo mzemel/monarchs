@@ -3,7 +3,7 @@ $.getJSON("dataset.json", function(data) { render(data) });
 // General config
 var width = window.innerWidth,
   height = window.innerHeight,
-  margin = { top: height / 8, bottom: height / 4, right: width / 12, left: width / 12 };
+  margin = { top: height / 8, bottom: height / 6, right: width / 12, left: width / 12 };
 
 
 // Colors
@@ -92,9 +92,10 @@ var detailsColor = "#E2D4AC",
     },
     "Norway": {},
     "Austria": {
+      "Habsburg-Lorraine": "#FF7C00",
     },
-    "Prussia": {
-      "Hohenzollern": "#1B1B0C"
+    "Germany": {
+      "Hohenzollern": "#E0E221"
     }
   },
   dateColorsIcons = {
@@ -136,7 +137,7 @@ var fontFamily = "Lato, sans-serif",
   strokeWidthTiny = 1,
   cornerRadiusSmall = 5,
   cornerRadiusLarge = 15,
-  circleRadiusLarge = margin.bottom / 10,
+  circleRadiusLarge = margin.bottom / 5,
   circleRadiusMedium = circleRadiusLarge / 2,
   circleRadiusSmall = circleRadiusMedium / 2,
   pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
@@ -153,7 +154,9 @@ var flags = {
   "Spain": "img/flags/spain.png",
   "Holy Roman Empire": "img/flags/hre.png",
   "Russia": "img/flags/russia.jpg",
-  "Denmark": "img/flags/denmark.png"
+  "Denmark": "img/flags/denmark.png",
+  "Germany": "img/flags/germany.jpg",
+  "Austria": "img/flags/austria.png"
 };
 
 // Details config
@@ -190,8 +193,6 @@ function render(data) {
   var dates = data["Dates"];
   delete(data["Dates"]);
   delete(data["Italy"]);
-  delete(data["Prussia"]);
-  delete(data["Austria"]);
   delete(data["Norway"]); // V2: Scandinavia
 
   // Flatten all reigns into a single array to determine start and end
@@ -202,7 +203,7 @@ function render(data) {
   var detailsOpen = false,
     countryIndex = 0,
     countryCount = _.keys(data).length,
-    laneHeight = height / countryCount / 4;
+    laneHeight = (height - margin.top - margin.bottom) / countryCount / 2.5;
 
   // Create Timeline
   var timeline = d3.select("body")
@@ -220,8 +221,8 @@ function render(data) {
   // Title
   timeline.append("text")
     .attr("x", width / 2)
-    .attr("y", margin.top)
-    .attr("font-size", getFontSizeFromContainer("Monarchs", width / 2, margin.top))
+    .attr("y", margin.top * 10 / 9)
+    .attr("font-size", getFontSizeFromContainer("Monarchs", width, margin.top))
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
     .text("Monarchs")
@@ -230,12 +231,11 @@ function render(data) {
   var subtitleString = "1,000 years of European history";
   timeline.append("text")
     .attr("x", width / 2)
-    .attr("y", margin.top + laneHeight)
-    .attr("font-size", getFontSizeFromContainer(subtitleString, width / 2, laneHeight))
+    .attr("y", margin.top * 10 / 9 + laneHeight)
+    .attr("font-size", getFontSizeFromContainer(subtitleString, width, laneHeight))
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
     .text(subtitleString)
-
 
   // Link
   timeline.append("a")
@@ -243,7 +243,7 @@ function render(data) {
     .append("text")
     .attr("x", width - margin.right / 2)
     .attr("y", height - margin.bottom / 4)
-    .attr("font-size", getFontSizeFromContainer("Blogge", width / 2 - margin.right, margin.bottom / 2) / 4)
+    .attr("font-size", getFontSizeFromContainer("Blogge", margin.right, margin.bottom))
     .attr("fill", "blue")
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
@@ -299,7 +299,7 @@ function render(data) {
     .enter()
     .append("circle")
     .attr("cx", function(d) { return margin.left + (d.date - firstYear) * pixelsPerYear; })
-    .attr("cy", height - margin.bottom - laneHeight / 2)
+    .attr("cy", height - margin.bottom - laneHeight)
     .attr("r", circleRadiusSmall)
     .attr("fill", function(d) { return dateColorsIcons[d.type].color })
     .attr("class", function(d) { return ['date', d.type].join(' '); })
@@ -359,7 +359,7 @@ function render(data) {
 
   var legendFontSize = _.min(
     _.map(_.keys(data), function(text) {
-      return getFontSizeFromContainer(text, margin.left * 1.5, laneHeight); // Setting 1.5 manually to avoid bug in getFontSizeFromContainer
+      return getFontSizeFromContainer(text, margin.left * 3, laneHeight); // Setting 1.5 manually to avoid bug in getFontSizeFromContainer
     })
   )
 
@@ -367,10 +367,12 @@ function render(data) {
   _.forEach(data, function(countryData, countryName) {
     countryIndex += 1;
 
-    // Add country name
+    var baseHeight = height - margin.bottom - laneHeight * (countryIndex * 2 + 1);
+
+    // Add country flag
     timeline.append("image")
       .attr("x", width - margin.right * 2 / 3)
-      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
+      .attr("y", baseHeight)
       .attr("width", margin.right / 3)
       .attr("height", laneHeight)
       .attr("xlink:href", flags[countryName])
@@ -378,10 +380,10 @@ function render(data) {
       .attr("class", "legend")
       .append("title").text(countryName)
 
-    // Add country flag
+    // Add country name
     timeline.append("text")
       .attr("x", margin.left / 10)
-      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2 + laneHeight / 2)
+      .attr("y", baseHeight + laneHeight / 2)
       .attr("font-family", fontFamily)
       .attr("font-size", legendFontSize)
       .attr("class", "legend stonehen-font")
@@ -397,7 +399,7 @@ function render(data) {
       .attr("width", function(data) { return (data.end - data.start) * pixelsPerYear - 1 })
       .attr("height", laneHeight)
       .attr("x", function(data) { return margin.left + (data.start - firstYear) * pixelsPerYear })
-      .attr("y", height - margin.bottom - countryIndex * laneHeight * 2)
+      .attr("y", baseHeight)
       .attr("rx", 5)
       .attr("ry", 5)
       .attr("fill", function(data) { return houseColors[countryName][data.house] || gray})
@@ -406,20 +408,20 @@ function render(data) {
       .on("mouseover", handleMouseOver)
       .on("mouseout", handleMouseOut)
       .on("click", showDetail)
+  });
 
-    // Append detail to lay it on top of blocks
-    detail = timeline.append("rect")
-      .attr("width", 0)
-      .attr("height", 0)
-      .attr("x", width / 2)
-      .attr("y", height / 2)
-      .attr("fill", detailsColor)
-      .attr("rx", cornerRadiusLarge)
-      .attr("ry", cornerRadiusLarge)
-      .attr("stroke", strokeColor)
-      .attr("stroke-width", strokeWidthMedium)
-      .on("click", hideDetail)
-    });
+  // Append detail to lay it on top of blocks
+  detail = timeline.append("rect")
+    .attr("width", 0)
+    .attr("height", 0)
+    .attr("x", width / 2)
+    .attr("y", height / 2)
+    .attr("fill", detailsColor)
+    .attr("rx", cornerRadiusLarge)
+    .attr("ry", cornerRadiusLarge)
+    .attr("stroke", strokeColor)
+    .attr("stroke-width", strokeWidthMedium)
+    .on("click", hideDetail)
 
   function handleMouseOver(el, i) {
     if (detailsOpen) return false
