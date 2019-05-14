@@ -58,9 +58,9 @@ var detailsColor = "#E2D4AC",
       "Ottonian": "#A77901",
       "Salian": "#CB9302",
       "Supplinburg": gray,
-      "Staufen": "#D4B360",
+      "Hohenstaufen": "#D4B360",
       "Welf": gray,
-      "Luxembourg": "#B7B698",
+      "Luxembourg": "#F4CF6E",
     },
     "Spain": {
       "Habsburg": "#FFA600",
@@ -95,7 +95,7 @@ var detailsColor = "#E2D4AC",
       "Habsburg-Lorraine": "#FF7C00",
     },
     "Germany": {
-      "Hohenzollern": "#E0E221"
+      "Hohenzollern": "#93933D"
     }
   },
   dateColorsIcons = {

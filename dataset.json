@@ -1202,9 +1202,7 @@
         "Realms divided between sons Carloman II and Louis III"
       ],
       "wars": [],
-      "relationships": [
-        "Burgundy, Ansgarde, Wife"
-      ]
+      "relationships": []
     },
     "Louis III": {
       "name": "Louis III",
@@ -1416,8 +1414,7 @@
         "Burgundy, 1003-1016"
       ],
       "relationships": [
-        "Italy, Rozala, Wife, img/italy/rozala.jpg",
-        ""
+        "Italy, Rozala, Wife, img/italy/rozala.jpg"
       ]
     },
     "Henry I": {
@@ -1437,7 +1434,7 @@
         "Normandy, 1054-1057"
       ],
       "relationships": [
-        "England, William the Conquerer, Nephew, img/england/william_the_conqueror.png",
+        "England, William the Conquerer, Nephew, img/england/william_the_conquerer.png",
         "Russia, Yaroslav the Wise, Father-in-law, img/russia/yaroslav.jpg"
       ]
     },
@@ -1687,7 +1684,7 @@
         "Hundred Years' War, England, 1337-1453"
       ],
       "relationships": [
-        "England, Edward III, Nephew, img/england/edward_iii.jpg"
+        "England, Edward III, Nephew, img/england/edward_iii.png"
       ]
     },
     "John II": {
@@ -1858,7 +1855,7 @@
       ],
       "relationships": [
         "Scotland, James V, Son-in-law, img/scotland/james_v.jpg",
-        "Italy, Duke of Savoy, Son-in-law, img/italy/emmanuel_savoy.jpg"
+        "Italy, Duke of Savoy, Son-in-law, img/italy/emmanuel_of_savoy.jpg"
       ]
     },
     "Henry II": {
@@ -2071,7 +2068,7 @@
       "wars": [],
       "relationships": [
         "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
-        "Austria, Francis I, Father-in-law, Marie Louise, img/hre/marie_louise.jpg"
+        "Austria, Francis I, Father-in-law, img/hre/francis_i.jpg"
       ]
     },
     "Louis XVIII": {
@@ -2108,7 +2105,10 @@
         "Exiled to Helena and died six years later"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
+        "Austria, Francis I, Father-in-law, img/hre/francis_i.jpg"
+      ]
     },
     "Louis XVIII (2nd)": {
       "name": "Louis XVIII (2nd)",
@@ -3423,7 +3423,7 @@
     },
     "Elizabeth I": {
       "name": "Elizabeth I",
-      "image": "¸",
+      "image": "img/england/elizabeth_i.jpg",
       "house": "Tudor",
       "houseImage": "img/houses/tudor.png",
       "start": 1558,
@@ -3444,7 +3444,7 @@
     },
     "James VI and I": {
       "name": "James VI and I",
-      "image": "]'[",
+      "image": "img/england/james_vi_and_i.png",
       "house": "Stuart",
       "houseImage": "img/houses/stuart.png",
       "start": 1603,
@@ -3501,7 +3501,7 @@
       ],
       "relationships": [
         "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
-        "Dutch Republic, William of Orange, Nephew, img/england/william_iii_and_ii.png"
+        "Dutch Republic, William of Orange, Nephew, img/england/william_iii_and_ii.jpg"
       ]
     },
     "James II & VII": {
@@ -3882,7 +3882,7 @@
       ],
       "wars": [],
       "relationships": [
-        "England, Henry I, Father-in-law, img/england/henry_i.jpg"
+        "England, Henry I, Father-in-law, img/england/henry_i.png"
       ]
     },
     "David I": {
@@ -3903,7 +3903,7 @@
         "The Anarchy, England, 1135-1153"
       ],
       "relationships": [
-        "England, Henry I, Brother-in-law, img/england/henry_i.jpg"
+        "England, Henry I, Brother-in-law, img/england/henry_i.png"
       ]
     },
     "Malcolm IV": {
@@ -3958,7 +3958,7 @@
         "First Baron's War, England, 1215-1217"
       ],
       "relationships": [
-        "England, Henry III, Brother-in-law, img/england/henry_iii.jpg"
+        "England, Henry III, Brother-in-law, img/england/henry_iii.png"
       ]
     },
     "Alexander III": {
@@ -3977,7 +3977,7 @@
         "Scottish-Norwegian War, Norway, 1262-1266"
       ],
       "relationships": [
-        "England, Henry III, Father-in-law, img/england/henry_iii.jpg"
+        "England, Henry III, Father-in-law, img/england/henry_iii.png"
       ]
     },
     "Margaret": {
@@ -4190,7 +4190,7 @@
         "Anglo-Scottish Wars, England, 1542"
       ],
       "relationships": [
-        "England, Henry VIII, Uncle, img/england/henry_viii.png",
+        "England, Henry VIII, Uncle, img/england/henry_viii.jpg",
         "France, Madeleine, Wife, img/france/madeleine_valois.jpg",
         "France, Mary of Guise, Wife, img/france/mary_guise.jpg"
       ]
@@ -4361,7 +4361,7 @@
   "Holy Roman Empire": {
     "Otto I": {
       "name": "Otto I",
-      "image": "img/hre/otto_i.jpg",
+      "image": "img/hre/otto_i.jpeg",
       "house": "Ottonian",
       "houseImage": "img/houses/saxony.png",
       "start": 962,
@@ -4377,7 +4377,7 @@
         "Hungarian Invasions, Hungarian Tribes, 955-970"
       ],
       "relationships": [
-        "Byzantine Empire, Theophanu, Daughter-in-law, img/byzantine/theophano.jpg",
+        "Byzantine Empire, Theophanu, Daughter-in-law, img/byzantine/theophano.jpeg",
         "Italy, Adelaide, Wife, img/italy/adelaide.jpg",
         "England, Edward the Elder, Father-in-law, img/england/edward_the_elder.jpg"
       ]
@@ -4400,7 +4400,7 @@
         "Great Slav Rising, Germany, 983"
       ],
       "relationships": [
-        "Byzantine Empire, Theophanu, Wife, img/byzantine/theophano.jpg"
+        "Byzantine Empire, Theophanu, Wife, img/byzantine/theophano.jpeg"
       ]
     },
     "Otto III": {
@@ -4514,7 +4514,7 @@
       ],
       "wars": [],
       "relationships": [
-        "England, Henry I, Father-in-law, img/england/henry_i.jpg"
+        "England, Henry I, Father-in-law, img/england/henry_i.png"
       ]
     },
     "Lothair II": {
@@ -4543,7 +4543,7 @@
       "houseImage": "img/houses/hohenstaufen.png",
       "start": 1155,
       "end": 1190,
-      "endReason": "Drowned, ",
+      "endReason": "Drowned, 67",
       "religion": "Catholic",
       "events": [
         "Created feudal court via Landfrieden of 1152",
@@ -4582,7 +4582,7 @@
     },
     "Otto IV": {
       "name": "Otto IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ottta4Brunsvicky.jpg/200px-Ottta4Brunsvicky.jpg",
+      "image": "img/hre/otto_iv.jpg",
       "house": "Welf",
       "houseImage": "img/houses/welf.png",
       "start": 1209,
@@ -4598,347 +4598,552 @@
         "Anglo-French War, France, 1213-1214"
       ],
       "relationships": [
-        "England, Henry II, Grandfather, img/england/henry_ii.jpg"
+        "England, Henry II, Grandfather, img/england/henry_ii.png"
       ]
     },
     "Frederick II": {
       "name": "Frederick II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Frederick_II_%28HRE%29.jpg/200px-Frederick_II_%28HRE%29.jpg",
+      "image": "img/hre/frederick_ii.jpg",
       "house": "Hohenstaufen",
       "houseImage": "img/houses/hohenstaufen.png",
       "start": 1220,
       "end": 1250,
-      "endReason": "",
+      "endReason": "Dysentary, 55",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Appointed king of Sicily and Jerusalem through marriage",
+        "Outlawed the practice of Trial by Ordeal",
+        "After death, Empire entered a period of long decline"
+      ],
+      "wars": [
+        "Fifth Crusade, Jerusalem, 1217-1221",
+        "Sixth Crusade, Jerusalem, 1228-1229",
+        "Guelphs and Ghibellines, Papal States, 1241"
+      ],
+      "relationships": [
+        "Sicily, Roger II, Father-in-law, img/italy/roger_ii.jpg",
+        "Aragon, Alfonso II, Father-in-law, img/spain/alfonso_ii.jpg"
+      ]
     },
     "Henry VII": {
       "name": "Henry VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Henry_Lux_head.jpg",
+      "image": "img/hre/henry_vii.jpg",
       "house": "Luxembourg",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
+      "houseImage": "img/houses/luxembourg.png",
       "start": 1312,
       "end": 1313,
-      "endReason": "",
+      "endReason": "Malaria, 39",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Elected over French Charles of Valois as King of the Romans",
+        "Swung support amongst Italians to pro-Empire Ghibelline faction",
+        "Coronation ended the Great Interregnum of the empire"
+      ],
+      "wars": [
+        "Italy, 1312-1313"
+      ],
+      "relationships": [
+        "France, Charles IV, Son-in-law, img/france/charles_iv_and_i.jpg"
+      ]
     },
     "Louis IV": {
       "name": "Louis IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ludovico_il_Bavaro.jpeg",
+      "image": "img/hre/louis_iv.jpg",
       "house": "Wittelsbach",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
-      "start": 1314,
+      "houseImage": "img/houses/wittelsbach.png",
+      "start": 1328,
       "end": 1347,
-      "endReason": "",
+      "endReason": "Stroke, 65",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Elected over Habsburg cousin with support of Luxembourgs",
+        "Gave Teutonic Knights permission to invade Lithuania and Russia",
+        "Lost support of German princes to Charles IV of Luxembourg"
+      ],
+      "wars": [
+        "Naples, 1328-1330"
+      ],
+      "relationships": [
+        "Sweden, Eric XII, Son-in-law, img/sweden/eric_xii.jpg",
+        "Holland, William I, Father-in-law, img/dutch/william_i_count_of_hainaut.png"
+      ]
     },
     "Charles IV": {
       "name": "Charles IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Charles_IV-John_Ocko_votive_picture-fragment.jpg/200px-Charles_IV-John_Ocko_votive_picture-fragment.jpg",
+      "image": "img/hre/charles_iv.jpg",
       "house": "Luxembourg",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
-      "start": 1346,
+      "houseImage": "img/houses/luxembourg.png",
+      "start": 1355,
       "end": 1378,
-      "endReason": "",
+      "endReason": "Unspecified, 62",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Crowned King of the Romans during the reign of Louis IV",
+        "Established Imperial succession in Golden Bull of 1356",
+        ""
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "France, John II, Brother-in-law, img/france/john_ii.jpg",
+        "England, Richard II, Son-in-law, img/england/richard_ii.jpg",
+        "Hungary, Louis I, Son-in-law, img/hungary/louis_i.jpg"
+      ]
     },
     "Sigismund": {
       "name": "Sigismund",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Zikmund_Zho%C5%99elecka_radnice.jpg/200px-Zikmund_Zho%C5%99elecka_radnice.jpg",
+      "image": "img/hre/sigismund.jpg",
       "house": "Luxembourg",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arms_of_the_Grand_Duchy_of_Luxembourg.svg/280px-Arms_of_the_Grand_Duchy_of_Luxembourg.svg.png",
+      "houseImage": "img/houses/luxembourg.png",
       "start": 1433,
       "end": 1437,
-      "endReason": "",
+      "endReason": "Unspecified, 69",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Founded the Order of the Dragon to fight the Turks",
+        "Ended Papal Schism through the Council of Constance",
+        "Had Jan Hus executed after promising safe passage"
+      ],
+      "wars": [
+        "Crusade of Nicopolis, Ottomans, 1396",
+        "Hussite Wars, Hussites, 1419-1434"
+      ],
+      "relationships": [
+        "Hungary, Louis I, Father-in-law, img/hungary/louis_i.jpg"
+      ]
     },
     "Frederick III": {
       "name": "Frederick III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Hans_Burgkmair_d._%C3%84._005.jpg/200px-Hans_Burgkmair_d._%C3%84._005.jpg",
+      "image": "img/hre/frederick_iii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
-      "start": 1440,
+      "start": 1452,
       "end": 1493,
-      "endReason": "",
+      "endReason": "Amputation, 77",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Last Emperor to be crowned in Rome",
+        "Consolidated ancestral Habsburg land of Austria and Hungary"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Portugal, Edward I, Father-in-law, img/portugal/edward_i.jpg"
+      ]
     },
     "Maximilian I": {
       "name": "Maximilian I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Maximilian_I_as_Emperor.JPG/200px-Maximilian_I_as_Emperor.JPG",
+      "image": "img/hre/maximilian_i.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
-      "start": 1493,
+      "start": 1508,
       "end": 1519,
-      "endReason": "",
+      "endReason": "Unspecified, 59",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Proclaimed Emperor-elect at Trent",
+        "Lost Swiss territories to Swiss Confederacy",
+        "Established Habsburg dynasty in Spain via son's marriage to queen of Castile"
+      ],
+      "wars": [
+        "Italian Wars, France, 1494-1516"
+      ],
+      "relationships": [
+        "Burgundy, Charles the Bold, Father-in-law, img/france/charles_the_bold.jpg",
+        "Brittany, Anne, Wife, img/france/anne_of_brittany.jpg",
+        "Castile, Philip I, Son, img/spain/philip_i.jpg"
+      ]
     },
     "Charles V": {
       "name": "Charles V",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elderly_Karl_V.jpg/440px-Elderly_Karl_V.jpg",
+      "image": "img/hre/charles_v.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1519,
       "end": 1556,
-      "endReason": "",
+      "endReason": "Abdication, 56",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Financed conquistadores for Incan and Aztec expeditions",
+        "Organized Diet of Worms to halt the Protestant Reformation",
+        "Divided empire between Spanish and Austrian Habsburgs"
+      ],
+      "wars": [
+        "Italian Wars, France, 1521-1559",
+        "Ottoman-Habsburg Wars, Ottomans, 1529"
+      ],
+      "relationships": [
+        "Spain, Philip II, Son, img/spain/philip_ii.jpg",
+        "Portugal, Manuel I, Father-in-law, img/portugal/manuel_i.png",
+        "Portugal, Sebastian, Grandson, img/portugal/sebastian.png"
+      ]
     },
     "Ferdinand I": {
       "name": "Ferdinand I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg/220px-Bemberg_Fondation_Toulouse_-_Portrait_paintings_of_Ferdinand_I%2C_Holy_Roman_Emperor_by_Jan_Cornelisz_Vermeyen_Inv.1056.jpg",
+      "image": "img/hre/ferdinand_i.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
-      "start": 1558,
+      "start": 1556,
       "end": 1564,
-      "endReason": "",
+      "endReason": "Unspecified, 61",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Consolidated grasp over Hungary",
+        "Led Counter-Reformation, the Catholic response to Protestantism"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Hungary, Vladislaus II, Father-in-law, img/hungary/vladislaus_ii.jpg",
+        "Poland, Sigismund II Augustus, Son-in-law, img/poland/sigismund_ii_augustus.jpg"
+      ]
     },
     "Maximilian II": {
       "name": "Maximilian II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nicolas_Neufch%C3%A2tel_002.jpg/440px-Nicolas_Neufch%C3%A2tel_002.jpg",
+      "image": "img/hre/maximilian_ii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1564,
       "end": 1576,
-      "endReason": "",
+      "endReason": "Unspecified, 49",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Established temporary peace with Protestants during the Confessionalization",
+        "Failed to evict Ottoman Turks from Hungary"
+      ],
+      "wars": [
+        "Ottoman-Habsburg Wars, Ottomans, 1566-1573"
+      ],
+      "relationships": [
+        "Spain, Maria, Wife & Cousin, img/spain/maria_of_austria.jpg",
+        "France, Charles IX, Son-in-law, img/france/charles_ix.jpg"
+      ]
     },
     "Rudolf II": {
       "name": "Rudolf II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg/440px-AACHEN%2C_Hans_von_-_Portrait_of_Emperor_Rudolf_II_-_WGA.jpg",
+      "image": "img/hre/rudolf_ii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1576,
       "end": 1612,
-      "endReason": "",
+      "endReason": "Deposed, 59",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
+      "events": [
+        "Ineffectual ruler whose mistakes led to the Thirty Years' War",
+        "Influential patron of Northern Mannerist art",
+        "Intellectual devotee who helped seed the scientific revolution"
+      ],
+      "wars": [
+        "Long Turkish War, Ottomans, 1593-1606"
+      ],
       "relationships": []
     },
     "Matthias": {
       "name": "Matthias",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg/440px-Matthias_-_Holy_Roman_Emperor_%28Hans_von_Aachen%2C_1625%29.jpg",
+      "image": "img/hre/matthias.jpeg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1612,
       "end": 1619,
-      "endReason": "",
+      "endReason": "Unspecified, 62",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Gave freedom of religion to the Dutch in Union of Utrecht",
+        "Imprisoned and stripped brother Rudolf II of all titles and land",
+        "Imprisoned Protestant leader Klesl during Bohemian Protestant revolt"
+      ],
       "wars": [],
       "relationships": []
     },
     "Ferdinand II": {
       "name": "Ferdinand II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Ferdinand_II._1614.jpg/440px-Kaiser_Ferdinand_II._1614.jpg",
+      "image": "img/hre/ferdinand_ii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1619,
       "end": 1637,
-      "endReason": "",
+      "endReason": "Unspecified, 58",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "A zealous Catholic, led the Thirty Years' War against Protestants",
+        "Put down Bohemian revolt led by Protestant Emperor Frederick V",
+        "Ended civil war component by signing Peace of Prague in 1635"
+      ],
+      "wars": [
+        "Thirty Years' War, Protestants, 1618-1648"
+      ],
+      "relationships": [
+        "Florence, Eleanor de' Medici, Mother-in-law, img/italy/eleanor_de_medici.jpg"
+      ]
     },
     "Ferdinand III": {
       "name": "Ferdinand III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg/440px-Jan_van_den_Hoecke_-_Portrait_of_Emperor_Ferdinand_III.jpg",
+      "image": "img/hre/ferdinand_iii.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1637,
       "end": 1657,
-      "endReason": "",
+      "endReason": "Unspecified, 48",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Appointed head of the Imperial army during Thirty Years' War",
+        "Made peace with Protestant league in 1648 with Peace of Westphalia"
+      ],
+      "wars": [
+        "Thirty Years' War, Protestants, 1618-1648"
+      ],
+      "relationships": [
+        "Spain, Maria Anna, Wife & Cousin, img/spain/maria_anna.jpg",
+        "Spain, Philip IV, Brother-in-law & Son-in-law, img/spain/philip_iv.jpg",
+        "Poland, Michael I, Son-in-law, img/poland/michael_i.jpg"
+      ]
     },
     "Leopold I": {
       "name": "Leopold I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Benjamin_von_Block_001.jpg/440px-Benjamin_von_Block_001.jpg",
+      "image": "img/hre/leopold_i.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1658,
       "end": 1705,
-      "endReason": "",
+      "endReason": "Unspecified, 64",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Received all of Kingdom of Hungary from Turks",
+        "Challenged the will of Spanish Charles II leaving Spain to France"
+      ],
+      "wars": [
+        "Great Turkish War, Ottomans, 1683-1699",
+        "Nine Years' War, France, 1688-1697",
+        "War of the Spanish Succession, France, 1701-1714"
+      ],
+      "relationships": [
+        "France, Louis XIV, Cousin, img/france/louis_xiv.jpg",
+        "Spain, Margaret Theresa, Wife & Cousin, img/spain/margaret_theresa.jpg",
+        "Portugal, John V, Son-in-law, img/portugal/john_v.jpg"
+      ]
     },
     "Joseph I": {
       "name": "Joseph I",
-      "image": "http://www.holyromanempireassociation.com/image/118580078_scaled_199x285.jpg",
+      "image": "img/hre/joseph_i.jpeg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1705,
       "end": 1711,
-      "endReason": "",
+      "endReason": "Smallpox, 32",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Re-established Austrian hegemony over Italy"
+      ],
+      "wars": [
+        "War of the Spanish Succession, France, 1701-1714"
+      ],
+      "relationships": [
+        "Poland, Augustus III, Son-in-law, img/poland/augustus_iii.png"
+      ]
     },
     "Charles VI": {
       "name": "Charles VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg/440px-Martin_van_Meytens_%28attrib.%29_-_Portr%C3%A4t_Kaiser_Karl_VI.jpg",
+      "image": "img/hre/charles_vi.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1711,
       "end": 1740,
-      "endReason": "",
+      "endReason": "Food poisoning, 55",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
+      "events": [
+        "Issued Pragmatic Sanction of 1713 establishing daughter Maria Theresa heiress",
+        "Ceded overseas trading company in exchange for foreign recognition",
+        "Upon death, recognition was reneged, leading to War of the Austrian Succession"
+      ],
+      "wars": [
+        "War of the Spanish Succession, France, 1701-1714"
+      ],
       "relationships": []
     },
     "Charles VII": {
       "name": "Charles VII",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg/440px-Carl_Albrecht_VII%2C_by_workshop_of_George_Desmarees.jpg",
+      "image": "img/hre/charles_vii.jpg",
       "house": "Wittelsbach",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Armoiries_Bavi%C3%A8re.svg/220px-Armoiries_Bavi%C3%A8re.svg.png",
+      "houseImage": "img/houses/wittelsbach.png",
       "start": 1742,
       "end": 1745,
-      "endReason": "",
+      "endReason": "Gout, 47",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Elected Holy Roman Emperor over Maria Theresa through Salic Law",
+        "Overrun by Austrian Habsburg-Lorraine troops and fled to Frankfurt",
+        "Posthumously recognized by Habsburgs as Holy Roman Emperor"
+      ],
+      "wars": [
+        "War of the Austrian Succession, 1740-1748"
+      ],
+      "relationships": [
+        "Poland, John III, Grandfather, img/poland/john_iii.jpg"
+      ]
     },
     "Francis I": {
       "name": "Francis I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Martin_van_Meytens_006.jpg/440px-Martin_van_Meytens_006.jpg",
+      "image": "img/hre/francis_i.jpg",
       "house": "Lorraine",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coat_of_arms_of_the_House_of_Lorraine.png",
+      "houseImage": "img/houses/lorraine.png",
       "start": 1745,
       "end": 1765,
-      "endReason": "",
+      "endReason": "Unspecified, 56",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Won the War of Austrian Succession with Habsburg wife Maria Theresa",
+        "Pursued business while wife managed the affairs of the Empire"
+      ],
+      "wars": [
+        "War of the Austrian Succession, 1740-1748",
+        "Seven Years' War, Britain, 1756-1763"
+      ],
+      "relationships": [
+        "France, Marie Antoinette, Daughter, img/france/marie_antoinette.jpg"
+      ]
     },
     "Joseph II": {
       "name": "Joseph II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Anton_von_Maron_006.png/440px-Anton_von_Maron_006.png",
+      "image": "img/hre/joseph_ii.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1765,
       "end": 1790,
-      "endReason": "",
+      "endReason": "Unspecified, 48",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Valuing the Enlightenment, unsuccessfully attempted reforms",
+        "Passed 1783 Edict of Tolerance giving some freedom of religion",
+        "Opposed by Hungarian nobles and died ruined and abandoned"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "France, Louis XV, Father-in-law, img/france/louis_xv.jpg",
+        "France, Louis XVI, Brother-in-law, img/france/louis_xvi.jpg"
+      ]
     },
     "Leopold II": {
       "name": "Leopold II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg/440px-Mengs%2C_Anton_Raphael_-_Pietro_Leopoldo_d%27Asburgo_Lorena%2C_granduca_di_Toscana_-_1770_-_Prado.jpg",
+      "image": "img/hre/leopold_ii.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1790,
       "end": 1792,
-      "endReason": "",
+      "endReason": "Unspecified, 44",
       "religion": "Catholic",
-      "events": [],
+      "events": [
+        "Publicly vowed to intervene in French Revolution in 1791",
+        "Contested for power over Hungary with King of Prussia",
+        "Contested for power over Poland with Catherine the Great"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "France, Louis XVI, Brother-in-law, img/france/louis_xvi.jpg",
+        "Spain, Charles III, Father-in-law, img/spain/charles_iii.jpg",
+        "Sardinia, Charles Albert, Son-in-law, img/italy/charles_albert.jpg"
+      ]
     },
-    "Francis II and I": {
-      "name": "Francis II and I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg/440px-Francis_II%2C_Holy_Roman_Emperor_by_Friedrich_von_Amerling_003.jpg",
+    "Francis II": {
+      "name": "Francis II",
+      "image": "img/hre/francis_ii.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1792,
       "end": 1806,
-      "endReason": "",
+      "endReason": "Monarchy abolished, 42",
       "religion": "Catholic",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Defeated by Napoleon at the Battle of Austerlitz",
+        "Founded the Austrian Empire, becoming its first Emperor",
+        "Served as first president of German Confederation in 1815"
+      ],
+      "wars": [
+        "War of the Second Coalition, France, 1798-1802",
+        "War of the Third Coalition, France, 1803-1806",
+        "War of the Sixth Coalition, France, 1813-1814"
+      ],
+      "relationships": [
+        "France, Napoleon I, Son-in-law, img/france/napoleon_i.jpg",
+        "Sicily, Ferdinand I, Father-in-law, img/italy/ferdinand_i.jpg"
+      ]
     }
   },
   "Austria": {
     "Francis I": {
       "name": "Francis I",
-      "image": "",
+      "image": "img/hre/francis_ii.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1804,
       "end": 1835,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Fever, 67",
+      "religion": "Catholic",
+      "events": [
+        "Founded the Austrian Empire, becoming its first Emperor",
+        "Served as first president of German Confederation in 1815"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "France, Napoleon I, Son-in-law, img/france/napoleon_i.jpg",
+        "Sicily, Ferdinand I, Father-in-law, img/italy/ferdinand_i.jpg"
+      ]
     },
     "Ferdinand I": {
       "name": "Ferdinand I",
-      "image": "",
+      "image": "img/austria/ferdinand_i.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1835,
       "end": 1848,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Abdication, 55",
+      "religion": "Catholic",
+      "events": [
+        "Suffered from seizures, hydrocephaly, and speech impediment",
+        "Excluded from autonomous rule by father before death",
+        "Abdicated during Revolutions of 1848 in favor of nephew"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Sardinia, Victor Emmanuel I, Father-in-law, img/italy/victor_emmanuel_sardinia.jpg"
+      ]
     },
-    "Francis Joseph I": {
-      "name": "Francis Joseph I",
-      "image": "",
+    "Franz Joseph I": {
+      "name": "Franz Joseph I",
+      "image": "img/austria/franz_joseph_i.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1848,
       "end": 1916,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Pneumonia, 86",
+      "religion": "Catholic",
+      "events": [
+        "Lost claim to Tuscany and Northern Italy",
+        "Lost leadership of German Confederation to Prussia",
+        "Annexed Bosnia and Herzegovina, precipitating World War I"
+      ],
+      "wars": [
+        "Second Italian War of Independence, Italy, 1859",
+        "Third Italian War of Independence, Italy, 1866",
+        "Austro-Prussian War, Prussia, 1866"
+      ],
+      "relationships": [
+        "Mexico, Maximilian I, Brother, img/mexico/maximilian_i.jpg"
+      ]
     },
     "Charles I": {
       "name": "Charles I",
-      "image": "",
+      "image": "img/austria/charles_i.jpg",
       "house": "Habsburg-Lorraine",
       "houseImage": "img/houses/habsburg.png",
       "start": 1916,
       "end": 1918,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Abdication, 30",
+      "religion": "Catholic",
+      "events": [
+        "Abdicated after armistice of World War I",
+        "Austrian Parliament passed Habsburg Law, banishing Habsburgs",
+        "Hungary proclaimed itself First Hungarian Republic"
+      ],
+      "wars": [
+        "World War I, Allied Forces, 1914-1918"
+      ],
       "relationships": []
     }
   },
