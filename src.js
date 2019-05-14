@@ -686,6 +686,16 @@ function render(data) {
       .attr("xlink:href", data.houseImage)
       .attr("class", "detail")
 
+    // Exit button
+    timeline.append("image")
+      .attr("x", detailsX + detailsWidth - detailsWidthInterval * 3 / 2)
+      .attr("y", detailsY + detailsWidthInterval / 2)
+      .attr("width", detailsWidthInterval)
+      .attr("height", detailsWidthInterval)
+      .attr("xlink:href", "icons/error.png")
+      .attr("class", "detail")
+      .on("click", hideDetail) 
+
     // Name
     timeline.append("text")
       .attr("x", detailsMiddle)
