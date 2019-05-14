@@ -446,6 +446,7 @@ function render(data) {
       $width = $this.width(),
       $height = $this.height();
 
+    var initialY = $y < height / 3 ? $y + laneHeight * 2 : $y - laneHeight / 2;
 
     var thumbnailDimensions = [
       { // Background
@@ -482,7 +483,7 @@ function render(data) {
 
     var thumbnailBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", initialY)
       .attr("fill", thumbnailBackgroundColor)
       .attr("rx", cornerRadiusLarge)
       .attr("ry", cornerRadiusLarge)
@@ -490,20 +491,20 @@ function render(data) {
 
     var thumbnailImage = timeline.append("image")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", initialY)
       .attr("xlink:href", el.image)
       .attr("preserveAspectRatio", "none")
       .attr("class", "thumbnail")
 
     var thumbnailHouseImage = timeline.append("image")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", initialY)
       .attr("xlink:href", el.houseImage)
       .attr("class", "thumbnail")
 
     var thumbnailNameBackground = timeline.append("rect")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", initialY)
       .attr("fill", backgroundColor)
       .attr("rx", cornerRadiusLarge)
       .attr("ry", cornerRadiusLarge)
@@ -513,7 +514,7 @@ function render(data) {
 
     var thumbnailName = timeline.append("text")
       .attr("x", $x + $width / 2)
-      .attr("y", $y + laneHeight / 2)
+      .attr("y", initialY)
       .attr("font-family", fontFamily)
       .attr("font-size", getFontSizeFromContainer(el.name, thumbnailDimensions[3]["width"] * 1.5, thumbnailDimensions[3]["height"] * 2 / 3))
       .attr("text-anchor", "middle")
