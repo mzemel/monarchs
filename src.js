@@ -521,7 +521,13 @@ function render(data) {
     timeline.selectAll('.thumbnail')
       .transition()
       .attr("x", function(d, i)      { return thumbnailDimensions[i]["x"] })
-      .attr("y", function(d, i)      { return thumbnailDimensions[i]["y"] })
+      .attr("y", function(d, i)      {
+        if ($y < height / 3) {
+          return thumbnailDimensions[i]["y"] + thumbnailImageWidth + 2 * thumbnailBorder + laneHeight * 2;
+        } else {
+          return thumbnailDimensions[i]["y"];
+        }
+      })
       .attr("width", function(d, i)  { return thumbnailDimensions[i]["width"] })
       .attr("height", function(d, i) { return thumbnailDimensions[i]["height"] }) 
       .on("end", function() { timeline.select("text.thumbnail").classed("hidden", false) })
