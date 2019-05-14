@@ -131,6 +131,7 @@ var detailsColor = "#E2D4AC",
 
 // Fonts
 var fontFamily = "Lato, sans-serif",
+  fontFamilyMonospace = "Inconsolata, monospace",
   strokeWidthLarge = 15,
   strokeWidthMedium = 10,
   strokeWidthSmall = 5,
@@ -141,9 +142,8 @@ var fontFamily = "Lato, sans-serif",
   circleRadiusMedium = circleRadiusLarge / 2,
   circleRadiusSmall = circleRadiusMedium / 2,
   pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
-    "small": 10,
-    "medium": 15,
-    "large": 20
+    "small": _.max([width / 180, height / 90]),
+    "large": _.max([width / 90, height / 45])
   };
 
 // Flags
@@ -330,7 +330,7 @@ function render(data) {
       .attr("rx", cornerRadiusSmall)
       .attr("ry", cornerRadiusSmall)
       .attr("width", dateRectWidth)
-      .attr("height", detailsLineHeight)
+      .attr("height", dateRectHeight)
       .attr("fill", dateColorsIcons[data.type].color)
       .attr("fill-opacity", 0.75)
       .attr("stroke", dateColorsIcons[data.type].color)
@@ -339,8 +339,10 @@ function render(data) {
 
     var dateText = dateContainer.append("text")
       .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
-      .attr("y", height - margin.bottom + laneHeight / 2 + detailsLineHeight * 3 / 4)
+      .attr("y", height - margin.bottom + laneHeight / 2 + dateRectHeight * 3 / 4)
       .attr("text-anchor", "middle")
+      .attr("font-family", fontFamilyMonospace)
+      .attr("font-size", pixelsPerCharacterReference["large"])
       .attr("class", "date ")
       .text(dateTextString)
 
@@ -944,7 +946,7 @@ function reduceBlock(el) {
 function getContainerFromText(text, size) {
   var pixelsPerCharacter = pixelsPerCharacterReference[size],
     width = pixelsPerCharacter * text.length,
-    height = pixelsPerCharacter;
+    height = pixelsPerCharacter * 2;
 
   return [width, height];
 }
