@@ -2921,7 +2921,8 @@
       "relationships": [
         "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
         "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1087.jpg"
     },
     "William II": {
       "name": "William II",
@@ -2943,7 +2944,8 @@
       ],
       "relationships": [
         "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1100.jpg"
     },
     "Henry I": {
       "name": "Henry I",
@@ -2966,7 +2968,8 @@
       "relationships": [
         "Scotland, Matilda, Wife, img/scotland/matilda.JPG",
         "Anjou, Matilda, Daughter, img/france/mathilda.png"
-      ]
+      ],
+      "border": "img/borders/england/1135.jpg"
     },
     "Stephen": {
       "name": "Stephen",
@@ -2988,7 +2991,8 @@
       "relationships": [
         "Blois, Stephen, Father, img/france/stepan.jpg",
         "Boulogne, Matilda, Wife, img/france/matilda_boulogne.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1153.jpg"
     },
     "Henry II": {
       "name": "Henry II",
@@ -3012,7 +3016,8 @@
         "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
         "Sicily, Joan, Daughter, img/italy/joan.jpg",
         "Castille, Eleanor, Daughter, img/spain/eleanor.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1189.jpg"
     },
     "Richard I": {
       "name": "Richard I",
@@ -3034,7 +3039,8 @@
       ],
       "relationships": [
         "Navarre, Berengaria, Wife, img/france/berengaria.JPG"
-      ]
+      ],
+      "border": "img/borders/england/1189.jpg"
     },
     "John": {
       "name": "John",
@@ -3057,7 +3063,8 @@
         "Germany, Richard, Son, img/hre/richard.jpg",
         "Holy Roman Empire, Isabella, Daughter, img/hre/isabella.jpg",
         "Scotland, Joan, Daughter, img/scotland/joan.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1216.jpg"
     },
     "Henry III": {
       "name": "Henry III",
@@ -3081,7 +3088,8 @@
         "Aquitaine, Isabella, Mother, img/france/isabella.jpg",
         "Scotland, Margaret, Daughter, img/scotland/margaret_plantagenet.JPG",
         "Provence, Eleanor, Wife, img/france/eleanor_provence.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1272.jpg"
     },
     "Edward I": {
       "name": "Edward I",
@@ -3104,7 +3112,8 @@
       "relationships": [
         "Castille, Eleanor, Wife, img/spain/eleanor_castille.jpg",
         "France, Margaret, Wife, img/france/margaret.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1307.jpg"
     },
     "Edward II": {
       "name": "Edward II",
@@ -3127,7 +3136,8 @@
       "relationships": [
         "France, Isabella, Wife, img/france/isabella_plantagenet.jpg",
         "Scotland, Joan, Daughter, img/scotland/joan_of_the_tower.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1327.jpg"
     },
     "Edward III": {
       "name": "Edward III",
@@ -3149,7 +3159,8 @@
       ],
       "relationships": [
         "Brittany, Mary, Daughter, img/france/mary_plantagenet.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1377.jpg"
     },
     "Richard II": {
       "name": "Richard II",
@@ -3171,7 +3182,8 @@
       "relationships": [
         "Holy Roman Empire, Anne, Wife, img/hre/anne_plantagenet.jpg",
         "France, Isabella, Wife, img/france/isabella_valois.JPG"
-      ]
+      ],
+      "border": "img/borders/england/1399.jpg"
     },
     "Henry IV": {
       "name": "Henry IV",
@@ -3194,7 +3206,8 @@
       "relationships": [
         "Denmark, Philippa, Daughter, img/denmark/philippa.jpg",
         "Portugal, Philippa, Sister, img/portugal/philippa.png"
-      ]
+      ],
+      "border": "img/borders/england/1399.jpg"
     },
     "Henry V": {
       "name": "Henry V",
@@ -3214,7 +3227,8 @@
       ],
       "relationships": [
         "France, Catherine of Valois, Wife, img/france/catherine_valois.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1422.jpg"
     },
     "Henry VI": {
       "name": "Henry VI",
@@ -3236,7 +3250,8 @@
       ],
       "relationships": [
         "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1461.jpg"
     },
     "Edward IV": {
       "name": "Edward IV",
@@ -3257,7 +3272,8 @@
       ],
       "relationships": [
         "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1461.jpg"
     },
     "Henry VI (2nd)": {
       "name": "Henry VI (2nd)",
@@ -3277,7 +3293,8 @@
       ],
       "relationships": [
         "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1471.jpg"
     },
     "Edward IV (2nd)": {
       "name": "Edward IV (2nd)",
@@ -3297,7 +3314,8 @@
       ],
       "relationships": [
         "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1471.jpg"
     },
     "Edward V": {
       "name": "Edward V",
@@ -3315,7 +3333,8 @@
       "wars": [
         "Wars of the Roses, England, 1455-1487"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1471.jpg"
     },
     "Richard III": {
       "name": "Richard III",
@@ -3334,7 +3353,8 @@
         "Wars of the Roses, England, 1455-1487",
         "Buckingham's Rebellion, England, 1483"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1471.jpg"
     },
     "Henry VII": {
       "name": "Henry VII",
@@ -3354,7 +3374,8 @@
       "relationships": [
         "Spain, Catherine of Aragon, Daughter-in-law, img/spain/catherine_of_aragon.jpg",
         "Scotland, Margaret, Daughter, img/scotland/margaret_tudor.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1471.jpg"
     },
     "Henry VIII": {
       "name": "Henry VIII",
@@ -3378,7 +3399,8 @@
         "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
         "Holy Roman Empire, Charles V, Nephew-in-law, img/hre/charles_v.jpg",
         "Scotland, Margaret, Sister, img/scotland/margaret_tudor.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1547.jpg"
     },
     "Edward VI": {
       "name": "Edward VI",
@@ -3399,7 +3421,8 @@
       ],
       "relationships": [
         "Scotland, Mary, Betrothed, img/scotland/mary.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1547.jpg"
     },
     "Jane Grey": {
       "name": "Jane Grey",
@@ -3415,7 +3438,8 @@
         "Executed by Mary Tudor"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1547.jpg"
     },
     "Mary I": {
       "name": "Mary I",
@@ -3437,7 +3461,8 @@
         "Holy Roman Empire, Charles V, Engaged, img/hre/charles_v.jpg",
         "Spain, Philip, Husband, img/spain/philip_ii.jpg",
         "Spain, Catherine of Aragon, Mother, img/spain/catherine_of_aragon.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1558.jpg"
     },
     "Elizabeth I": {
       "name": "Elizabeth I",
@@ -3458,7 +3483,8 @@
         "Rising of the North, Scotland (1569)",
         "Tudor conquest of Ireland, Ireland (1594-1603)"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1602.jpg"
     },
     "James VI and I": {
       "name": "James VI and I",
@@ -3477,7 +3503,8 @@
       "relationships": [
         "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
         "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "Charles I": {
       "name": "Charles I",
@@ -3497,7 +3524,8 @@
       ],
       "relationships": [
         "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1649.jpg"
     },
     "Charles II": {
       "name": "Charles II",
@@ -3520,7 +3548,8 @@
       "relationships": [
         "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
         "Dutch Republic, William of Orange, Nephew, img/england/william_iii_and_ii.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "James II & VII": {
       "name": "James II & VII",
@@ -3538,7 +3567,8 @@
       "wars": [],
       "relationships": [
         "Italy, Mary of Modena, Wife, img/italy/mary_modena.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "William III & II": {
       "name": "William III & II",
@@ -3560,7 +3590,8 @@
       ],
       "relationships": [
         "Dutch Republic, William II, Father, img/dutch/william_ii.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "Anne": {
       "name": "Anne",
@@ -3580,7 +3611,8 @@
       ],
       "relationships": [
         "Denmark, Prince George, Husband, img/denmark/george.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "George I": {
       "name": "George I",
@@ -3601,7 +3633,8 @@
       "relationships": [
         "Holy Roman Empire, Ernest Augustus, Father, img/hre/ernest_augustus.jpg",
         "Prussia, Sophia Dorothea, Wife, img/hre/sophia_dorothea.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1714.jpg"
     },
     "George II": {
       "name": "George II",
@@ -3624,7 +3657,8 @@
       "relationships": [
         "Prussia, Frederick the Great, Nephew, img/hre/frederick_ii.jpg",
         "Holy Roman Empire, Caroline of Ansbach, Wife, img/hre/caroline_ansbach.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1714.jpg"
     },
     "George III": {
       "name": "George III",
@@ -3645,7 +3679,8 @@
       ],
       "relationships": [
         "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife, img/hre/charlotte_mecklenburg.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1820.jpg"
     },
     "George IV": {
       "name": "George IV",
@@ -3662,7 +3697,8 @@
       "wars": [],
       "relationships": [
         "Holy Roman Empire, Caroline of Brunswick, Wife, img/hre/caroline_brunswick.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1820.jpg"
     },
     "William IV": {
       "name": "William IV",
@@ -3682,7 +3718,8 @@
       "relationships": [
         "Holy Roman Empire, Adelaide of Saxe-Meinigen, Wife, img/hre/adelaide.jpg",
         "Belgians, Leopold I, Nephew-in-law, img/belgians/leopold_i.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "Victoria": {
       "name": "Victoria",
@@ -3705,7 +3742,8 @@
       "relationships": [
         "German Confederation, Prince Albert, Husband, img/hre/prince_albert.jpg",
         "German Empire, Frederick William, Son-in-law, img/hre/frederick_william.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "Edward VII": {
       "name": "Edward VII",
@@ -3727,7 +3765,8 @@
         "Russia, Nicholas II, Nephew-in-law, img/russia/nicholas_ii.jpg",
         "Spain, Victoria Eugenia, Niece, img/spain/victoria_eugenia.jpg",
         "Sweden, Margaret, Niece, img/sweden/margaret.png"
-      ]
+      ],
+      "border": "img/borders/england/1625.jpg"
     },
     "George V": {
       "name": "George V",
@@ -3749,7 +3788,8 @@
       "relationships": [
         "German Empire, Wilhelm II, Cousin, img/hre/wilhelm_ii.jpg",
         "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg"
-      ]
+      ],
+      "border": "img/borders/england/1936.jpg"
     },
     "Edward VIII": {
       "name": "Edward VIII",
@@ -3764,7 +3804,8 @@
         "Abdicated to marry actress and avoid constitutional crisis"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1936.jpg"
     },
     "George VI": {
       "name": "George VI",
@@ -3782,7 +3823,8 @@
       "wars": [
         "World War II, Germany (1939-1945)"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1936.jpg"
     },
     "Elizabeth II": {
       "name": "Elizabeth II",
@@ -3795,7 +3837,8 @@
       "religion": "Protestant",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/england/1936.jpg"
     }
   },
   "Scotland": {
