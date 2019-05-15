@@ -4242,120 +4242,193 @@
   "Germany": {
     "Frederick I": {
       "name": "Frederick I",
-      "image": "",
+      "image": "img/germany/frederick_i.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1701,
       "end": 1713,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 55",
+      "religion": "Protestant",
+      "events": [
+        "Elevated Prussia to a kingdom in Crown Treaty of 1700",
+        "Styling himself King in Prussia in deference to Polish objection"
+      ],
+      "wars": [
+        "War of the Spanish Succession, France, 1701-1714"
+      ],
+      "relationships": [
+        "Dutch Republic, Frederick Henry, Grandfather, img/dutch/frederick_henry.jpg",
+        "England, William III, Cousin, img/england/william_iii_and_ii.jpg",
+        "England, George I, Brother-in-law, img/england/george_i.jpg"
+      ]
     },
     "Frederick William I": {
       "name": "Frederick William I",
-      "image": "",
+      "image": "img/germany/frederick_william_i.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1713,
       "end": 1740,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 51",
+      "religion": "Protestant",
+      "events": [
+        "Invited Protestant refugees to settled depopulated East Prussia",
+        "Invented Canton System for military conscription",
+        "Left Prussia richer than any other German state"
+      ],
+      "wars": [
+        "Great Northern War, Sweden, 1700-1721"
+      ],
+      "relationships": [
+        "England, George II, Brother-in-law, img/england/george_ii.jpg",
+        "Sweden, Adolf Frederick, Son-in-law, img/sweden/adolf_frederick.jpg"
+      ]
     },
     "Frederick II": {
       "name": "Frederick II",
-      "image": "",
+      "image": "img/germany/frederick_ii.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1740,
       "end": 1786,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Unspecified, 74",
+      "religion": "Protestant",
+      "events": [
+        "Declared himself King of Prussia",
+        "Gained Polish and Silesian territories from Austria",
+        "Seen as a model of enlightened absolutism"
+      ],
+      "wars": [
+        "Silesian War, Austria, 1740-1763",
+        "Seven Years' War, France, 1756-1763"
+      ],
       "relationships": []
     },
     "Frederick William II": {
       "name": "Frederick William II",
-      "image": "",
+      "image": "img/germany/frederick_william_ii.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1786,
       "end": 1797,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 53",
+      "religion": "Protestant",
+      "events": [
+        "Drained the treasury with opulent lfiestyle",
+        "Acquired more Prussian land with third partition of Poland"
+      ],
+      "wars": [
+        "Prussian Invasion of Holland, Dutch Republic, 1787",
+        "Austro-Turkish War, Ottomans, 1789",
+        "War of the First Coalition, France, 1792-1793"
+      ],
+      "relationships": [
+        "Netherlands, William I, Son-in-law, img/dutch/william_i_netherlands.jpg"
+      ]
     },
     "Frederick William III": {
       "name": "Frederick William III",
-      "image": "",
+      "image": "img/germany/frederick_william_iii.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1797,
       "end": 1840,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Fever, 69",
+      "religion": "Protestant",
+      "events": [
+        "Army defeated by Napoleon; fled to court of Russia",
+        "Secured territorial increases during Congress of Vienna",
+        "Attempted to centralize all Protestant churches under royal control"
+      ],
+      "wars": [
+        "War of the Fourth Coalition, France, 1806",
+        "War of the Sixth Coalition, France, 1813-1814"
+      ],
+      "relationships": [
+        "Russia, Nicholas I, Son-in-law, img/russia/nicholas_i.jpg"
+      ]
     },
     "Frederick William IV": {
       "name": "Frederick William IV",
-      "image": "",
+      "image": "img/germany/frederick_william_iv.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1840,
       "end": 1861,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Stroke, 65",
+      "religion": "Protestant",
+      "events": [
+        "A staunch romantic and conservative, opposed liberalism",
+        "Promised a constitution as Revolutions of 1848 loomed",
+        "Attempted to unify Germany under Hohenzollern rule"
+      ],
+      "wars": [
+        "War of the Sixth Coalition, France, 1813-1814"
+      ],
       "relationships": []
     },
     "William I": {
       "name": "William I",
-      "image": "",
+      "image": "img/germany/william_i.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1861,
       "end": 1888,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Illness, 90",
+      "religion": "Protestant",
+      "events": [
+        "Defeated Austria to lead North German Confederation",
+        "Chancelor Otto von Bismarck unified Germany",
+        "Proclaimed first emperor of the German Empire"
+      ],
+      "wars": [
+        "Second Schleswig War, Denmark, 1864",
+        "Austro-Prussian War, Austria, 1866",
+        "Franco-Prussian War, France, 1870"
+      ],
       "relationships": []
     },
     "Frederick III": {
       "name": "Frederick III",
-      "image": "",
+      "image": "img/germany/frederick_iii.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1888,
       "end": 1888,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Cancer, 56",
+      "religion": "Protestant",
+      "events": [
+        "Attempted to reform government, creating cabinet",
+        "Died after 9 months, during the Year of the 3 Emperors"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "England, Victoria, Mother-in-law, img/england/victoria.jpg",
+        "Greece, Constantine I, Son-in-law, img/greece/constantine_i.jpg"
+      ]
     },
     "Wilhelm II": {
       "name": "Wilhelm II",
-      "image": "",
+      "image": "img/germany/wilhelm_ii.jpg",
       "house": "Hohenzollern",
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1888,
       "end": 1918,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Abdicated, 59",
+      "religion": "Protestant",
+      "events": [
+        "Immediately dismissed chancelor Otto von Bismarck",
+        "Guaranteed support to Austria in 1914, leading to World War I",
+        "After defeat, lost the support of the army and populace"
+      ],
+      "wars": [
+        "World War I, Allied Powers, 1914-1918"
+      ],
+      "relationships": [
+        "England, George V, Cousin, img/england/george_v.jpg",
+        "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg",
+        "Spain, Victoria Eugenia, Cousin, img/spain/victoria_eugenia.jpg"
+      ]
     }
   },
   "Holy Roman Empire": {
