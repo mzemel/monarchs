@@ -1125,7 +1125,8 @@
         "Islamic Umayaads, 752-759",
         "Aquitaine, 760-767"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/768.jpg"
     },
     "Carloman I": {
       "name": "Carloman I",
@@ -1140,7 +1141,8 @@
         "Competed with brother Charlemagne for control of Frankish lands"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/768.jpg"
     },
     "Charlemagne": {
       "name": "Charlemagne",
@@ -1163,7 +1165,8 @@
       ],
       "relationships": [
         "Lombards, Desiderius, Father-in-law, img/italy/desiderius.jpg"
-      ]
+      ],
+      "border": "img/borders/france/814.jpg"
     },
     "Louis the Pious": {
       "name": "Louis the Pious",
@@ -1183,7 +1186,8 @@
       ],
       "relationships": [
         "Bavaria, Welf, Father-in-law, img/hre/welf_i.jpg"
-      ]
+      ],
+      "border": "img/borders/france/840.jpg"
     },
     "Charles the Bald": {
       "name": "Charles the Bald",
@@ -1203,7 +1207,8 @@
       "wars": [
         "Carolingian Civil War, France, 840-843"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/877.jpg"
     },
     "Louis the Stammerer": {
       "name": "Louis the Stammerer",
@@ -1220,7 +1225,8 @@
         "Realms divided between sons Carloman II and Louis III"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Louis III": {
       "name": "Louis III",
@@ -1235,7 +1241,8 @@
         "Received the northern part of his father's kingdom, Neustria"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Carloman II": {
       "name": "Carloman II",
@@ -1250,7 +1257,8 @@
         "Received the southern part of his father's kingdom, Burgundy & Aquitaine"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Charles the Fat": {
       "name": "Charles the Fat",
@@ -1267,7 +1275,8 @@
         "Upon death, Francia split back into 5 territories"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Odo": {
       "name": "Odo",
@@ -1283,7 +1292,8 @@
         "Elected King of Francia after deposition of Charles the Fat"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Charles III": {
       "name": "Charles III",
@@ -1300,7 +1310,8 @@
         "Overthrown by Frankish nobles led by Robert I"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Robert I": {
       "name": "Robert I",
@@ -1316,7 +1327,8 @@
         "Killed by returning Charles at the Battle of Soissons"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Rudolph": {
       "name": "Rudolph",
@@ -1335,7 +1347,8 @@
         "East Francia, 923",
         "Normandy, 924"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Louis IV": {
       "name": "Louis IV",
@@ -1357,7 +1370,8 @@
       ],
       "relationships": [
         "England, Edward the Elder, Grandfather, img/england/edward_the_elder.jpg"
-      ]
+      ],
+      "border": "img/borders/france/879.jpg"
     },
     "Lothair III": {
       "name": "Lothair III",
@@ -1379,7 +1393,8 @@
         "Saxony, Gerberga, Mother, img/hre/gerberga.jpg",
         "Holy Roman Empire, Otto I, Uncle, img/hre/otto_i.jpg",
         "Italy, Emma, Wife, img/italy/emma.jpg"
-      ]
+      ],
+      "border": "img/borders/france/879.jpg"
     },
     "Louis V": {
       "name": "Louis V",
@@ -1396,7 +1411,8 @@
         ""
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/879.jpg"
     },
     "Hugh Capet": {
       "name": "Hugh Capet",
@@ -1414,7 +1430,8 @@
       "wars": [],
       "relationships": [
         "Holy Roman Empire, Otto I, Uncle, img/hre/otto_i.jpg"
-      ]
+      ],
+      "border": "img/borders/france/879.jpg"
     },
     "Robert II": {
       "name": "Robert II",
@@ -1433,7 +1450,8 @@
       ],
       "relationships": [
         "Italy, Rozala, Wife, img/italy/rozala.jpg"
-      ]
+      ],
+      "border": "img/borders/france/879.jpg"
     },
     "Henry I": {
       "name": "Henry I",
@@ -1454,7 +1472,8 @@
       "relationships": [
         "England, William the Conquerer, Nephew, img/england/william_the_conquerer.png",
         "Russia, Yaroslav the Wise, Father-in-law, img/russia/yaroslav.jpg"
-      ]
+      ],
+      "border": "img/borders/france/879.jpg"
     },
     "Philip I": {
       "name": "Philip I",
@@ -1473,7 +1492,8 @@
       ],
       "relationships": [
         "Flanders, Bertha, Wife, img/france/bertha.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1108.jpg"
     },
     "Louis VI": {
       "name": "Louis VI",
@@ -1492,7 +1512,8 @@
       "wars": [
         "England, 1109-1120"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1137.jpg"
     },
     "Louis VII": {
       "name": "Louis VII",
@@ -1512,7 +1533,8 @@
       "relationships": [
         "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
         "Castille, Constance, Wife, img/spain/constance.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1180.jpg"
     },
     "Philip II": {
       "name": "Philip II",
@@ -1534,7 +1556,8 @@
       ],
       "relationships": [
         "Denmark, Ingeborg, Wife, img/denmark/ingeborg.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1223.jpg"
     },
     "Louis VIII": {
       "name": "Louis VIII",
@@ -1554,7 +1577,8 @@
       ],
       "relationships": [
         "Castille, Blanche, Wife, img/spain/blanche.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1226.jpg"
     },
     "Louis IX": {
       "name": "Louis IX",
@@ -1573,7 +1597,8 @@
       "wars": [
         "Saintonge War, England, 1242"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1270.jpg"
     },
     "Philip III": {
       "name": "Philip III",
@@ -1592,7 +1617,8 @@
       ],
       "relationships": [
         "Sicily, Charles I, Uncle, img/italy/charles_i.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1285.jpg"
     },
     "Philip IV": {
       "name": "Philip IV",
@@ -1613,7 +1639,8 @@
       ],
       "relationships": [
         "Navarre, Joan, Wife, img/spain/joan_navarre.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1314.jpg"
     },
     "Louis X": {
       "name": "Louis X",
@@ -1629,7 +1656,8 @@
         "Re-admitted Jews to France"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1314.jpg"
     },
     "John I": {
       "name": "John I",
@@ -1644,7 +1672,8 @@
         "Died 5 days after birth, giving throne to uncle Philip V"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1314.jpg"
     },
     "Philip V and II": {
       "name": "Philip V and II",
@@ -1661,7 +1690,8 @@
         "Created standardization of weights and measures"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1322.jpg"
     },
     "Charles IV and I": {
       "name": "Charles IV and I",
@@ -1682,7 +1712,8 @@
       "relationships": [
         "England, Edward II, Brother-in-law, img/england/edward_ii.jpg",
         "Holy Roman Empire, Henry VII, Father-in-law, img/hre/henry_vii.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1322.jpg"
     },
     "Philip VI": {
       "name": "Philip VI",
@@ -1703,7 +1734,8 @@
       ],
       "relationships": [
         "England, Edward III, Nephew, img/england/edward_iii.png"
-      ]
+      ],
+      "border": "img/borders/france/1350.jpg"
     },
     "John II": {
       "name": "John II",
@@ -1724,7 +1756,8 @@
       ],
       "relationships": [
         "Holy Roman Empire, Bonne, Wife, img/hre/bonne_of_luxembourg.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1364.jpg"
     },
     "Charles V": {
       "name": "Charles V",
@@ -1743,7 +1776,8 @@
       "wars": [
         "Hundred Years' War, England, 1337-1453"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1379.jpg"
     },
     "Charles VI": {
       "name": "Charles VI",
@@ -1765,7 +1799,8 @@
       ],
       "relationships": [
         "Holy Roman Empire, Isabeau, Wife, img/hre/isabeau_bavaria.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1422.jpg"
     },
     "Charles VII": {
       "name": "Charles VII",
@@ -1785,7 +1820,8 @@
         "Hundred Years' War, England, 1337-1453",
         "Armagnac-Burgundian Civil War, Burgundy, 1407-1435"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1461.jpg"
     },
     "Louis XI": {
       "name": "Louis XI",
@@ -1806,7 +1842,8 @@
       ],
       "relationships": [
         "Italy, Charlotte of Savoy, Wife, img/italy/charlotte_savoy.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1483.jpg"
     },
     "Charles VIII": {
       "name": "Charles VIII",
@@ -1829,7 +1866,8 @@
       "relationships": [
         "Holy Roman Empire, Margaret of Austria, Betrothed, img/hre/margaret_of_austria.jpg",
         "Naples, Marie of Anjou, Grandmother, img/italy/marie_of_anjou.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1483.jpg"
     },
     "Louis XII": {
       "name": "Louis XII",
@@ -1852,7 +1890,8 @@
       "relationships": [
         "Holy Roman Empire, Margaret of Austria, Wife, img/hre/margaret_of_austria.jpg",
         "England, Mary Tudor, Wife, img/england/mary_tudor.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1483.jpg"
     },
     "Francis I": {
       "name": "Francis I",
@@ -1874,7 +1913,8 @@
       "relationships": [
         "Scotland, James V, Son-in-law, img/scotland/james_v.jpg",
         "Italy, Duke of Savoy, Son-in-law, img/italy/emmanuel_of_savoy.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1547.jpg"
     },
     "Henry II": {
       "name": "Henry II",
@@ -1895,7 +1935,8 @@
       ],
       "relationships": [
         "Florence, Catherine de' Medici, Wife, img/italy/catherine_de_medici.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1547.jpg"
     },
     "Francis II": {
       "name": "Francis II",
@@ -1916,7 +1957,8 @@
       "relationships": [
         "Scotland, Mary Queen of Scots, Wife, img/scotland/mary.jpg",
         "Florence, Catherine de' Medici, Mother, img/italy/catherine_de_medici.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1560.jpg"
     },
     "Charles IX": {
       "name": "Charles IX",
@@ -1938,7 +1980,8 @@
       "relationships": [
         "Florence, Catherine de' Medici, Mother, img/italy/catherine_de_medici.jpg",
         "Holy Roman Empire, Maximilian II, Father-in-law, img/hre/maximillian_ii.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1560.jpg"
     },
     "Henry III": {
       "name": "Henry III",
@@ -1958,7 +2001,8 @@
         "French Wars of Religion, France, 1562-1598",
         "War of the Three Henrys, France, 1587-1589"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1560.jpg"
     },
     "Henry IV": {
       "name": "Henry IV",
@@ -1981,7 +2025,8 @@
       ],
       "relationships": [
         "Florence, Marie de Medici, Wife, img/italy/marie_de_medici.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1560.jpg"
     },
     "Louis XIII": {
       "name": "Louis XIII",
@@ -2000,7 +2045,8 @@
       "wars": [],
       "relationships": [
         "Spain, Anne of Austria, Wife, img/spain/anne_of_austria.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1643.jpg"
     },
     "Louis XIV": {
       "name": "Louis XIV",
@@ -2023,7 +2069,8 @@
       ],
       "relationships": [
         "Spain, Maria Theresa, Wife, img/spain/maria_theresa.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1715.jpg"
     },
     "Louis XV": {
       "name": "Louis XV",
@@ -2044,7 +2091,8 @@
       ],
       "relationships": [
         "Poland, Stanislaw I, Father-in-law, img/poland/stanislaw.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1715.jpg"
     },
     "Louis XVI": {
       "name": "Louis XVI",
@@ -2067,7 +2115,8 @@
       "relationships": [
         "Holy Roman Empire, Maria Josepha of Saxony, Mother, img/hre/maria_josepha.jpg",
         "Holy Roman Empire, Marie Antoinette, Wife, img/hre/marie_antoinette.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1792.jpg"
     },
     "Napoleon I": {
       "name": "Napoleon I",
@@ -2087,7 +2136,8 @@
       "relationships": [
         "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
         "Austria, Francis I, Father-in-law, img/hre/francis_i.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1812.jpg"
     },
     "Louis XVIII": {
       "name": "Louis XVIII",
@@ -2106,7 +2156,8 @@
       "wars": [],
       "relationships": [
         "Savoy, Marie Josephine, Wife, img/italy/marie_josephine.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1815.jpg"
     },
     "Napoleon I (2nd)": {
       "name": "Napoleon I (2nd)",
@@ -2126,7 +2177,8 @@
       "relationships": [
         "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
         "Austria, Francis I, Father-in-law, img/hre/francis_i.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1815.jpg"
     },
     "Louis XVIII (2nd)": {
       "name": "Louis XVIII (2nd)",
@@ -2145,7 +2197,8 @@
       "wars": [],
       "relationships": [
         "Savoy, Marie Josephine, Wife, img/italy/marie_josephine.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1815.jpg"
     },
     "Charles X": {
       "name": "Charles X",
@@ -2166,7 +2219,8 @@
       ],
       "relationships": [
         "Savoy, Marie Theresa, Wife, img/italy/marie_therese.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1815.jpg"
     },
     "Louis Philippe I": {
       "name": "Louis Philippe I",
@@ -2184,7 +2238,8 @@
       "wars": [],
       "relationships": [
         "Belgians, Leopold I, Son-in-law, img/belgians/leopold_i.jpg"
-      ]
+      ],
+      "border": "img/borders/france/1848.jpg"
     },
     "Napoleon III": {
       "name": "Napoleon III",
@@ -2204,7 +2259,8 @@
         "Crimean War, Russia, 1853-1856",
         "Franco-Prussian War, Germany, 1870"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/france/1870.jpg"
     }
   },
   "Denmark": {
@@ -5250,7 +5306,8 @@
       "relationships": [
         "France, Napoleon I, Son-in-law, img/france/napoleon_i.jpg",
         "Sicily, Ferdinand I, Father-in-law, img/italy/ferdinand_i.jpg"
-      ]
+      ],
+      "border": "img/borders/austria/1835.jpg"
     },
     "Ferdinand I": {
       "name": "Ferdinand I",
@@ -5269,7 +5326,8 @@
       "wars": [],
       "relationships": [
         "Sardinia, Victor Emmanuel I, Father-in-law, img/italy/victor_emmanuel_sardinia.jpg"
-      ]
+      ],
+      "border": "img/borders/austria/1835.jpg"
     },
     "Franz Joseph I": {
       "name": "Franz Joseph I",
@@ -5292,7 +5350,8 @@
       ],
       "relationships": [
         "Mexico, Maximilian I, Brother, img/mexico/maximilian_i.jpg"
-      ]
+      ],
+      "border": "img/borders/austria/1916.jpg"
     },
     "Charles I": {
       "name": "Charles I",
@@ -5311,7 +5370,8 @@
       "wars": [
         "World War I, Allied Forces, 1914-1918"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/austria/1918.jpg"
     }
   },
   "Russia": {
