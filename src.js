@@ -658,8 +658,9 @@ function render(data) {
 
   function renderDetails(data) {
     // Monarch image background
+    var monarchImageBackgroundX = data.border ? detailsX + detailsWidthInterval : detailsMiddle - detailsImageWidth / 2;
     timeline.append("rect")
-      .attr("x", detailsMiddle - detailsImageWidth / 2)
+      .attr("x", monarchImageBackgroundX)
       .attr("y", detailsImageY)
       .attr("rx", cornerRadiusLarge)
       .attr("ry", cornerRadiusLarge)
@@ -667,9 +668,11 @@ function render(data) {
       .attr("height", detailsImageHeight)
       .attr("fill", thumbnailBackgroundColor)
       .attr("class", "detail")
+
     // Monarch image
+    var monarchImageX = data.border ? detailsX + detailsWidthInterval + strokeWidthMedium : detailsMiddle - detailsImageWidth / 2 + strokeWidthMedium;
     timeline.append("image")
-      .attr("x", detailsMiddle - detailsImageWidth / 2 + strokeWidthMedium)
+      .attr("x", monarchImageX)
       .attr("y", detailsImageY + strokeWidthMedium)
       .attr("width", detailsImageWidth - 2 * strokeWidthMedium)
       .attr("height", detailsImageHeight - 2 * strokeWidthMedium)
@@ -678,13 +681,37 @@ function render(data) {
       .attr("class", "detail")
 
     // House image
+    var houseImageX = data.border ? detailsX + strokeWidthMedium + detailsImageWidth * 13 / 16 : detailsMiddle + detailsImageWidth * 3 / 16;
     timeline.append("image")
-      .attr("x", detailsMiddle + detailsImageWidth * 3 / 16)
+      .attr("x", houseImageX)
       .attr("y", detailsImageY + strokeWidthMedium + detailsImageHeight * 1 / 16)
       .attr("width", detailsImageWidth / 4)
       .attr("height", detailsImageHeight / 4)
       .attr("xlink:href", data.houseImage)
       .attr("class", "detail")
+
+    if (data.border) {
+      // Map image background
+      timeline.append("rect")
+        .attr("x", detailsX + detailsWidth - detailsWidthInterval - detailsImageWidth)
+        .attr("y", detailsImageY)
+        .attr("rx", cornerRadiusLarge)
+        .attr("ry", cornerRadiusLarge)
+        .attr("width", detailsImageWidth)
+        .attr("height", detailsImageHeight)
+        .attr("fill", thumbnailBackgroundColor)
+        .attr("class", "detail")
+
+      // Map image
+      timeline.append("image")
+        .attr("x", detailsX + detailsWidth - detailsWidthInterval - detailsImageWidth + strokeWidthMedium)
+        .attr("y", detailsImageY + strokeWidthMedium)
+        .attr("width", detailsImageWidth - 2 * strokeWidthMedium)
+        .attr("height", detailsImageHeight - 2 * strokeWidthMedium)
+        .attr("xlink:href", data.border)
+        .attr("preserveAspectRatio", "none")
+        .attr("class", "detail")
+    }
 
     // Exit button
     timeline.append("image")

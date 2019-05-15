@@ -859,11 +859,12 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1556,
       "end": 1598,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1597.jpg"
     },
     "Philip III": {
       "name": "Philip III",
@@ -872,11 +873,12 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1598,
       "end": 1621,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1597.jpg"
     },
     "Philip IV and III": {
       "name": "Philip IV and III",
@@ -885,11 +887,12 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1621,
       "end": 1665,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1664.jpg"
     },
     "Charles II": {
       "name": "Charles II",
@@ -898,11 +901,12 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1665,
       "end": 1700,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1700.jpg"
     },
     "Philip V": {
       "name": "Philip V",
@@ -911,11 +915,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1700,
       "end": 1746,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1746.jpg"
     },
     "Ferdinand VI": {
       "name": "Ferdinand VI",
@@ -924,11 +929,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1746,
       "end": 1759,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1759.jpg"
     },
     "Charles III": {
       "name": "Charles III",
@@ -937,11 +943,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1759,
       "end": 1788,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1759.jpg"
     },
     "Charles IV": {
       "name": "Charles IV",
@@ -950,11 +957,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1788,
       "end": 1808,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1808.jpg"
     },
     "Ferdinand VII": {
       "name": "Ferdinand VII",
@@ -963,11 +971,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1808,
       "end": 1808,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1808.jpg"
     },
     "Joseph Bonaparte": {
       "name": "Joseph Bonaparte",
@@ -976,11 +985,12 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1808,
       "end": 1813,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1812.jpg"
     },
     "Ferdinand VII (2nd)": {
       "name": "Ferdinand VII (2nd)",
@@ -989,11 +999,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1813,
       "end": 1833,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     },
     "Isabella II": {
       "name": "Isabella II",
@@ -1002,11 +1013,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1833,
       "end": 1868,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     },
     "Amadeo I": {
       "name": "Amadeo I",
@@ -1015,11 +1027,12 @@
       "houseImage": "img/houses/savoy.png",
       "start": 1870,
       "end": 1873,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     },
     "Alfonso XII": {
       "name": "Alfonso XII",
@@ -1028,11 +1041,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1874,
       "end": 1885,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     },
     "Alfonso XIII": {
       "name": "Alfonso XIII",
@@ -1041,11 +1055,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1886,
       "end": 1931,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1930.jpg"
     },
     "Francisco Franco": {
       "name": "Francisco Franco",
@@ -1054,11 +1069,12 @@
       "houseImage": "img/houses/franco.png",
       "start": 1936,
       "end": 1975,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     },
     "Juan Carlos I": {
       "name": "Juan Carlos I",
@@ -1067,11 +1083,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1975,
       "end": 2014,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     },
     "Felipe VI": {
       "name": "Felipe VI",
@@ -1080,11 +1097,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 2014,
       "end": 2019,
-      "endReason": "",
+      "endReason": " ",
       "religion": "",
       "events": [],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/spain/1833.jpg"
     }
   },
   "France": {
@@ -3800,7 +3818,8 @@
       ],
       "relationships": [
         "England, Edgar Æthling, Brother-in-law, img/england/edgar_aethling.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1093.jpg"
     },
     "Donald III": {
       "name": "Donald III",
@@ -3815,7 +3834,8 @@
         "Overthrown by invading nephew, Duncan II"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "Duncan II": {
       "name": "Duncan II",
@@ -3833,7 +3853,8 @@
       "wars": [],
       "relationships": [
         "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "Donald III (2nd)": {
       "name": "Donald III (2nd)",
@@ -3848,7 +3869,8 @@
         "Imprisoned by nephew Edgar with support of William II of England"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "Edgar": {
       "name": "Edgar",
@@ -3866,7 +3888,8 @@
       "wars": [],
       "relationships": [
         "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "Alexander I": {
       "name": "Alexander I",
@@ -3883,7 +3906,8 @@
       "wars": [],
       "relationships": [
         "England, Henry I, Father-in-law, img/england/henry_i.png"
-      ]
+      ],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "David I": {
       "name": "David I",
@@ -3904,7 +3928,8 @@
       ],
       "relationships": [
         "England, Henry I, Brother-in-law, img/england/henry_i.png"
-      ]
+      ],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "Malcolm IV": {
       "name": "Malcolm IV",
@@ -3920,7 +3945,8 @@
         "Knighted by Henry II as Earl of Huntingdon"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1096.jpg"
     },
     "William I": {
       "name": "William I",
@@ -3938,7 +3964,8 @@
       "wars": [
         "Revolt of 1173-74, England"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1214.jpg"
     },
     "Alexander II": {
       "name": "Alexander II",
@@ -3959,7 +3986,8 @@
       ],
       "relationships": [
         "England, Henry III, Brother-in-law, img/england/henry_iii.png"
-      ]
+      ],
+      "border": "img/borders/scotland/1214.jpg"
     },
     "Alexander III": {
       "name": "Alexander III",
@@ -3978,7 +4006,8 @@
       ],
       "relationships": [
         "England, Henry III, Father-in-law, img/england/henry_iii.png"
-      ]
+      ],
+      "border": "img/borders/scotland/1286.jpg"
     },
     "Margaret": {
       "name": "Margaret",
@@ -3996,7 +4025,8 @@
       "wars": [],
       "relationships": [
         "Norway, Eric II, Father, img/norway/eric_ii.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1286.jpg"
     },
     "John": {
       "name": "John",
@@ -4015,7 +4045,8 @@
       "wars": [
         "1st War of Scottish Independence, England, 1296-1328"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1296.jpg"
     },
     "Robert I": {
       "name": "Robert I",
@@ -4036,7 +4067,8 @@
       ],
       "relationships": [
         "Ireland, Elizabeth de Burgh, Wife, img/ireland/elizabeth_de_burgh.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "David II": {
       "name": "David II",
@@ -4057,7 +4089,8 @@
       ],
       "relationships": [
         "England, Joan of the Tower, Wife, img/england/joan_of_the_tower.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "Robert II": {
       "name": "Robert II",
@@ -4073,7 +4106,8 @@
         "Included Scotland in the Anglo-French truce of 1384"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "Robert III": {
       "name": "Robert III",
@@ -4090,7 +4124,8 @@
         "Son James escaped from new lieutenant, uncle Albany Stewart"
       ],
       "wars": [],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "James I": {
       "name": "James I",
@@ -4109,7 +4144,8 @@
       "wars": [],
       "relationships": [
         "France, Louis XI, Son-in-law, img/france/louis_xi.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "James II": {
       "name": "James II",
@@ -4129,7 +4165,8 @@
       ],
       "relationships": [
         "Flanders, Mary of Guelders, Wife, img/france/mary_guelders.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "James III": {
       "name": "James III",
@@ -4148,7 +4185,8 @@
       "wars": [],
       "relationships": [
         "Denmark, Margaret, Wife, img/denmark/margaret.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "James IV": {
       "name": "James IV",
@@ -4170,7 +4208,8 @@
       "relationships": [
         "England, Margaret Tudor, Wife, img/england/margaret_tudor.jpg",
         "Denmark, Christian I, Grandfather, img/denmark/christian_i.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "James V": {
       "name": "James V",
@@ -4193,7 +4232,8 @@
         "England, Henry VIII, Uncle, img/england/henry_viii.jpg",
         "France, Madeleine, Wife, img/france/madeleine_valois.jpg",
         "France, Mary of Guise, Wife, img/france/mary_guise.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "Mary, Queen of Scots": {
       "name": "Mary, Queen of Scots",
@@ -4215,7 +4255,8 @@
       "relationships": [
         "France, Francis II, Husband, img/france/francis_ii.jpg",
         "England, Edward VI, Betrothed, img/england/edward_vi.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     },
     "James VI and I": {
       "name": "James VI and I",
@@ -4236,7 +4277,8 @@
         "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
         "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg",
         "Denmark, Anne, Wife, img/denmark/anne.jpg"
-      ]
+      ],
+      "border": "img/borders/scotland/1329.jpg"
     }
   },
   "Germany": {
@@ -4260,7 +4302,8 @@
         "Dutch Republic, Frederick Henry, Grandfather, img/dutch/frederick_henry.jpg",
         "England, William III, Cousin, img/england/william_iii_and_ii.jpg",
         "England, George I, Brother-in-law, img/england/george_i.jpg"
-      ]
+      ],
+      "border": "img/borders/germany/1713.jpg"
     },
     "Frederick William I": {
       "name": "Frederick William I",
@@ -4282,7 +4325,8 @@
       "relationships": [
         "England, George II, Brother-in-law, img/england/george_ii.jpg",
         "Sweden, Adolf Frederick, Son-in-law, img/sweden/adolf_frederick.jpg"
-      ]
+      ],
+      "border": "img/borders/germany/1740.jpg"
     },
     "Frederick II": {
       "name": "Frederick II",
@@ -4302,7 +4346,8 @@
         "Silesian War, Austria, 1740-1763",
         "Seven Years' War, France, 1756-1763"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/germany/1785.jpg"
     },
     "Frederick William II": {
       "name": "Frederick William II",
@@ -4324,7 +4369,8 @@
       ],
       "relationships": [
         "Netherlands, William I, Son-in-law, img/dutch/william_i_netherlands.jpg"
-      ]
+      ],
+      "border": "img/borders/germany/1797.jpg"
     },
     "Frederick William III": {
       "name": "Frederick William III",
@@ -4346,7 +4392,8 @@
       ],
       "relationships": [
         "Russia, Nicholas I, Son-in-law, img/russia/nicholas_i.jpg"
-      ]
+      ],
+      "border": "img/borders/germany/1840.jpg"
     },
     "Frederick William IV": {
       "name": "Frederick William IV",
@@ -4365,7 +4412,8 @@
       "wars": [
         "War of the Sixth Coalition, France, 1813-1814"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/germany/1840.jpg"
     },
     "William I": {
       "name": "William I",
@@ -4386,7 +4434,8 @@
         "Austro-Prussian War, Austria, 1866",
         "Franco-Prussian War, France, 1870"
       ],
-      "relationships": []
+      "relationships": [],
+      "border": "img/borders/germany/1888.jpg"
     },
     "Frederick III": {
       "name": "Frederick III",
@@ -4405,7 +4454,8 @@
       "relationships": [
         "England, Victoria, Mother-in-law, img/england/victoria.jpg",
         "Greece, Constantine I, Son-in-law, img/greece/constantine_i.jpg"
-      ]
+      ],
+      "border": "img/borders/germany/1888.jpg"
     },
     "Wilhelm II": {
       "name": "Wilhelm II",
@@ -4428,7 +4478,8 @@
         "England, George V, Cousin, img/england/george_v.jpg",
         "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg",
         "Spain, Victoria Eugenia, Cousin, img/spain/victoria_eugenia.jpg"
-      ]
+      ],
+      "border": "img/borders/germany/1918.jpg"
     }
   },
   "Holy Roman Empire": {
