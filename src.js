@@ -734,10 +734,21 @@ function render(data) {
       })
     )
 
+    // Reign
+    timeline.append("text")
+      .attr("x", detailsMiddle)
+      .attr("y", detailsFactsY + detailsBlockQuarter + detailsBlockEighth / 2)
+      .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", reignReligionHouseFontSize * 1.5)
+      .attr("font-weight", "bolder") // keep?
+      .attr("class", "detail")
+      .text(data.start + ' - ' + data.end);
+
     // House
     timeline.append("text")
       .attr("x", detailsMiddle)
-      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter)
+      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 2)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
@@ -748,7 +759,7 @@ function render(data) {
     // Religion
     timeline.append("text")
       .attr("x", detailsMiddle)
-      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 2)
+      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 3)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
@@ -758,7 +769,7 @@ function render(data) {
     // Death
     timeline.append("text")
       .attr("x", detailsMiddle)
-      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 3)
+      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 4)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
@@ -778,11 +789,11 @@ function render(data) {
       .enter()
       .append("text")
       .attr("x", detailsX + detailsBlockQuarter)
-      .attr("y", function(d, i) { return detailsEventsY + detailsBlockEighth + detailsBlockQuarter * (i + 1); })
+      .attr("y", function(d, i) { return detailsEventsY + detailsBlockQuarter * (i + 2); })
       .attr("font-family", fontFamily)
       .attr("font-size", eventsAndWarsFontSize)
       .attr("class", "detail")
-      .text(function(d) { return "\uD83D\uDC51 " + d; })
+      .text(function(d) { return d; })
 
     // Wars
     timeline.append("g").selectAll("text")
@@ -828,14 +839,14 @@ function render(data) {
 
       var relationshipComponentFontSize = _.min(
         _.map(rel.split(","), function(text) {
-          return getFontSizeFromContainer(text, relationshipImageWidth * 4, detailsBlockQuarter);
-        })
+          return getFontSizeFromContainer(text, detailsWidth, detailsBlockQuarter);
+        }).concat([eventsAndWarsFontSize])
       );
 
       _.map(relComponents, function(relComponent, idx) {
         timeline.append("text")
           .attr("x", relationshipImageX + relationshipImageWidth / 2)
-          .attr("y", detailsRelationshipY + detailsBlock + detailsBlockQuarter * (idx + 1))
+          .attr("y", detailsRelationshipY + detailsBlock + detailsBlockQuarter * (idx + 1) - detailsBlockEighth / 2 * idx)
           .attr("text-anchor", "middle")
           .attr("font-family", fontFamily)
           .attr("font-size", relationshipComponentFontSize)
