@@ -161,29 +161,28 @@ var flags = {
 
 // Details config
 var detailsHeight = height / 4 * 3,
-  detailsWidth = detailsHeight * 2 / 3,
-  detailsMargin = detailsHeight / 48,
-  detailsHeightInterval = (detailsHeight - 2 * detailsMargin) / 7, // TODO: Be more consistent about this vs. detailsLineHeight
-  detailsWidthInterval = (detailsWidth - 2 * detailsMargin) / 12,
-  detailsLineHeight = detailsHeightInterval / 4, // Maximum height of a line of text
+  detailsWidth = detailsHeight * 5 / 8,
+  detailsBlock = detailsHeight / 8,
+  detailsBlockQuarter = detailsBlock / 4,
+  detailsBlockEighth = detailsBlock / 8,
+  detailsMargin = detailsBlockQuarter,
   detailsX = (width - detailsWidth) / 2,
   detailsY = (height - detailsHeight) / 2,
   detailsMiddle = detailsX + detailsWidth / 2,
-  detailsImageHeight = detailsHeightInterval * 2,
-  detailsImageWidth = detailsImageHeight,
-  detailsImageX = detailsX + detailsWidthInterval,
-  detailsImageY        = detailsY + detailsMargin,
-  detailsNameY         = detailsY + 2 * detailsHeightInterval + detailsMargin,
-  detailsEventsY       = detailsY + 3 * detailsHeightInterval + detailsMargin + detailsLineHeight / 2,
-  detailsWarsY         = detailsY + 4 * detailsHeightInterval + detailsMargin + detailsLineHeight,
-  detailsRelationshipY = detailsY + 5 * detailsHeightInterval + detailsMargin + detailsLineHeight * 3 / 2;
+  detailsImageWidth = detailsBlock * 2,
+  detailsNameY = detailsY,
+  detailsImageY = detailsY + detailsBlock,
+  detailsFactsY = detailsY + detailsBlock * 3,
+  detailsEventsY = detailsY + detailsBlock * 4,
+  detailsWarsY = detailsY + detailsBlock * 5,
+  detailsRelationshipY = detailsY + detailsBlock * 6;
 
 // Thumbnail config
 var thumbnailImageWidth = _.max([width / 8, height / 4]),
   thumbnailBorder = 10;
 
 // Date config
-var dateHeight = detailsLineHeight,
+var dateHeight = detailsBlockQuarter,
   dateWidth = dateHeight * 8,
   dateControlInterval = (width - margin.left - margin.right) / (_.size(dateColorsIcons) + 1);
 
@@ -421,7 +420,7 @@ function render(data) {
     .attr("fill", detailsColor)
     .attr("rx", cornerRadiusLarge)
     .attr("ry", cornerRadiusLarge)
-    .attr("stroke", strokeColor)
+    .attr("stroke", strokeColor) // Temporary disabled for debugging
     .attr("stroke-width", strokeWidthMedium)
     .on("click", hideDetail)
 
@@ -451,31 +450,31 @@ function render(data) {
     var thumbnailDimensions = [
       { // Background
         "x": $x + $width / 2 - thumbnailImageWidth / 2 - thumbnailBorder,
-        "y": $y - thumbnailImageWidth - detailsLineHeight - thumbnailBorder,
+        "y": $y - thumbnailImageWidth - detailsBlockQuarter - thumbnailBorder,
         "width": thumbnailImageWidth + 2 * thumbnailBorder,
         "height": thumbnailImageWidth + 2 * thumbnailBorder
       },
       { // Image
         "x": $x + $width / 2 - thumbnailImageWidth / 2,
-        "y": $y - thumbnailImageWidth - detailsLineHeight,
+        "y": $y - thumbnailImageWidth - detailsBlockQuarter,
         "width": thumbnailImageWidth,
         "height": thumbnailImageWidth
       },
       { // House image
         "x": $x + $width / 2 + thumbnailImageWidth * 3 / 16,
-        "y": $y - thumbnailImageWidth - detailsLineHeight + thumbnailImageWidth * 1 / 16,
+        "y": $y - thumbnailImageWidth - detailsBlockQuarter + thumbnailImageWidth * 1 / 16,
         "width": thumbnailImageWidth / 4,
         "height": thumbnailImageWidth / 4
       },
       { // Name background
-        "x": $x + $width / 2 - thumbnailImageWidth / 2 + detailsWidthInterval / 2,
-        "y": $y - thumbnailImageWidth / 5 - detailsLineHeight,
-        "width": thumbnailImageWidth - detailsWidthInterval,
+        "x": $x + $width / 2 - thumbnailImageWidth / 2 + detailsBlock / 2,
+        "y": $y - thumbnailImageWidth / 5 - detailsBlockQuarter,
+        "width": thumbnailImageWidth - detailsBlock,
         "height": thumbnailImageWidth / 6
       },
       { // Name
         "x": $x + $width / 2,
-        "y": $y - thumbnailImageWidth / 5 - detailsLineHeight + thumbnailImageWidth / 9,
+        "y": $y - thumbnailImageWidth / 5 - detailsBlockQuarter + thumbnailImageWidth / 9,
         "width": thumbnailImageWidth,
         "height": thumbnailImageWidth
       }
@@ -573,30 +572,30 @@ function render(data) {
     var arrowWidth = detailsWidth / 4,
       prevArrowCoord = {
         one: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval / 2 - arrowWidth / 2,
+          x: detailsMiddle - detailsWidth / 2 - detailsBlock / 2 - arrowWidth / 2,
           y: height / 2
         },
         two: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval / 2,
+          x: detailsMiddle - detailsWidth / 2 - detailsBlock / 2,
           y: height / 2 - arrowWidth / 2
         },
         three: {
-          x: detailsMiddle - detailsWidth / 2 - detailsWidthInterval / 2,
+          x: detailsMiddle - detailsWidth / 2 - detailsBlock / 2,
           y: height / 2 + arrowWidth / 2
         }
       },
       prevArrowPoints = [prevArrowCoord.one.x + ',' + prevArrowCoord.one.y, prevArrowCoord.two.x + ',' + prevArrowCoord.two.y, prevArrowCoord.three.x + ',' + prevArrowCoord.three.y].join(" "),
       nextArrowCoord = {
         one: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval / 2 + arrowWidth / 2,
+          x: detailsMiddle + detailsWidth / 2 + detailsBlock / 2 + arrowWidth / 2,
           y: height / 2
         },
         two: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval / 2,
+          x: detailsMiddle + detailsWidth / 2 + detailsBlock / 2,
           y: height / 2 - arrowWidth / 2
         },
         three: {
-          x: detailsMiddle + detailsWidth / 2 + detailsWidthInterval / 2,
+          x: detailsMiddle + detailsWidth / 2 + detailsBlock / 2,
           y: height / 2 + arrowWidth / 2
         }
       },
@@ -657,171 +656,145 @@ function render(data) {
   }
 
   function renderDetails(data) {
+    // Name
+    var nameString = data.name + ' (' + data.start + '-' + data.end + ')';
+    timeline.append("text")
+      .attr("x", detailsMiddle)
+      .attr("y", detailsNameY + detailsBlock * 3 / 4)
+      .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", getFontSizeFromContainer(nameString, (detailsWidth - detailsBlock / 2) * 4, detailsBlock / 2))
+      .attr("font-weight", "bolder")
+      .attr("class", "detail")
+      .text(data.name)
+
+    // Exit button
+    timeline.append("image")
+      .attr("x", detailsX + detailsBlock * 4 + detailsBlockQuarter)
+      .attr("y", detailsY + detailsBlockQuarter)
+      .attr("width", detailsBlock / 2)
+      .attr("height", detailsBlock / 2)
+      .attr("xlink:href", "icons/error.png")
+      .attr("class", "detail")
+      .on("click", hideDetail) 
+
     // Monarch image background
-    var monarchImageBackgroundX = data.border ? detailsX + detailsWidthInterval : detailsMiddle - detailsImageWidth / 2;
+    // var monarchImageBackgroundX = data.border ? detailsX + detailsWidthInterval : detailsMiddle - detailsImageWidth / 2;
     timeline.append("rect")
-      .attr("x", monarchImageBackgroundX)
+      .attr("x", detailsX + detailsBlockQuarter)
       .attr("y", detailsImageY)
-      .attr("width", detailsImageWidth)
-      .attr("height", detailsImageHeight)
+      .attr("width", detailsBlock * 2)
+      .attr("height", detailsBlock * 2)
       .attr("fill", thumbnailBackgroundColor)
       .attr("class", "detail")
 
     // Monarch image
-    var monarchImageX = data.border ? detailsX + detailsWidthInterval + strokeWidthSmall : detailsMiddle - detailsImageWidth / 2 + strokeWidthSmall;
+    // var monarchImageX = data.border ? detailsX + detailsWidthInterval + strokeWidthSmall : detailsMiddle - detailsImageWidth / 2 + strokeWidthSmall;
     timeline.append("image")
-      .attr("x", monarchImageX)
+      .attr("x", detailsX + detailsBlockQuarter + strokeWidthSmall)
       .attr("y", detailsImageY + strokeWidthSmall)
-      .attr("width", detailsImageWidth - 2 * strokeWidthSmall)
-      .attr("height", detailsImageHeight - 2 * strokeWidthSmall)
+      .attr("width", detailsBlock * 2 - strokeWidthSmall * 2)
+      .attr("height", detailsBlock * 2 - strokeWidthSmall * 2)
       .attr("xlink:href", data.image)
       .attr("preserveAspectRatio", "none")
       .attr("class", "detail")
 
     // House image
-    var houseImageX = data.border ? detailsX + strokeWidthSmall + detailsImageWidth * 13 / 16 : detailsMiddle + detailsImageWidth * 3 / 16;
+    // var houseImageX = data.border ? detailsX + strokeWidthSmall + detailsImageWidth * 13 / 16 : detailsMiddle + detailsImageWidth * 3 / 16;
     timeline.append("image")
-      .attr("x", houseImageX)
-      .attr("y", detailsImageY + strokeWidthSmall + detailsImageHeight * 1 / 16)
-      .attr("width", detailsImageWidth / 4)
-      .attr("height", detailsImageHeight / 4)
+      .attr("x", detailsX + detailsBlock + detailsBlockEighth * 5)
+      .attr("y", detailsImageY + detailsBlockEighth)
+      .attr("width", detailsBlock / 2)
+      .attr("height", detailsBlock / 2)
       .attr("xlink:href", data.houseImage)
       .attr("class", "detail")
 
-    if (data.border) {
-      // Map image background
-      timeline.append("rect")
-        .attr("x", detailsX + detailsWidth - detailsWidthInterval - detailsImageWidth)
-        .attr("y", detailsImageY)
-        .attr("width", detailsImageWidth)
-        .attr("height", detailsImageHeight)
-        .attr("fill", thumbnailBackgroundColor)
-        .attr("class", "detail")
+    // Map image background
+    timeline.append("rect")
+      .attr("x", detailsX + detailsBlock * 2 + detailsBlockQuarter * 3) 
+      .attr("y", detailsImageY)
+      .attr("width", detailsBlock * 2)
+      .attr("height", detailsBlock * 2)
+      .attr("fill", thumbnailBackgroundColor)
+      .attr("class", "detail")
 
-      // Map image
-      timeline.append("image")
-        .attr("x", detailsX + detailsWidth - detailsWidthInterval - detailsImageWidth + strokeWidthSmall)
-        .attr("y", detailsImageY + strokeWidthSmall)
-        .attr("width", detailsImageWidth - 2 * strokeWidthSmall)
-        .attr("height", detailsImageHeight - 2 * strokeWidthSmall)
-        .attr("xlink:href", data.border)
-        .attr("preserveAspectRatio", "none")
-        .attr("class", "detail")
-    }
-
-    // Exit button
+    // Map image
     timeline.append("image")
-      .attr("x", detailsX + detailsWidth - detailsWidthInterval * 3 / 2)
-      .attr("y", detailsY + detailsWidthInterval / 2)
-      .attr("width", detailsWidthInterval)
-      .attr("height", detailsWidthInterval)
-      .attr("xlink:href", "icons/error.png")
+      .attr("x", detailsX + detailsBlock * 2 + detailsBlockQuarter * 3 + strokeWidthSmall)
+      .attr("y", detailsImageY + strokeWidthSmall)
+      .attr("width", detailsBlock * 2 - strokeWidthSmall * 2)
+      .attr("height", detailsBlock * 2 - strokeWidthSmall * 2)
+      .attr("xlink:href", data.border)
+      .attr("preserveAspectRatio", "none")
       .attr("class", "detail")
-      .on("click", hideDetail) 
 
-    // Name
-    timeline.append("text")
-      .attr("x", detailsMiddle)
-      .attr("y", detailsNameY + detailsLineHeight)
-      .attr("text-anchor", "middle")
-      .attr("font-family", fontFamily)
-      .attr("font-size", getFontSizeFromContainer(data.name, detailsWidth, detailsLineHeight))
-      .attr("font-weight", "bolder")
-      .attr("class", "detail")
-      .text(data.name);
-
-    // Reign
-    var reignString = data.start + " - " + data.end + " (" + data.endReason + ")",
-      reignReligionHouseFontSize = _.min(
-        _.map([data.religion, reignString, data.house], function(text) {
-          return getFontSizeFromContainer(text, detailsImageWidth * 4, (detailsHeightInterval - detailsLineHeight) * 2 / 9);
-        })
-      )
-
-    timeline.append("text")
-      .attr("x", detailsMiddle)
-      .attr("y", detailsNameY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * 1 / 3)
-      .attr("text-anchor", "middle")
-      .attr("font-family", fontFamily)
-      .attr("font-size", reignReligionHouseFontSize)
-      .attr("class", "detail")
-      .text(reignString)
-
-    // Religion
-    timeline.append("text")
-      .attr("x", detailsMiddle)
-      .attr("y", detailsNameY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * 2 / 3)
-      .attr("text-anchor", "middle")
-      .attr("font-family", fontFamily)
-      .attr("font-size", reignReligionHouseFontSize)
-      .attr("class", "detail")
-      .text(data.religion);
+    var reignReligionHouseFontSize = _.min(
+      _.map([data.religion, data.endReason, data.house], function(text) {
+        return getFontSizeFromContainer(text, detailsWidth, detailsBlockQuarter * 2 / 3);
+      })
+    )
 
     // House
     timeline.append("text")
       .attr("x", detailsMiddle)
-      .attr("y", detailsNameY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * 3 / 3)
+      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
-      .attr("font-weight", "bolder")
+      .attr("font-weight", "bolder") // keep?
       .attr("class", "detail")
-      .text(data.house);
+      .text("\uD83D\uDEE1\uFE0F " + data.house);
+
+    // Religion
+    timeline.append("text")
+      .attr("x", detailsMiddle)
+      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 2)
+      .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", reignReligionHouseFontSize)
+      .attr("class", "detail")
+      .text("\u26EA " + data.religion);
+
+    // Death
+    timeline.append("text")
+      .attr("x", detailsMiddle)
+      .attr("y", detailsFactsY + detailsBlockEighth + detailsBlockQuarter * 3)
+      .attr("text-anchor", "middle")
+      .attr("font-family", fontFamily)
+      .attr("font-size", reignReligionHouseFontSize)
+      .attr("class", "detail")
+      .text("\u26B0\uFE0F " + data.endReason)
 
     // The `detailsImageWidth * 4` is purposefully wider than the details container to avoid bug in getFontSizeFromContainer
     var eventsAndWarsFontSize = _.min(
       _.map(data.events.concat(data.wars), function(text) {
-        return getFontSizeFromContainer(text, detailsImageWidth * 9 / 2, (detailsHeightInterval - detailsLineHeight) * 2 / 9);
+        return getFontSizeFromContainer(text, (detailsWidth - 2 * detailsBlockQuarter) * 9 / 4, detailsBlockQuarter * 2 / 3);
       })
     )
 
     // Events
-    if (!_.isEmpty(data.events)) {
-      timeline.append("text")
-        .attr("x", detailsMiddle)
-        .attr("y", detailsEventsY + detailsLineHeight)
-        .attr("text-anchor", "middle")
-        .attr("font-family", fontFamily)
-        .attr("font-size", getFontSizeFromContainer("Events", detailsImageWidth, detailsLineHeight))
-        .attr("font-weight", "bolder")
-        .attr("class", "detail")
-        .text("Events")
-
-      timeline.append("g").selectAll("text")
-        .data(data.events)
-        .enter()
-        .append("text")
-        .attr("x", detailsX + detailsMargin * 2)
-        .attr("y", function(d, i) { return detailsEventsY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * (1 + i) / 3; })
-        .attr("font-family", fontFamily)
-        .attr("font-size", eventsAndWarsFontSize)
-        .attr("class", "detail")
-        .text(function(d) { return d; })
-    }
+    timeline.append("g").selectAll("text")
+      .data(data.events)
+      .enter()
+      .append("text")
+      .attr("x", detailsX + detailsBlockQuarter)
+      .attr("y", function(d, i) { return detailsEventsY + detailsBlockEighth + detailsBlockQuarter * (i + 1); })
+      .attr("font-family", fontFamily)
+      .attr("font-size", eventsAndWarsFontSize)
+      .attr("class", "detail")
+      .text(function(d) { return "\uD83D\uDC51 " + d; })
 
     // Wars
-    if (!_.isEmpty(data.wars)) {
-      timeline.append("text")
-        .attr("x", detailsMiddle)
-        .attr("y", detailsWarsY + detailsLineHeight)
-        .attr("text-anchor", "middle")
-        .attr("font-family", fontFamily)
-        .attr("font-size", getFontSizeFromContainer("Wars", detailsImageWidth, detailsLineHeight))
-        .attr("font-weight", "bolder")
-        .attr("class", "detail")
-        .text("Wars")
-
-      timeline.append("g").selectAll("text")
-        .data(data.wars)
-        .enter()
-        .append("text")
-        .attr("x", detailsX + detailsMargin * 2)
-        .attr("y", function(d, i) { return detailsWarsY + detailsLineHeight + (detailsHeightInterval - detailsLineHeight) * (1 + i) / 3; })
-        .attr("font-family", fontFamily)
-        .attr("font-size", eventsAndWarsFontSize)
-        .attr("class", "detail")
-        .text(function(d) { return d; })
-    }
+    timeline.append("g").selectAll("text")
+      .data(data.wars)
+      .enter()
+      .append("text")
+      .attr("x", detailsX + detailsBlockQuarter)
+      .attr("y", function(d, i) { return detailsWarsY + detailsBlockEighth + detailsBlockQuarter * (i + 1); })
+      .attr("font-family", fontFamily)
+      .attr("font-size", eventsAndWarsFontSize)
+      .attr("class", "detail")
+      .text(function(d) { return "\u2694\uFE0F " + d; })
     
     // Relationships
     // 1/8i: padding
@@ -830,7 +803,7 @@ function render(data) {
     // 1/4i: each relationship component (3)
     var relationshipCount = data.relationships.length,
       relationshipContainerWidth = detailsWidth - detailsMargin * 2,
-      relationshipMaxImageWidth = detailsHeightInterval,
+      relationshipMaxImageWidth = detailsBlock,
       relationshipImageWidthCalculated = relationshipContainerWidth / relationshipCount / 1.5,
       relationshipImageWidth = Math.min(relationshipMaxImageWidth, relationshipImageWidthCalculated),
       relationshipImagePadding = relationshipImageWidth / 2;
@@ -847,7 +820,7 @@ function render(data) {
 
       timeline.append("image")
         .attr("x", relationshipImageX)
-        .attr("y", detailsRelationshipY + detailsHeightInterval / 8) // Just a little padding between wars and relationships
+        .attr("y", detailsRelationshipY + detailsBlockEighth / 2) // Just a little padding between wars and relationships
         .attr("width", relationshipImageWidth)
         .attr("height", relationshipImageWidth)
         .attr("xlink:href", relComponentImage) 
@@ -855,14 +828,14 @@ function render(data) {
 
       var relationshipComponentFontSize = _.min(
         _.map(rel.split(","), function(text) {
-          return getFontSizeFromContainer(text, detailsImageWidth * 2, detailsHeightInterval / 8);
+          return getFontSizeFromContainer(text, relationshipImageWidth * 4, detailsBlockQuarter);
         })
       );
 
       _.map(relComponents, function(relComponent, idx) {
         timeline.append("text")
           .attr("x", relationshipImageX + relationshipImageWidth / 2)
-          .attr("y", detailsRelationshipY + relationshipImageWidth + detailsHeightInterval * (idx + 2) / 8)
+          .attr("y", detailsRelationshipY + detailsBlock + detailsBlockQuarter * (idx + 1))
           .attr("text-anchor", "middle")
           .attr("font-family", fontFamily)
           .attr("font-size", relationshipComponentFontSize)
