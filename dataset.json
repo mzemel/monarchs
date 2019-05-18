@@ -1205,7 +1205,7 @@
         ""
       ],
       "wars": [
-        "Carolingian Civil War, France, 840-843"
+        "Carolingian Civil War, 840-843"
       ],
       "relationships": [],
       "border": "img/borders/france/877.jpg"
@@ -1551,8 +1551,8 @@
         "Reclaimed Angevin Empire from John I of England"
       ],
       "wars": [
-        "Anglo-French War, England, 1202-1214",
-        "Albisengian Crusade, Cathars, 1209-1229"
+        "Anglo-French War, 1202-1214",
+        "Albisengian Crusade, 1209-"
       ],
       "relationships": [
         "Denmark, Ingeborg, Wife, img/denmark/ingeborg.jpg"
@@ -1573,7 +1573,7 @@
         "Forbade officials from recording debts owed to Jews"
       ],
       "wars": [
-        "Albisengian Crusade, Cathars, 1209-1229"
+        "Albisengian Crusade, 1223-"
       ],
       "relationships": [
         "Castille, Blanche, Wife, img/spain/blanche.jpg"
@@ -1613,7 +1613,7 @@
         "Annexed Toulouse to the French crown"
       ],
       "wars": [
-        "War of the Sicilian Vespers, Sicily, 1282"
+        "War of the Sicilian Vespers, 1282"
       ],
       "relationships": [
         "Sicily, Charles I, Uncle, img/italy/charles_i.jpg"
@@ -1635,7 +1635,7 @@
         "Transfered papl court to Avignon"
       ],
       "wars": [
-        "Franco-Flemish War, Flanders, 1297-1305"
+        "Franco-Flemish War, 1297-1305"
       ],
       "relationships": [
         "Navarre, Joan, Wife, img/spain/joan_navarre.jpg"
@@ -1707,7 +1707,7 @@
         "Died without heir, with kingdom going to cousin, Philip of Valois"
       ],
       "wars": [
-        "War of Saint-Sardos, England, 1324"
+        "War of Saint-Sardos, 1324"
       ],
       "relationships": [
         "England, Edward II, Brother-in-law, img/england/edward_ii.jpg",
@@ -1730,7 +1730,7 @@
         "Black Death (1348) killed 1/3 of the French population"
       ],
       "wars": [
-        "Hundred Years' War, England, 1337-1453"
+        "Hundred Years' War, 1337-1453"
       ],
       "relationships": [
         "England, Edward III, Nephew, img/england/edward_iii.png"
@@ -1752,7 +1752,7 @@
         "Died in English captivity"
       ],
       "wars": [
-        "Hundred Years' War, England, 1337-1453"
+        "Hundred Years' War, 1337-1453"
       ],
       "relationships": [
         "Holy Roman Empire, Bonne, Wife, img/hre/bonne_of_luxembourg.jpg"
@@ -1774,7 +1774,7 @@
         "Reconquered all ceded territories by the end of his reign"
       ],
       "wars": [
-        "Hundred Years' War, England, 1337-1453"
+        "Hundred Years' War, 1337-1453"
       ],
       "relationships": [],
       "border": "img/borders/france/1379.jpg"
@@ -1794,8 +1794,8 @@
         "Signed Treaty of Troyes, giving succession to Henry V of England"
       ],
       "wars": [
-        "Hundred Years' War, England, 1337-1453",
-        "Armagnac-Burgundian Civil War, Burgundy, 1407-1435"
+        "Hundred Years' War, 1337-1453",
+        "Armagnac-Burgundian Civil War"
       ],
       "relationships": [
         "Holy Roman Empire, Isabeau, Wife, img/hre/isabeau_bavaria.jpg"
@@ -1817,8 +1817,8 @@
         "Ended the civil war between houses of Valois and Valois-Orleans"
       ],
       "wars": [
-        "Hundred Years' War, England, 1337-1453",
-        "Armagnac-Burgundian Civil War, Burgundy, 1407-1435"
+        "Hundred Years' War, 1337-1453",
+        "Armagnac-Burgundian Civil War"
       ],
       "relationships": [],
       "border": "img/borders/france/1461.jpg"
@@ -1884,8 +1884,8 @@
         "Annexed Brittany through marraige to Anne, and daughter to heir presumptive"
       ],
       "wars": [
-        "Second Italian War, Italy, 1499-1504",
-        "Third Italian War, Italy, 1508-1516"
+        "Second Italian War, 1499-1504",
+        "Third Italian War, 1508-1516"
       ],
       "relationships": [
         "Holy Roman Empire, Margaret of Austria, Wife, img/hre/margaret_of_austria.jpg",
@@ -1931,7 +1931,7 @@
         ""
       ],
       "wars": [
-        "Italian Wars, Holy Roman Empire, 1551-1559"
+        "Italian Wars, 1551-1559"
       ],
       "relationships": [
         "Florence, Catherine de' Medici, Wife, img/italy/catherine_de_medici.jpg"
@@ -1952,7 +1952,7 @@
         "Forced to sign Treaty of Edinburgh: end of Scottish influence"
       ],
       "wars": [
-        "French Wars of Religion, France, 1562-1598"
+        "French Wars of Religion, 1562-1598"
       ],
       "relationships": [
         "Scotland, Mary Queen of Scots, Wife, img/scotland/mary.jpg",
@@ -1975,7 +1975,7 @@
         ""
       ],
       "wars": [
-        "French Wars of Religion, France, 1562-1598"
+        "French Wars of Religion, 1562-1598"
       ],
       "relationships": [
         "Florence, Catherine de' Medici, Mother, img/italy/catherine_de_medici.jpg",
@@ -1998,8 +1998,8 @@
         "Murdered Duke of Guise and was charged by parliament"
       ],
       "wars": [
-        "French Wars of Religion, France, 1562-1598",
-        "War of the Three Henrys, France, 1587-1589"
+        "French Wars of Religion, 1562-1598",
+        "War of the Three Henrys, 1587-1589"
       ],
       "relationships": [],
       "border": "img/borders/france/1560.jpg"
@@ -2019,9 +2019,9 @@
         "First colony in New World: Acadia, including Montreal"
       ],
       "wars": [
-        "French Wars of Religion, France, 1562-1598",
-        "Franco-Spanish War, Spain, 1595-1598",
-        "Franco-Savoyard War, Savoy, 1600-1601"
+        "French Wars of Religion, 1562-1598",
+        "Franco-Spanish War, 1595-1598",
+        "Franco-Savoyard War, 1600-1601"
       ],
       "relationships": [
         "Florence, Marie de Medici, Wife, img/italy/marie_de_medici.jpg"
@@ -2063,9 +2063,9 @@
         "Remembered for patronage of arts as the Sun King"
       ],
       "wars": [
-        "Franco-Dutch War, Dutch Republic, 1672-1678",
-        "Nine Years' War, Holy Roman Empire, 1688-1697",
-        "War of the Spanish Succession, Holy Roman Empire, 1701-1714"
+        "Franco-Dutch War, 1672-1678",
+        "Nine Years' War, 1688-1697",
+        "War of the Spanish Succession"
       ],
       "relationships": [
         "Spain, Maria Theresa, Wife, img/spain/maria_theresa.jpg"
@@ -2087,7 +2087,7 @@
         "Economic mismanagement helped set stage for French Revolution"
       ],
       "wars": [
-        "Seven Years' War, England, 1756-1763"
+        "Seven Years' War, 1756-1763"
       ],
       "relationships": [
         "Poland, Stanislaw I, Father-in-law, img/poland/stanislaw.jpg"
@@ -2109,8 +2109,8 @@
         "Arrested and executed during French Revolution"
       ],
       "wars": [
-        "American Revolution, England, 1776-1783",
-        "French Revolution, France, 1789-1792"
+        "American Revolution, 1776-1783",
+        "French Revolution, 1789-1792"
       ],
       "relationships": [
         "Holy Roman Empire, Maria Josepha of Saxony, Mother, img/hre/maria_josepha.jpg",
@@ -2132,7 +2132,11 @@
         "Defeated Third Coalition at Austerlitz, ending Holy Roman Empire",
         "Defeated and exiled after collapse of army in Russia"
       ],
-      "wars": [],
+      "wars": [
+        "War of the Second Coalition, 1798-",
+        "War of the Third Coalition, 1803-",
+        "War of the Sixth Coalition, 1813-"
+      ],
       "relationships": [
         "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
         "Austria, Francis I, Father-in-law, img/hre/francis_i.jpg"
@@ -2215,7 +2219,7 @@
         "Overthrown during July Revolution"
       ],
       "wars": [
-        "French conquest of Algeria, Algeria, 1830"
+        "French conquest of Algeria, 1830"
       ],
       "relationships": [
         "Savoy, Marie Theresa, Wife, img/italy/marie_therese.jpg"
@@ -2257,7 +2261,7 @@
       ],
       "wars": [
         "Crimean War, Russia, 1853-1856",
-        "Franco-Prussian War, Germany, 1870"
+        "Franco-Prussian War, 1870"
       ],
       "relationships": [],
       "border": "img/borders/france/1870.jpg"
@@ -3913,7 +3917,7 @@
         ""
       ],
       "wars": [
-        "Harrying of the North, England, 1069-1070"
+        "Harrying of the North, 1069"
       ],
       "relationships": [
         "England, Edgar Æthling, Brother-in-law, img/england/edgar_aethling.jpg"
@@ -4023,7 +4027,7 @@
         "Supported Empress Matilda over Stephen of Blois during The Anarchy"
       ],
       "wars": [
-        "The Anarchy, England, 1135-1153"
+        "The Anarchy, 1135-1153"
       ],
       "relationships": [
         "England, Henry I, Brother-in-law, img/england/henry_i.png"
@@ -4081,7 +4085,7 @@
         ""
       ],
       "wars": [
-        "First Baron's War, England, 1215-1217"
+        "First Baron's War, 1215-1217"
       ],
       "relationships": [
         "England, Henry III, Brother-in-law, img/england/henry_iii.png"
@@ -4101,7 +4105,7 @@
         "Gained Isle of Man and Hebrides from Norway"
       ],
       "wars": [
-        "Scottish-Norwegian War, Norway, 1262-1266"
+        "Scottish-Norwegian War,1262"
       ],
       "relationships": [
         "England, Henry III, Father-in-law, img/england/henry_iii.png"
@@ -4142,7 +4146,7 @@
         "Imprisoned by Edward I in the Tower of London"
       ],
       "wars": [
-        "1st War of Scottish Independence, England, 1296-1328"
+        "1st War of Scottish Independence"
       ],
       "relationships": [],
       "border": "img/borders/scotland/1296.jpg"
@@ -4162,7 +4166,7 @@
         "Peace with England concluded after deposition of Edward II"
       ],
       "wars": [
-        "1st War of Scottish Independence, England, 1296-1328"
+        "1st War of Scottish Independence"
       ],
       "relationships": [
         "Ireland, Elizabeth de Burgh, Wife, img/ireland/elizabeth_de_burgh.jpg"
@@ -4184,7 +4188,7 @@
         ""
       ],
       "wars": [
-        "2nd War of Scottish Independence, England, 1332-1357"
+        "2nd War of Scottish Independence"
       ],
       "relationships": [
         "England, Joan of the Tower, Wife, img/england/joan_of_the_tower.jpg"
@@ -4260,7 +4264,7 @@
         "Killed by exploding artillery during seige of English castle"
       ],
       "wars": [
-        "Black Douglas civil war, Scotland, 1455"
+        "Black Douglas civil war, 1455"
       ],
       "relationships": [
         "Flanders, Mary of Guelders, Wife, img/france/mary_guelders.jpg"
@@ -4302,7 +4306,7 @@
         "Took away the Lord of the Isles title from the MacDonalds"
       ],
       "wars": [
-        "War of the League of Cambrai, England, 1513"
+        "War of the League of Cambrai"
       ],
       "relationships": [
         "England, Margaret Tudor, Wife, img/england/margaret_tudor.jpg",
@@ -4325,7 +4329,7 @@
         "Allied with France against the Protestant cause"
       ],
       "wars": [
-        "Anglo-Scottish Wars, England, 1542"
+        "Anglo-Scottish Wars, 1542"
       ],
       "relationships": [
         "England, Henry VIII, Uncle, img/england/henry_viii.jpg",
@@ -4349,7 +4353,7 @@
         "After 18 years in custody, beheaded by Elizabeth I"
       ],
       "wars": [
-        "Rough Wooing, England, 1543-1551"
+        "Rough Wooing, 1543-1551"
       ],
       "relationships": [
         "France, Francis II, Husband, img/france/francis_ii.jpg",
@@ -4395,7 +4399,7 @@
         "Styling himself King in Prussia in deference to Polish objection"
       ],
       "wars": [
-        "War of the Spanish Succession, France, 1701-1714"
+        "War of the Spanish Succession"
       ],
       "relationships": [
         "Dutch Republic, Frederick Henry, Grandfather, img/dutch/frederick_henry.jpg",
@@ -4419,7 +4423,7 @@
         "Left Prussia richer than any other German state"
       ],
       "wars": [
-        "Great Northern War, Sweden, 1700-1721"
+        "Great Northern War, 1700-1721"
       ],
       "relationships": [
         "England, George II, Brother-in-law, img/england/george_ii.jpg",
@@ -4443,7 +4447,7 @@
       ],
       "wars": [
         "Silesian War, Austria, 1740-1763",
-        "Seven Years' War, France, 1756-1763"
+        "Seven Years' War, 1756-1763"
       ],
       "relationships": [],
       "border": "img/borders/germany/1785.jpg"
@@ -4462,9 +4466,9 @@
         "Acquired more Prussian land with third partition of Poland"
       ],
       "wars": [
-        "Prussian Invasion of Holland, Dutch Republic, 1787",
-        "Austro-Turkish War, Ottomans, 1789",
-        "War of the First Coalition, France, 1792-1793"
+        "Prussian Invasion of Holland, 1787",
+        "Austro-Turkish War, 1789",
+        "War of the 1st Coalition, 1792"
       ],
       "relationships": [
         "Netherlands, William I, Son-in-law, img/dutch/william_i_netherlands.jpg"
@@ -4486,8 +4490,8 @@
         "Attempted to centralize all Protestant churches under royal control"
       ],
       "wars": [
-        "War of the Fourth Coalition, France, 1806",
-        "War of the Sixth Coalition, France, 1813-1814"
+        "War of the 4th Coalition, 1806",
+        "War of the 6th Coalition, 1813"
       ],
       "relationships": [
         "Russia, Nicholas I, Son-in-law, img/russia/nicholas_i.jpg"
@@ -4505,11 +4509,11 @@
       "religion": "Protestant",
       "events": [
         "A staunch romantic and conservative, opposed liberalism",
-        "Promised a constitution as Revolutions of 1848 loomed",
+        "Falsely promised a constitution during Revolutions of 1848",
         "Attempted to unify Germany under Hohenzollern rule"
       ],
       "wars": [
-        "War of the Sixth Coalition, France, 1813-1814"
+        "War of the 6th Coalition, 1813"
       ],
       "relationships": [],
       "border": "img/borders/germany/1840.jpg"
@@ -4529,9 +4533,9 @@
         "Proclaimed first emperor of the German Empire"
       ],
       "wars": [
-        "Second Schleswig War, Denmark, 1864",
-        "Austro-Prussian War, Austria, 1866",
-        "Franco-Prussian War, France, 1870"
+        "Second Schleswig War, 1864",
+        "Austro-Prussian War, 1866",
+        "Franco-Prussian War, 1870"
       ],
       "relationships": [],
       "border": "img/borders/germany/1888.jpg"
@@ -4546,7 +4550,7 @@
       "endReason": "Cancer, 56",
       "religion": "Protestant",
       "events": [
-        "Attempted to reform government, creating cabinet",
+        "Attempted to reform government and limit chancellorship",
         "Died after 9 months, during the Year of the 3 Emperors"
       ],
       "wars": [],
@@ -4571,7 +4575,7 @@
         "After defeat, lost the support of the army and populace"
       ],
       "wars": [
-        "World War I, Allied Powers, 1914-1918"
+        "World War I, 1914-1918"
       ],
       "relationships": [
         "England, George V, Cousin, img/england/george_v.jpg",
@@ -4615,7 +4619,7 @@
       "endReason": "Malaria, 28",
       "religion": "Catholic",
       "events": [
-        "Subjugated and converted the Danes",
+        "Subjugated and christianized the Danes",
         "Attempted and failed to take Italy from the Muslims"
       ],
       "wars": [
@@ -4636,9 +4640,8 @@
       "endReason": "Illness, 21",
       "religion": "Catholic",
       "events": [
-        "Inherited throne at 3; regency held for 13 years",
         "Lost territories east of the Elbe to Slavs",
-        "Without successor, Italy broke away from empire"
+        "Died without heir, causing Italy to break away"
       ],
       "wars": [],
       "relationships": []
@@ -4655,7 +4658,7 @@
       "events": [
         "Crowned King of Germany following death of Otto III",
         "Added Bohemia to the empire",
-        "Papal primacy led to Great Schism of the Church"
+        "Support for Rome led to the East-West Schism of the Church"
       ],
       "wars": [
         "German-Polish War, Poland, 1002-1018",
@@ -4673,8 +4676,8 @@
       "endReason": "Gout, 49",
       "religion": "Catholic",
       "events": [
-        "Named son as heir to vacant Dukedom of Bavaria",
-        "Incorporated heirless Kingdom of Burgundy"
+        "Claimed the vacant Dukedom of Bavaria",
+        "Incorporated the heirless Kingdom of Burgundy"
       ],
       "wars": [],
       "relationships": []
@@ -5344,9 +5347,9 @@
         "Annexed Bosnia and Herzegovina, precipitating World War I"
       ],
       "wars": [
-        "Second Italian War of Independence, Italy, 1859",
-        "Third Italian War of Independence, Italy, 1866",
-        "Austro-Prussian War, Prussia, 1866"
+        "2nd Italian War of Independence",
+        "3rd Italian War of Independence",
+        "Austro-Prussian War, 1866"
       ],
       "relationships": [
         "Mexico, Maximilian I, Brother, img/mexico/maximilian_i.jpg"
@@ -5368,7 +5371,7 @@
         "Hungary proclaimed itself First Hungarian Republic"
       ],
       "wars": [
-        "World War I, Allied Forces, 1914-1918"
+        "World War I, 1914-1918"
       ],
       "relationships": [],
       "border": "img/borders/austria/1918.jpg"
