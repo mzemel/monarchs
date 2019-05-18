@@ -16,6 +16,7 @@ I'd like to have an easy visual reference for who was concurrently in power and 
   - Compile and enter all data
 - Timeline
   - Better colors
+  - Navigation with arrow keypress
 - Details
   - Smaller picture filesize
   - Use epithets
