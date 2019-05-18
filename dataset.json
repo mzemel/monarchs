@@ -3912,8 +3912,8 @@
       "endReason": "Battle, 62",
       "religion": "Catholic",
       "events": [
-        "Killed Lulach, who'd killed Macbeth",
-        "Attempted conquest of Northumbria",
+        "Killed Lulach, who'd killed Macbeth, to become King of Scots",
+        "Attempted a conquest of English Northumbria",
         ""
       ],
       "wars": [
@@ -3934,7 +3934,7 @@
       "endReason": "Deposed, 62",
       "religion": "Catholic",
       "events": [
-        "Overthrown by invading nephew, Duncan II"
+        "Immediately overthrown by invading nephew, Duncan II"
       ],
       "wars": [],
       "relationships": [],
@@ -3950,8 +3950,8 @@
       "endReason": "Battle, 34",
       "religion": "Catholic",
       "events": [
-        "Supported by unpopular Anglo-Norman troops",
-        "Killed immediately by associate of uncle Donald III"
+        "Stationed Anglo-Norman troops, making him unpopular",
+        "Killed immediately by an associate of deposed Donald III"
       ],
       "wars": [],
       "relationships": [
@@ -3959,8 +3959,8 @@
       ],
       "border": "img/borders/scotland/1096.jpg"
     },
-    "Donald III (2nd)": {
-      "name": "Donald III (2nd)",
+    "Donald III ": {
+      "name": "Donald III ",
       "image": "img/scotland/donald_iii.jpg",
       "house": "Dunkeld",
       "houseImage": "img/houses/dunkeld.png",
@@ -4004,7 +4004,7 @@
       "endReason": "Unspecified, 45",
       "religion": "Catholic",
       "events": [
-        "Attacked by and fought the Mormaer of Moray"
+        "Continually clashed with the Mormaer (province) of Moray"
       ],
       "wars": [],
       "relationships": [
@@ -4023,16 +4023,16 @@
       "religion": "Catholic",
       "events": [
         "Annexed the Mormaer of Moray to the Scottish crown",
-        "Davidian Revolution saw Gregorian Reforms, burghs, and feudalism",
-        "Supported Empress Matilda over Stephen of Blois during The Anarchy"
+        "Introduced Gregorian Reforms, feudalism, and new 'burghs'",
+        "Supported the Empress Matilda over Stephen of Blois"
       ],
       "wars": [
-        "The Anarchy, 1135-1153"
+        "The Anarchy, England, 1135-1153"
       ],
       "relationships": [
         "England, Henry I, Brother-in-law, img/england/henry_i.png"
       ],
-      "border": "img/borders/scotland/1096.jpg"
+      "border": "img/borders/scotland/1214.jpg"
     },
     "Malcolm IV": {
       "name": "Malcolm IV",
@@ -4045,11 +4045,11 @@
       "religion": "Catholic",
       "events": [
         "Forced to give Northumbria and Cumbria back to Henry II",
-        "Knighted by Henry II as Earl of Huntingdon"
+        "Knighted by Henry II as the Earl of Huntingdon"
       ],
       "wars": [],
       "relationships": [],
-      "border": "img/borders/scotland/1096.jpg"
+      "border": "img/borders/scotland/1214.jpg"
     },
     "William I": {
       "name": "William I",
@@ -4061,8 +4061,8 @@
       "endReason": "Unspecified, 72",
       "religion": "Catholic",
       "events": [
-        "Signed Treaty of Falaise, making Scotland an English vassal",
-        "Bought Scotland's independence back from Richard I"
+        "Signed Treaty of Falaise, losing the independence of Scotland",
+        "Later bought back Scotland's independence from Richard I"
       ],
       "wars": [
         "Revolt of 1173-74, England"
@@ -4080,8 +4080,8 @@
       "endReason": "Fever, 50",
       "religion": "Catholic",
       "events": [
-        "Supported barons and Louis VIII against England",
-        "Established Anglo-Scottish border in Treaty of York",
+        "Supported the barons and Louis VIII against England",
+        "Established Anglo-Scottish border through the Treaty of York",
         ""
       ],
       "wars": [
@@ -4122,8 +4122,9 @@
       "endReason": "Illness, 7",
       "religion": "Catholic",
       "events": [
-        "Died, uncrowned, on her way to Scotland",
-        "Death led to thirteen claims to the throne"
+        "Only surviving descendant of grandfather, Alexander III",
+        "Sailed from Norway to take crown, but died en route",
+        "Her death led to thirteen claims to the throne, the Great Cause"
       ],
       "wars": [],
       "relationships": [
@@ -4142,8 +4143,8 @@
       "religion": "Catholic",
       "events": [
         "Selected among competitors during Great Cause",
-        "Deposed by Scottish nobility and signed treaty with France",
-        "Imprisoned by Edward I in the Tower of London"
+        "Deposed by Scottish nobility who'd signed a treaty with France",
+        "Imprisoned in Tower of London and exiled to Papal States"
       ],
       "wars": [
         "1st War of Scottish Independence"
@@ -4161,9 +4162,9 @@
       "endReason": "Unclear, 55",
       "religion": "Catholic",
       "events": [
-        "Claimed throne while under rule of Edward I",
-        "Defeated the English at Battle of Bannockburn",
-        "Peace with England concluded after deposition of Edward II"
+        "Claimed throne while under rule of Edward I of England",
+        "Defeated the English at the Battle of Bannockburn",
+        "Finally made peace with England after deposition of Edward II"
       ],
       "wars": [
         "1st War of Scottish Independence"
@@ -4183,7 +4184,7 @@
       "endReason": "Unknown, 46",
       "religion": "Catholic",
       "events": [
-        "Sent to France for safety after Battle of Halidon Hill",
+        "Sent to France for safety after losing the Battle of Halidon Hill",
         "Captured by the English and held for 11 years",
         ""
       ],
@@ -4222,9 +4223,9 @@
       "endReason": "Unknown, 68",
       "religion": "Catholic",
       "events": [
-        "Ascended throne with power already moved to brother, Robert",
-        "Son made lieutenant; imprisoned and killed in 1402",
-        "Son James escaped from new lieutenant, uncle Albany Stewart"
+        "Albany Stewart, his brother, had effective control over kingdom",
+        "Son David captured and killed by Albany",
+        "Other son, James, fled to France but was captured by Henry IV"
       ],
       "wars": [],
       "relationships": [],
@@ -4240,9 +4241,9 @@
       "endReason": "Assassinated, 42",
       "religion": "Catholic",
       "events": [
-        "Imprisoned and raised at the court of Henry IV",
-        "Arrested Lord of the Isles and Douglas clan leaders",
-        "Murdered during failed coup by uncle Walter Stewart"
+        "While a captive of Henry IV, raised in the English court",
+        "Arrested the Lord of the Isles and the Douglas clan leaders",
+        "Was murdered during a failed coup by uncle, Walter Stewart"
       ],
       "wars": [],
       "relationships": [
@@ -4260,8 +4261,8 @@
       "endReason": "Battle, 29",
       "religion": "Catholic",
       "events": [
-        "Had Earl of Douglas murdered for consipiring with Lord of the Isles",
-        "Killed by exploding artillery during seige of English castle"
+        "Murdered Earl of Douglas for consipiring with Lord of the Isles",
+        "Killed by friendly fire during the seige of an English castle"
       ],
       "wars": [
         "Black Douglas civil war, 1455"
@@ -4281,15 +4282,15 @@
       "endReason": "Battle, 36",
       "religion": "Catholic",
       "events": [
-        "Received Orkney and Shetland Islands as a dowry",
+        "Received Orkney and Shetland Islands as dowry from Norway",
         "Imprisoned by Edward IV in Edinburgh Castle",
-        "Killed during rebellion at Battle of Sauchieburn"
+        "Killed during a rebellion at the Battle of Sauchieburn"
       ],
       "wars": [],
       "relationships": [
         "Denmark, Margaret, Wife, img/denmark/margaret.jpg"
       ],
-      "border": "img/borders/scotland/1329.jpg"
+      "border": "img/borders/scotland/1460.jpg"
     },
     "James IV": {
       "name": "James IV",
@@ -4301,7 +4302,7 @@
       "endReason": "Battle, 40",
       "religion": "Catholic",
       "events": [
-        "Defeated his father, James III, at Battle of Sauchieburn",
+        "Defeated his father, James III, at the Battle of Sauchieburn",
         "Signed the Treaty of Perpetual Peace with Henry VII",
         "Took away the Lord of the Isles title from the MacDonalds"
       ],
@@ -4312,7 +4313,7 @@
         "England, Margaret Tudor, Wife, img/england/margaret_tudor.jpg",
         "Denmark, Christian I, Grandfather, img/denmark/christian_i.jpg"
       ],
-      "border": "img/borders/scotland/1329.jpg"
+      "border": "img/borders/scotland/1460.jpg"
     },
     "James V": {
       "name": "James V",
@@ -4324,9 +4325,9 @@
       "endReason": "Illness, 30",
       "religion": "Catholic",
       "events": [
-        "Imprisoned by stepfather Archibald Douglas for 3 years",
-        "Persecuted Protestants",
-        "Allied with France against the Protestant cause"
+        "Imprisoned by his stepfather Archibald Douglas for 3 years",
+        "Persecuted Protestants during the Scottish Reformation",
+        "His death left the infant Mary, Queen of Scots as the heir"
       ],
       "wars": [
         "Anglo-Scottish Wars, 1542"
@@ -4336,7 +4337,7 @@
         "France, Madeleine, Wife, img/france/madeleine_valois.jpg",
         "France, Mary of Guise, Wife, img/france/mary_guise.jpg"
       ],
-      "border": "img/borders/scotland/1329.jpg"
+      "border": "img/borders/scotland/1460.jpg"
     },
     "Mary, Queen of Scots": {
       "name": "Mary, Queen of Scots",
@@ -4348,9 +4349,9 @@
       "endReason": "Beheaded, 44",
       "religion": "Catholic",
       "events": [
-        "Imprisoned in Loch Leven Castle by Protestants and forced to abdicate",
-        "Believed by Catholics to be the legitimate heir to Mary I",
-        "After 18 years in custody, beheaded by Elizabeth I"
+        "Arriving from France, imprisoned by Protestants and deposed",
+        "Believed by English Catholics to be the legitimate heir to Mary I",
+        "After 18 years in English custody, beheaded by Elizabeth I"
       ],
       "wars": [
         "Rough Wooing, 1543-1551"
@@ -4359,10 +4360,10 @@
         "France, Francis II, Husband, img/france/francis_ii.jpg",
         "England, Edward VI, Betrothed, img/england/edward_vi.jpg"
       ],
-      "border": "img/borders/scotland/1329.jpg"
+      "border": "img/borders/scotland/1460.jpg"
     },
-    "James VI and I": {
-      "name": "James VI and I",
+    "James VI": {
+      "name": "James VI",
       "image": "img/england/james_vi_and_i.png",
       "house": "Stuart",
       "houseImage": "img/houses/stuart.png",
@@ -4371,8 +4372,8 @@
       "endReason": "Dysentary, 58",
       "religion": "Protestant",
       "events": [
-        "Mother Mary forced to abdicate by Protestant rebels",
-        "Ingratiated himself to Elizabeth, who was childless",
+        "Taken from Mary, Queen of Scots and raised as a Protestant",
+        "Ingratiated himself to the childless Elizabeth I to be named her heir",
         "Colonized the Hebrides in an attempt to de-gaelicise it"
       ],
       "wars": [],
@@ -4381,7 +4382,7 @@
         "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg",
         "Denmark, Anne, Wife, img/denmark/anne.jpg"
       ],
-      "border": "img/borders/scotland/1329.jpg"
+      "border": "img/borders/scotland/1460.jpg"
     }
   },
   "Germany": {
@@ -4395,8 +4396,9 @@
       "endReason": "Unspecified, 55",
       "religion": "Protestant",
       "events": [
-        "Elevated Prussia to a kingdom in Crown Treaty of 1700",
-        "Styling himself King in Prussia in deference to Polish objection"
+        "Elevated Prussia to a kingdom through the Crown Treaty of 1700",
+        "In exchange, sent 8,000 men into War of Spanish Succession",
+        "Styled himself King in Prussia in deference to Poland"
       ],
       "wars": [
         "War of the Spanish Succession"
@@ -4419,8 +4421,8 @@
       "religion": "Protestant",
       "events": [
         "Invited Protestant refugees to settled depopulated East Prussia",
-        "Invented Canton System for military conscription",
-        "Left Prussia richer than any other German state"
+        "Invented the Canton System for better military conscription",
+        "Austere, left Prussia richer than any of the other German states"
       ],
       "wars": [
         "Great Northern War, 1700-1721"
@@ -4443,7 +4445,7 @@
       "events": [
         "Declared himself King of Prussia",
         "Gained Polish and Silesian territories from Austria",
-        "Seen as a model of enlightened absolutism"
+        "An 'enlightened absolutist', used power for the good of the people"
       ],
       "wars": [
         "Silesian War, Austria, 1740-1763",
@@ -4462,7 +4464,7 @@
       "endReason": "Unspecified, 53",
       "religion": "Protestant",
       "events": [
-        "Drained the treasury with opulent lfiestyle",
+        "Left Prussia near bankrupt due to his opulent lfiestyle",
         "Acquired more Prussian land with third partition of Poland"
       ],
       "wars": [
@@ -4485,8 +4487,8 @@
       "endReason": "Fever, 69",
       "religion": "Protestant",
       "events": [
-        "Army defeated by Napoleon; fled to court of Russia",
-        "Secured territorial increases during Congress of Vienna",
+        "His army defeated by Napoleon, he fled to the court of Russia",
+        "During the Congress of Vienna, secured territorial increases",
         "Attempted to centralize all Protestant churches under royal control"
       ],
       "wars": [
@@ -4508,9 +4510,9 @@
       "endReason": "Stroke, 65",
       "religion": "Protestant",
       "events": [
-        "A staunch romantic and conservative, opposed liberalism",
-        "Falsely promised a constitution during Revolutions of 1848",
-        "Attempted to unify Germany under Hohenzollern rule"
+        "A Romantic and conservative, opposed liberalism and socialism",
+        "Falsely promised a constitution during the Revolutions of 1848",
+        "Vied for pan-German leadership against the Austrian Empire"
       ],
       "wars": [
         "War of the 6th Coalition, 1813"
@@ -4528,9 +4530,9 @@
       "endReason": "Illness, 90",
       "religion": "Protestant",
       "events": [
-        "Defeated Austria to lead North German Confederation",
-        "Chancelor Otto von Bismarck unified Germany",
-        "Proclaimed first emperor of the German Empire"
+        "Settled German Question, taking leadership of pan-Germany",
+        "Founded the North German Confederation, then German Empire",
+        "Chancelor Otto von Bismarck created network of alliances"
       ],
       "wars": [
         "Second Schleswig War, 1864",
@@ -4550,8 +4552,9 @@
       "endReason": "Cancer, 56",
       "religion": "Protestant",
       "events": [
-        "Attempted to reform government and limit chancellorship",
-        "Died after 9 months, during the Year of the 3 Emperors"
+        "Attempted to reform government and remove office of Chancellor",
+        "Inherited throne with terminal cancer, dying after only 9 months",
+        "Throne went to son Wilhelm II, who had no liberal tendencies"
       ],
       "wars": [],
       "relationships": [
@@ -4572,7 +4575,7 @@
       "events": [
         "Immediately dismissed chancelor Otto von Bismarck",
         "Guaranteed support to Austria in 1914, leading to World War I",
-        "After defeat, lost the support of the army and populace"
+        "After defeat, lost the support of the army and the people"
       ],
       "wars": [
         "World War I, 1914-1918"
@@ -5302,8 +5305,9 @@
       "endReason": "Fever, 67",
       "religion": "Catholic",
       "events": [
-        "Founded the Austrian Empire, becoming its first Emperor",
-        "Served as first president of German Confederation in 1815"
+        "Dissolved the Holy Roman Empire after defeat at Austerlitz",
+        "Founded the Austrian Empire from the Habsburg Monarchy",
+        "Served as first president of German Confederation from 1815"
       ],
       "wars": [],
       "relationships": [
@@ -5323,7 +5327,7 @@
       "religion": "Catholic",
       "events": [
         "Suffered from seizures, hydrocephaly, and speech impediment",
-        "Excluded from autonomous rule by father before death",
+        "Considered unfit, not allowed to rule independently",
         "Abdicated during Revolutions of 1848 in favor of nephew"
       ],
       "wars": [],
@@ -5343,12 +5347,11 @@
       "religion": "Catholic",
       "events": [
         "Lost claim to Tuscany and Northern Italy",
-        "Lost leadership of German Confederation to Prussia",
+        "Lost the leadership of pan-Germany (German Question) to Prussia",
         "Annexed Bosnia and Herzegovina, precipitating World War I"
       ],
       "wars": [
-        "2nd Italian War of Independence",
-        "3rd Italian War of Independence",
+        "Italian Wars of Independence",
         "Austro-Prussian War, 1866"
       ],
       "relationships": [
@@ -5366,9 +5369,9 @@
       "endReason": "Abdication, 30",
       "religion": "Catholic",
       "events": [
-        "Abdicated after armistice of World War I",
-        "Austrian Parliament passed Habsburg Law, banishing Habsburgs",
-        "Hungary proclaimed itself First Hungarian Republic"
+        "Abdicated immediately after the armistice of World War I",
+        "Banished by the Austrian Parliament passing the Habsburg Law",
+        "Attempted to reclaim Hungary, which became a republic"
       ],
       "wars": [
         "World War I, 1914-1918"
