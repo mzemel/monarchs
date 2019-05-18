@@ -17,8 +17,10 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 - Timeline
   - Better colors
 - Details
-  - Smaller pictures
+  - Smaller picture filesize
+  - Use epithets
   - Full names for relationships (e.g. Mary -> Mary of Guise)
+  - Nation-state borders
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting
@@ -28,8 +30,6 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 
 - Data
   - The rest of Scandinavia, Greece, popes, Wales, Ireland
-- Timeline
-  - Nation-state borders by year
 - Details
   - Hyperlinks to events, wars, etc.
 - Dates
