@@ -726,7 +726,7 @@ function render(data) {
     // House
     timeline.append("text")
       .attr("x", detailsX + detailsBlock * 2.5 + detailsBlockEighth)
-      .attr("y", detailsY + detailsBlock * 1.5)
+      .attr("y", detailsY + detailsBlock * 1.5 + detailsBlockEighth / 2)
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
       .attr("font-weight", "bolder") // keep?
@@ -736,7 +736,7 @@ function render(data) {
     // Religion
     timeline.append("text")
       .attr("x", detailsX + detailsBlock * 2.5 + detailsBlockEighth)
-      .attr("y", detailsY + detailsBlock * 1.75)
+      .attr("y", detailsY + detailsBlock * 1.75 + detailsBlockEighth / 2)
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
       .attr("class", "detail")
@@ -745,7 +745,7 @@ function render(data) {
     // Death
     timeline.append("text")
       .attr("x", detailsX + detailsBlock * 2.5 + detailsBlockEighth)
-      .attr("y", detailsY + detailsBlock * 2)
+      .attr("y", detailsY + detailsBlock * 2 + detailsBlockEighth / 2)
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
       .attr("class", "detail")
