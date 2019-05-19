@@ -16,12 +16,14 @@ I'd like to have an easy visual reference for who was concurrently in power and 
   - Compile and enter all data
 - Timeline
   - Better colors
-  - Navigation with arrow keypress
 - Details
   - Smaller picture filesize
   - Use epithets
   - Full names for relationships (e.g. Mary -> Mary of Guise)
   - Nation-state borders
+  - Font size of wars should not exceed font size of events
+  - Focus monarch images a little more closely on face
+  - Navigation with arrow keypress
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting
