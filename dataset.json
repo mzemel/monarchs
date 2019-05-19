@@ -859,11 +859,23 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1556,
       "end": 1598,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Cancer, 71",
+      "religion": "Catholic",
+      "events": [
+        "King of England and Ireland through marriage to Mary Tudor",
+        "Ruled during the Spanish Golden Age, the height of Spanish power",
+        "Sent the Spanish Armada to England to place a Catholic on the throne"
+      ],
+      "wars": [
+        "French Wars of Religion,1562-1598",
+        "Dutch War of Independence, 1568-",
+        "Anglo-Spanish War, 1585-1604"
+      ],
+      "relationships": [
+        "England, Mary I, Wife, img/england/mary_i.png",
+        "France, Henry II, Father-in-law, img/france/henry_ii.jpg",
+        "Holy Roman Empire, Maximilian II, Brother-in-law, img/hre/maximilian_ii.jpg"
+      ],
       "border": "img/borders/spain/1597.jpg"
     },
     "Philip III": {
@@ -873,25 +885,47 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1598,
       "end": 1621,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Unspecified, 42",
+      "religion": "Catholic",
+      "events": [
+        "Expelled 300,000 Moriscos, Christiantized descendants of the Moors",
+        "Famine, poor taxation, and debt led to the economic decline of Spain",
+        "Intervened against German Protestants at the start of Thirty Years' War"
+      ],
+      "wars": [
+        "Dutch War of Independence, 1568-",
+        "Anglo-Spanish War, 1585-1604",
+        "Thiry Years' War, 1618-1648",
+        ""
+      ],
+      "relationships": [
+        "Holy Roman Empire, Ferdinand II, Brother-in-law, img/hre/ferdinand_ii.jpg",
+        "France, Louis XIII, Son-in-law, img/france/louis_xiii.jpg"
+      ],
       "border": "img/borders/spain/1597.jpg"
     },
-    "Philip IV and III": {
-      "name": "Philip IV and III",
+    "Philip IV": {
+      "name": "Philip IV",
       "image": "img/spain/philip_iv.jpg",
       "house": "Habsburg",
       "houseImage": "img/houses/habsburg.png",
       "start": 1621,
       "end": 1665,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Unspecified, 60",
+      "religion": "Catholic",
+      "events": [
+        "Acknowledged independence of the Dutch Republic",
+        "Lost Flanders and Northern Catalonia to the French",
+        "Portugal removes itself from union, crowning John IV, Duke of Braganza"
+      ],
+      "wars": [
+        "Thiry Years' War, 1618-1648",
+        "Spanish-French War, 1635-1659",
+        "Portuguese Restoration War"
+      ],
+      "relationships": [
+        "France, Henry IV, Father-in-law, img/france/henry_iv.jpg"
+      ],
       "border": "img/borders/spain/1664.jpg"
     },
     "Charles II": {
@@ -901,11 +935,19 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1665,
       "end": 1700,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
+      "endReason": "Illness, 38",
+      "religion": "Catholic",
+      "events": [
+        "Sterile, lame, epileptic, senile, and always on the verge of death",
+        "Heirless, named the French Bourbon Philip of Anjou as his successor",
+        "Disputes over succession led to war between France and the Habsburgs"
+      ],
       "wars": [],
-      "relationships": [],
+      "relationships": [
+        "Austria, Maria Anna, Aunt/grandmother, img/spain/maria_anna.jpg",
+        "Austria, Mariana, Mother/cousin, img/spain/mariana.jpg",
+        "Spain, Philip III, Grandfather/great-grandfather, img/spain/philip_iii.jpg"
+      ],
       "border": "img/borders/spain/1700.jpg"
     },
     "Philip V": {
@@ -914,12 +956,63 @@
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1700,
-      "end": 1746,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
+      "end": 1724,
+      "endReason": "Abdicated, 41",
+      "religion": "Catholic",
+      "events": [
+        "Named successor by Charles II, who favored French over Austrian claimants",
+        "Succession war ended with treaty forbidding unification of France and Spain",
+        "Failed to reclaim lost territories of Sicily and Sardinia"
+      ],
+      "wars": [
+        "War of the Spanish Succession",
+        "War of the Quadruple Alliance"
+      ],
+      "relationships": [
+        "France, Louis XIV, Grandfather, img/france/louis_xiv.jpg",
+        "Italy, Maria Luisa, Wife, img/spain/maria_luisa.jpg",
+        "Portugal, Joseph I, Son-in-law, img/portugal/joseph_i.png"
+      ],
+      "border": "img/borders/spain/1746.jpg"
+    },
+    "Louis I": {
+      "name": "Louis I",
+      "image": "img/spain/louis_i.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1724,
+      "end": 1724,
+      "endReason": "Smallpox, 17",
+      "religion": "Catholic",
+      "events": [
+        "Father Philip abdicated, possibly to press claim for French throne",
+        "Died after only seven months as king"
+      ],
       "wars": [],
       "relationships": [],
+      "border": "img/borders/spain/1746.jpg"
+    },
+    "Philip V ": {
+      "name": "Philip V ",
+      "image": "img/spain/philip_v.jpg",
+      "house": "Bourbon",
+      "houseImage": "img/houses/bourbon.png",
+      "start": 1724,
+      "end": 1746,
+      "endReason": "Unspecified, 62",
+      "religion": "Catholic",
+      "events": [
+        "Came back to throne because younger son, Ferdinand, was not of age"
+      ],
+      "wars": [
+        "War of the Polish Succession",
+        "War of the Austrian Succession"
+      ],
+      "relationships": [
+        "France, Louis XIV, Grandfather, img/france/louis_xiv.jpg",
+        "Italy, Maria Luisa, Wife, img/spain/maria_luisa.jpg",
+        "Portugal, Joseph I, Son-in-law, img/portugal/joseph_i.png"
+      ],
       "border": "img/borders/spain/1746.jpg"
     },
     "Ferdinand VI": {
@@ -929,11 +1022,19 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1746,
       "end": 1759,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Unspecified, 45",
+      "religion": "Catholic",
+      "events": [
+        "Reformed taxation, which had heavily taxed Castile",
+        "Fought with Portugal over the colony of Sacramento in Uruguay",
+        "Died without issue, giving crown to younger brother Charles III"
+      ],
+      "wars": [
+        "War of the Austrian Succession"
+      ],
+      "relationships": [
+        "Portugal, John V, Father-in-law, img/portugal/john_v.jpg"
+      ],
       "border": "img/borders/spain/1759.jpg"
     },
     "Charles III": {
@@ -943,11 +1044,23 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1759,
       "end": 1788,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Unspecified, 72",
+      "religion": "Catholic",
+      "events": [
+        "Won throne of Sicily and Naples through war of Polish succession",
+        "Succeeded to Spanish throne after death of older brother Ferdinand VI",
+        "Lost American colonies to Britain, reclaiming them after American Revolution"
+      ],
+      "wars": [
+        "War of the Polish Succession",
+        "War of the Austrian Succession",
+        "Seven Years' War, 1756-1763"
+      ],
+      "relationships": [
+        "Italy, Elizabeth Farnese, Mother, img/italy/elisabeth_farnese.jpg",
+        "Portugal, Mariana Victoria, Daughter-in-law, img/portugal/mariana_victoria.jpg",
+        "Holy Roman Empire, Leopold II, Son-in-law, img/hre/leopold_ii.jpg"
+      ],
       "border": "img/borders/spain/1759.jpg"
     },
     "Charles IV": {
@@ -957,11 +1070,19 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1788,
       "end": 1808,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Abdicated, 60",
+      "religion": "Catholic",
+      "events": [
+        "Switched allegiances between France and Britain during Napoleonic Wars",
+        "Grew deeply unpopular and son Ferdinand attempted a failed coup",
+        "Popular revolt forced Charles to abdicate in favor of Ferdinand"
+      ],
+      "wars": [
+        "Napoleonic Wars, 1803-1815\n"
+      ],
+      "relationships": [
+        "Italy, Maria Luisa, Wife, img/italy/maria_luisa.jpg"
+      ],
       "border": "img/borders/spain/1808.jpg"
     },
     "Ferdinand VII": {
@@ -971,9 +1092,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1808,
       "end": 1808,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
+      "endReason": "Deposed, 24",
+      "religion": "Catholic",
+      "events": [
+        "Ascended throne during popular revolt against father Charles IV",
+        "Turned to Napoleon for support, who then imprisoned him in France"
+      ],
       "wars": [],
       "relationships": [],
       "border": "img/borders/spain/1808.jpg"
@@ -985,10 +1109,16 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1808,
       "end": 1813,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Abdicated, 45",
+      "religion": "Catholic",
+      "events": [
+        "Older brother to Napoleon, who'd installed him as king of Naples and Sicily",
+        "Unpopular in Spain as a foreigner, suppressor of religion, and Freemason",
+        "Abdicated and returned to France after the defeat of Napoleon's forces"
+      ],
+      "wars": [
+        "Napoleonic Wars, 1803-1815\n"
+      ],
       "relationships": [],
       "border": "img/borders/spain/1812.jpg"
     },
@@ -999,10 +1129,16 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1813,
       "end": 1833,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Unspecified, 48",
+      "religion": "Catholic",
+      "events": [
+        "Re-installed by Bonaparte through the Treaty of Valençay",
+        "Napoleonic-era Congress of 1812 pressed for constitutional monarchy",
+        "Captured by partisans but freed by French Bourbon intervention"
+      ],
+      "wars": [
+        "Mexican War of Independence"
+      ],
       "relationships": [],
       "border": "img/borders/spain/1833.jpg"
     },
@@ -1013,11 +1149,22 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1833,
       "end": 1868,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Deposed, 38",
+      "religion": "Catholic",
+      "events": [
+        "Inherited throne as infant; contested by Carlists who favored a male heir",
+        "Deposed during Glorious Revolution in favor of Italian Amadeo I",
+        "Franco-Prussian War fought against Prussian inheritance of Spanish throne"
+      ],
+      "wars": [
+        "Carlist Wars, 1833-1849",
+        "Hispano-Moroccan War, 1859",
+        "Chincha Islands War, 1864-1866"
+      ],
+      "relationships": [
+        "Two Sicilies, Francis I, Grandfather, img/italy/francis_i.jpg",
+        "Spain, Francisco de Paula, Uncle and father-in-law, img/spain/francisco_de_paula.jpg"
+      ],
       "border": "img/borders/spain/1833.jpg"
     },
     "Amadeo I": {
@@ -1027,11 +1174,19 @@
       "houseImage": "img/houses/savoy.png",
       "start": 1870,
       "end": 1873,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Abdicated, 28",
+      "religion": "Catholic",
+      "events": [
+        "Installed by progressive military council, then contested by the Carlists",
+        "After assassination attempt, abdicated in the face of no popular support",
+        "Spain was thus briefly proclaimed the First Spanish Republic"
+      ],
+      "wars": [
+        "Third Carlist War, 1872-1876"
+      ],
+      "relationships": [
+        "Italy, Victor Emmanuel II, Father, img/italy/victor_emmanuel_ii.jpg"
+      ],
       "border": "img/borders/spain/1833.jpg"
     },
     "Alfonso XII": {
@@ -1041,11 +1196,19 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1874,
       "end": 1885,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Tuberculosis, 27",
+      "religion": "Catholic",
+      "events": [
+        "Returned from exile as King following a military coup against the Republic",
+        "Defeated the Carlist pretender Charles V, ending the Carlist revolts",
+        ""
+      ],
+      "wars": [
+        "Third Carlist War, 1872-1876"
+      ],
+      "relationships": [
+        "Two Sicilies, Don Carlos, Son-in-law, img/italy/carlos_two_sicilies.jpg"
+      ],
       "border": "img/borders/spain/1833.jpg"
     },
     "Alfonso XIII": {
@@ -1055,11 +1218,21 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1886,
       "end": 1931,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": [],
+      "endReason": "Abdicated, 45",
+      "religion": "Catholic",
+      "events": [
+        "Born posthumously to Alfonso XII; regency held for 16 years by mother",
+        "Lost colonial rule over Cuba, Puerto Rico, Guam, and the Philippines",
+        "Abdicated after republican election victories, signaling end of monarchy"
+      ],
+      "wars": [
+        "Rif War, Morocco, 1920-1927",
+        "Spanish-American War, 1898"
+      ],
+      "relationships": [
+        "Austria, Maria Christina, Mother, img/austria/maria_christina.jpg",
+        "England, Victoria Eugenie, Wife, img/spain/victoria_eugenia.jpg"
+      ],
       "border": "img/borders/spain/1930.jpg"
     },
     "Francisco Franco": {
@@ -1069,10 +1242,19 @@
       "houseImage": "img/houses/franco.png",
       "start": 1936,
       "end": 1975,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
-      "wars": [],
+      "endReason": "Coma, 82",
+      "religion": "Catholic",
+      "events": [
+        "Decorated military general in the years before the Second Republic",
+        "Led the far-right forces to victory in the Spanish Civil War",
+        "A repressive fascist, styled himself Caudillo & re-established monarchy",
+        "Following economic boom, Spanish Miracle, began to support liberalization",
+        "Without heir, named conservative grandson of Alfonso XIII his successor"
+      ],
+      "wars": [
+        "Spanish Civil War, 1936-1939",
+        "Ifni War, Morocco, 1957-1958"
+      ],
       "relationships": [],
       "border": "img/borders/spain/1833.jpg"
     },
@@ -1083,11 +1265,17 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1975,
       "end": 2014,
-      "endReason": " ",
-      "religion": "",
-      "events": [],
+      "endReason": "Abdicated, 76",
+      "religion": "Catholic",
+      "events": [
+        "Dismantled Francoist regime, creating a democracy and constitution",
+        "Became popular after foiling a pro-Francoist coup, reconfirming democracy",
+        "Following a series of family scandals, abdicated in favor of his son"
+      ],
       "wars": [],
-      "relationships": [],
+      "relationships": [
+        "Greece, Sofia, Wife, img/greece/sofia.jpg"
+      ],
       "border": "img/borders/spain/1833.jpg"
     },
     "Felipe VI": {
@@ -1098,7 +1286,7 @@
       "start": 2014,
       "end": 2019,
       "endReason": " ",
-      "religion": "",
+      "religion": "Catholic",
       "events": [],
       "wars": [],
       "relationships": [],
