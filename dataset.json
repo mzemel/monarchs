@@ -4576,66 +4576,97 @@
   "Russia": {
     "Vladimir the Great": {
       "name": "Vladimir the Great",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D1%86%D0%B0%D1%80%D1%8C_%D0%9A%D0%B8%D0%B5%D0%B2_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B5%D1%8F_1619.JPG/440px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D1%86%D0%B0%D1%80%D1%8C_%D0%9A%D0%B8%D0%B5%D0%B2_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B5%D1%8F_1619.JPG",
+      "image": "img/russia/vladimir_the_great.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 980,
       "end": 1015,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Illness, 57",
+      "religion": "Pagan, then Christian",
+      "events": [
+        "Expanded Kievan realm to include Belarus, Russia, and Ukraine",
+        "Converted to Christianity and Christianized the pagan Rus'"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Otto I, Grandfather-in-law, img/hre/otto_i.jpg"
+      ]
     },
     "Sviatopolk I": {
       "name": "Sviatopolk I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sviatopolk_I_of_Kiev.jpg/440px-Sviatopolk_I_of_Kiev.jpg",
+      "image": "img/russia/sviatopolk_i.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1015,
       "end": 1019,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Battle, 39",
+      "religion": "Eastern Orthodox",
+      "events": [
+        "Known as 'The Accursed', murdered his 3 brothers to seize power",
+        "Defeated in battle by remaining brother, Yaroslav"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Poland, Boleslaus I, Father-in-law, img/poland/boleslaus_i.jpg"
+      ]
     },
     "Yaroslav the Wise": {
       "name": "Yaroslav the Wise",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/YaroslavWiseSeal.jpg/440px-YaroslavWiseSeal.jpg",
+      "image": "img/russia/yaroslav.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1019,
       "end": 1054,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 76",
+      "religion": "Eastern Orthodox",
+      "events": [
+        "Enacted code of law known as Russkaya Pravda, the Rus Truth",
+        "Captured part of Crimea from the Byzantine Empire",
+        "Captured Estonia with the help of Scandinavian allies"
+      ],
+      "wars": [
+        "Rus'-Byzantine War, 1043"
+      ],
+      "relationships": [
+        "Poland, Casimir I, Brother-in-law, img/poland/casimir_i.png",
+        "France, Henry I, Son-in-law, img/france/henry_i.jpg",
+        "England, Edgar the Ætheling, Grandson, img/england/edgar_aetheling.jpg"
+      ]
     },
     "Iziaslav I": {
       "name": "Iziaslav I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Minskizjaslav.jpg",
+      "image": "img/russia/iziaslav_i.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1054,
       "end": 1073,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Deposed",
+      "religion": "Eastern Orthodox",
+      "events": [
+        "Founded the first Kievan Eastern Orthodox monastery",
+        "Fled during popular uprising, then returned with help from Polish",
+        "Crowned first King of Rus' by the Pope"
+      ],
+      "wars": [
+        "Kiev uprising of 1068"
+      ],
+      "relationships": [
+        "Poland, Casimir I, Brother-in-law, img/poland/casimir_i.png"
+      ]
     },
     "Sviatoslav II": {
       "name": "Sviatoslav II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sviatoslav_Yaroslavich.png",
+      "image": "img/russia/sviatoslav_ii.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1073,
       "end": 1077,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "endReason": "Illness, 49",
+      "religion": "Eastern Orthodox",
+      "events": [
+        "Joined brothers Iziaslav and Vsevolod in a triumvirate of Kiev",
+        "With support of Vsevolod, dethroned and replaced Iziaslav"
+      ],
       "wars": [],
       "relationships": []
     },
@@ -4643,11 +4674,11 @@
       "name": "Vsevolod I",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vsevolod_yaroslavich.jpg/440px-Vsevolod_yaroslavich.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1078,
       "end": 1093,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4656,11 +4687,11 @@
       "name": "Sviatopolk II",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Congress_in_Dolobsk_1103.jpg/440px-Congress_in_Dolobsk_1103.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1093,
       "end": 1113,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4669,11 +4700,11 @@
       "name": "Vladimir II Monomakh",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/1000_Monomah.jpg/440px-1000_Monomah.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1112,
       "end": 1125,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4682,11 +4713,11 @@
       "name": "Mstislav I of Kiev",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg/500px-%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1125,
       "end": 1132,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4695,11 +4726,11 @@
       "name": "Ivan IV",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg/560px-Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1547,
       "end": 1584,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4708,11 +4739,11 @@
       "name": "Feodor I",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Feodor_I_of_Russia_-_Project_Gutenberg_eText_20880.jpg",
       "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "houseImage": "img/houses/rurik.png",
       "start": 1584,
       "end": 1598,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4725,7 +4756,7 @@
       "start": 1598,
       "end": 1605,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4738,7 +4769,7 @@
       "start": 1605,
       "end": 1605,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4751,7 +4782,7 @@
       "start": 1605,
       "end": 1606,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4764,7 +4795,7 @@
       "start": 1606,
       "end": 1610,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4777,7 +4808,7 @@
       "start": 1610,
       "end": 1613,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4790,7 +4821,7 @@
       "start": 1613,
       "end": 1645,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4803,7 +4834,7 @@
       "start": 1645,
       "end": 1676,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4816,7 +4847,7 @@
       "start": 1676,
       "end": 1682,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4829,7 +4860,7 @@
       "start": 1682,
       "end": 1725,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4842,7 +4873,7 @@
       "start": 1724,
       "end": 1727,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4855,7 +4886,7 @@
       "start": 1727,
       "end": 1730,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4868,7 +4899,7 @@
       "start": 1730,
       "end": 1740,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4881,7 +4912,7 @@
       "start": 1740,
       "end": 1741,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4894,7 +4925,7 @@
       "start": 1741,
       "end": 1762,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4907,7 +4938,7 @@
       "start": 1762,
       "end": 1762,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4920,7 +4951,7 @@
       "start": 1762,
       "end": 1796,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4933,7 +4964,7 @@
       "start": 1796,
       "end": 1801,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4946,7 +4977,7 @@
       "start": 1801,
       "end": 1825,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4959,7 +4990,7 @@
       "start": 1825,
       "end": 1855,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4972,7 +5003,7 @@
       "start": 1855,
       "end": 1881,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4985,7 +5016,7 @@
       "start": 1881,
       "end": 1894,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
@@ -4998,7 +5029,7 @@
       "start": 1894,
       "end": 1917,
       "endReason": "",
-      "religion": "",
+      "religion": "Eastern Orthodox",
       "events": [],
       "wars": [],
       "relationships": []
