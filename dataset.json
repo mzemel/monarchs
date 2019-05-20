@@ -4100,9 +4100,9 @@
       "endReason": "Battle, 62",
       "religion": "Roman Catholic",
       "events": [
-        "Killed Lulach, who'd killed Macbeth, to become King of Scots",
-        "Attempted a conquest of English Northumbria",
-        ""
+        "Lived in exile during reign of Macbeth, his father's killer",
+        "After Norman conquest, gave refuge to Edgar the Ætheling",
+        "Attempted conquest of Northumbria, dying in battle to William II"
       ],
       "wars": [
         "Harrying of the North, 1069"
@@ -4112,8 +4112,8 @@
       ],
       "border": "img/borders/scotland/1093.jpg"
     },
-    "Donald III": {
-      "name": "Donald III",
+    "Donald Bane": {
+      "name": "Donald Bane",
       "image": "img/scotland/donald_iii.jpg",
       "house": "Dunkeld",
       "houseImage": "img/houses/dunkeld.png",
@@ -4122,7 +4122,8 @@
       "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Immediately overthrown by invading nephew, Duncan II"
+        "Beseiged Edinburgh Castle with support of Celtic Scots",
+        "Expelled by nephew Duncan II with support of English and Normans"
       ],
       "wars": [],
       "relationships": [],
@@ -4135,11 +4136,11 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1094,
       "end": 1094,
-      "endReason": "Battle, 34",
+      "endReason": "Assassinated, 34",
       "religion": "Roman Catholic",
       "events": [
-        "Stationed Anglo-Norman troops, making him unpopular",
-        "Killed immediately by an associate of deposed Donald III"
+        "Grew up as English hostage, as father's homage to William I",
+        "Deposed uncle Donald Bane, who then had him killed"
       ],
       "wars": [],
       "relationships": [
@@ -4147,17 +4148,19 @@
       ],
       "border": "img/borders/scotland/1096.jpg"
     },
-    "Donald III ": {
-      "name": "Donald III ",
+    "Donald Bane ": {
+      "name": "Donald Bane ",
       "image": "img/scotland/donald_iii.jpg",
       "house": "Dunkeld",
       "houseImage": "img/houses/dunkeld.png",
       "start": 1094,
       "end": 1097,
-      "endReason": "Imprisoned, 67",
+      "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Imprisoned by nephew Edgar with support of William II of England"
+        "Had nephew Duncan II killed after just a few months",
+        "Deposed by an army led by Edgar the Ætheling",
+        "Replaced by other nephew, Edgar, son of Malcolm III"
       ],
       "wars": [],
       "relationships": [],
@@ -4173,8 +4176,9 @@
       "endReason": "Unspecified, 43",
       "religion": "Roman Catholic",
       "events": [
-        "Supported Northumbrian revolt against William II of England",
-        "Ceded claim to the Hebrides to Magnus Barefoot of Norway"
+        "Placed on Scottish throne with aid of William II of England",
+        "First Scottish king to have Celtic and Anglo-Saxon ancestry",
+        "Ceded the Hebrides to Magnus III of Norway"
       ],
       "wars": [],
       "relationships": [
@@ -4192,11 +4196,14 @@
       "endReason": "Unspecified, 45",
       "religion": "Roman Catholic",
       "events": [
-        "Continually clashed with the Mormaer (province) of Moray"
+        "Allowed younger brother, David, to rule southern Scotland",
+        "Likely acknolwedged Henry I of England has his overlord",
+        "Attempted to preserve the independence of the Scottish Church"
       ],
       "wars": [],
       "relationships": [
-        "England, Henry I, Father-in-law, img/england/henry_i.png"
+        "England, Henry I, Father-in-law, img/england/henry_i.png",
+        "England, Edgar Æthling, Uncle, img/england/edgar_aethling.jpg"
       ],
       "border": "img/borders/scotland/1096.jpg"
     },
@@ -4210,9 +4217,10 @@
       "endReason": "Unspecified, 68",
       "religion": "Roman Catholic",
       "events": [
+        "Supported his niece, Empress Matilda, over Stephen of Blois",
+        "Granted Northumbria and Cumbria for fighting in The Anarchy",
         "Annexed the Mormaer of Moray to the Scottish crown",
-        "Introduced Gregorian Reforms, feudalism, and new 'burghs'",
-        "Supported the Empress Matilda over Stephen of Blois"
+        ""
       ],
       "wars": [
         "The Anarchy, England, 1135-1153"
@@ -4232,8 +4240,9 @@
       "endReason": "Paget's disease, 24",
       "religion": "Roman Catholic",
       "events": [
+        "Ascended throne at age of 11, grandson of David I",
         "Forced to give Northumbria and Cumbria back to Henry II",
-        "Knighted by Henry II as the Earl of Huntingdon"
+        "Succeeded by his brother, William the Lion"
       ],
       "wars": [],
       "relationships": [],
@@ -4249,8 +4258,9 @@
       "endReason": "Unspecified, 72",
       "religion": "Roman Catholic",
       "events": [
-        "Signed Treaty of Falaise, losing the independence of Scotland",
-        "Later bought back Scotland's independence from Richard I"
+        "Revolted to win back Northumbria but captured by Henry II",
+        "As part of release, confirmed the supremacy of English Church",
+        "Bought release of feudal subjection from Richard I"
       ],
       "wars": [
         "Revolt of 1173-74, England"
@@ -4268,9 +4278,8 @@
       "endReason": "Fever, 50",
       "religion": "Roman Catholic",
       "events": [
-        "Supported the barons and Louis VIII against England",
-        "Established Anglo-Scottish border through the Treaty of York",
-        ""
+        "Supported the English barons' revolt, hoping to reclaim land",
+        "Established Anglo-Scottish border through the Treaty of York"
       ],
       "wars": [
         "First Baron's War, 1215-1217"
@@ -4290,7 +4299,7 @@
       "endReason": "Injury, 44",
       "religion": "Roman Catholic",
       "events": [
-        "Gained Isle of Man and Hebrides from Norway"
+        "Gained Isle of Man and Hebrides from Norwegian Haakon IV"
       ],
       "wars": [
         "Scottish-Norwegian War,1262"
@@ -4316,7 +4325,8 @@
       ],
       "wars": [],
       "relationships": [
-        "Norway, Eric II, Father, img/norway/eric_ii.jpg"
+        "Norway, Eric II, Father, img/norway/eric_ii.jpg",
+        "England, Edward II, Betrothed, img/england/edward_ii.jpg"
       ],
       "border": "img/borders/scotland/1286.jpg"
     },
