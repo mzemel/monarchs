@@ -16,9 +16,10 @@ I'd like to have an easy visual reference for who was concurrently in power and 
   - Compile and enter all data
 - Timeline
   - Better colors
+  - Move heading into negative space from Germany (like in color mockup)
 - Details
   - Smaller picture filesize
-  - Use epithets
+  - Use epithets?
   - Full names for relationships (e.g. Mary -> Mary of Guise)
   - Nation-state borders
   - Font size of wars should not exceed font size of events

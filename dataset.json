@@ -4573,207 +4573,435 @@
       "border": "img/borders/scotland/1460.jpg"
     }
   },
-  "Germany": {
-    "Frederick I": {
-      "name": "Frederick I",
-      "image": "img/germany/frederick_i.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1701,
-      "end": 1713,
-      "endReason": "Unspecified, 55",
-      "religion": "Protestant",
-      "events": [
-        "Elevated Prussia to a kingdom through the Crown Treaty of 1700",
-        "In exchange, sent 8,000 men into War of Spanish Succession",
-        "Styled himself King in Prussia in deference to Poland"
-      ],
-      "wars": [
-        "War of the Spanish Succession"
-      ],
-      "relationships": [
-        "Dutch Republic, Frederick Henry, Grandfather, img/dutch/frederick_henry.jpg",
-        "England, William III, Cousin, img/england/william_iii_and_ii.jpg",
-        "England, George I, Brother-in-law, img/england/george_i.jpg"
-      ],
-      "border": "img/borders/germany/1713.jpg"
-    },
-    "Frederick William I": {
-      "name": "Frederick William I",
-      "image": "img/germany/frederick_william_i.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1713,
-      "end": 1740,
-      "endReason": "Unspecified, 51",
-      "religion": "Protestant",
-      "events": [
-        "Invited Protestant refugees to settled depopulated East Prussia",
-        "Invented the Canton System for better military conscription",
-        "Austere, left Prussia richer than any of the other German states"
-      ],
-      "wars": [
-        "Great Northern War, 1700-1721"
-      ],
-      "relationships": [
-        "England, George II, Brother-in-law, img/england/george_ii.jpg",
-        "Sweden, Adolf Frederick, Son-in-law, img/sweden/adolf_frederick.jpg"
-      ],
-      "border": "img/borders/germany/1740.jpg"
-    },
-    "Frederick II": {
-      "name": "Frederick II",
-      "image": "img/germany/frederick_ii.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1740,
-      "end": 1786,
-      "endReason": "Unspecified, 74",
-      "religion": "Protestant",
-      "events": [
-        "Declared himself King of Prussia",
-        "Gained Polish and Silesian territories from Austria",
-        "An 'enlightened absolutist', used power for the good of the people"
-      ],
-      "wars": [
-        "Silesian War, Austria, 1740-1763",
-        "Seven Years' War, 1756-1763"
-      ],
-      "relationships": [],
-      "border": "img/borders/germany/1785.jpg"
-    },
-    "Frederick William II": {
-      "name": "Frederick William II",
-      "image": "img/germany/frederick_william_ii.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1786,
-      "end": 1797,
-      "endReason": "Unspecified, 53",
-      "religion": "Protestant",
-      "events": [
-        "Left Prussia near bankrupt due to his opulent lfiestyle",
-        "Acquired more Prussian land with third partition of Poland"
-      ],
-      "wars": [
-        "Prussian Invasion of Holland, 1787",
-        "Austro-Turkish War, 1789",
-        "War of the 1st Coalition, 1792"
-      ],
-      "relationships": [
-        "Netherlands, William I, Son-in-law, img/dutch/william_i_netherlands.jpg"
-      ],
-      "border": "img/borders/germany/1797.jpg"
-    },
-    "Frederick William III": {
-      "name": "Frederick William III",
-      "image": "img/germany/frederick_william_iii.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1797,
-      "end": 1840,
-      "endReason": "Fever, 69",
-      "religion": "Protestant",
-      "events": [
-        "His army defeated by Napoleon, he fled to the court of Russia",
-        "During the Congress of Vienna, secured territorial increases",
-        "Attempted to centralize all Protestant churches under royal control"
-      ],
-      "wars": [
-        "War of the 4th Coalition, 1806",
-        "War of the 6th Coalition, 1813"
-      ],
-      "relationships": [
-        "Russia, Nicholas I, Son-in-law, img/russia/nicholas_i.jpg"
-      ],
-      "border": "img/borders/germany/1840.jpg"
-    },
-    "Frederick William IV": {
-      "name": "Frederick William IV",
-      "image": "img/germany/frederick_william_iv.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1840,
-      "end": 1861,
-      "endReason": "Stroke, 65",
-      "religion": "Protestant",
-      "events": [
-        "A Romantic and conservative, opposed liberalism and socialism",
-        "Falsely promised a constitution during the Revolutions of 1848",
-        "Vied for pan-German leadership against the Austrian Empire"
-      ],
-      "wars": [
-        "War of the 6th Coalition, 1813"
-      ],
-      "relationships": [],
-      "border": "img/borders/germany/1840.jpg"
-    },
-    "William I": {
-      "name": "William I",
-      "image": "img/germany/william_i.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1861,
-      "end": 1888,
-      "endReason": "Illness, 90",
-      "religion": "Protestant",
-      "events": [
-        "Settled German Question, taking leadership of pan-Germany",
-        "Founded the North German Confederation, then German Empire",
-        "Chancelor Otto von Bismarck created network of alliances"
-      ],
-      "wars": [
-        "Second Schleswig War, 1864",
-        "Austro-Prussian War, 1866",
-        "Franco-Prussian War, 1870"
-      ],
-      "relationships": [],
-      "border": "img/borders/germany/1888.jpg"
-    },
-    "Frederick III": {
-      "name": "Frederick III",
-      "image": "img/germany/frederick_iii.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1888,
-      "end": 1888,
-      "endReason": "Cancer, 56",
-      "religion": "Protestant",
-      "events": [
-        "Attempted to reform government and remove office of Chancellor",
-        "Inherited throne with terminal cancer, dying after only 9 months",
-        "Throne went to son Wilhelm II, who had no liberal tendencies"
-      ],
+  "Russia": {
+    "Vladimir the Great": {
+      "name": "Vladimir the Great",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D1%86%D0%B0%D1%80%D1%8C_%D0%9A%D0%B8%D0%B5%D0%B2_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B5%D1%8F_1619.JPG/440px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D1%86%D0%B0%D1%80%D1%8C_%D0%9A%D0%B8%D0%B5%D0%B2_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B5%D1%8F_1619.JPG",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 980,
+      "end": 1015,
+      "endReason": "",
+      "religion": "",
+      "events": [],
       "wars": [],
-      "relationships": [
-        "England, Victoria, Mother-in-law, img/england/victoria.jpg",
-        "Greece, Constantine I, Son-in-law, img/greece/constantine_i.jpg"
-      ],
-      "border": "img/borders/germany/1888.jpg"
+      "relationships": []
     },
-    "Wilhelm II": {
-      "name": "Wilhelm II",
-      "image": "img/germany/wilhelm_ii.jpg",
-      "house": "Hohenzollern",
-      "houseImage": "img/houses/hohenzollern.png",
-      "start": 1888,
-      "end": 1918,
-      "endReason": "Abdicated, 59",
-      "religion": "Protestant",
-      "events": [
-        "Immediately dismissed chancelor Otto von Bismarck",
-        "Guaranteed support to Austria in 1914, leading to World War I",
-        "After defeat, lost the support of the army and the people"
-      ],
-      "wars": [
-        "World War I, 1914-1918"
-      ],
-      "relationships": [
-        "England, George V, Cousin, img/england/george_v.jpg",
-        "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg",
-        "Spain, Victoria Eugenia, Cousin, img/spain/victoria_eugenia.jpg"
-      ],
-      "border": "img/borders/germany/1918.jpg"
+    "Sviatopolk I": {
+      "name": "Sviatopolk I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sviatopolk_I_of_Kiev.jpg/440px-Sviatopolk_I_of_Kiev.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1015,
+      "end": 1019,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Yaroslav the Wise": {
+      "name": "Yaroslav the Wise",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/YaroslavWiseSeal.jpg/440px-YaroslavWiseSeal.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1019,
+      "end": 1054,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Iziaslav I": {
+      "name": "Iziaslav I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Minskizjaslav.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1054,
+      "end": 1073,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Sviatoslav II": {
+      "name": "Sviatoslav II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sviatoslav_Yaroslavich.png",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1073,
+      "end": 1077,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Vsevolod I": {
+      "name": "Vsevolod I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vsevolod_yaroslavich.jpg/440px-Vsevolod_yaroslavich.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1078,
+      "end": 1093,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Sviatopolk II": {
+      "name": "Sviatopolk II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Congress_in_Dolobsk_1103.jpg/440px-Congress_in_Dolobsk_1103.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1093,
+      "end": 1113,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Vladimir II Monomakh": {
+      "name": "Vladimir II Monomakh",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/1000_Monomah.jpg/440px-1000_Monomah.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1112,
+      "end": 1125,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Mstislav I of Kiev": {
+      "name": "Mstislav I of Kiev",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg/500px-%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1125,
+      "end": 1132,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ivan IV": {
+      "name": "Ivan IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg/560px-Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1547,
+      "end": 1584,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Feodor I": {
+      "name": "Feodor I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Feodor_I_of_Russia_-_Project_Gutenberg_eText_20880.jpg",
+      "house": "Rurik",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
+      "start": 1584,
+      "end": 1598,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Boris Godunov": {
+      "name": "Boris Godunov",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg/440px-Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg",
+      "house": "Godunov",
+      "houseImage": "",
+      "start": 1598,
+      "end": 1605,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Feodor II": {
+      "name": "Feodor II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Makovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg/340px-Makovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg",
+      "house": "Godunov",
+      "houseImage": "",
+      "start": 1605,
+      "end": 1605,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Dmitry I": {
+      "name": "Dmitry I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dymitr_Samozwaniec.jpg",
+      "house": "",
+      "houseImage": "",
+      "start": 1605,
+      "end": 1606,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Vasili IV": {
+      "name": "Vasili IV",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Vasili_IV_of_Russia.PNG/440px-Vasili_IV_of_Russia.PNG",
+      "house": "Shuyskiy",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/RU_COA_Shujski.png/270px-RU_COA_Shujski.png",
+      "start": 1606,
+      "end": 1610,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Władysław IV Vasa": {
+      "name": "Władysław IV Vasa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Rubens_W%C5%82adys%C5%82aw_Vasa.jpg/440px-Rubens_W%C5%82adys%C5%82aw_Vasa.jpg",
+      "house": "Vasa",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Arms_of_the_House_of_Vasa.svg/220px-Arms_of_the_House_of_Vasa.svg.png",
+      "start": 1610,
+      "end": 1613,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Michael I": {
+      "name": "Michael I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Michael-I-Romanov-Wedekind_-_detail.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1613,
+      "end": 1645,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alexis I": {
+      "name": "Alexis I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg/440px-Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1645,
+      "end": 1676,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Feodor III": {
+      "name": "Feodor III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Feodor_III_of_Russia.jpg/440px-Feodor_III_of_Russia.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1676,
+      "end": 1682,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Peter I": {
+      "name": "Peter I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Peter_der-Grosse_1838.jpg/440px-Peter_der-Grosse_1838.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1682,
+      "end": 1725,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Catherine I": {
+      "name": "Catherine I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Catherine_I_of_Russia_by_Nattier.jpg/450px-Catherine_I_of_Russia_by_Nattier.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1724,
+      "end": 1727,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Peter II": {
+      "name": "Peter II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Peter_II_after_Ludden%2C_German_school_%28priv.coll%29.jpg/440px-Peter_II_after_Ludden%2C_German_school_%28priv.coll%29.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1727,
+      "end": 1730,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Anna": {
+      "name": "Anna",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Anna_of_Russia_%28Hermitage%29.jpg/440px-Anna_of_Russia_%28Hermitage%29.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1730,
+      "end": 1740,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Ivan VI": {
+      "name": "Ivan VI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ivan_VI_Antonovich_%28Oranienbaum%29.jpg/440px-Ivan_VI_Antonovich_%28Oranienbaum%29.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1740,
+      "end": 1741,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Elizabeth": {
+      "name": "Elizabeth",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Elizabeth_of_Russia_by_V.Eriksen.jpg/440px-Elizabeth_of_Russia_by_V.Eriksen.jpg",
+      "house": "Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1741,
+      "end": 1762,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Peter III": {
+      "name": "Peter III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Peter_III_by_anonymous_after_Rokotov_%28Hermitage%29.jpg/440px-Peter_III_by_anonymous_after_Rokotov_%28Hermitage%29.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1762,
+      "end": 1762,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Catherine II": {
+      "name": "Catherine II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg/440px-Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1762,
+      "end": 1796,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Paul I": {
+      "name": "Paul I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Borovikovsky_Pavel_I.jpg/440px-Borovikovsky_Pavel_I.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1796,
+      "end": 1801,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alexander I": {
+      "name": "Alexander I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29_crop.jpg/440px-Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29_crop.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1801,
+      "end": 1825,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Nicholas I": {
+      "name": "Nicholas I",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg/440px-Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1825,
+      "end": 1855,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alexander II": {
+      "name": "Alexander II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Zar_Alexander_II_%28cropped%29.jpg/440px-Zar_Alexander_II_%28cropped%29.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1855,
+      "end": 1881,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Alexander III": {
+      "name": "Alexander III",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexander_III%2C_Emperor_of_Russia_%281845-94%29.png/440px-Alexander_III%2C_Emperor_of_Russia_%281845-94%29.png",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1881,
+      "end": 1894,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Nicholas II": {
+      "name": "Nicholas II",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg/440px-%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg",
+      "house": "Holstein-Gottorp-Romanov",
+      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "start": 1894,
+      "end": 1917,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
     }
   },
   "Holy Roman Empire": {
@@ -5568,435 +5796,207 @@
       "border": "img/borders/austria/1918.jpg"
     }
   },
-  "Russia": {
-    "Vladimir the Great": {
-      "name": "Vladimir the Great",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D1%86%D0%B0%D1%80%D1%8C_%D0%9A%D0%B8%D0%B5%D0%B2_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B5%D1%8F_1619.JPG/440px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D1%86%D0%B0%D1%80%D1%8C_%D0%9A%D0%B8%D0%B5%D0%B2_%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D0%BD%D0%B5%D1%8F_1619.JPG",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 980,
-      "end": 1015,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+  "Germany": {
+    "Frederick I": {
+      "name": "Frederick I",
+      "image": "img/germany/frederick_i.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1701,
+      "end": 1713,
+      "endReason": "Unspecified, 55",
+      "religion": "Protestant",
+      "events": [
+        "Elevated Prussia to a kingdom through the Crown Treaty of 1700",
+        "In exchange, sent 8,000 men into War of Spanish Succession",
+        "Styled himself King in Prussia in deference to Poland"
+      ],
+      "wars": [
+        "War of the Spanish Succession"
+      ],
+      "relationships": [
+        "Dutch Republic, Frederick Henry, Grandfather, img/dutch/frederick_henry.jpg",
+        "England, William III, Cousin, img/england/william_iii_and_ii.jpg",
+        "England, George I, Brother-in-law, img/england/george_i.jpg"
+      ],
+      "border": "img/borders/germany/1713.jpg"
     },
-    "Sviatopolk I": {
-      "name": "Sviatopolk I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sviatopolk_I_of_Kiev.jpg/440px-Sviatopolk_I_of_Kiev.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1015,
-      "end": 1019,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Yaroslav the Wise": {
-      "name": "Yaroslav the Wise",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/YaroslavWiseSeal.jpg/440px-YaroslavWiseSeal.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1019,
-      "end": 1054,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Iziaslav I": {
-      "name": "Iziaslav I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Minskizjaslav.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1054,
-      "end": 1073,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sviatoslav II": {
-      "name": "Sviatoslav II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sviatoslav_Yaroslavich.png",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1073,
-      "end": 1077,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Vsevolod I": {
-      "name": "Vsevolod I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vsevolod_yaroslavich.jpg/440px-Vsevolod_yaroslavich.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1078,
-      "end": 1093,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sviatopolk II": {
-      "name": "Sviatopolk II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Congress_in_Dolobsk_1103.jpg/440px-Congress_in_Dolobsk_1103.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1093,
-      "end": 1113,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Vladimir II Monomakh": {
-      "name": "Vladimir II Monomakh",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/1000_Monomah.jpg/440px-1000_Monomah.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1112,
-      "end": 1125,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Mstislav I of Kiev": {
-      "name": "Mstislav I of Kiev",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg/500px-%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1125,
-      "end": 1132,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Ivan IV": {
-      "name": "Ivan IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg/560px-Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1547,
-      "end": 1584,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Feodor I": {
-      "name": "Feodor I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Feodor_I_of_Russia_-_Project_Gutenberg_eText_20880.jpg",
-      "house": "Rurik",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Yarthewise.png/220px-Yarthewise.png",
-      "start": 1584,
-      "end": 1598,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Boris Godunov": {
-      "name": "Boris Godunov",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg/440px-Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg",
-      "house": "Godunov",
-      "houseImage": "",
-      "start": 1598,
-      "end": 1605,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Feodor II": {
-      "name": "Feodor II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Makovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg/340px-Makovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg",
-      "house": "Godunov",
-      "houseImage": "",
-      "start": 1605,
-      "end": 1605,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Dmitry I": {
-      "name": "Dmitry I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dymitr_Samozwaniec.jpg",
-      "house": "",
-      "houseImage": "",
-      "start": 1605,
-      "end": 1606,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Vasili IV": {
-      "name": "Vasili IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Vasili_IV_of_Russia.PNG/440px-Vasili_IV_of_Russia.PNG",
-      "house": "Shuyskiy",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/RU_COA_Shujski.png/270px-RU_COA_Shujski.png",
-      "start": 1606,
-      "end": 1610,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Władysław IV Vasa": {
-      "name": "Władysław IV Vasa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Rubens_W%C5%82adys%C5%82aw_Vasa.jpg/440px-Rubens_W%C5%82adys%C5%82aw_Vasa.jpg",
-      "house": "Vasa",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Arms_of_the_House_of_Vasa.svg/220px-Arms_of_the_House_of_Vasa.svg.png",
-      "start": 1610,
-      "end": 1613,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Michael I": {
-      "name": "Michael I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Michael-I-Romanov-Wedekind_-_detail.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1613,
-      "end": 1645,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Alexis I": {
-      "name": "Alexis I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg/440px-Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1645,
-      "end": 1676,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Feodor III": {
-      "name": "Feodor III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Feodor_III_of_Russia.jpg/440px-Feodor_III_of_Russia.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1676,
-      "end": 1682,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Peter I": {
-      "name": "Peter I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Peter_der-Grosse_1838.jpg/440px-Peter_der-Grosse_1838.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1682,
-      "end": 1725,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Catherine I": {
-      "name": "Catherine I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Catherine_I_of_Russia_by_Nattier.jpg/450px-Catherine_I_of_Russia_by_Nattier.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1724,
-      "end": 1727,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Peter II": {
-      "name": "Peter II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Peter_II_after_Ludden%2C_German_school_%28priv.coll%29.jpg/440px-Peter_II_after_Ludden%2C_German_school_%28priv.coll%29.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1727,
-      "end": 1730,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Anna": {
-      "name": "Anna",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Anna_of_Russia_%28Hermitage%29.jpg/440px-Anna_of_Russia_%28Hermitage%29.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1730,
+    "Frederick William I": {
+      "name": "Frederick William I",
+      "image": "img/germany/frederick_william_i.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1713,
       "end": 1740,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Unspecified, 51",
+      "religion": "Protestant",
+      "events": [
+        "Invited Protestant refugees to settled depopulated East Prussia",
+        "Invented the Canton System for better military conscription",
+        "Austere, left Prussia richer than any of the other German states"
+      ],
+      "wars": [
+        "Great Northern War, 1700-1721"
+      ],
+      "relationships": [
+        "England, George II, Brother-in-law, img/england/george_ii.jpg",
+        "Sweden, Adolf Frederick, Son-in-law, img/sweden/adolf_frederick.jpg"
+      ],
+      "border": "img/borders/germany/1740.jpg"
     },
-    "Ivan VI": {
-      "name": "Ivan VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ivan_VI_Antonovich_%28Oranienbaum%29.jpg/440px-Ivan_VI_Antonovich_%28Oranienbaum%29.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+    "Frederick II": {
+      "name": "Frederick II",
+      "image": "img/germany/frederick_ii.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
       "start": 1740,
-      "end": 1741,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "end": 1786,
+      "endReason": "Unspecified, 74",
+      "religion": "Protestant",
+      "events": [
+        "Declared himself King of Prussia",
+        "Gained Polish and Silesian territories from Austria",
+        "An 'enlightened absolutist', used power for the good of the people"
+      ],
+      "wars": [
+        "Silesian War, Austria, 1740-1763",
+        "Seven Years' War, 1756-1763"
+      ],
+      "relationships": [],
+      "border": "img/borders/germany/1785.jpg"
     },
-    "Elizabeth": {
-      "name": "Elizabeth",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Elizabeth_of_Russia_by_V.Eriksen.jpg/440px-Elizabeth_of_Russia_by_V.Eriksen.jpg",
-      "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1741,
-      "end": 1762,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+    "Frederick William II": {
+      "name": "Frederick William II",
+      "image": "img/germany/frederick_william_ii.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1786,
+      "end": 1797,
+      "endReason": "Unspecified, 53",
+      "religion": "Protestant",
+      "events": [
+        "Left Prussia near bankrupt due to his opulent lfiestyle",
+        "Acquired more Prussian land with third partition of Poland"
+      ],
+      "wars": [
+        "Prussian Invasion of Holland, 1787",
+        "Austro-Turkish War, 1789",
+        "War of the 1st Coalition, 1792"
+      ],
+      "relationships": [
+        "Netherlands, William I, Son-in-law, img/dutch/william_i_netherlands.jpg"
+      ],
+      "border": "img/borders/germany/1797.jpg"
     },
-    "Peter III": {
-      "name": "Peter III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Peter_III_by_anonymous_after_Rokotov_%28Hermitage%29.jpg/440px-Peter_III_by_anonymous_after_Rokotov_%28Hermitage%29.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1762,
-      "end": 1762,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+    "Frederick William III": {
+      "name": "Frederick William III",
+      "image": "img/germany/frederick_william_iii.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1797,
+      "end": 1840,
+      "endReason": "Fever, 69",
+      "religion": "Protestant",
+      "events": [
+        "His army defeated by Napoleon, he fled to the court of Russia",
+        "During the Congress of Vienna, secured territorial increases",
+        "Attempted to centralize all Protestant churches under royal control"
+      ],
+      "wars": [
+        "War of the 4th Coalition, 1806",
+        "War of the 6th Coalition, 1813"
+      ],
+      "relationships": [
+        "Russia, Nicholas I, Son-in-law, img/russia/nicholas_i.jpg"
+      ],
+      "border": "img/borders/germany/1840.jpg"
     },
-    "Catherine II": {
-      "name": "Catherine II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg/440px-Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1762,
-      "end": 1796,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+    "Frederick William IV": {
+      "name": "Frederick William IV",
+      "image": "img/germany/frederick_william_iv.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1840,
+      "end": 1861,
+      "endReason": "Stroke, 65",
+      "religion": "Protestant",
+      "events": [
+        "A Romantic and conservative, opposed liberalism and socialism",
+        "Falsely promised a constitution during the Revolutions of 1848",
+        "Vied for pan-German leadership against the Austrian Empire"
+      ],
+      "wars": [
+        "War of the 6th Coalition, 1813"
+      ],
+      "relationships": [],
+      "border": "img/borders/germany/1840.jpg"
     },
-    "Paul I": {
-      "name": "Paul I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Borovikovsky_Pavel_I.jpg/440px-Borovikovsky_Pavel_I.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1796,
-      "end": 1801,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+    "William I": {
+      "name": "William I",
+      "image": "img/germany/william_i.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1861,
+      "end": 1888,
+      "endReason": "Illness, 90",
+      "religion": "Protestant",
+      "events": [
+        "Settled German Question, taking leadership of pan-Germany",
+        "Founded the North German Confederation, then German Empire",
+        "Chancelor Otto von Bismarck created network of alliances"
+      ],
+      "wars": [
+        "Second Schleswig War, 1864",
+        "Austro-Prussian War, 1866",
+        "Franco-Prussian War, 1870"
+      ],
+      "relationships": [],
+      "border": "img/borders/germany/1888.jpg"
     },
-    "Alexander I": {
-      "name": "Alexander I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29_crop.jpg/440px-Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29_crop.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1801,
-      "end": 1825,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+    "Frederick III": {
+      "name": "Frederick III",
+      "image": "img/germany/frederick_iii.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1888,
+      "end": 1888,
+      "endReason": "Cancer, 56",
+      "religion": "Protestant",
+      "events": [
+        "Attempted to reform government and remove office of Chancellor",
+        "Inherited throne with terminal cancer, dying after only 9 months",
+        "Throne went to son Wilhelm II, who had no liberal tendencies"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "England, Victoria, Mother-in-law, img/england/victoria.jpg",
+        "Greece, Constantine I, Son-in-law, img/greece/constantine_i.jpg"
+      ],
+      "border": "img/borders/germany/1888.jpg"
     },
-    "Nicholas I": {
-      "name": "Nicholas I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg/440px-Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1825,
-      "end": 1855,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Alexander II": {
-      "name": "Alexander II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Zar_Alexander_II_%28cropped%29.jpg/440px-Zar_Alexander_II_%28cropped%29.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1855,
-      "end": 1881,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Alexander III": {
-      "name": "Alexander III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexander_III%2C_Emperor_of_Russia_%281845-94%29.png/440px-Alexander_III%2C_Emperor_of_Russia_%281845-94%29.png",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1881,
-      "end": 1894,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Nicholas II": {
-      "name": "Nicholas II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg/440px-%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg",
-      "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
-      "start": 1894,
-      "end": 1917,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
+    "Wilhelm II": {
+      "name": "Wilhelm II",
+      "image": "img/germany/wilhelm_ii.jpg",
+      "house": "Hohenzollern",
+      "houseImage": "img/houses/hohenzollern.png",
+      "start": 1888,
+      "end": 1918,
+      "endReason": "Abdicated, 59",
+      "religion": "Protestant",
+      "events": [
+        "Immediately dismissed chancelor Otto von Bismarck",
+        "Guaranteed support to Austria in 1914, leading to World War I",
+        "After defeat, lost the support of the army and the people"
+      ],
+      "wars": [
+        "World War I, 1914-1918"
+      ],
+      "relationships": [
+        "England, George V, Cousin, img/england/george_v.jpg",
+        "Russia, Nicholas II, Cousin, img/russia/nicholas_ii.jpg",
+        "Spain, Victoria Eugenia, Cousin, img/spain/victoria_eugenia.jpg"
+      ],
+      "border": "img/borders/germany/1918.jpg"
     }
   }
 }

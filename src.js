@@ -49,9 +49,9 @@ var gray = "#CECECE",
       "Orleans": "#F0BDFC"
     },
     "Holy Roman Empire": {
-      "Habsburg": "#FFA600",
+      "Habsburg": "#FF4D00",
       "Wittelsbach": "#D4C860",
-      "Habsburg-Lorraine": "#FF7C00",
+      "Habsburg-Lorraine": "#C80012",
       "Lorraine": "#FF4D00",
       "Carolingian": "#785701",
       "Widonid": gray,
@@ -65,7 +65,7 @@ var gray = "#CECECE",
       "Luxembourg": "#F4CF6E",
     },
     "Spain": {
-      "Habsburg": "#FFA600",
+      "Habsburg": "#FF4D00",
       "Bourbon": "#CD06FC",
       "Bonaparte": "#7E039C",
       "Franco": gray,
@@ -75,12 +75,12 @@ var gray = "#CECECE",
       "Savoy": "#E0E221"
     },
     "Russia": {
-      "Rurik": "#450006",
+      "Rurik": "#F4CF6E",
       "Godunov": gray,
       "Shuyskiy": gray,
       "Vasa": gray,
-      "Romanov": "#C80012",
-      "Holstein-Gottorp-Romanov": "#E40115"
+      "Romanov": "#E7CE1F",
+      "Holstein-Gottorp-Romanov": "#ffbd16"
     },
     "Denmark": {
       "Glucksburg": "#AFD1F5",
@@ -94,10 +94,10 @@ var gray = "#CECECE",
     },
     "Norway": {},
     "Austria": {
-      "Habsburg-Lorraine": "#FF7C00",
+      "Habsburg-Lorraine": "#C80012",
     },
     "Germany": {
-      "Hohenzollern": "#93933D"
+      "Hohenzollern": "#450006"
     }
   },
   dateColorsIcons = {
