@@ -221,9 +221,9 @@ function render(data) {
 
   // Title
   timeline.append("text")
-    .attr("x", width / 2)
-    .attr("y", margin.top * 10 / 9)
-    .attr("font-size", getFontSizeFromContainer("Monarchs", width, margin.top))
+    .attr("x", width * 2 / 5)
+    .attr("y", margin.top * 5 / 3)
+    .attr("font-size", getFontSizeFromContainer("Monarchs", width, margin.top * 4 / 3))
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
     .text("Monarchs")
@@ -231,9 +231,9 @@ function render(data) {
   // Subtitle
   var subtitleString = "1,000 years of European history";
   timeline.append("text")
-    .attr("x", width / 2)
-    .attr("y", margin.top * 10 / 9 + laneHeight)
-    .attr("font-size", getFontSizeFromContainer(subtitleString, width, laneHeight))
+    .attr("x", width * 2 / 5)
+    .attr("y", margin.top * 5 / 3 + laneHeight * 5 / 4)
+    .attr("font-size", getFontSizeFromContainer(subtitleString, width, laneHeight * 5 / 4))
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
     .text(subtitleString)
