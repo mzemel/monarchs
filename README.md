@@ -14,9 +14,9 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 
 - Data
   - Compile and enter all data
+  - Final pass using Encyclopedia Brittanica free trial
 - Timeline
   - Better colors
-  - Move heading into negative space from Germany (like in color mockup)
 - Details
   - Smaller picture filesize
   - Use epithets?
@@ -29,7 +29,7 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting
-  - Serve images out of CDN
+  - Serve images out of CDN?
 - Blog post
   - Make it wider
 
