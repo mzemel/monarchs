@@ -860,7 +860,7 @@
       "start": 1556,
       "end": 1598,
       "endReason": "Cancer, 71",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "King of England and Ireland through marriage to Mary Tudor",
         "Ruled during the Spanish Golden Age, the height of Spanish power",
@@ -886,7 +886,7 @@
       "start": 1598,
       "end": 1621,
       "endReason": "Unspecified, 42",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Expelled 300,000 Moriscos, Christiantized descendants of the Moors",
         "Famine, poor taxation, and debt led to the economic decline of Spain",
@@ -912,7 +912,7 @@
       "start": 1621,
       "end": 1665,
       "endReason": "Unspecified, 60",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Acknowledged independence of the Dutch Republic",
         "Lost Flanders and Northern Catalonia to the French",
@@ -936,7 +936,7 @@
       "start": 1665,
       "end": 1700,
       "endReason": "Illness, 38",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Sterile, lame, epileptic, senile, and always on the verge of death",
         "Heirless, named the French Bourbon Philip of Anjou as his successor",
@@ -957,8 +957,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1700,
       "end": 1724,
-      "endReason": "Abdicated, 41",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Named successor by Charles II, who favored French over Austrian claimants",
         "Succession war ended with treaty forbidding unification of France and Spain",
@@ -983,7 +983,7 @@
       "start": 1724,
       "end": 1724,
       "endReason": "Smallpox, 17",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Father Philip abdicated, possibly to press claim for French throne",
         "Died after only seven months as king"
@@ -1000,7 +1000,7 @@
       "start": 1724,
       "end": 1746,
       "endReason": "Unspecified, 62",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Came back to throne because younger son, Ferdinand, was not of age"
       ],
@@ -1023,7 +1023,7 @@
       "start": 1746,
       "end": 1759,
       "endReason": "Unspecified, 45",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Reformed taxation, which had heavily taxed Castile",
         "Fought with Portugal over the colony of Sacramento in Uruguay",
@@ -1045,7 +1045,7 @@
       "start": 1759,
       "end": 1788,
       "endReason": "Unspecified, 72",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Won throne of Sicily and Naples through war of Polish succession",
         "Succeeded to Spanish throne after death of older brother Ferdinand VI",
@@ -1070,8 +1070,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1788,
       "end": 1808,
-      "endReason": "Abdicated, 60",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Switched allegiances between France and Britain during Napoleonic Wars",
         "Grew deeply unpopular and son Ferdinand attempted a failed coup",
@@ -1092,8 +1092,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1808,
       "end": 1808,
-      "endReason": "Deposed, 24",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Ascended throne during popular revolt against father Charles IV",
         "Turned to Napoleon for support, who then imprisoned him in France"
@@ -1109,8 +1109,8 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1808,
       "end": 1813,
-      "endReason": "Abdicated, 45",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Older brother to Napoleon, who'd installed him as king of Naples and Sicily",
         "Unpopular in Spain as a foreigner, suppressor of religion, and Freemason",
@@ -1122,15 +1122,15 @@
       "relationships": [],
       "border": "img/borders/spain/1812.jpg"
     },
-    "Ferdinand VII (2nd)": {
-      "name": "Ferdinand VII (2nd)",
+    "Ferdinand VII ": {
+      "name": "Ferdinand VII ",
       "image": "img/spain/ferdinand_vii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1813,
       "end": 1833,
       "endReason": "Unspecified, 48",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Re-installed by Bonaparte through the Treaty of Valençay",
         "Napoleonic-era Congress of 1812 pressed for constitutional monarchy",
@@ -1149,8 +1149,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1833,
       "end": 1868,
-      "endReason": "Deposed, 38",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Inherited throne as infant; contested by Carlists who favored a male heir",
         "Deposed during Glorious Revolution in favor of Italian Amadeo I",
@@ -1174,8 +1174,8 @@
       "houseImage": "img/houses/savoy.png",
       "start": 1870,
       "end": 1873,
-      "endReason": "Abdicated, 28",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Installed by progressive military council, then contested by the Carlists",
         "After assassination attempt, abdicated in the face of no popular support",
@@ -1197,7 +1197,7 @@
       "start": 1874,
       "end": 1885,
       "endReason": "Tuberculosis, 27",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Returned from exile as King following a military coup against the Republic",
         "Defeated the Carlist pretender Charles V, ending the Carlist revolts",
@@ -1218,8 +1218,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1886,
       "end": 1931,
-      "endReason": "Abdicated, 45",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Born posthumously to Alfonso XII; regency held for 16 years by mother",
         "Lost colonial rule over Cuba, Puerto Rico, Guam, and the Philippines",
@@ -1243,7 +1243,7 @@
       "start": 1936,
       "end": 1975,
       "endReason": "Coma, 82",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Decorated military general in the years before the Second Republic",
         "Led the far-right forces to victory in the Spanish Civil War",
@@ -1265,8 +1265,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1975,
       "end": 2014,
-      "endReason": "Abdicated, 76",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Dismantled Francoist regime, creating a democracy and constitution",
         "Became popular after foiling a pro-Francoist coup, reconfirming democracy",
@@ -1286,7 +1286,7 @@
       "start": 2014,
       "end": 2019,
       "endReason": " ",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [],
       "wars": [],
       "relationships": [],
@@ -1302,7 +1302,7 @@
       "start": 751,
       "end": 768,
       "endReason": "Campaigning, 54",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Pushed out last Merovingian king to become first Carolingian monarch",
         "Donated Italian Lombardi land to the pope, establishing Papal States",
@@ -1324,7 +1324,7 @@
       "start": 768,
       "end": 771,
       "endReason": "Nosebleed, 20",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Competed with brother Charlemagne for control of Frankish lands"
       ],
@@ -1340,7 +1340,7 @@
       "start": 768,
       "end": 814,
       "endReason": "Pleurisy, 65",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Crowned Emperor of the Romans by Pope Leo III",
         "Conquered and Christianized the Saxons",
@@ -1364,7 +1364,7 @@
       "start": 814,
       "end": 840,
       "endReason": "Unspecified, 61",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Upon death, civil war broke out between his 3 sons",
         "France split into East, Middle, and West Francia in Treaty of Verdun"
@@ -1385,7 +1385,7 @@
       "start": 843,
       "end": 877,
       "endReason": "Illness, 54",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Lost Brittany to a Breton revolt",
         "Invaded by brother, Louis the German, but recovered",
@@ -1406,7 +1406,7 @@
       "start": 877,
       "end": 879,
       "endReason": "Unspecified, 32",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Declined the crown of Emperor of the Romans",
         "Died during march against invading Vikings",
@@ -1424,7 +1424,7 @@
       "start": 879,
       "end": 882,
       "endReason": "Injury, 18",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Received the northern part of his father's kingdom, Neustria"
       ],
@@ -1440,7 +1440,7 @@
       "start": 879,
       "end": 884,
       "endReason": "Hunting, 18",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Received the southern part of his father's kingdom, Burgundy & Aquitaine"
       ],
@@ -1456,7 +1456,7 @@
       "start": 884,
       "end": 888,
       "endReason": "Illness, 48",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Reunited Francia through inheritance from father, brother, and cousin",
         "Crowned Emperor of the Romans in 881",
@@ -1474,7 +1474,7 @@
       "start": 888,
       "end": 898,
       "endReason": "Unspecified, 41",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "As Count of Paris, defended it from the Vikings",
         "Elected King of Francia after deposition of Charles the Fat"
@@ -1490,8 +1490,8 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 898,
       "end": 922,
-      "endReason": "Deposed, 50",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Succeeded Odo with support of cousin Arnulf of East Francia",
         "Crowned king of Lotharia (middle Francia) in 911",
@@ -1509,7 +1509,7 @@
       "start": 922,
       "end": 923,
       "endReason": "Battle, 57",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Overthrew Charles III during revolt of the nobles",
         "Killed by returning Charles at the Battle of Soissons"
@@ -1526,7 +1526,7 @@
       "start": 923,
       "end": 936,
       "endReason": "Illness, 45",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Son-in-law of Robert I, who was killed overthrowing Charles III",
         "Made peace with Normans, granting them the Channel Islands"
@@ -1546,7 +1546,7 @@
       "start": 936,
       "end": 954,
       "endReason": "Injury, 33",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Given throne by Hugh the Great after death of Rudolph",
         "Captured (and released) by Hugh the Great in 945",
@@ -1569,7 +1569,7 @@
       "start": 954,
       "end": 986,
       "endReason": "Unspecified, 44",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Lost Aquitaine and Burgundy to Hugh the Great",
         "Attempted alliance with count of Anjou in south of Francia"
@@ -1592,7 +1592,7 @@
       "start": 986,
       "end": 987,
       "endReason": "Hunting, 20",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Last Carolingian King of Francia",
         "Carolingian influence was eclipsed by Robertian",
@@ -1610,7 +1610,7 @@
       "start": 987,
       "end": 996,
       "endReason": "Unspecified, 56",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Grandson of Robert I, first of the Capetian branch of Robertian dynasty",
         "Elected King over the claim of Charles, a disliked Carolingian"
@@ -1629,7 +1629,7 @@
       "start": 996,
       "end": 1031,
       "endReason": "Battle, 59",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Brought Burgundy back under Frankish control"
       ],
@@ -1649,7 +1649,7 @@
       "start": 1031,
       "end": 1060,
       "endReason": "Unspecified, 52",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Supported, then fought William the Conquerer",
         "Signed decree of friendship with Henry III, Holy Roman Emperor"
@@ -1671,7 +1671,7 @@
       "start": 1060,
       "end": 1108,
       "endReason": "Unspecified, 56",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Added the Vexin and Bourges to Frankish rule"
       ],
@@ -1691,7 +1691,7 @@
       "start": 1108,
       "end": 1137,
       "endReason": "Dysentary, 55",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Contested the Vexin with Henry I of England",
         "Rallied France against Anglo-German alliance",
@@ -1711,7 +1711,7 @@
       "start": 1137,
       "end": 1180,
       "endReason": "Illness, 59",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Marriage to Eleanor annulled, losing Aquitaine to England",
         "Supported Thomas Becket, Archbishop of Canterbury, against Henry II",
@@ -1732,7 +1732,7 @@
       "start": 1180,
       "end": 1223,
       "endReason": "Unspecified, 57",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "First to call himself King of France",
         "Participated in Third Crusade with Richard I of England",
@@ -1755,7 +1755,7 @@
       "start": 1223,
       "end": 1226,
       "endReason": "Dysentary, 39",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Proclaimed King of England by rebellious English barons",
         "Forbade officials from recording debts owed to Jews"
@@ -1776,7 +1776,7 @@
       "start": 1226,
       "end": 1270,
       "endReason": "Dysentary, 56",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Prevented English Henry III from reclaiming Angevin land",
         "Created provosts, bailiffs, and presumption of innocence",
@@ -1796,7 +1796,7 @@
       "start": 1270,
       "end": 1285,
       "endReason": "Dysentary, 40",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Annexed Toulouse to the French crown"
       ],
@@ -1816,7 +1816,7 @@
       "start": 1285,
       "end": 1314,
       "endReason": "Stroke, 46",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Crowned King of Navarre through marriage to Joan I",
         "Attempted to place relatives on thrones of Naples, Hungary, and Holy Roman Empire",
@@ -1838,7 +1838,7 @@
       "start": 1314,
       "end": 1316,
       "endReason": "Pneumonia, 26",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Allowed serfs to buy their freedom",
         "Re-admitted Jews to France"
@@ -1855,7 +1855,7 @@
       "start": 1316,
       "end": 1316,
       "endReason": "Unspecified, 5 days",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Died 5 days after birth, giving throne to uncle Philip V"
       ],
@@ -1863,15 +1863,15 @@
       "relationships": [],
       "border": "img/borders/france/1314.jpg"
     },
-    "Philip V and II": {
-      "name": "Philip V and II",
+    "Philip V": {
+      "name": "Philip V",
       "image": "img/france/philip_v.jpg",
       "house": "Capet",
       "houseImage": "img/houses/capet.png",
       "start": 1316,
       "end": 1322,
       "endReason": "Dysentary, 29",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Succession of Philip, over neice, set precedent for Salic law",
         "Created independent Court of Finances and single currency",
@@ -1881,15 +1881,15 @@
       "relationships": [],
       "border": "img/borders/france/1322.jpg"
     },
-    "Charles IV and I": {
-      "name": "Charles IV and I",
+    "Charles IV": {
+      "name": "Charles IV",
       "image": "img/france/charles_iv_and_i.jpg",
       "house": "Capet",
       "houseImage": "img/houses/capet.png",
       "start": 1322,
       "end": 1328,
       "endReason": "Unspecified, 33",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Captured some of the Aquitaine from vassal, Edward II of England",
         "Died without heir, with kingdom going to cousin, Philip of Valois"
@@ -1911,7 +1911,7 @@
       "start": 1328,
       "end": 1350,
       "endReason": "Unspecified, 56",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Started the Hundred Years' War over dispute with England over succession",
         "Added the Dauphiné to French holdings",
@@ -1933,7 +1933,7 @@
       "start": 1350,
       "end": 1364,
       "endReason": "Illness, 44",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Inherited Hundred Years' War; captured at Poitiers",
         "Created the franc to stablize French currency",
@@ -1955,7 +1955,7 @@
       "start": 1364,
       "end": 1380,
       "endReason": "Infection, 42",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "First heir apparent to use title of Dauphin",
         "Gave Aquitaine to English to pay for ransom of John II",
@@ -1975,7 +1975,7 @@
       "start": 1380,
       "end": 1422,
       "endReason": "Unspecified, 53",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Had frequent bouts of insanity during rule",
         "After murder of brother by cousin, civil war broke out",
@@ -1998,7 +1998,7 @@
       "start": 1422,
       "end": 1461,
       "endReason": "Infection, 58",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Disinherited by father in favor of Henry V of England",
         "Reclaimed Paris and northern France with help of Joan of Arc",
@@ -2019,7 +2019,7 @@
       "start": 1461,
       "end": 1483,
       "endReason": "Unspecified, 60",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Signed Treaty of Picquigny to end Hundred Years' War",
         "Lost Burgundy via marriage to Holy Roman Empire",
@@ -2041,7 +2041,7 @@
       "start": 1483,
       "end": 1498,
       "endReason": "Injury, 27",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Married Anne of Brittany to prevent encirclement by Holy Roman Empire",
         "Offered Naples by force from Pope Innocent VIII",
@@ -2065,7 +2065,7 @@
       "start": 1498,
       "end": 1515,
       "endReason": "Gout, 52",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "First of Valois-Orleans, receiving throne from second cousin",
         "Conquered Milan and Naples; ceded Naples to Spain",
@@ -2089,7 +2089,7 @@
       "start": 1515,
       "end": 1547,
       "endReason": "Unspecified, 52",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Married daughter of Louis XII to secure claim",
         "Initiated the French Renaissance from Italian influence",
@@ -2112,7 +2112,7 @@
       "start": 1547,
       "end": 1559,
       "endReason": "Jousting, 40",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Spent 4 years as Spanish hostage for father Francis",
         "Tried to suppress Protestants as Huguenot population rose",
@@ -2134,7 +2134,7 @@
       "start": 1559,
       "end": 1560,
       "endReason": "Ear condition, 16",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Advised by unpopular House of Lorraine during minority",
         "Forced to sign Treaty of Edinburgh: end of Scottish influence"
@@ -2156,7 +2156,7 @@
       "start": 1560,
       "end": 1574,
       "endReason": "Tuberculosis, 23",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Married sister to Protestant Henry IV to pacify Huguenots",
         "Allowed Huguenots to be massacred at the wedding",
@@ -2179,7 +2179,7 @@
       "start": 1574,
       "end": 1589,
       "endReason": "Assassinated, 37",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Elected King of Poland-Lithuania; later resigned",
         "Fought Catholic League (Spain/Pope) and Huguenots (England/Dutch)",
@@ -2224,7 +2224,7 @@
       "start": 1610,
       "end": 1643,
       "endReason": "Tuberculosis, 41",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Merged Navarre with the French crown",
         "Monopolized force by outlawing private arms and armies",
@@ -2244,7 +2244,7 @@
       "start": 1643,
       "end": 1715,
       "endReason": "Gangrene, 76",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Eliminated remnants of feudalism, centralizing power",
         "Revoked Edict of Nantes, causing Protestants to emigrate",
@@ -2268,7 +2268,7 @@
       "start": 1715,
       "end": 1774,
       "endReason": "Smallpox, 64",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Ceded New France to Britain after Seven Years' War",
         "Incorporated Lorraine and Corsican Republic",
@@ -2290,7 +2290,7 @@
       "start": 1774,
       "end": 1792,
       "endReason": "Executed, 38",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Attempted to impose Englightenment ideas, e.g abolition of serfdom",
         "Supported American Revolution against Great Britain",
@@ -2313,7 +2313,7 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1804,
       "end": 1814,
-      "endReason": "Deposed, 45",
+      "endReason": "Deposed",
       "religion": "Deist",
       "events": [
         "From general at 24, become Emperor of the French",
@@ -2338,8 +2338,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1814,
       "end": 1815,
-      "endReason": "Deposed, 59",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Spent 23 years in exile until crowned during Bourbon Restoration",
         "Burned constitution of Napoleon's senate",
@@ -2351,14 +2351,14 @@
       ],
       "border": "img/borders/france/1815.jpg"
     },
-    "Napoleon I (2nd)": {
-      "name": "Napoleon I (2nd)",
+    "Napoleon I ": {
+      "name": "Napoleon I ",
       "image": "img/france/napoleon_i.jpg",
       "house": "Bonaparte",
       "houseImage": "img/houses/bonaparte.png",
       "start": 1815,
       "end": 1815,
-      "endReason": "Deposed, 46",
+      "endReason": "Deposed",
       "religion": "Deist",
       "events": [
         "Returned from Elba, leading an army against Louis XVIII",
@@ -2372,15 +2372,15 @@
       ],
       "border": "img/borders/france/1815.jpg"
     },
-    "Louis XVIII (2nd)": {
-      "name": "Louis XVIII (2nd)",
+    "Louis XVIII ": {
+      "name": "Louis XVIII ",
       "image": "img/france/louis_xviii.jpg",
       "house": "Bourbon",
       "houseImage": "img/houses/bourbon.png",
       "start": 1815,
       "end": 1824,
       "endReason": "Gout, 68",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Appointed Talleyrand as the first Prime Minister",
         "Inherited massive debt from Napoleonic Wars",
@@ -2399,8 +2399,8 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1824,
       "end": 1830,
-      "endReason": "Deposed, 73",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Led ultra-royalists, affirming divine right over civil liberties",
         "Reimposed capital punishment for sacrilege",
@@ -2421,8 +2421,8 @@
       "houseImage": "img/houses/orleans.png",
       "start": 1830,
       "end": 1848,
-      "endReason": "Deposed, 73",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Support of bourgeoisie led to economic crisis",
         "Abdicated during Revolutions of 1848"
@@ -2440,8 +2440,8 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1852,
       "end": 1870,
-      "endReason": "Deposed, 62",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Elected President of Second Republic after Revolution of 1848",
         "Declared himself emperor of Second French Empire",
@@ -3155,7 +3155,7 @@
       "start": 1066,
       "end": 1087,
       "endReason": "Illness, 59",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Led the Norman invasion of England",
         "Defeated Harold Godwinson at Battle of Hastings",
@@ -3180,7 +3180,7 @@
       "start": 1087,
       "end": 1100,
       "endReason": "Hunting accident, 44",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Exiled the Archbishop of Canterbury, Anselm",
         "Defeated and killed Malcolm III of Scotland"
@@ -3203,7 +3203,7 @@
       "start": 1100,
       "end": 1135,
       "endReason": "Illness, 66",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Imprisoned his brother Robert, Duke of Normandy",
         "Brought Normandy back into the English crown",
@@ -3227,7 +3227,7 @@
       "start": 1135,
       "end": 1154,
       "endReason": "Illness, 57",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Captured at Battle of Lincoln by aunt Matilda",
         "Ended The Anarchy by naming cousin Henry II as heir"
@@ -3250,7 +3250,7 @@
       "start": 1154,
       "end": 1189,
       "endReason": "Ulcer, 56",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Executed Archbishop of Canterbury, Thomas Becket",
         "Consolidated Brittany, Toulouse, and Vexin",
@@ -3275,7 +3275,7 @@
       "start": 1189,
       "end": 1199,
       "endReason": "Assassinated, 41",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Led the 3rd Crusade",
         "Captured by the Duke of Austria",
@@ -3298,7 +3298,7 @@
       "start": 1199,
       "end": 1216,
       "endReason": "Dysentary, 49",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Lost Normandy to Philip II of France",
         "Signed the Magna Carta"
@@ -3322,7 +3322,7 @@
       "start": 1216,
       "end": 1272,
       "endReason": "Illness, 65",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Great Charter of 1225 protected the rights of barons",
         "Statute of Jewry segregated England's Jews",
@@ -3347,7 +3347,7 @@
       "start": 1272,
       "end": 1307,
       "endReason": "Dysentary, 68",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Expelled all Jews from England",
         "Lost and regained Duchy of Aquitaine",
@@ -3370,8 +3370,8 @@
       "houseImage": "img/houses/plantagenet.png",
       "start": 1307,
       "end": 1327,
-      "endReason": "Unclear, 43",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 43",
+      "religion": "Roman Catholic",
       "events": [
         "Ordinances of 1311 restricted the power of the king",
         "Defeated by Robert the Bruce at Battle of Bannockburn",
@@ -3395,7 +3395,7 @@
       "start": 1327,
       "end": 1377,
       "endReason": "Stroke, 64",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Black Death, 1347-1351, wiped out 1/3 of England",
         "Parliament develops the process of impeachment",
@@ -3418,7 +3418,7 @@
       "start": 1377,
       "end": 1399,
       "endReason": "Starvation, 33",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Government taken over by Lords Appellant in 1387",
         "Deposed by his cousin, Henry of Bolingbroke"
@@ -3441,7 +3441,7 @@
       "start": 1399,
       "end": 1413,
       "endReason": "Disease, 45",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Son of Earl of Lancaster, richest landowner in England",
         "Foiled early assassination plot, Epiphany Rising",
@@ -3465,7 +3465,7 @@
       "start": 1413,
       "end": 1422,
       "endReason": "Dysentary, 35",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Reconquered Normandy since being lost by Edward III",
         "Treaty of Troyes made him heir apparent to French throne"
@@ -3485,8 +3485,8 @@
       "houseImage": "img/houses/lancaster.png",
       "start": 1422,
       "end": 1461,
-      "endReason": "Unclear, 49",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 49",
+      "religion": "Roman Catholic",
       "events": [
         "Disputed King of France from 1422-1453",
         "Lost all French territories except Calais",
@@ -3509,7 +3509,7 @@
       "start": 1461,
       "end": 1470,
       "endReason": "Illness, 40",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Fled England after the confrontation at Ludford Bridge",
         "Became the first Yorkist king of England",
@@ -3523,15 +3523,15 @@
       ],
       "border": "img/borders/england/1461.jpg"
     },
-    "Henry VI (2nd)": {
-      "name": "Henry VI (2nd)",
+    "Henry VI ": {
+      "name": "Henry VI ",
       "image": "img/england/henry_vi.jpg",
       "house": "Lancaster",
       "houseImage": "img/houses/lancaster.png",
       "start": 1470,
       "end": 1471,
-      "endReason": "Unclear, 49",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 49",
+      "religion": "Roman Catholic",
       "events": [
         "Restored to the throne from the Tower of London for a year",
         "Likely killed by Edward IV on his return to power"
@@ -3544,15 +3544,15 @@
       ],
       "border": "img/borders/england/1471.jpg"
     },
-    "Edward IV (2nd)": {
-      "name": "Edward IV (2nd)",
+    "Edward IV ": {
+      "name": "Edward IV ",
       "image": "img/england/edward_iv.jpg",
       "house": "York",
       "houseImage": "img/houses/york.png",
       "start": 1471,
       "end": 1483,
       "endReason": "Illness, 40",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Killed the Lancaster heir at Battle of Tewksbury"
       ],
@@ -3573,7 +3573,7 @@
       "start": 1483,
       "end": 1483,
       "endReason": "Disappeared, 12",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Heir to House of York",
         "Likely killed by uncle Richard III"
@@ -3592,7 +3592,7 @@
       "start": 1483,
       "end": 1485,
       "endReason": "Battle, 32",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Defeated by Henry Tudor at Battle of Bosworth Field",
         "His defeat ended the War of the Roses"
@@ -3612,7 +3612,7 @@
       "start": 1485,
       "end": 1509,
       "endReason": "Tuberculosis, 52",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Built up England's navy and constructed drydocks",
         "Appointed Justices of the Peace to every shire",
@@ -3697,7 +3697,7 @@
       "start": 1553,
       "end": 1558,
       "endReason": "Ovarian cancer, 42",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Known as  Bloody Mary  for Protestant persections",
         "Marraige Act established herself as first queen regant"
@@ -3734,8 +3734,8 @@
       "relationships": [],
       "border": "img/borders/england/1602.jpg"
     },
-    "James VI and I": {
-      "name": "James VI and I",
+    "James I": {
+      "name": "James I",
       "image": "img/england/james_vi_and_i.png",
       "house": "Stuart",
       "houseImage": "img/houses/stuart.png",
@@ -3783,7 +3783,7 @@
       "start": 1660,
       "end": 1685,
       "endReason": "Uraemia, 54",
-      "religion": "Protestant, then Catholic",
+      "religion": "Anglican, then Catholic",
       "events": [
         "Creation of Whig and Tory parties",
         "Dissolved English Parliament",
@@ -3799,15 +3799,15 @@
       ],
       "border": "img/borders/england/1625.jpg"
     },
-    "James II & VII": {
-      "name": "James II & VII",
+    "James II": {
+      "name": "James II",
       "image": "img/england/james_ii_and_vii.jpg",
       "house": "Stuart",
       "houseImage": "img/houses/stuart.png",
       "start": 1685,
       "end": 1688,
-      "endReason": "Deposed, 53",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Anglican, then Catholic",
       "events": [
         "Prosecuted the Seven Bishops for seditious libel",
         "Overthrown by William of Orange in the Glorious Revolution"
@@ -3818,15 +3818,15 @@
       ],
       "border": "img/borders/england/1625.jpg"
     },
-    "William III & II": {
-      "name": "William III & II",
+    "William III": {
+      "name": "William III",
       "image": "img/england/william_iii_and_ii.jpg",
       "house": "Orange-Nassau",
       "houseImage": "img/houses/orange_nassau.png",
       "start": 1688,
       "end": 1702,
       "endReason": "Pneumonia, 51",
-      "religion": "Protestant",
+      "religion": "Calvinist",
       "events": [
         "Signed Bill of Rights in exchange for crown",
         "Jacobites try to return house Stuart to throne",
@@ -3849,7 +3849,7 @@
       "start": 1702,
       "end": 1714,
       "endReason": "Poor health, 49",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Scotland and England become Great Britain",
         "Exclusion Act forbade Catholic monarchs"
@@ -3870,7 +3870,7 @@
       "start": 1714,
       "end": 1727,
       "endReason": "Stroke, 67",
-      "religion": "Protestant",
+      "religion": "Lutheran",
       "events": [
         "South Sea Bubble (economic crisis)",
         "First Prime Minister (Robert Walpole)"
@@ -3892,7 +3892,7 @@
       "start": 1727,
       "end": 1760,
       "endReason": "Heart failure, 77",
-      "religion": "Protestant",
+      "religion": "Lutheran",
       "events": [
         "Last monarch to lead an army in battle",
         "Last of the Jacobite rebellions"
@@ -3916,7 +3916,7 @@
       "start": 1760,
       "end": 1820,
       "endReason": "Dementia, 81",
-      "religion": "Protestant",
+      "religion": "Lutheran",
       "events": [
         "Lost American colonies during American Revolution",
         "Ireland joins Great Britain as United Kingdom"
@@ -3938,7 +3938,7 @@
       "start": 1820,
       "end": 1830,
       "endReason": "Obesity, 67",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Catholic Emancipation removed restrictions on Catholics"
       ],
@@ -3956,7 +3956,7 @@
       "start": 1830,
       "end": 1837,
       "endReason": "Old age, 71",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Slavery and child labor abolished",
         "Reform Act 1832 increased size of the electorate",
@@ -3977,7 +3977,7 @@
       "start": 1837,
       "end": 1901,
       "endReason": "Old age, 81",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Reform Act 1867 gave voting rights to working men",
         "Indian Rebellion causes British East India Company to dissolve"
@@ -4001,7 +4001,7 @@
       "start": 1901,
       "end": 1910,
       "endReason": "Heart attack, 68",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Parliament Act reduced the power of House of Lords",
         "Edwardian Era saw the steam turbine and rise of socialism"
@@ -4024,7 +4024,7 @@
       "start": 1910,
       "end": 1936,
       "endReason": "Cold, 70",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Irish Home Rule",
         "Renamed house to Windsor among anti-German sentiment",
@@ -4047,7 +4047,7 @@
       "start": 1936,
       "end": 1936,
       "endReason": "Abdication, 42",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Abdicated to marry actress and avoid constitutional crisis"
       ],
@@ -4063,7 +4063,7 @@
       "start": 1936,
       "end": 1952,
       "endReason": "Heart failure, 56",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [
         "Breakup of British Empire towards Commonwealth of Nations",
         "India and Pakistan became indepdendent"
@@ -4082,7 +4082,7 @@
       "start": 1952,
       "end": 2019,
       "endReason": "",
-      "religion": "Protestant",
+      "religion": "Anglican",
       "events": [],
       "wars": [],
       "relationships": [],
@@ -4098,7 +4098,7 @@
       "start": 1058,
       "end": 1093,
       "endReason": "Battle, 62",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Killed Lulach, who'd killed Macbeth, to become King of Scots",
         "Attempted a conquest of English Northumbria",
@@ -4119,8 +4119,8 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1093,
       "end": 1094,
-      "endReason": "Deposed, 62",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Immediately overthrown by invading nephew, Duncan II"
       ],
@@ -4136,7 +4136,7 @@
       "start": 1094,
       "end": 1094,
       "endReason": "Battle, 34",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Stationed Anglo-Norman troops, making him unpopular",
         "Killed immediately by an associate of deposed Donald III"
@@ -4155,7 +4155,7 @@
       "start": 1094,
       "end": 1097,
       "endReason": "Imprisoned, 67",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Imprisoned by nephew Edgar with support of William II of England"
       ],
@@ -4171,7 +4171,7 @@
       "start": 1097,
       "end": 1107,
       "endReason": "Unspecified, 43",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Supported Northumbrian revolt against William II of England",
         "Ceded claim to the Hebrides to Magnus Barefoot of Norway"
@@ -4190,7 +4190,7 @@
       "start": 1107,
       "end": 1124,
       "endReason": "Unspecified, 45",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Continually clashed with the Mormaer (province) of Moray"
       ],
@@ -4208,7 +4208,7 @@
       "start": 1124,
       "end": 1153,
       "endReason": "Unspecified, 68",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Annexed the Mormaer of Moray to the Scottish crown",
         "Introduced Gregorian Reforms, feudalism, and new 'burghs'",
@@ -4230,7 +4230,7 @@
       "start": 1153,
       "end": 1165,
       "endReason": "Paget's disease, 24",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Forced to give Northumbria and Cumbria back to Henry II",
         "Knighted by Henry II as the Earl of Huntingdon"
@@ -4247,7 +4247,7 @@
       "start": 1165,
       "end": 1214,
       "endReason": "Unspecified, 72",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Signed Treaty of Falaise, losing the independence of Scotland",
         "Later bought back Scotland's independence from Richard I"
@@ -4266,7 +4266,7 @@
       "start": 1214,
       "end": 1249,
       "endReason": "Fever, 50",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Supported the barons and Louis VIII against England",
         "Established Anglo-Scottish border through the Treaty of York",
@@ -4288,7 +4288,7 @@
       "start": 1249,
       "end": 1286,
       "endReason": "Injury, 44",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Gained Isle of Man and Hebrides from Norway"
       ],
@@ -4308,7 +4308,7 @@
       "start": 1286,
       "end": 1290,
       "endReason": "Illness, 7",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Only surviving descendant of grandfather, Alexander III",
         "Sailed from Norway to take crown, but died en route",
@@ -4327,8 +4327,8 @@
       "houseImage": "img/houses/balliol.png",
       "start": 1292,
       "end": 1296,
-      "endReason": "Abdicated, 47",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Selected among competitors during Great Cause",
         "Deposed by Scottish nobility who'd signed a treaty with France",
@@ -4347,8 +4347,8 @@
       "houseImage": "img/houses/bruce.png",
       "start": 1306,
       "end": 1329,
-      "endReason": "Unclear, 55",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 55",
+      "religion": "Roman Catholic",
       "events": [
         "Claimed throne while under rule of Edward I of England",
         "Defeated the English at the Battle of Bannockburn",
@@ -4369,8 +4369,8 @@
       "houseImage": "img/houses/bruce.png",
       "start": 1329,
       "end": 1371,
-      "endReason": "Unknown, 46",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 46",
+      "religion": "Roman Catholic",
       "events": [
         "Sent to France for safety after losing the Battle of Halidon Hill",
         "Captured by the English and held for 11 years",
@@ -4391,8 +4391,8 @@
       "houseImage": "img/houses/stuart.png",
       "start": 1371,
       "end": 1390,
-      "endReason": "Unknown, 74",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 74",
+      "religion": "Roman Catholic",
       "events": [
         "Defeated the return of Edward Balliol and the English",
         "Included Scotland in the Anglo-French truce of 1384"
@@ -4408,8 +4408,8 @@
       "houseImage": "img/houses/stuart.png",
       "start": 1390,
       "end": 1406,
-      "endReason": "Unknown, 68",
-      "religion": "Catholic",
+      "endReason": "Unspecified, 68",
+      "religion": "Roman Catholic",
       "events": [
         "Albany Stewart, his brother, had effective control over kingdom",
         "Son David captured and killed by Albany",
@@ -4427,7 +4427,7 @@
       "start": 1406,
       "end": 1437,
       "endReason": "Assassinated, 42",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "While a captive of Henry IV, raised in the English court",
         "Arrested the Lord of the Isles and the Douglas clan leaders",
@@ -4447,7 +4447,7 @@
       "start": 1437,
       "end": 1460,
       "endReason": "Battle, 29",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Murdered Earl of Douglas for consipiring with Lord of the Isles",
         "Killed by friendly fire during the seige of an English castle"
@@ -4468,7 +4468,7 @@
       "start": 1460,
       "end": 1488,
       "endReason": "Battle, 36",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Received Orkney and Shetland Islands as dowry from Norway",
         "Imprisoned by Edward IV in Edinburgh Castle",
@@ -4488,7 +4488,7 @@
       "start": 1488,
       "end": 1513,
       "endReason": "Battle, 40",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Defeated his father, James III, at the Battle of Sauchieburn",
         "Signed the Treaty of Perpetual Peace with Henry VII",
@@ -4511,7 +4511,7 @@
       "start": 1513,
       "end": 1542,
       "endReason": "Illness, 30",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Imprisoned by his stepfather Archibald Douglas for 3 years",
         "Persecuted Protestants during the Scottish Reformation",
@@ -4535,7 +4535,7 @@
       "start": 1542,
       "end": 1567,
       "endReason": "Beheaded, 44",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Arriving from France, imprisoned by Protestants and deposed",
         "Believed by English Catholics to be the legitimate heir to Mary I",
@@ -4557,7 +4557,7 @@
       "houseImage": "img/houses/stuart.png",
       "start": 1567,
       "end": 1603,
-      "endReason": "Dysentary, 58",
+      "endReason": "Union with England",
       "religion": "Protestant",
       "events": [
         "Taken from Mary, Queen of Scots and raised as a Protestant",
@@ -5044,7 +5044,7 @@
       "start": 962,
       "end": 973,
       "endReason": "Illness, 60",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Ended the Hungarian invasions of Western Europe",
         "Conquered Northern Italy",
@@ -5067,7 +5067,7 @@
       "start": 967,
       "end": 983,
       "endReason": "Malaria, 28",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Subjugated and christianized the Danes",
         "Attempted and failed to take Italy from the Muslims"
@@ -5088,7 +5088,7 @@
       "start": 996,
       "end": 1002,
       "endReason": "Illness, 21",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Lost territories east of the Elbe to Slavs",
         "Died without heir, causing Italy to break away"
@@ -5104,7 +5104,7 @@
       "start": 1014,
       "end": 1024,
       "endReason": "Illness, 51",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Crowned King of Germany following death of Otto III",
         "Added Bohemia to the empire",
@@ -5124,7 +5124,7 @@
       "start": 1027,
       "end": 1039,
       "endReason": "Gout, 49",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Claimed the vacant Dukedom of Bavaria",
         "Incorporated the heirless Kingdom of Burgundy"
@@ -5140,7 +5140,7 @@
       "start": 1046,
       "end": 1056,
       "endReason": "Illness, 39",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Given Bavaria, Swabia, and Burgundy from father Conrad II",
         "Trial of Italian bishop precipitated Investiture Controversy",
@@ -5159,8 +5159,8 @@
       "houseImage": "",
       "start": 1056,
       "end": 1106,
-      "endReason": "Abdication, 55",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Attempted to appoint bishops instead of the papacy",
         "Excommunicated 5 times during Investiture Controversy",
@@ -5183,7 +5183,7 @@
       "start": 1111,
       "end": 1125,
       "endReason": "Cancer, 39",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Captured Pope Paschal II",
         "Settled Investiture Controversy in Concordat of Worms"
@@ -5201,7 +5201,7 @@
       "start": 1133,
       "end": 1137,
       "endReason": "Unspecified, 62",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Appointed Duke of Saxony for supporting Henry V against father",
         "First elected Emperor without hereditary claim",
@@ -5220,7 +5220,7 @@
       "start": 1155,
       "end": 1190,
       "endReason": "Drowned, 67",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Created feudal court via Landfrieden of 1152",
         "Defeated at Alessandria by pro-papal Lombard League",
@@ -5243,7 +5243,7 @@
       "start": 1191,
       "end": 1197,
       "endReason": "Illness, 31",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Captured and ransomed Richard the Lionheart of England",
         "Captured and added Sicily to the Empire",
@@ -5263,8 +5263,8 @@
       "houseImage": "img/houses/welf.png",
       "start": 1209,
       "end": 1215,
-      "endReason": "Abdication, 40",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Son of anti-king Henry the Lion",
         "Excommunicated by Pope Innocent III",
@@ -5285,7 +5285,7 @@
       "start": 1220,
       "end": 1250,
       "endReason": "Dysentary, 55",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Appointed king of Sicily and Jerusalem through marriage",
         "Outlawed the practice of Trial by Ordeal",
@@ -5309,7 +5309,7 @@
       "start": 1312,
       "end": 1313,
       "endReason": "Malaria, 39",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Elected over French Charles of Valois as King of the Romans",
         "Swung support amongst Italians to pro-Empire Ghibelline faction",
@@ -5330,7 +5330,7 @@
       "start": 1328,
       "end": 1347,
       "endReason": "Stroke, 65",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Elected over Habsburg cousin with support of Luxembourgs",
         "Gave Teutonic Knights permission to invade Lithuania and Russia",
@@ -5352,7 +5352,7 @@
       "start": 1355,
       "end": 1378,
       "endReason": "Unspecified, 62",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Crowned King of the Romans during the reign of Louis IV",
         "Established Imperial succession in Golden Bull of 1356",
@@ -5373,7 +5373,7 @@
       "start": 1433,
       "end": 1437,
       "endReason": "Unspecified, 69",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Founded the Order of the Dragon to fight the Turks",
         "Ended Papal Schism through the Council of Constance",
@@ -5395,7 +5395,7 @@
       "start": 1452,
       "end": 1493,
       "endReason": "Amputation, 77",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Last Emperor to be crowned in Rome",
         "Consolidated ancestral Habsburg land of Austria and Hungary"
@@ -5413,7 +5413,7 @@
       "start": 1508,
       "end": 1519,
       "endReason": "Unspecified, 59",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Proclaimed Emperor-elect at Trent",
         "Lost Swiss territories to Swiss Confederacy",
@@ -5435,8 +5435,8 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1519,
       "end": 1556,
-      "endReason": "Abdication, 56",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Financed conquistadores for Incan and Aztec expeditions",
         "Organized Diet of Worms to halt the Protestant Reformation",
@@ -5460,7 +5460,7 @@
       "start": 1556,
       "end": 1564,
       "endReason": "Unspecified, 61",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Consolidated grasp over Hungary",
         "Led Counter-Reformation, the Catholic response to Protestantism"
@@ -5479,7 +5479,7 @@
       "start": 1564,
       "end": 1576,
       "endReason": "Unspecified, 49",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Established temporary peace with Protestants during the Confessionalization",
         "Failed to evict Ottoman Turks from Hungary"
@@ -5499,8 +5499,8 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1576,
       "end": 1612,
-      "endReason": "Deposed, 59",
-      "religion": "Catholic",
+      "endReason": "Deposed",
+      "religion": "Roman Catholic",
       "events": [
         "Ineffectual ruler whose mistakes led to the Thirty Years' War",
         "Influential patron of Northern Mannerist art",
@@ -5519,7 +5519,7 @@
       "start": 1612,
       "end": 1619,
       "endReason": "Unspecified, 62",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Gave freedom of religion to the Dutch in Union of Utrecht",
         "Imprisoned and stripped brother Rudolf II of all titles and land",
@@ -5536,7 +5536,7 @@
       "start": 1619,
       "end": 1637,
       "endReason": "Unspecified, 58",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "A zealous Catholic, led the Thirty Years' War against Protestants",
         "Put down Bohemian revolt led by Protestant Emperor Frederick V",
@@ -5557,7 +5557,7 @@
       "start": 1637,
       "end": 1657,
       "endReason": "Unspecified, 48",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Appointed head of the Imperial army during Thirty Years' War",
         "Made peace with Protestant league in 1648 with Peace of Westphalia"
@@ -5579,7 +5579,7 @@
       "start": 1658,
       "end": 1705,
       "endReason": "Unspecified, 64",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Received all of Kingdom of Hungary from Turks",
         "Challenged the will of Spanish Charles II leaving Spain to France"
@@ -5603,7 +5603,7 @@
       "start": 1705,
       "end": 1711,
       "endReason": "Smallpox, 32",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Re-established Austrian hegemony over Italy"
       ],
@@ -5622,7 +5622,7 @@
       "start": 1711,
       "end": 1740,
       "endReason": "Food poisoning, 55",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Issued Pragmatic Sanction of 1713 establishing daughter Maria Theresa heiress",
         "Ceded overseas trading company in exchange for foreign recognition",
@@ -5641,7 +5641,7 @@
       "start": 1742,
       "end": 1745,
       "endReason": "Gout, 47",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Elected Holy Roman Emperor over Maria Theresa through Salic Law",
         "Overrun by Austrian Habsburg-Lorraine troops and fled to Frankfurt",
@@ -5662,7 +5662,7 @@
       "start": 1745,
       "end": 1765,
       "endReason": "Unspecified, 56",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Won the War of Austrian Succession with Habsburg wife Maria Theresa",
         "Pursued business while wife managed the affairs of the Empire"
@@ -5683,7 +5683,7 @@
       "start": 1765,
       "end": 1790,
       "endReason": "Unspecified, 48",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Valuing the Enlightenment, unsuccessfully attempted reforms",
         "Passed 1783 Edict of Tolerance giving some freedom of religion",
@@ -5703,7 +5703,7 @@
       "start": 1790,
       "end": 1792,
       "endReason": "Unspecified, 44",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Publicly vowed to intervene in French Revolution in 1791",
         "Contested for power over Hungary with King of Prussia",
@@ -5723,8 +5723,8 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1792,
       "end": 1806,
-      "endReason": "Monarchy abolished, 42",
-      "religion": "Catholic",
+      "endReason": "Empire dissolved",
+      "religion": "Roman Catholic",
       "events": [
         "Defeated by Napoleon at the Battle of Austerlitz",
         "Founded the Austrian Empire, becoming its first Emperor",
@@ -5750,7 +5750,7 @@
       "start": 1804,
       "end": 1835,
       "endReason": "Fever, 67",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Dissolved the Holy Roman Empire after defeat at Austerlitz",
         "Founded the Austrian Empire from the Habsburg Monarchy",
@@ -5770,8 +5770,8 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1835,
       "end": 1848,
-      "endReason": "Abdication, 55",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Suffered from seizures, hydrocephaly, and speech impediment",
         "Considered unfit, not allowed to rule independently",
@@ -5791,7 +5791,7 @@
       "start": 1848,
       "end": 1916,
       "endReason": "Pneumonia, 86",
-      "religion": "Catholic",
+      "religion": "Roman Catholic",
       "events": [
         "Lost claim to Tuscany and Northern Italy",
         "Lost the leadership of pan-Germany (German Question) to Prussia",
@@ -5813,8 +5813,8 @@
       "houseImage": "img/houses/habsburg.png",
       "start": 1916,
       "end": 1918,
-      "endReason": "Abdication, 30",
-      "religion": "Catholic",
+      "endReason": "Abdicated",
+      "religion": "Roman Catholic",
       "events": [
         "Abdicated immediately after the armistice of World War I",
         "Banished by the Austrian Parliament passing the Habsburg Law",
@@ -5836,7 +5836,7 @@
       "start": 1701,
       "end": 1713,
       "endReason": "Unspecified, 55",
-      "religion": "Protestant",
+      "religion": "Calvinist",
       "events": [
         "Elevated Prussia to a kingdom through the Crown Treaty of 1700",
         "In exchange, sent 8,000 men into War of Spanish Succession",
@@ -5860,7 +5860,7 @@
       "start": 1713,
       "end": 1740,
       "endReason": "Unspecified, 51",
-      "religion": "Protestant",
+      "religion": "Calvinist",
       "events": [
         "Invited Protestant refugees to settled depopulated East Prussia",
         "Invented the Canton System for better military conscription",
@@ -5883,7 +5883,7 @@
       "start": 1740,
       "end": 1786,
       "endReason": "Unspecified, 74",
-      "religion": "Protestant",
+      "religion": "Calvinist",
       "events": [
         "Declared himself King of Prussia",
         "Gained Polish and Silesian territories from Austria",
@@ -5904,7 +5904,7 @@
       "start": 1786,
       "end": 1797,
       "endReason": "Unspecified, 53",
-      "religion": "Protestant",
+      "religion": "Calvinist",
       "events": [
         "Left Prussia near bankrupt due to his opulent lfiestyle",
         "Acquired more Prussian land with third partition of Poland"
@@ -5927,7 +5927,7 @@
       "start": 1797,
       "end": 1840,
       "endReason": "Fever, 69",
-      "religion": "Protestant",
+      "religion": "Calvinist, then Lutheran",
       "events": [
         "His army defeated by Napoleon, he fled to the court of Russia",
         "During the Congress of Vienna, secured territorial increases",
@@ -5950,7 +5950,7 @@
       "start": 1840,
       "end": 1861,
       "endReason": "Stroke, 65",
-      "religion": "Protestant",
+      "religion": "Lutheran",
       "events": [
         "A Romantic and conservative, opposed liberalism and socialism",
         "Falsely promised a constitution during the Revolutions of 1848",
@@ -5970,7 +5970,7 @@
       "start": 1861,
       "end": 1888,
       "endReason": "Illness, 90",
-      "religion": "Protestant",
+      "religion": "Lutheran",
       "events": [
         "Settled German Question, taking leadership of pan-Germany",
         "Founded the North German Confederation, then German Empire",
@@ -5992,7 +5992,7 @@
       "start": 1888,
       "end": 1888,
       "endReason": "Cancer, 56",
-      "religion": "Protestant",
+      "religion": "Lutheran",
       "events": [
         "Attempted to reform government and remove office of Chancellor",
         "Inherited throne with terminal cancer, dying after only 9 months",
@@ -6012,8 +6012,8 @@
       "houseImage": "img/houses/hohenzollern.png",
       "start": 1888,
       "end": 1918,
-      "endReason": "Abdicated, 59",
-      "religion": "Protestant",
+      "endReason": "Abdicated",
+      "religion": "Lutheran",
       "events": [
         "Immediately dismissed chancelor Otto von Bismarck",
         "Guaranteed support to Austria in 1914, leading to World War I",
