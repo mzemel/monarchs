@@ -4640,7 +4640,7 @@
       "relationships": [
         "Poland, Casimir I, Brother-in-law, img/poland/casimir_i.png",
         "France, Henry I, Son-in-law, img/france/henry_i.jpg",
-        "England, Edgar the Ætheling, Grandson, img/england/edgar_aetheling.jpg"
+        "England, Edgar the Ætheling, Grandson, img/england/edgar_aethling.jpg"
       ]
     },
     "Iziaslav I": {
@@ -4682,367 +4682,545 @@
     },
     "Vsevolod I": {
       "name": "Vsevolod I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vsevolod_yaroslavich.jpg/440px-Vsevolod_yaroslavich.jpg",
+      "image": "img/russia/vsevolod.jpg",
       "house": "Rurik",
       "houseImage": "img/houses/rurik.png",
       "start": 1078,
       "end": 1093,
-      "endReason": "",
+      "endReason": "Illness, 63",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "United the core principalities of Kiev, Chernigov, and Pereyaslav"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Byzantine, Constantine IX, Brother-in-law, img/byzantine/constantine_ix.jpg",
+        "Holy Roman Empire, Henry IV, Son-in-law, img/hre/henry_iv.jpg"
+      ]
     },
     "Sviatopolk II": {
       "name": "Sviatopolk II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Congress_in_Dolobsk_1103.jpg/440px-Congress_in_Dolobsk_1103.jpg",
+      "image": "img/russia/sviatopolk_ii.jpg",
       "house": "Rurik",
       "houseImage": "img/houses/rurik.png",
       "start": 1093,
       "end": 1113,
-      "endReason": "",
+      "endReason": "Unspecified, 62",
       "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Engaged in campaigns against the Kypchaks but defeated in 1093",
+        "Attemped compact with Chernigov by inviting Cuman raiders",
+        "Embellished the golden-roofed St. Michael's Abbey in Kiev"
+      ],
+      "wars": [
+        "Battle of Stugna River, 1093"
+      ],
+      "relationships": [
+        "Poland, Boleslaw III, Son-in-law, img/poland/boleslaw_iii.png",
+        "Bohemia, Spytihnev II, Father-in-law, img/poland/spytihnev_ii.jpg"
+      ]
     },
-    "Vladimir II Monomakh": {
-      "name": "Vladimir II Monomakh",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/1000_Monomah.jpg/440px-1000_Monomah.jpg",
+    "Vladimir II": {
+      "name": "Vladimir II",
+      "image": "img/russia/vladimir_ii.jpg",
       "house": "Rurik",
       "houseImage": "img/houses/rurik.png",
       "start": 1112,
       "end": 1125,
-      "endReason": "",
+      "endReason": "Unspecified, 71",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "Engaged in constant warfare with the Turkic Cumans",
+        "Held series of congresses to unite Rus' princes against Great Steppe"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "England, Harold Godwinson, Father-in-law, img/england/harold_godwinson.jpg"
+      ]
     },
-    "Mstislav I of Kiev": {
-      "name": "Mstislav I of Kiev",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg/500px-%D0%97%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D1%89%D1%96.jpg",
+    "Mstislav I": {
+      "name": "Mstislav I",
+      "image": "img/russia/mstislav_i.jpg",
       "house": "Rurik",
       "houseImage": "img/houses/rurik.png",
       "start": 1125,
       "end": 1132,
-      "endReason": "",
+      "endReason": "Unspecified, 55",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "Fought the Cumans, Estonians, and Lithuanians for entire reign",
+        "After death, united Rus broke apart for four hundred years"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Sweden, Inge I, Father-in-law, img/sweden/inge_i.jpg",
+        "Denmark, Valdemar I, Grandson, img/denmark/valdemar_i.jpg",
+        "Denmark, Eric II, Son-in-law, img/denmark/eric_ii.jpg"
+      ]
     },
     "Ivan IV": {
       "name": "Ivan IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg/560px-Iv%C3%A1n_el_Terrible_y_su_hijo%2C_por_Ili%C3%A1_Repin.jpg",
+      "image": "img/russia/ivan_iv.jpg",
       "house": "Rurik",
       "houseImage": "img/houses/rurik.png",
       "start": 1547,
       "end": 1584,
-      "endReason": "",
+      "endReason": "Stroke, 53",
       "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
+      "events": [
+        "Established the Tsardom of Russia with Moscow at the center",
+        "Conquered Khanates of Kazan, Astrakhan, and Sibir",
+        "Transformed Russia from medieval state to complex empire"
+      ],
+      "wars": [
+        "Russo-Turkish War, 1568-70",
+        "Livonian War, 1558-83",
+        "Russo-Crimean War, 1570-72"
+      ],
       "relationships": []
     },
     "Feodor I": {
       "name": "Feodor I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Feodor_I_of_Russia_-_Project_Gutenberg_eText_20880.jpg",
+      "image": "img/russia/feodor_i.jpg",
       "house": "Rurik",
       "houseImage": "img/houses/rurik.png",
       "start": 1584,
       "end": 1598,
-      "endReason": "",
+      "endReason": "Unspecified, 40",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "Last Rurikid Tsar of Russia",
+        "Country administered by brother-in-law, Boris Godunov",
+        "Dying childless, plunged Russia into the Time of Troubles"
+      ],
       "wars": [],
       "relationships": []
     },
     "Boris Godunov": {
       "name": "Boris Godunov",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg/440px-Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg",
+      "image": "img/russia/boris_godunov.jpg",
       "house": "Godunov",
       "houseImage": "",
       "start": 1598,
       "end": 1605,
-      "endReason": "",
+      "endReason": "Stroke, 53",
       "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
+      "events": [
+        "Rose through the ranks from soldier to favorite to minister",
+        "Separated Russian Orthodox Church from Constantinople"
+      ],
+      "wars": [
+        "Russo-Swedish War, 1590-95"
+      ],
       "relationships": []
     },
     "Feodor II": {
       "name": "Feodor II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Makovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg/340px-Makovsky_False_Dmitrys_agents_murdering_Feodor_Godunov_and_his_mother_1862.jpg",
+      "image": "img/russia/feodor_ii.jpg",
       "house": "Godunov",
       "houseImage": "",
       "start": 1605,
       "end": 1605,
-      "endReason": "",
+      "endReason": "Assassinated, 16",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "Proclaimed Tsar after the death of father",
+        "Envoys of False Dmitriy publicly read his fate in Red Square",
+        "Boyars, disloyal to new Tsar, arrested, strangled, and poisoned him"
+      ],
       "wars": [],
       "relationships": []
     },
-    "Dmitry I": {
-      "name": "Dmitry I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Dymitr_Samozwaniec.jpg",
+    "False Dmitry I": {
+      "name": "False Dmitry I",
+      "image": "img/russia/false_dmitry_i.jpg",
       "house": "",
       "houseImage": "",
       "start": 1605,
       "end": 1606,
-      "endReason": "",
+      "endReason": "Executed, 23",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "One of three pretenders claiming to be son of Ivan the Terrible",
+        "Formed army with support of Poland, marching against Godunov",
+        "Promised Russian Church back to Rome, inciting death by mob"
+      ],
       "wars": [],
       "relationships": []
     },
     "Vasili IV": {
       "name": "Vasili IV",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Vasili_IV_of_Russia.PNG/440px-Vasili_IV_of_Russia.PNG",
+      "image": "img/russia/vasili_iv.png",
       "house": "Shuyskiy",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/RU_COA_Shujski.png/270px-RU_COA_Shujski.png",
+      "houseImage": "img/houses/shuyskiy.png",
       "start": 1606,
       "end": 1610,
-      "endReason": "",
+      "endReason": "Deposed",
       "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Władysław IV Vasa": {
-      "name": "Władysław IV Vasa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Rubens_W%C5%82adys%C5%82aw_Vasa.jpg/440px-Rubens_W%C5%82adys%C5%82aw_Vasa.jpg",
-      "house": "Vasa",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Arms_of_the_House_of_Vasa.svg/220px-Arms_of_the_House_of_Vasa.svg.png",
-      "start": 1610,
-      "end": 1613,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "Plotted against False Dmitry, taking throne after his death",
+        "Deposed and forced into a monastery, dying a prisoner"
+      ],
       "wars": [],
       "relationships": []
     },
     "Michael I": {
       "name": "Michael I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Michael-I-Romanov-Wedekind_-_detail.jpg",
+      "image": "img/russia/michael_i.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1613,
       "end": 1645,
-      "endReason": "",
+      "endReason": "Scurvy, 49",
       "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "events": [
+        "Elected Tsar, taking Russia back from the Kingdom of Poland",
+        "Accession marked the end of the Time of Troubles",
+        "Conquered Siberia with help of cossacks and Stroganov family"
+      ],
+      "wars": [
+        "Russian Conquest of Siberia"
+      ],
+      "relationships": [
+        "Denmark, Valdemar Christian, Son-in-law, img/sweden/valdemar_christian.jpg"
+      ]
     },
     "Alexis I": {
       "name": "Alexis I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg/440px-Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg",
+      "image": "img/russia/alexis_i.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1645,
       "end": 1676,
-      "endReason": "",
+      "endReason": "Unspecified, 46",
       "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
+      "events": [
+        "Excommunicated Patriarch Nikon, who attempted a Greek reform",
+        "Faced riots over salt, copper, and Cossacks led by Stenka Razin",
+        "Ended his reign with 8,000,000 square kilometers under his rule"
+      ],
+      "wars": [
+        "Russo-Persian War, 1651-53",
+        "Russo-Polish War, 1654-67",
+        "Russo-Swedish War, 1656-58"
+      ],
       "relationships": []
     },
     "Feodor III": {
       "name": "Feodor III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Feodor_III_of_Russia.jpg/440px-Feodor_III_of_Russia.jpg",
+      "image": "img/russia/feodor_iii.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1676,
       "end": 1682,
-      "endReason": "",
+      "endReason": "Unspecified, 20",
       "religion": "Eastern Orthodox",
-      "events": [],
+      "events": [
+        "Founded the academy of sciences in Zaikonospassky Monastery",
+        "Introduced reforms such as meritocracy, Greek, and beard shaving",
+        "Died without issue, sparking the Moscow Uprising of 1682"
+      ],
       "wars": [],
       "relationships": []
     },
     "Peter I": {
       "name": "Peter I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Peter_der-Grosse_1838.jpg/440px-Peter_der-Grosse_1838.jpg",
+      "image": "img/russia/peter_i.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1682,
       "end": 1725,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Uremia, 52",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Westenized Russia, traveling Europe and founding St. Petersburg",
+        "Captured ports at Azov and Baltic Sea from Swedes and Tatars",
+        "Transformed Russia into modern, scientific Enlightened empire"
+      ],
+      "wars": [
+        "Bulavin Rebellion, 1707-8",
+        "Russo-Turkish War of 1710",
+        "Great Northern War, 1700-21",
+        ""
+      ],
+      "relationships": [
+        "Sweden, Charles Frederick, Son-in-law, img/hre/charles_frederick.jpg"
+      ]
     },
     "Catherine I": {
       "name": "Catherine I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Catherine_I_of_Russia_by_Nattier.jpg/450px-Catherine_I_of_Russia_by_Nattier.jpg",
+      "image": "img/russia/catherine_i.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1724,
       "end": 1727,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
+      "endReason": "Tuberculosis, 43",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Succeeded husband, since heir Alexei was convicted of treason",
+        "Continued liberalization, opening door to female monarchs"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Sweden, Charles Frederick, Son-in-law, img/hre/charles_frederick.jpg"
+      ]
     },
     "Peter II": {
       "name": "Peter II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Peter_II_after_Ludden%2C_German_school_%28priv.coll%29.jpg/440px-Peter_II_after_Ludden%2C_German_school_%28priv.coll%29.jpg",
+      "image": "img/russia/peter_ii.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1727,
       "end": 1730,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
+      "endReason": "Smallpox, 14",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Son of Peter I through his first wife, Charlotte Christine",
+        "Disinclined to rule, spent time feasting and died quite young",
+        "Last male heir of the Romanov line"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Holy Roman Empire, Louis Rudolph, Grandfather, img/hre/louis_rudolph.jpg"
+      ]
     },
     "Anna": {
       "name": "Anna",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Anna_of_Russia_%28Hermitage%29.jpg/440px-Anna_of_Russia_%28Hermitage%29.jpg",
+      "image": "img/russia/anna.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1730,
       "end": 1740,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Kidney stone, 47",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Daughter of half-brother of Peter I's invalid half-brother, Ivan V",
+        "Continued reforms in architecture, science, and the arts",
+        "Named grand-nephew Ivan VI heir to exclude lineage of Peter I"
+      ],
+      "wars": [
+        "War of the Polish Succession",
+        "Russo-Turkish War, 1735-39"
+      ],
+      "relationships": [
+        "Poland-Lithuania, Frederick William, Husband, img/poland/frederick_william.jpg"
+      ]
     },
     "Ivan VI": {
       "name": "Ivan VI",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ivan_VI_Antonovich_%28Oranienbaum%29.jpg/440px-Ivan_VI_Antonovich_%28Oranienbaum%29.jpg",
+      "image": "img/russia/ivan_vi.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1740,
       "end": 1741,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
+      "endReason": "Murdered, 23",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Declared Emperor at the age of two months",
+        "Imprisoned after a year by cousin Elizabeth, who launched a coup",
+        "After twenty years in captivity, killed by guards during failed rescue"
+      ],
       "wars": [],
       "relationships": []
     },
     "Elizabeth": {
       "name": "Elizabeth",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Elizabeth_of_Russia_by_V.Eriksen.jpg/440px-Elizabeth_of_Russia_by_V.Eriksen.jpg",
+      "image": "img/russia/elizabeth.jpg",
       "house": "Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1741,
       "end": 1762,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
+      "endReason": "Stroke, 52",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Invested heavily in architecture, such as the Winter Palace",
+        "Received all of Southern Finland from Sweden in Treaty of Åbo",
+        "Died unexpectedly before defeating Prussia in Seven Years' War"
+      ],
+      "wars": [
+        "War of the Austrian Succession",
+        "Seven Years' War, 1756-63"
+      ],
       "relationships": []
     },
     "Peter III": {
       "name": "Peter III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Peter_III_by_anonymous_after_Rokotov_%28Hermitage%29.jpg/440px-Peter_III_by_anonymous_after_Rokotov_%28Hermitage%29.jpg",
+      "image": "img/russia/peter_iii.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1762,
       "end": 1762,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
+      "endReason": "Deposed",
+      "religion": "Lutheran, then Orthodox",
+      "events": [
+        "Nephew to Elizabeth, first of Holstein-Gottorp-Romanov house",
+        "A progressive, granted religion freedom and abolished secret police",
+        "Overthrown by wife Princess Sophie, who became Catherine II"
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Sweden, Charles Frederick, Father, img/hre/charles_frederick.jpg"
+      ]
     },
     "Catherine II": {
       "name": "Catherine II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg/440px-Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg",
+      "image": "img/russia/catherine_ii.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1762,
       "end": 1796,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Stroke, 67",
+      "religion": "Lutheran, then Orthodox",
+      "events": [
+        "Oversaw the breakup of the Polish-Lithuanian Commonwealth",
+        "Gained Crimea and Poland; colonized Novorossia and Alaska",
+        "An enlightened absolutist, brought about an artistic renaissance"
+      ],
+      "wars": [
+        "Russo-Turkish Wars, 1768-74",
+        "Polish-Russian War, 1792",
+        "Russo-Persian War, 1795"
+      ],
+      "relationships": [
+        "Poland, Stanislaw II, Lover, img/poland/stanislaw_ii.jpg",
+        "Sweden, Gustave IV Adolf, Cousin, img/sweden/gustav_iv_adolf.jpg"
+      ]
     },
     "Paul I": {
       "name": "Paul I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Borovikovsky_Pavel_I.jpg/440px-Borovikovsky_Pavel_I.jpg",
+      "image": "img/russia/paul_i.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1796,
       "end": 1801,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Assassinated, 46",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Added eastern Georgia to the empire",
+        "Allied with Britain and Austria against Napeolonic France",
+        "Creating policies unfriendly to nobles, was assassinated by military"
+      ],
+      "wars": [
+        "Napoleonic Wars, 1796-1801"
+      ],
+      "relationships": [
+        "Prussia, Frederick II Eugene, Father-in-law, img/germany/frederick_eugene.jpg",
+        "Netherlands, William II, Son-in-law, img/dutch/william_ii.jpg"
+      ]
     },
     "Alexander I": {
       "name": "Alexander I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29_crop.jpg/440px-Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29_crop.jpg",
+      "image": "img/russia/alexander_i.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1801,
       "end": 1825,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
+      "endReason": "Typhus, 47",
+      "religion": "Russian Orthodox",
+      "events": [
+        "King of Poland and Grand Duke of Finland during unity periods",
+        "Napoleon's army collapsed during invasion, losing 500,000 men",
+        "Joined Holy Alliance with Austria and Prussia to combat revolutions"
+      ],
+      "wars": [
+        "Anglo-Russian War, 1807-1812",
+        "Finnish War, Sweden, 1808-9",
+        "Russo-Persian War, 1804-13"
+      ],
       "relationships": []
     },
     "Nicholas I": {
       "name": "Nicholas I",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg/440px-Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg",
+      "image": "img/russia/nicholas_i.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1825,
       "end": 1855,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Pneumonia, 58",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Seized the last territories in the Caucasus held by Persia",
+        "Lost Crimean War and influence over Romania, Serbia, & Black Sea",
+        "On eve of death, Russian territory was at its zenith: 8MM sq. miles"
+      ],
+      "wars": [
+        "Russo-Persian War, 1826-28",
+        "Greek War of Independence",
+        "Crimean War, Ottomans, 1853-6"
+      ],
+      "relationships": [
+        "Denmark, Frederick William, Son-in-law, img/denmark/frederick_william.jpg",
+        "Prussia, Frederick William III, Father-in-law, img/germany/frederick_william_iii.jpg"
+      ]
     },
     "Alexander II": {
       "name": "Alexander II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Zar_Alexander_II_%28cropped%29.jpg/440px-Zar_Alexander_II_%28cropped%29.jpg",
+      "image": "img/russia/alexander_ii.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1855,
       "end": 1881,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Assassinated, 62",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Emancipated Russian serfs, for which he is known as The Liberator",
+        "Sold Alaska to the United States to prevent it from becoming British",
+        "Pursued further expansion into Siberia, Caucasus, and Turkestain"
+      ],
+      "wars": [
+        "Russo-Turkish War, 1877-78",
+        "January Uprising, Poland, 1863"
+      ],
+      "relationships": [
+        "German Confederation, Louis II, Father-in-law, img/germany/louis_ii.jpg",
+        "German Empire, Alfred, Son-in-law, img/germany/alfred.jpg",
+        "Greece, Alexandra, Daughter-in-law, img/greece/alexandra.jpg"
+      ]
     },
     "Alexander III": {
       "name": "Alexander III",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Alexander_III%2C_Emperor_of_Russia_%281845-94%29.png/440px-Alexander_III%2C_Emperor_of_Russia_%281845-94%29.png",
+      "image": "img/russia/alexander_iii.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1881,
       "end": 1894,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
+      "endReason": "Nephritis, 49",
+      "religion": "Russian Orthodox",
+      "events": [
+        "A counter-reformer, reversed many of his father's policies",
+        "Formed Triple Entente alliance with France and Great Britain",
+        ""
+      ],
       "wars": [],
-      "relationships": []
+      "relationships": [
+        "Denmark, Christian IX, Father-in-law, img/denmark/christian_ix.jpg",
+        "England, Edward VII, Brother-in-law, img/england/edward_vii.jpg",
+        "Greece, George I, Brother-in-law, img/greece/george_i.jpg"
+      ]
     },
     "Nicholas II": {
       "name": "Nicholas II",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg/440px-%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_II.jpg",
+      "image": "img/russia/nicholas_ii.jpg",
       "house": "Holstein-Gottorp-Romanov",
-      "houseImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mali_gerb_ru.svg/400px-Mali_gerb_ru.svg.png",
+      "houseImage": "img/houses/romanov.png",
       "start": 1894,
       "end": 1917,
-      "endReason": "",
-      "religion": "Eastern Orthodox",
-      "events": [],
-      "wars": [],
-      "relationships": []
+      "endReason": "Executed, 50",
+      "religion": "Russian Orthodox",
+      "events": [
+        "Lost influence over Manchuria and Korea to the Japanese",
+        "Lost 3.3 million Russians during World War I, causing revolution",
+        "Abdicated, imprisoned, and handed over to Bolsheviks for execution"
+      ],
+      "wars": [
+        "Russo-Japanese War, 1904-5",
+        "World War I, 1914-1918"
+      ],
+      "relationships": [
+        "Denmark, Christian IX, Grandfather, img/denmark/christian_ix.jpg",
+        "Greece, Constantine I, Cousin, img/greece/constantine_i.jpg",
+        "Germany, Wilhelm II, Cousin, img/germany/wilhelm_ii.jpg"
+      ]
     }
   },
   "Holy Roman Empire": {
