@@ -24,8 +24,6 @@ I'd like to have an easy visual reference for who was concurrently in power and 
   - Nation-state borders
   - Font size of wars should not exceed font size of events
   - Focus monarch images a little more closely on face
-  - Navigation with arrow keypress
-  - Navigation arrows don't go off the page
 - Compatibility
   - Make it work w/ Firefox & Linux
   - Proper mobile formatting

@@ -5,7 +5,6 @@ var width = window.innerWidth,
   height = window.innerHeight,
   margin = { top: height / 8, bottom: height / 6, right: width / 12, left: width / 12 };
 
-
 // Colors
 var gray = "#CECECE",
   detailsColor = "#E2D4AC",
@@ -189,7 +188,6 @@ var dateHeight = detailsBlockQuarter,
   dateControlInterval = (width - margin.left - margin.right) / (_.size(dateColorsIcons) + 1);
 
 function render(data) {
-
   // Stores dates and remove from data object; render later
   var dates = data["Dates"];
   delete(data["Dates"]);
@@ -253,9 +251,8 @@ function render(data) {
   // Create X-axis
   var xScale = d3.time.scale()
     .domain([firstYear, lastYear]) 
-    .range([margin.left, width - margin.right]);
-
-  var xAxis = d3.axisBottom(xScale).tickFormat(d3.format("d"));
+    .range([margin.left, width - margin.right]),
+    xAxis = d3.axisBottom(xScale).tickFormat(d3.format("d"));
 
   timeline.append("g")
     .attr("class", "axis")
@@ -323,7 +320,6 @@ function render(data) {
       dateRectHeight = dateTextHeight + dateTextPadding * 2;
 
     var dateContainer = timeline.append("g").attr("class", "date")
-
 
     var dateRect = dateContainer.append("rect")
       .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear - dateRectWidth / 2)
@@ -586,7 +582,6 @@ function render(data) {
           y: height / 2 + arrowWidth / 2
         }
       },
-      prevArrowPoints = [prevArrowCoord.one.x + ',' + prevArrowCoord.one.y, prevArrowCoord.two.x + ',' + prevArrowCoord.two.y, prevArrowCoord.three.x + ',' + prevArrowCoord.three.y].join(" "),
       nextArrowCoord = {
         one: {
           x: detailsMiddle + detailsWidth / 2 + detailsBlock / 2 + arrowWidth / 2,
@@ -600,7 +595,16 @@ function render(data) {
           x: detailsMiddle + detailsWidth / 2 + detailsBlock / 2,
           y: height / 2 + arrowWidth / 2
         }
-      },
+      };
+
+    // Correct for arrows moving off the page
+    var arrowOffPageBy = prevArrowCoord.one.x;
+    if (arrowOffPageBy < 0) {
+      _.each(prevArrowCoord, function(point) { point.x -= arrowOffPageBy });
+      _.each(nextArrowCoord, function(point) { point.x += arrowOffPageBy });
+    }
+
+    var prevArrowPoints = [prevArrowCoord.one.x + ',' + prevArrowCoord.one.y, prevArrowCoord.two.x + ',' + prevArrowCoord.two.y, prevArrowCoord.three.x + ',' + prevArrowCoord.three.y].join(" "),
       nextArrowPoints = [nextArrowCoord.one.x + ',' + nextArrowCoord.one.y, nextArrowCoord.two.x + ',' + nextArrowCoord.two.y, nextArrowCoord.three.x + ',' + nextArrowCoord.three.y].join(" ");
 
     // Next
@@ -622,6 +626,7 @@ function render(data) {
         }
       })
 
+    // Prev
     timeline.append("path")
       .attr("d", "M " + prevArrowPoints + " Z")
       .attr("width", detailsWidth / 4)
@@ -833,10 +838,6 @@ function render(data) {
       .text(function(d) { return d; })
 
     // Relationships
-    // 1/8i: padding
-    // 1i: image
-    // 1/8i: padding
-    // 1/4i: each relationship component (3)
     var relationshipCount = data.relationships.length,
       relationshipContainerWidth = detailsWidth - detailsMargin * 2,
       relationshipMaxImageWidth = detailsBlock,
@@ -892,7 +893,6 @@ function render(data) {
       allOtherDates = timeline.selectAll('circle.date:not(.' + data.key + ')');
 
     allDates.classed('hidden', false);
-
 
     if (!control.classed("selected")) {
       controls
@@ -999,12 +999,7 @@ function getContainerFromText(text, size) {
 function getFontSizeFromContainer(text, width, height) {
   var maxHeightPixels = height,
     maxWidthPixels = width / text.length * 1,
-    // Bug: somehow width-bounding scales the text WAAAAY down for longer texts
-    // I think it has to do with the proportion of width to height, so that fudge factor should be derived from those
     pixelSize = Math.floor(_.min([maxHeightPixels, maxWidthPixels]));
-
-  // console.log(text + " => (" + maxWidthPixels + ", " + maxHeightPixels + ")");
 
   return pixelSize;
 }
-
