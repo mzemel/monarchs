@@ -718,7 +718,6 @@ function render(data) {
       .attr("y", detailsY + detailsBlock * 1.25)
       .attr("font-family", fontFamily)
       .attr("font-size", reignFontSize)
-      .attr("font-weight", "bolder") // keep?
       .attr("class", "detail")
       .text(reignString);
 
@@ -734,7 +733,6 @@ function render(data) {
       .attr("y", detailsY + detailsBlock * 1.5 + detailsBlockEighth / 2)
       .attr("font-family", fontFamily)
       .attr("font-size", reignReligionHouseFontSize)
-      .attr("font-weight", "bolder") // keep?
       .attr("class", "detail")
       .text("\uD83D\uDEE1\uFE0F " + data.house);
 
@@ -874,7 +872,6 @@ function render(data) {
           .attr("y", detailsRelationshipY + detailsBlock + detailsBlockQuarter * (idx + 1) - detailsBlockEighth / 2 * idx)
           .attr("text-anchor", "middle")
           .attr("font-family", fontFamily)
-          .attr("font-weight", function() { return idx == 0 ? "bold" : "normal"; })
           .attr("font-size", function() { return idx == 0 ? relationshipComponentFontSize * 1.2 : relationshipComponentFontSize; })
           .attr("class", "detail")
           .text(relComponent);
@@ -954,8 +951,8 @@ function enlargeBlock(el) {
   var $this = $(el),
     $x = parseFloat($this.attr('x')),
     $y = parseFloat($this.attr('y')),
-    $width = $this.width(),
-    $height = $this.height();
+    $width = parseFloat(this.attr('width')),
+    $height = parseFloat(this.attr('height'));
 
   this
     .attr("x", $x - 5)
