@@ -776,17 +776,16 @@ function render(data) {
       .attr("preserveAspectRatio", "none")
       .attr("class", "detail")
 
-    // The `detailsImageWidth * 4` is purposefully wider than the details container to avoid bug in getFontSizeFromContainer
-    var warsFontSize = _.min(
-      _.map(data.wars, function(text) {
-        return getFontSizeFromContainer(text, (detailsWidth - 2 * detailsBlockQuarter) * 9 / 4, detailsBlockQuarter * 2 / 3);
-      })
-    )
-
     var eventsFontSize = _.min(
       _.map(data.events, function(text) {
         return getFontSizeFromContainer(text, (detailsWidth - 2 * detailsBlockQuarter) * 9 / 4, detailsBlockQuarter * 2 / 3);
       })
+    )
+
+    var warsFontSize = _.min(
+      _.map(data.wars, function(text) {
+        return getFontSizeFromContainer(text, (detailsWidth - 2 * detailsBlockQuarter) * 9 / 4, detailsBlockQuarter * 2 / 3);
+      }).concat(eventsFontSize)
     )
 
     // Wars header
