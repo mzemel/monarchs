@@ -133,14 +133,13 @@ var gray = "#CECECE",
 // Fonts
 var fontFamily = "Lato, sans-serif",
   fontFamilyMonospace = "Inconsolata, monospace",
-  strokeWidthLarge = 15,
-  strokeWidthMedium = 8,
-  strokeWidthSmall = 5,
-  strokeWidthTiny = 1,
-  cornerRadiusSmall = 5,
-  cornerRadiusLarge = 15,
-  circleRadiusLarge = margin.bottom / 5,
-  circleRadiusMedium = circleRadiusLarge / 2,
+  strokeWidthLarge = height / 150,
+  strokeWidthSmall = strokeWidthLarge / 2,
+  strokeWidthTiny = strokeWidthSmall / 4,
+  cornerRadiusLarge = width / 180,
+  cornerRadiusSmall = cornerRadiusLarge / 3,
+  circleRadiusLarge = _.min([margin.bottom / 5, width / 30]),
+  circleRadiusMedium = _.max([circleRadiusLarge / 2, margin.bottom / 10]),
   circleRadiusSmall = circleRadiusMedium / 2,
   pixelsPerCharacterReference = { // Somehow calc this from width/height and multiply by sm/md/lg modifier
     "small": _.max([width / 180, height / 90]),
@@ -180,7 +179,7 @@ var detailsHeight = height * 7 / 8,
 
 // Thumbnail config
 var thumbnailImageWidth = _.max([width / 8, height / 4]),
-  thumbnailBorder = 10;
+  thumbnailBorder = strokeWidthLarge;
 
 // Date config
 var dateHeight = detailsBlockQuarter,
@@ -240,9 +239,9 @@ function render(data) {
   timeline.append("a")
     .attr("href", "https://thebackend.dev/building-monarchs")
     .append("text")
-    .attr("x", width - margin.right / 2)
-    .attr("y", height - margin.bottom / 4)
-    .attr("font-size", getFontSizeFromContainer("Blogge", margin.right, margin.bottom))
+    .attr("x", width - margin.right * 3 / 4)
+    .attr("y", height - margin.bottom / 3) 
+    .attr("font-size", getFontSizeFromContainer("Blogge", margin.right * 2.5, margin.bottom / 2))
     .attr("fill", "blue")
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
@@ -419,7 +418,7 @@ function render(data) {
     .attr("rx", cornerRadiusLarge)
     .attr("ry", cornerRadiusLarge)
     .attr("stroke", detailsStrokeColor)
-    .attr("stroke-width", strokeWidthMedium)
+    .attr("stroke-width", strokeWidthLarge)
     .on("click", hideDetail)
 
   function handleMouseOver(el, i) {
