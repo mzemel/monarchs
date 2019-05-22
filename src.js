@@ -100,13 +100,21 @@ var gray = "#CECECE",
     }
   },
   dateColorsIcons = {
+    "military": {
+      "color": houseColors["Austria"]["Habsburg-Lorraine"],
+      "icon": "icons/knife.svg"
+    },
+    "philosophy": {
+      "color": houseColors["Holy Roman Empire"]["Habsburg"],
+      "icon": "icons/open-magazine.svg"
+    },
+    "religion": {
+      "color": houseColors["Russia"]["Romanov"],
+      "icon": "icons/christianity.svg"
+    },
     "science": {
       "color": houseColors["Scotland"]["Stuart"],
       "icon": "icons/atom.svg"
-    },
-    "military": {
-      "color": houseColors["Russia"]["Holstein-Gottorp-Romanov"],
-      "icon": "icons/knife.svg"
     },
     "diplomacy": {
       "color": houseColors["England"]["Hanover"],
@@ -115,14 +123,6 @@ var gray = "#CECECE",
     "culture": {
       "color": houseColors["France"]["Bourbon"],
       "icon": "icons/brush.svg"
-    },
-    "philosophy": {
-      "color": houseColors["Holy Roman Empire"]["Habsburg"],
-      "icon": "icons/open-magazine.svg"
-    },
-    "religion": {
-      "color": houseColors["Italy"]["Savoy"],
-      "icon": "icons/christianity.svg"
     },
     "catastrophe": {
       "color": gray,
@@ -241,7 +241,7 @@ function render(data) {
     .append("text")
     .attr("x", width - margin.right * 3 / 4)
     .attr("y", height - margin.bottom / 3) 
-    .attr("font-size", getFontSizeFromContainer("Blogge", margin.right * 2.5, margin.bottom / 2))
+    .attr("font-size", getFontSizeFromContainer("Blogge", margin.right * 2, margin.bottom / 2))
     .attr("fill", "blue")
     .attr("text-anchor", "middle")
     .attr("class", "title stonehen-font")
