@@ -20,8 +20,6 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 - Details
   - Smaller picture filesize
   - Use epithets?
-  - Full names for relationships (e.g. Mary -> Mary of Guise)
-  - Nation-state borders
   - Focus monarch images a little more closely on face
 - Compatibility
   - Serve images out of CDN?
