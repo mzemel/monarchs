@@ -131,7 +131,7 @@ var gray = "#CECECE",
   };
 
 // Fonts
-var fontFamily = "Lato, sans-serif",
+var fontFamily = "Montaga, serif",
   fontFamilyMonospace = "Inconsolata, monospace",
   strokeWidthLarge = height / 150,
   strokeWidthSmall = strokeWidthLarge / 2,
@@ -829,15 +829,6 @@ function render(data) {
         .attr("class", "detail")
         .text("EVENTS")
     }
-
-    // Events background
-    timeline.append("rect")
-      .attr("x", detailsMiddle - detailsWidth / 2 + strokeWidthLarge)
-      .attr("y", detailsY + detailsBlock * 5)
-      .attr("width", detailsWidth - strokeWidthLarge * 2)
-      .attr("height", detailsBlock - detailsBlockEighth)
-      .attr("fill", '#fef6df')
-      .attr("class", "detail")
 
     // Events
     timeline.append("g").selectAll("text")
