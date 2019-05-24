@@ -763,16 +763,6 @@ function render(data) {
       .attr("class", "detail")
       .on("click", hideDetail) 
 
-    // Map image
-    timeline.append("image")
-      .attr("x", detailsMiddle)
-      .attr("y", detailsY + detailsBlock * 2.5 + detailsBlockEighth )
-      .attr("width", detailsBlock * 2 + detailsBlockEighth)
-      .attr("height", detailsBlock * 2 + detailsBlockEighth)
-      .attr("xlink:href", data.border)
-      .attr("preserveAspectRatio", "none")
-      .attr("class", "detail")
-
     var eventsFontSize = _.min(
       _.map(data.events, function(text) {
         return getFontSizeFromContainer(text, (detailsWidth - 2 * detailsBlockQuarter) * 9 / 4, detailsBlockQuarter * 2 / 3);
@@ -789,13 +779,32 @@ function render(data) {
     if (data.wars.length > 0) {
       timeline.append("text")
         .attr("x", detailsX + detailsBlockQuarter + detailsBlockEighth)
-        .attr("y", detailsY + detailsBlock * 3.25 + detailsBlockEighth)
+        .attr("y", detailsY + detailsBlock * 3 + detailsBlockEighth)
         .attr("font-family", fontFamily)
         .attr("font-size", reignFontSize)
         .attr("font-weight", "bolder")
         .attr("class", "detail")
         .text("WARS")
+
+    // Wars background
+    // timeline.append("rect")
+    //   .attr("x", detailsMiddle - detailsWidth / 2 + detailsBlockQuarter - detailsBlockEighth)
+    //   .attr("y", detailsY + detailsBlock * 3.5)
+    //   .attr("width", detailsWidth - detailsBlockQuarter * 2)
+    //   .attr("height", detailsBlock * data.wars.length / 3)
+    //   .attr("fill", '#fef6df')
+    //   .attr("class", "detail")
     }
+
+    // Map image
+    timeline.append("image")
+      .attr("x", detailsMiddle)
+      .attr("y", detailsY + detailsBlock * 2.5 + detailsBlockEighth )
+      .attr("width", detailsBlock * 2 + detailsBlockEighth)
+      .attr("height", detailsBlock * 2 + detailsBlockEighth)
+      .attr("xlink:href", data.border)
+      .attr("preserveAspectRatio", "none")
+      .attr("class", "detail")
 
     // Wars
     timeline.append("g").selectAll("text")
@@ -803,7 +812,7 @@ function render(data) {
       .enter()
       .append("text")
       .attr("x", detailsX + detailsBlockQuarter)
-      .attr("y", function(d, i) { return detailsY + detailsBlock * 3.5 + detailsBlockQuarter * (i + 1); })
+      .attr("y", function(d, i) { return detailsY + detailsBlock * 3.25 + detailsBlockQuarter * (i + 1); })
       .attr("font-family", fontFamily)
       .attr("font-size", warsFontSize)
       .attr("class", "detail")
@@ -820,6 +829,15 @@ function render(data) {
         .attr("class", "detail")
         .text("EVENTS")
     }
+
+    // Events background
+    timeline.append("rect")
+      .attr("x", detailsMiddle - detailsWidth / 2 + strokeWidthLarge)
+      .attr("y", detailsY + detailsBlock * 5)
+      .attr("width", detailsWidth - strokeWidthLarge * 2)
+      .attr("height", detailsBlock - detailsBlockEighth)
+      .attr("fill", '#fef6df')
+      .attr("class", "detail")
 
     // Events
     timeline.append("g").selectAll("text")
