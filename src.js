@@ -65,7 +65,7 @@ var gray = "#CECECE",
     },
     "Spain": {
       "Habsburg": "#FF4D00",
-      "Bourbon": "#CD06FC",
+      "Bourbon": "#9a26c5",
       "Bonaparte": "#7E039C",
       "Franco": gray,
       "Savoy": "#E0E221"
