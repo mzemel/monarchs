@@ -2456,624 +2456,45 @@
     }
   },
   "Denmark": {
-    "Margrethe II": {
-      "name": "Margrethe II",
-      "image": "img/denmark/margrethe_ii.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1972,
-      "end": 2019,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick IX": {
-      "name": "Frederick IX",
-      "image": "img/denmark/frederick_ix.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1947,
-      "end": 1972,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian X": {
-      "name": "Christian X",
-      "image": "img/denmark/christian_x.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1912,
-      "end": 1947,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick VIII": {
-      "name": "Frederick VIII",
-      "image": "img/denmark/frederick_viii.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1906,
-      "end": 1912,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian IX": {
-      "name": "Christian IX",
-      "image": "img/denmark/christian_ix.jpg",
-      "house": "Glucksburg",
-      "houseImage": "img/houses/glucksburg.png",
-      "start": 1863,
-      "end": 1906,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick VII": {
-      "name": "Frederick VII",
-      "image": "img/denmark/frederick_vii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1848,
-      "end": 1863,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian VIII": {
-      "name": "Christian VIII",
-      "image": "img/denmark/christian_viii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1839,
-      "end": 1848,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick VI": {
-      "name": "Frederick VI",
-      "image": "img/denmark/frederick_vi.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1808,
-      "end": 1839,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian VII": {
-      "name": "Christian VII",
-      "image": "img/denmark/christian_vii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1766,
-      "end": 1808,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick V": {
-      "name": "Frederick V",
-      "image": "img/denmark/frederick_v.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1746,
-      "end": 1766,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian VI": {
-      "name": "Christian VI",
-      "image": "img/denmark/christian_vi.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1730,
-      "end": 1746,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick IV": {
-      "name": "Frederick IV",
-      "image": "img/denmark/frederick_iv.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1699,
-      "end": 1730,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian V": {
-      "name": "Christian V",
-      "image": "img/denmark/christian_v.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1670,
-      "end": 1699,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick III": {
-      "name": "Frederick III",
-      "image": "img/denmark/frederick_iii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1648,
-      "end": 1670,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian IV": {
-      "name": "Christian IV",
-      "image": "img/denmark/christian_iv.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1588,
-      "end": 1648,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick II": {
-      "name": "Frederick II",
-      "image": "img/denmark/frederick_ii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1559,
-      "end": 1588,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian III": {
-      "name": "Christian III",
-      "image": "img/denmark/christian_iii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1534,
-      "end": 1559,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Frederick I": {
-      "name": "Frederick I",
-      "image": "img/denmark/frederick_i.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1523,
-      "end": 1533,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian II": {
-      "name": "Christian II",
-      "image": "img/denmark/christian_ii.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1513,
-      "end": 1523,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "John": {
-      "name": "John",
-      "image": "img/denmark/john.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1481,
-      "end": 1513,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christian I": {
-      "name": "Christian I",
-      "image": "img/denmark/christian_i.jpg",
-      "house": "Oldenburg",
-      "houseImage": "img/houses/oldenburg.png",
-      "start": 1448,
-      "end": 1481,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher III": {
-      "name": "Christopher III",
-      "image": "img/denmark/christopher_iii.jpg",
-      "house": "Palantinate-Neumarkt",
+    "Gorm": {
+      "name": "Gorm",
+      "image": "img/denmark/gorm.jpg",
+      "house": "Gorm",
       "houseImage": "",
-      "start": 1440,
-      "end": 1448,
-      "endReason": "",
-      "religion": "",
-      "events": [],
+      "start": 936,
+      "end": 958,
+      "endReason": "Unspecified",
+      "religion": "Norse paganism",
+      "events": [
+        "Son of the semi-legendary Danish king Harthacnut",
+        "Completed the Danevirke, a wall separating the southern Saxons"
+      ],
       "wars": [],
       "relationships": []
     },
-    "Eric VII": {
-      "name": "Eric VII",
-      "image": "img/denmark/eric_vii.jpg",
-      "house": "Griffins",
-      "houseImage": "img/houses/griffin.png",
-      "start": 1396,
-      "end": 1439,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Margaret I": {
-      "name": "Margaret I",
-      "image": "img/denmark/margaret_i.png",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1387,
-      "end": 1412,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Olaf II and IV": {
-      "name": "Olaf II and IV",
-      "image": "img/denmark/olaf_ii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1376,
-      "end": 1387,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar IV": {
-      "name": "Valdemar IV",
-      "image": "img/denmark/valdemar_iv.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1340,
-      "end": 1375,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher II (2nd)": {
-      "name": "Christopher II (2nd)",
-      "image": "img/denmark/christopher_ii.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1329,
-      "end": 1332,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar III": {
-      "name": "Valdemar III",
-      "image": "img/denmark/valdemar_iii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1326,
-      "end": 1330,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher II": {
-      "name": "Christopher II",
-      "image": "img/denmark/christopher_ii.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1320,
-      "end": 1326,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric VI": {
-      "name": "Eric VI",
-      "image": "img/denmark/eric_vi.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1286,
-      "end": 1319,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric V": {
-      "name": "Eric V",
-      "image": "img/denmark/eric_v.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1259,
-      "end": 1286,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Christopher I": {
-      "name": "Christopher I",
-      "image": "img/denmark/christopher_i.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1252,
-      "end": 1259,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Abel": {
-      "name": "Abel",
-      "image": "img/denmark/abel.jpeg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1250,
-      "end": 1252,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric IV": {
-      "name": "Eric IV",
-      "image": "img/denmark/eric_iv.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1232,
-      "end": 1250,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar II": {
-      "name": "Valdemar II",
-      "image": "img/denmark/valdemar_ii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1202,
-      "end": 1241,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Canute VI": {
-      "name": "Canute VI",
-      "image": "img/denmark/canute_vi.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1182,
-      "end": 1202,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Valdemar I": {
-      "name": "Valdemar I",
-      "image": "img/denmark/valdemar_i.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1154,
-      "end": 1182,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sweyn III": {
-      "name": "Sweyn III",
-      "image": "img/denmark/sweyn_iii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1146,
-      "end": 1157,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric III": {
-      "name": "Eric III",
-      "image": "img/denmark/eric_iii.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1137,
-      "end": 1146,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric II": {
-      "name": "Eric II",
-      "image": "img/denmark/eric_ii.JPG",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1134,
-      "end": 1137,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Neils": {
-      "name": "Neils",
-      "image": "img/denmark/niels.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1104,
-      "end": 1134,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Eric I": {
-      "name": "Eric I",
-      "image": "img/denmark/eric_i.png",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1095,
-      "end": 1103,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Olaf I": {
-      "name": "Olaf I",
-      "image": "img/denmark/olaf_i.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1086,
-      "end": 1095,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Canute IV": {
-      "name": "Canute IV",
-      "image": "img/denmark/canute_iv.jpg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1080,
-      "end": 1086,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Harald III": {
-      "name": "Harald III",
-      "image": "img/denmark/harald_iii.png",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1076,
-      "end": 1080,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Sweyn II": {
-      "name": "Sweyn II",
-      "image": "img/denmark/sweyn_ii.jpeg",
-      "house": "Estridsen",
-      "houseImage": "img/houses/estridsen.png",
-      "start": 1047,
-      "end": 1076,
-      "endReason": "",
-      "religion": "",
-      "events": [],
-      "wars": [],
-      "relationships": []
-    },
-    "Magnus": {
-      "name": "Magnus",
-      "image": "img/denmark/magnus.jpg",
-      "house": "St. Olaf",
+    "Harald Bluetooth": {
+      "name": "Harald Bluetooth",
+      "image": "img/denmark/harald_bluetooth.jpg",
+      "house": "Gorm",
       "houseImage": "",
-      "start": 1035,
-      "end": 1047,
+      "start": 958,
+      "end": 986,
       "endReason": "",
       "religion": "",
-      "events": [],
+      "events": [
+        "First ruler of a united Denmark: Jutland and Zealand",
+        "Introduced Christianity to Denmark"
+      ],
       "wars": [],
       "relationships": []
     },
-    "Cnut the Great": {
-      "name": "Cnut the Great",
-      "image": "img/denmark/cnut_the_great.jpg",
+    "Sweyn Forkbeard": {
+      "name": "Sweyn Forkbeard",
+      "image": "img/denmark/sweyn_forkbeard.jpg",
       "house": "Denmark",
       "houseImage": "",
-      "start": 1016,
-      "end": 1035,
+      "start": 986,
+      "end": 1014,
       "endReason": "",
       "religion": "",
       "events": [],
@@ -3093,54 +2514,626 @@
       "wars": [],
       "relationships": []
     },
-    "Sweyn Forkbeard": {
-      "name": "Sweyn Forkbeard",
-      "image": "img/denmark/sweyn_forkbeard.jpg",
+    "Cnut the Great": {
+      "name": "Cnut the Great",
+      "image": "img/denmark/cnut_the_great.jpg",
       "house": "Denmark",
       "houseImage": "",
-      "start": 986,
-      "end": 1014,
+      "start": 1016,
+      "end": 1035,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Harald Bluetooth": {
-      "name": "Harald Bluetooth",
-      "image": "img/denmark/harald_bluetooth.jpg",
-      "house": "Gorm",
+    "Magnus": {
+      "name": "Magnus",
+      "image": "img/denmark/magnus.jpg",
+      "house": "St. Olaf",
       "houseImage": "",
-      "start": 958,
-      "end": 986,
+      "start": 1035,
+      "end": 1047,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Gorm": {
-      "name": "Gorm",
-      "image": "img/denmark/gorm.jpg",
-      "house": "Gorm",
-      "houseImage": "",
-      "start": 936,
-      "end": 958,
+    "Sweyn II": {
+      "name": "Sweyn II",
+      "image": "img/denmark/sweyn_ii.jpeg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1047,
+      "end": 1076,
       "endReason": "",
       "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
     },
-    "Harthacnut": {
-      "name": "Harthacnut",
-      "image": "img/denmark/harthacnut.jpg",
-      "house": "",
-      "houseImage": "",
-      "start": 916,
-      "end": 936,
+    "Harald III": {
+      "name": "Harald III",
+      "image": "img/denmark/harald_iii.png",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1076,
+      "end": 1080,
       "endReason": "",
-      "religion": "Norse Paganism",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Canute IV": {
+      "name": "Canute IV",
+      "image": "img/denmark/canute_iv.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1080,
+      "end": 1086,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Olaf I": {
+      "name": "Olaf I",
+      "image": "img/denmark/olaf_i.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1086,
+      "end": 1095,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric I": {
+      "name": "Eric I",
+      "image": "img/denmark/eric_i.png",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1095,
+      "end": 1103,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Neils": {
+      "name": "Neils",
+      "image": "img/denmark/niels.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1104,
+      "end": 1134,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric II": {
+      "name": "Eric II",
+      "image": "img/denmark/eric_ii.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1134,
+      "end": 1137,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric III": {
+      "name": "Eric III",
+      "image": "img/denmark/eric_iii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1137,
+      "end": 1146,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Sweyn III": {
+      "name": "Sweyn III",
+      "image": "img/denmark/sweyn_iii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1146,
+      "end": 1157,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Valdemar I": {
+      "name": "Valdemar I",
+      "image": "img/denmark/valdemar_i.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1154,
+      "end": 1182,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Canute VI": {
+      "name": "Canute VI",
+      "image": "img/denmark/canute_vi.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1182,
+      "end": 1202,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Valdemar II": {
+      "name": "Valdemar II",
+      "image": "img/denmark/valdemar_ii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1202,
+      "end": 1241,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric IV": {
+      "name": "Eric IV",
+      "image": "img/denmark/eric_iv.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1232,
+      "end": 1250,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Abel": {
+      "name": "Abel",
+      "image": "img/denmark/abel.jpeg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1250,
+      "end": 1252,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christopher I": {
+      "name": "Christopher I",
+      "image": "img/denmark/christopher_i.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1252,
+      "end": 1259,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric V": {
+      "name": "Eric V",
+      "image": "img/denmark/eric_v.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1259,
+      "end": 1286,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric VI": {
+      "name": "Eric VI",
+      "image": "img/denmark/eric_vi.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1286,
+      "end": 1319,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christopher II": {
+      "name": "Christopher II",
+      "image": "img/denmark/christopher_ii.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1320,
+      "end": 1326,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Valdemar III": {
+      "name": "Valdemar III",
+      "image": "img/denmark/valdemar_iii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1326,
+      "end": 1330,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christopher II (2nd)": {
+      "name": "Christopher II (2nd)",
+      "image": "img/denmark/christopher_ii.JPG",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1329,
+      "end": 1332,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Valdemar IV": {
+      "name": "Valdemar IV",
+      "image": "img/denmark/valdemar_iv.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1340,
+      "end": 1375,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Olaf II and IV": {
+      "name": "Olaf II and IV",
+      "image": "img/denmark/olaf_ii.jpg",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1376,
+      "end": 1387,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Margaret I": {
+      "name": "Margaret I",
+      "image": "img/denmark/margaret_i.png",
+      "house": "Estridsen",
+      "houseImage": "img/houses/estridsen.png",
+      "start": 1387,
+      "end": 1412,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Eric VII": {
+      "name": "Eric VII",
+      "image": "img/denmark/eric_vii.jpg",
+      "house": "Griffins",
+      "houseImage": "img/houses/griffin.png",
+      "start": 1396,
+      "end": 1439,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christopher III": {
+      "name": "Christopher III",
+      "image": "img/denmark/christopher_iii.jpg",
+      "house": "Palantinate-Neumarkt",
+      "houseImage": "",
+      "start": 1440,
+      "end": 1448,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian I": {
+      "name": "Christian I",
+      "image": "img/denmark/christian_i.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1448,
+      "end": 1481,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "John": {
+      "name": "John",
+      "image": "img/denmark/john.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1481,
+      "end": 1513,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian II": {
+      "name": "Christian II",
+      "image": "img/denmark/christian_ii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1513,
+      "end": 1523,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick I": {
+      "name": "Frederick I",
+      "image": "img/denmark/frederick_i.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1523,
+      "end": 1533,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian III": {
+      "name": "Christian III",
+      "image": "img/denmark/christian_iii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1534,
+      "end": 1559,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick II": {
+      "name": "Frederick II",
+      "image": "img/denmark/frederick_ii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1559,
+      "end": 1588,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian IV": {
+      "name": "Christian IV",
+      "image": "img/denmark/christian_iv.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1588,
+      "end": 1648,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick III": {
+      "name": "Frederick III",
+      "image": "img/denmark/frederick_iii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1648,
+      "end": 1670,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian V": {
+      "name": "Christian V",
+      "image": "img/denmark/christian_v.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1670,
+      "end": 1699,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick IV": {
+      "name": "Frederick IV",
+      "image": "img/denmark/frederick_iv.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1699,
+      "end": 1730,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian VI": {
+      "name": "Christian VI",
+      "image": "img/denmark/christian_vi.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1730,
+      "end": 1746,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick V": {
+      "name": "Frederick V",
+      "image": "img/denmark/frederick_v.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1746,
+      "end": 1766,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian VII": {
+      "name": "Christian VII",
+      "image": "img/denmark/christian_vii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1766,
+      "end": 1808,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick VI": {
+      "name": "Frederick VI",
+      "image": "img/denmark/frederick_vi.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1808,
+      "end": 1839,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian VIII": {
+      "name": "Christian VIII",
+      "image": "img/denmark/christian_viii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1839,
+      "end": 1848,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick VII": {
+      "name": "Frederick VII",
+      "image": "img/denmark/frederick_vii.jpg",
+      "house": "Oldenburg",
+      "houseImage": "img/houses/oldenburg.png",
+      "start": 1848,
+      "end": 1863,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian IX": {
+      "name": "Christian IX",
+      "image": "img/denmark/christian_ix.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1863,
+      "end": 1906,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick VIII": {
+      "name": "Frederick VIII",
+      "image": "img/denmark/frederick_viii.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1906,
+      "end": 1912,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Christian X": {
+      "name": "Christian X",
+      "image": "img/denmark/christian_x.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1912,
+      "end": 1947,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Frederick IX": {
+      "name": "Frederick IX",
+      "image": "img/denmark/frederick_ix.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1947,
+      "end": 1972,
+      "endReason": "",
+      "religion": "",
+      "events": [],
+      "wars": [],
+      "relationships": []
+    },
+    "Margrethe II": {
+      "name": "Margrethe II",
+      "image": "img/denmark/margrethe_ii.jpg",
+      "house": "Glucksburg",
+      "houseImage": "img/houses/glucksburg.png",
+      "start": 1972,
+      "end": 2019,
+      "endReason": "",
+      "religion": "",
       "events": [],
       "wars": [],
       "relationships": []
@@ -3157,14 +3150,14 @@
       "endReason": "Illness, 59",
       "religion": "Roman Catholic",
       "events": [
-        "Led the Norman invasion of England",
-        "Defeated Harold Godwinson at Battle of Hastings",
-        "Built the Tower of London and many other castles"
+        "As Duke of Normandy, led the invading Norman forces",
+        "Defeated King Harold Godwinson at the Battle of Hastings",
+        "Built the Tower of London and other castles across England"
       ],
       "wars": [
-        "Normal conquest, England, 1066",
-        "Harrying of the North, England, 1068",
-        "Revolt of the Earls, England, 1075"
+        "Normal conquest of England, 1066",
+        "Harrying of the North, 1068",
+        "Revolt of the Earls, 1075"
       ],
       "relationships": [
         "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
@@ -3186,9 +3179,9 @@
         "Defeated and killed Malcolm III of Scotland"
       ],
       "wars": [
-        "Rebellion of 1088, England, 1088-1091",
-        "Scotland, 1091-1903",
-        "France, 1097-1099"
+        "Rebellion of 1088",
+        "Scotland, 1091-3",
+        "France, 1097-9"
       ],
       "relationships": [
         "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
@@ -3211,7 +3204,7 @@
       ],
       "wars": [
         "Normandy, 1106",
-        "France, 1116-1119"
+        "France, 1116-9"
       ],
       "relationships": [
         "Scotland, Matilda, Wife, img/scotland/matilda.JPG",
@@ -3234,7 +3227,7 @@
       ],
       "wars": [
         "Scotland, 1136",
-        "The Anarchy, England, 1139-1154"
+        "The Anarchy, 1139-54"
       ],
       "relationships": [
         "Blois, Stephen, Father, img/france/stepan.jpg",
@@ -3257,8 +3250,8 @@
         "Laid foundation for English Common Law"
       ],
       "wars": [
-        "Great Revolt, England, 1173-1174",
-        "Norman invasion of Ireland, Ireland, 1169-1175"
+        "Great Revolt, 1173-4",
+        "Invasion of Ireland, 1169-75"
       ],
       "relationships": [
         "Aquitaine, Eleanor, Wife, img/france/eleanor.jpg",
@@ -3274,7 +3267,7 @@
       "houseImage": "img/houses/plantagenet.png",
       "start": 1189,
       "end": 1199,
-      "endReason": "Assassinated, 41",
+      "endReason": "Assassinated",
       "religion": "Roman Catholic",
       "events": [
         "Led the 3rd Crusade",
@@ -3304,8 +3297,8 @@
         "Signed the Magna Carta"
       ],
       "wars": [
-        "Normandy Campaigns, France, 1202-1204",
-        "First Barons' War, England, 1215-1217"
+        "Normandy Campaigns, 1202-4",
+        "First Barons' War, 1215-7"
       ],
       "relationships": [
         "Germany, Richard, Son, img/hre/richard.jpg",
@@ -3329,7 +3322,7 @@
         "Provisions of Oxford created government of barons"
       ],
       "wars": [
-        "Second Barons' War, England, 1264-1267",
+        "Second Barons' War, 1264-7",
         "France, 1230"
       ],
       "relationships": [
@@ -3354,8 +3347,8 @@
         "Established Parliament as a permnanet institution"
       ],
       "wars": [
-        "Conquest of Wales, Wales, 1277-1283",
-        "Anglo-French War, France, 1294-1303"
+        "Conquest of Wales, 1277-83",
+        "Anglo-French War, 1294-1303"
       ],
       "relationships": [
         "Castille, Eleanor, Wife, img/spain/eleanor_castille.jpg",
@@ -3378,8 +3371,8 @@
         "Forced to retreat into Wales; captured and deposed"
       ],
       "wars": [
-        "Despenser War, England, 1321-1322",
-        "War of Saint-Sardos, France, 1324"
+        "Despenser War, 1321-2",
+        "War of Saint-Sardos, 1324"
       ],
       "relationships": [
         "France, Isabella, Wife, img/france/isabella_plantagenet.jpg",
@@ -3402,8 +3395,8 @@
         "Claim to French throne sparks Hundred Years' War"
       ],
       "wars": [
-        "Hundred Years' War, France, 1337-1453",
-        "2nd War of Scottish Independence, Scotland, 1332-1357"
+        "Hundred Years' War, 1337-1453",
+        "2nd War of Scottish Independence"
       ],
       "relationships": [
         "Brittany, Mary, Daughter, img/france/mary_plantagenet.jpg"
@@ -3424,8 +3417,8 @@
         "Deposed by his cousin, Henry of Bolingbroke"
       ],
       "wars": [
-        "Peasant's Revolt, England, 1381",
-        "Hundred Years' War, France, 1337-1453"
+        "Peasant's Revolt, 1381",
+        "Hundred Years' War, 1337-1453"
       ],
       "relationships": [
         "Holy Roman Empire, Anne, Wife, img/hre/anne_plantagenet.jpg",
@@ -3448,8 +3441,8 @@
         "Imprisoned James I of Scotland for entire reign"
       ],
       "wars": [
-        "Welsh rebellion, Wales, 1400",
-        "Hundred Years' War, France, 1337-1453"
+        "Welsh rebellion, 1400",
+        "Hundred Years' War, 1337-1453"
       ],
       "relationships": [
         "Denmark, Philippa, Daughter, img/denmark/philippa.jpg",
@@ -3471,7 +3464,7 @@
         "Treaty of Troyes made him heir apparent to French throne"
       ],
       "wars": [
-        "Hundred Years' War, France, 1337-1453"
+        "Hundred Years' War, 1337-1453"
       ],
       "relationships": [
         "France, Catherine of Valois, Wife, img/france/catherine_valois.jpg"
@@ -3493,8 +3486,8 @@
         "Lost throne to House of York at Battle of Towton"
       ],
       "wars": [
-        "Hundred Years' War, France, 1337-1453",
-        "Wars of the Roses, England, 1455-1487"
+        "Hundred Years' War, 1337-1453",
+        "Wars of the Roses, 1455-87"
       ],
       "relationships": [
         "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
@@ -3516,7 +3509,7 @@
         "Fled England after Nevilles switched sides to Lancasters"
       ],
       "wars": [
-        "Wars of the Roses, England, 1455-1487"
+        "Wars of the Roses, 1455-87"
       ],
       "relationships": [
         "Burgundy, Charles, Brother-in-law, img/france/charles_burgundy.jpg"
@@ -3537,7 +3530,7 @@
         "Likely killed by Edward IV on his return to power"
       ],
       "wars": [
-        "Wars of the Roses, England, 1455-1487"
+        "Wars of the Roses, 1455-87"
       ],
       "relationships": [
         "France, Margaret of Anjou, Wife, img/france/margaret_anjou.jpg"
@@ -3557,7 +3550,7 @@
         "Killed the Lancaster heir at Battle of Tewksbury"
       ],
       "wars": [
-        "Wars of the Roses, England, 1455-1487",
+        "Wars of the Roses, 1455-87",
         "France, 1475"
       ],
       "relationships": [
@@ -3579,7 +3572,7 @@
         "Likely killed by uncle Richard III"
       ],
       "wars": [
-        "Wars of the Roses, England, 1455-1487"
+        "Wars of the Roses, 1455-87"
       ],
       "relationships": [],
       "border": "img/borders/england/1471.jpg"
@@ -3598,8 +3591,8 @@
         "His defeat ended the War of the Roses"
       ],
       "wars": [
-        "Wars of the Roses, England, 1455-1487",
-        "Buckingham's Rebellion, England, 1483"
+        "Wars of the Roses, 1455-87",
+        "Buckingham's Rebellion, 1483"
       ],
       "relationships": [],
       "border": "img/borders/england/1471.jpg"
@@ -3640,8 +3633,8 @@
         "Dissolved monastaries across England"
       ],
       "wars": [
-        "Rough Wooing, Scotland (1543-1551)",
-        "Italian Wars, France (1544-1546)"
+        "Rough Wooing, 1543-51",
+        "Italian Wars, 1544-46"
       ],
       "relationships": [
         "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
@@ -3665,7 +3658,7 @@
         "Named cousin Jane Grey to prevent return to Catholicism"
       ],
       "wars": [
-        "Prayer Book Rebellion, England, 1549"
+        "Prayer Book Rebellion, 1549"
       ],
       "relationships": [
         "Scotland, Mary, Betrothed, img/scotland/mary.jpg"
@@ -3679,7 +3672,7 @@
       "houseImage": "img/houses/grey.png",
       "start": 1553,
       "end": 1553,
-      "endReason": "Execution, 17",
+      "endReason": "Executed",
       "religion": "Protestant",
       "events": [
         "Ruled for nine days",
@@ -3703,7 +3696,7 @@
         "Marraige Act established herself as first queen regant"
       ],
       "wars": [
-        "Italian Wars, France (1557-1558)"
+        "Italian Wars, 1557-8"
       ],
       "relationships": [
         "Holy Roman Empire, Charles V, Engaged, img/hre/charles_v.jpg",
@@ -3727,9 +3720,9 @@
         "English drama flourished during the Elizabethan Era"
       ],
       "wars": [
-        "Anglo-Spanish War, Spain (1585-1604)",
-        "Rising of the North, Scotland (1569)",
-        "Tudor conquest of Ireland, Ireland (1594-1603)"
+        "Anglo-Spanish War, 1585-1604",
+        "Rising of the North, 1569",
+        "Conquest of Ireland, 1594-1603"
       ],
       "relationships": [],
       "border": "img/borders/england/1602.jpg"
@@ -3761,14 +3754,14 @@
       "houseImage": "img/houses/stuart.png",
       "start": 1625,
       "end": 1649,
-      "endReason": "Execution, 48",
+      "endReason": "Executed",
       "religion": "Anglican",
       "events": [
         "Catholic leanings precipitate English Civil War",
         "Oliver Cromwell takes over the English Republic"
       ],
       "wars": [
-        "First Bishops' War, Scotland (1639-1640)"
+        "First Bishops' War, 1639-40"
       ],
       "relationships": [
         "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
@@ -3790,8 +3783,8 @@
         "Captured New Amsterdam from the Dutch"
       ],
       "wars": [
-        "2nd Anglo-Dutch War, Dutch Republic (1665-1667)",
-        "3rd Anglo-Dutch War, Dutch Republic (1672-1674)"
+        "2nd Anglo-Dutch War, 1665-7",
+        "3rd Anglo-Dutch War, 1672-4"
       ],
       "relationships": [
         "Portugal, Catherine of Braganza, Wife, img/portugal/catherine.jpg",
@@ -3833,8 +3826,8 @@
         "Royal Charter granted to Bank of England"
       ],
       "wars": [
-        "Williamite War, Ireland (1688-1691)",
-        "Nine Years' War, France (1688-1697)"
+        "Williamite War, 1688-91",
+        "Nine Years' War, 1688-97"
       ],
       "relationships": [
         "Dutch Republic, William II, Father, img/dutch/william_ii.jpg"
@@ -3855,7 +3848,7 @@
         "Exclusion Act forbade Catholic monarchs"
       ],
       "wars": [
-        "War of Spanish Succession, France (1701-1714)"
+        "War of Spanish Succession, 1701-14"
       ],
       "relationships": [
         "Denmark, Prince George, Husband, img/denmark/george.jpg"
@@ -3876,7 +3869,7 @@
         "First Prime Minister (Robert Walpole)"
       ],
       "wars": [
-        "War of the Quadruple Alliance, Spain (1718-1720)"
+        "War of the Quadruple Alliance"
       ],
       "relationships": [
         "Holy Roman Empire, Ernest Augustus, Father, img/hre/ernest_augustus.jpg",
@@ -3898,9 +3891,9 @@
         "Last of the Jacobite rebellions"
       ],
       "wars": [
-        "War of Jenkins' Ear, Spain (1739-1748)",
-        "War of the Austrian Succession, France (1740-1748)",
-        "Seven Years' War, France (1756-1763)"
+        "War of Jenkins' Ear, 1739-48",
+        "War of the Austrian Succession",
+        "Seven Years' War, France, 1756-63"
       ],
       "relationships": [
         "Prussia, Frederick the Great, Nephew, img/hre/frederick_ii.jpg",
@@ -3922,8 +3915,8 @@
         "Ireland joins Great Britain as United Kingdom"
       ],
       "wars": [
-        "American War of Independence, America (1775-1783)",
-        "Napoleonic Wars, France (1793-1815)"
+        "American Revolution, 1775-83",
+        "Napoleonic Wars, 1793-1815"
       ],
       "relationships": [
         "Holy Roman Empire, Charlotte of Mecklenburg-Strelitz, Wife, img/hre/charlotte_mecklenburg.jpg"
@@ -3983,9 +3976,9 @@
         "Indian Rebellion causes British East India Company to dissolve"
       ],
       "wars": [
-        "Anglo-Zulu War, Zulu Kingdom (1879)",
-        "2nd Anglo-Afghan War, Afghanistan (1878-1880)",
-        "Boer War, Boer States (1899-1902)"
+        "Anglo-Zulu War, 1879",
+        "2nd Anglo-Afghan War, 1878-80",
+        "Boer War, Boer States, 1899-1902"
       ],
       "relationships": [
         "German Confederation, Prince Albert, Husband, img/hre/prince_albert.jpg",
@@ -4031,7 +4024,7 @@
         "First Labor parliament"
       ],
       "wars": [
-        "World War I, Germany (1914-1918)"
+        "World War I, 1914-8"
       ],
       "relationships": [
         "German Empire, Wilhelm II, Cousin, img/hre/wilhelm_ii.jpg",
@@ -4046,7 +4039,7 @@
       "houseImage": "img/houses/windsor.png",
       "start": 1936,
       "end": 1936,
-      "endReason": "Abdication, 42",
+      "endReason": "Abdicated",
       "religion": "Anglican",
       "events": [
         "Abdicated to marry actress and avoid constitutional crisis"
@@ -4069,7 +4062,7 @@
         "India and Pakistan became indepdendent"
       ],
       "wars": [
-        "World War II, Germany (1939-1945)"
+        "World War II, 1939-45"
       ],
       "relationships": [],
       "border": "img/borders/england/1936.jpg"
