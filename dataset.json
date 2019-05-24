@@ -3152,7 +3152,7 @@
       "events": [
         "As Duke of Normandy, led the invading Norman forces",
         "Defeated King Harold Godwinson at the Battle of Hastings",
-        "Built the Tower of London and other castles across England"
+        "Left England to William Rufus and Normandy to Robert Curthose"
       ],
       "wars": [
         "Normal conquest of England, 1066",
@@ -3161,7 +3161,8 @@
       ],
       "relationships": [
         "Flanders, Baldwin V, Father-in-law, img/france/baldwin_v.jpg",
-        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg"
+        "Brittany, Alan IV, Son-in-law, img/france/alan_iv.jpg",
+        "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
       ],
       "border": "img/borders/england/1087.jpg"
     },
@@ -3172,16 +3173,17 @@
       "houseImage": "img/houses/normandy.png",
       "start": 1087,
       "end": 1100,
-      "endReason": "Hunting accident, 44",
+      "endReason": "Assassinated",
       "religion": "Roman Catholic",
       "events": [
-        "Exiled the Archbishop of Canterbury, Anselm",
-        "Defeated and killed Malcolm III of Scotland"
+        "Faced a rebellion by barons who wanted a unified Norman rule",
+        "Undermined authority of Church, exiling the Archbishop",
+        "Killed Malcolm III, turning Scotland into an English vassal"
       ],
       "wars": [
         "Rebellion of 1088",
         "Scotland, 1091-3",
-        "France, 1097-9"
+        "Normandy, 1097-9"
       ],
       "relationships": [
         "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg"
@@ -3198,9 +3200,9 @@
       "endReason": "Illness, 66",
       "religion": "Roman Catholic",
       "events": [
-        "Imprisoned his brother Robert, Duke of Normandy",
-        "Brought Normandy back into the English crown",
-        "Son William drowned, prompting succession crisis"
+        "Fought brother, Duke of Normandy, for English succession",
+        "Encouraged to invade Normandy, imprisoning brother for life",
+        "After son drowned, recalled daughter Matilda to be his heir"
       ],
       "wars": [
         "Normandy, 1106",
@@ -3208,7 +3210,9 @@
       ],
       "relationships": [
         "Scotland, Matilda, Wife, img/scotland/matilda.JPG",
-        "Anjou, Matilda, Daughter, img/france/mathilda.png"
+        "Anjou, Matilda, Daughter, img/france/mathilda.png",
+        "Normandy, Robert Curthose, Brother, img/france/robert_curthose.jpg",
+        "Holy Roman Empire, Henry V, Son-in-law, img/hre/henry_v.jpg"
       ],
       "border": "img/borders/england/1135.jpg"
     },
@@ -3222,8 +3226,9 @@
       "endReason": "Illness, 57",
       "religion": "Roman Catholic",
       "events": [
-        "Captured at Battle of Lincoln by aunt Matilda",
-        "Ended The Anarchy by naming cousin Henry II as heir"
+        "Favorite nephew of Henry I, disregarded claim by aunt Matilda",
+        "Civil war, the Anarchy, began with the invasion of Matilda's army",
+        "Settled the war by signing a treaty naming Matilda's son his heir"
       ],
       "wars": [
         "Scotland, 1136",
@@ -3245,9 +3250,9 @@
       "endReason": "Ulcer, 56",
       "religion": "Roman Catholic",
       "events": [
-        "Executed Archbishop of Canterbury, Thomas Becket",
-        "Consolidated Brittany, Toulouse, and Vexin",
-        "Laid foundation for English Common Law"
+        "Count of Anjou through father and Aquitaine through wife",
+        "Unpopular for murder of Archbishop and support of antipope",
+        "Restored order following Anarchy with new judicial system"
       ],
       "wars": [
         "Great Revolt, 1173-4",
@@ -3270,9 +3275,9 @@
       "endReason": "Assassinated",
       "religion": "Roman Catholic",
       "events": [
-        "Led the 3rd Crusade",
-        "Captured by the Duke of Austria",
-        "Accused of murdering Conrad, King of Jerusalem"
+        "Romanticized and made popular for exploits in Third Crusade",
+        "Vied to appoint King of Jerusalem, perhaps killing a candidate",
+        "Captured on return and ransomed in exchange for his kingdom"
       ],
       "wars": [
         "Sicily, 1190",
@@ -3293,8 +3298,9 @@
       "endReason": "Dysentary, 49",
       "religion": "Roman Catholic",
       "events": [
-        "Lost Normandy to Philip II of France",
-        "Signed the Magna Carta"
+        "Lost Normandy and all French holdings to French Philip II",
+        "After a revolt of English barons, forced to seal the Magna Carta",
+        "First king since Norman Conquest who could speak English"
       ],
       "wars": [
         "Normandy Campaigns, 1202-4",
@@ -3317,9 +3323,9 @@
       "endReason": "Illness, 65",
       "religion": "Roman Catholic",
       "events": [
-        "Great Charter of 1225 protected the rights of barons",
-        "Statute of Jewry segregated England's Jews",
-        "Provisions of Oxford created government of barons"
+        "Inherited a country ruled by rebellious barons, loyal to France",
+        "Financed papal wars in exchange for Sicilian crown for his son",
+        "Forced into Provisions of Oxford, establishing privy council"
       ],
       "wars": [
         "Second Barons' War, 1264-7",
@@ -3342,9 +3348,9 @@
       "endReason": "Dysentary, 68",
       "religion": "Roman Catholic",
       "events": [
-        "Expelled all Jews from England",
-        "Lost and regained Duchy of Aquitaine",
-        "Established Parliament as a permnanet institution"
+        "Held parliaments and made it into a feature of English politics",
+        "Killed Llywelyn ap Gruffudd, destroying autonomy of Wales",
+        "Arbitrated in favor of John Balliol, but invaded after he rebelled"
       ],
       "wars": [
         "Conquest of Wales, 1277-83",
@@ -3363,12 +3369,12 @@
       "houseImage": "img/houses/plantagenet.png",
       "start": 1307,
       "end": 1327,
-      "endReason": "Unspecified, 43",
+      "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Ordinances of 1311 restricted the power of the king",
+        "Ordinances of 1311 restricted power of king's appointments",
         "Defeated by Robert the Bruce at Battle of Bannockburn",
-        "Forced to retreat into Wales; captured and deposed"
+        "Favoritism caused wife to depose him and crown their son"
       ],
       "wars": [
         "Despenser War, 1321-2",
@@ -3390,9 +3396,9 @@
       "endReason": "Stroke, 64",
       "religion": "Roman Catholic",
       "events": [
-        "Black Death, 1347-1351, wiped out 1/3 of England",
-        "Parliament develops the process of impeachment",
-        "Claim to French throne sparks Hundred Years' War"
+        "Installed puppet, Edward Balliol, after death of Robert the Bruce",
+        "Pressed claim to French throne, sparking Hundred Years' War",
+        "During war, acquired Aquitaine but lost it and only kept Brittany"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453",
@@ -3410,11 +3416,12 @@
       "houseImage": "img/houses/plantagenet.png",
       "start": 1377,
       "end": 1399,
-      "endReason": "Starvation, 33",
+      "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Government taken over by Lords Appellant in 1387",
-        "Deposed by his cousin, Henry of Bolingbroke"
+        "Succeeded grandfather after father, the Black Prince, died young",
+        "Introduced unpopular tax to finance French war, leading to revolt",
+        "Deposed by duke of Lancaster, whose inheritance Richard stole"
       ],
       "wars": [
         "Peasant's Revolt, 1381",
@@ -3436,8 +3443,8 @@
       "endReason": "Disease, 45",
       "religion": "Roman Catholic",
       "events": [
-        "Son of Earl of Lancaster, richest landowner in England",
-        "Foiled early assassination plot, Epiphany Rising",
+        "Returned from exile after Richard II stole his possessions",
+        "Executed Archbishop of York and son of Duke of Norfolk",
         "Imprisoned James I of Scotland for entire reign"
       ],
       "wars": [
@@ -3460,8 +3467,9 @@
       "endReason": "Dysentary, 35",
       "religion": "Roman Catholic",
       "events": [
-        "Reconquered Normandy since being lost by Edward III",
-        "Treaty of Troyes made him heir apparent to French throne"
+        "Defeated France at Agincourt, allowing conquest of Normandy",
+        "Taking Rouen and allying with Burgundy, France surrendered",
+        "The Treaty of Troyes made him heir to the French throne"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453"
@@ -3478,12 +3486,12 @@
       "houseImage": "img/houses/lancaster.png",
       "start": 1422,
       "end": 1461,
-      "endReason": "Unspecified, 49",
+      "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Disputed King of France from 1422-1453",
-        "Lost all French territories except Calais",
-        "Lost throne to House of York at Battle of Towton"
+        "Ascended as a minor, with power held by cousin Duke of York",
+        "Captured by Yorkists, who demanded they name a York heir",
+        "Routed at Yorkshire, fled to Scotland, captured, and imprisoned"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453",
@@ -3501,12 +3509,12 @@
       "houseImage": "img/houses/york.png",
       "start": 1461,
       "end": 1470,
-      "endReason": "Illness, 40",
+      "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Fled England after the confrontation at Ludford Bridge",
-        "Became the first Yorkist king of England",
-        "Fled England after Nevilles switched sides to Lancasters"
+        "Defeated the Lancastrians with help of cousin, Earl of Warwick",
+        "Alienated Warwick and Yorkist nobles by marrying commoner",
+        "Warwick invaded, Edward fled, and Henry Lancaster releasted"
       ],
       "wars": [
         "Wars of the Roses, 1455-87"
@@ -3523,11 +3531,12 @@
       "houseImage": "img/houses/lancaster.png",
       "start": 1470,
       "end": 1471,
-      "endReason": "Unspecified, 49",
+      "endReason": "Murdered, 49",
       "religion": "Roman Catholic",
       "events": [
-        "Restored to the throne from the Tower of London for a year",
-        "Likely killed by Edward IV on his return to power"
+        "Restored to the throne from the Tower of London",
+        "Edward IV returned and defeated Margaret's forces",
+        "Re-imprisoned and murdered shortly afterwards"
       ],
       "wars": [
         "Wars of the Roses, 1455-87"
@@ -3547,7 +3556,9 @@
       "endReason": "Illness, 40",
       "religion": "Roman Catholic",
       "events": [
-        "Killed the Lancaster heir at Battle of Tewksbury"
+        "Defeated the Lancaster forces, killing the heir at Tewkesbury",
+        "Made peace with France in return for a generous pension",
+        "Promiscuity led to brother Richard question the validity of sons"
       ],
       "wars": [
         "Wars of the Roses, 1455-87",
@@ -3568,8 +3579,9 @@
       "endReason": "Disappeared, 12",
       "religion": "Roman Catholic",
       "events": [
-        "Heir to House of York",
-        "Likely killed by uncle Richard III"
+        "Along with brother Richard, two surviving sons of Edward IV",
+        "Crowned at age 12 without regency, at insistence of Woodvilles",
+        "Likely murdered in the Tower of London by uncle Richard"
       ],
       "wars": [
         "Wars of the Roses, 1455-87"
@@ -3587,8 +3599,9 @@
       "endReason": "Battle, 32",
       "religion": "Roman Catholic",
       "events": [
-        "Defeated by Henry Tudor at Battle of Bosworth Field",
-        "His defeat ended the War of the Roses"
+        "Usurped power from nephew, Edward IV, who 'disappeared'",
+        "Woodvilles, family of slain nephew, rallied behind Henry Tudor",
+        "Killed at Battle of Bosworth Field, ending the War of the Roses"
       ],
       "wars": [
         "Wars of the Roses, 1455-87",
@@ -3607,9 +3620,9 @@
       "endReason": "Tuberculosis, 52",
       "religion": "Roman Catholic",
       "events": [
-        "Built up England's navy and constructed drydocks",
-        "Appointed Justices of the Peace to every shire",
-        "Betrothed his son to princess of newly united Spain"
+        "Went into exile after the defeat of the Lancastrian cause",
+        "Married Elizabeth of York, but still faced Yorkish conspiracies",
+        "Made peace with Spain and Scotland through careful marriages"
       ],
       "wars": [],
       "relationships": [
@@ -3628,9 +3641,9 @@
       "endReason": "Obesity, 55",
       "religion": "Catholic/Protestant",
       "events": [
-        "English Reformation separated Church of England from papal authority",
-        "Oversaw unification of England, Wales, and Ireland",
-        "Dissolved monastaries across England"
+        "Presided over the beginnings of the English Reformation",
+        "Unified England, Wales, and Ireland",
+        "Married to Catherine of Aragon, Anne Boleyn, and many others"
       ],
       "wars": [
         "Rough Wooing, 1543-51",
@@ -3638,7 +3651,7 @@
       ],
       "relationships": [
         "Spain, Catherine of Aragon, Wife,img/spain/catherine_of_aragon.jpg",
-        "Holy Roman Empire, Charles V, Nephew-in-law, img/hre/charles_v.jpg",
+        "Holy Roman Empire, Charles V, Brother-in-law, img/hre/charles_v.jpg",
         "Scotland, Margaret, Sister, img/scotland/margaret_tudor.jpg"
       ],
       "border": "img/borders/england/1547.jpg"
@@ -3653,9 +3666,9 @@
       "endReason": "Tuberculosis, 15",
       "religion": "Protestant",
       "events": [
-        "Book of Common Prayer Published",
-        "Abolished clerical celibacy and Mass",
-        "Named cousin Jane Grey to prevent return to Catholicism"
+        "Devoted Protestant, ruled through regency of Earl of Warwick",
+        "Excluded half-sisters Mary and Elizabeth from line of succession",
+        "Convinced by Warwick to name cousin Jane Grey, a Protestant"
       ],
       "wars": [
         "Prayer Book Rebellion, 1549"
@@ -3675,8 +3688,9 @@
       "endReason": "Executed",
       "religion": "Protestant",
       "events": [
-        "Ruled for nine days",
-        "Executed by Mary Tudor"
+        "Maneuvered onto the throne by her uncle, Earl of Warwick",
+        "Overthrown by Mary Tudor with support of the populace",
+        "Imprisoned and pardoned, but executed after Wyatt's Rebellion"
       ],
       "wars": [],
       "relationships": [],
@@ -3692,8 +3706,9 @@
       "endReason": "Ovarian cancer, 42",
       "religion": "Roman Catholic",
       "events": [
-        "Known as  Bloody Mary  for Protestant persections",
-        "Marraige Act established herself as first queen regant"
+        "The first queen to rule England in her own right",
+        "Known as Bloody Mary for her persecutions of Protestants",
+        "Defeated Wyatt's Rebellion, but died unpopular and childless"
       ],
       "wars": [
         "Italian Wars, 1557-8"
@@ -3715,9 +3730,9 @@
       "endReason": "Old age, 69",
       "religion": "Anglican",
       "events": [
-        "Elizabethan Religion Settlement evolved into Church of England",
+        "Crafted political symbolism, establishing a cult of her virginity",
         "Executed Mary, Queen of Scots, to end Catholic cause",
-        "English drama flourished during the Elizabethan Era"
+        "Childless, named Protestant Scottish king James VI as her heir"
       ],
       "wars": [
         "Anglo-Spanish War, 1585-1604",
@@ -3737,13 +3752,15 @@
       "endReason": "Dysentary, 58",
       "religion": "Anglican",
       "events": [
-        "Authorized the English King James Bible",
-        "Guy Fawkes attemped the Gunpowder Plot"
+        "Clashed with English Parliament over his idea of absolutism",
+        "Authorized English translation of bible, the King James Version",
+        "Faced an assassination by Guy Fawkes, the Gunpowder Plot"
       ],
       "wars": [],
       "relationships": [
         "Holy Roman Empire, Frederick V, Son-in-law, img/hre/frederick_v.jpg",
-        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg"
+        "Spain, Infanta Maria Anna, Attempted match, img/spain/maria_anna.jpg",
+        "Scotland, Mary Queen of Scots, Mother, img/scotland/mary.jpg"
       ],
       "border": "img/borders/england/1625.jpg"
     },
@@ -3757,11 +3774,13 @@
       "endReason": "Executed",
       "religion": "Anglican",
       "events": [
-        "Catholic leanings precipitate English Civil War",
-        "Oliver Cromwell takes over the English Republic"
+        "Quarreled with Parliament, provoking the English Civil War",
+        "After six years of war, captured, put on trial, and executed",
+        "Oliver Cromwell takes over the Puritan Commonwealth"
       ],
       "wars": [
-        "First Bishops' War, 1639-40"
+        "First Bishops' War, 1639-40",
+        "English Civil War, 1642-8"
       ],
       "relationships": [
         "France, Henriette Maria, Wife, img/france/henrietta_maria.jpg"
@@ -3778,9 +3797,9 @@
       "endReason": "Uraemia, 54",
       "religion": "Anglican, then Catholic",
       "events": [
-        "Creation of Whig and Tory parties",
-        "Dissolved English Parliament",
-        "Captured New Amsterdam from the Dutch"
+        "Fighting for his father, escaped to France after losing to Cromwell",
+        "With no good successor to Cromwell, restored by Parliament",
+        "Secretly converted to Catholicism for French help against Dutch"
       ],
       "wars": [
         "2nd Anglo-Dutch War, 1665-7",
@@ -3802,10 +3821,13 @@
       "endReason": "Deposed",
       "religion": "Anglican, then Catholic",
       "events": [
-        "Prosecuted the Seven Bishops for seditious libel",
-        "Overthrown by William of Orange in the Glorious Revolution"
+        "Converted to Catholicism and repealed anti-Catholic laws",
+        "Ordered bishops to offer indulgences, leading to public protests",
+        "Protestant nobles invited William of Orange to come take throne"
       ],
-      "wars": [],
+      "wars": [
+        "Glorious Revolution, 1688-9"
+      ],
       "relationships": [
         "Italy, Mary of Modena, Wife, img/italy/mary_modena.jpg"
       ],
@@ -3821,9 +3843,9 @@
       "endReason": "Pneumonia, 51",
       "religion": "Calvinist",
       "events": [
-        "Signed Bill of Rights in exchange for crown",
-        "Jacobites try to return house Stuart to throne",
-        "Royal Charter granted to Bank of England"
+        "Seen by Protestants as a hero, saving Europe from the French",
+        "Faced Irish rebellions, the Jacobites, supporting James II",
+        "Passed the Act of Settlement, excluding Catholics from throne"
       ],
       "wars": [
         "Williamite War, 1688-91",
@@ -3844,8 +3866,9 @@
       "endReason": "Poor health, 49",
       "religion": "Anglican",
       "events": [
-        "Scotland and England become Great Britain",
-        "Exclusion Act forbade Catholic monarchs"
+        "Relied heavily on ministers, who led the war effort",
+        "Favorited Tories, then Whigs, swayed by her current favorites",
+        "Succession passed over 57 candidates to Protestant Hanovers"
       ],
       "wars": [
         "War of Spanish Succession, 1701-14"
@@ -3865,8 +3888,9 @@
       "endReason": "Stroke, 67",
       "religion": "Lutheran",
       "events": [
-        "South Sea Bubble (economic crisis)",
-        "First Prime Minister (Robert Walpole)"
+        "Supported by Whigs over James Stuart, The Old Pretender",
+        "Unable to speak English, relied on Walpole, first Prime Minister",
+        "Embroiled in controversy over collapse of South Sea Company"
       ],
       "wars": [
         "War of the Quadruple Alliance"
@@ -3887,8 +3911,9 @@
       "endReason": "Heart failure, 77",
       "religion": "Lutheran",
       "events": [
-        "Last monarch to lead an army in battle",
-        "Last of the Jacobite rebellions"
+        "Through John Carteret, joined the War of Austrian Succession",
+        "Accused of supporting his German holdings over England",
+        "Largely observed ministers leading Seven Years' War in France"
       ],
       "wars": [
         "War of Jenkins' Ear, 1739-48",
@@ -3911,8 +3936,9 @@
       "endReason": "Dementia, 81",
       "religion": "Lutheran",
       "events": [
-        "Lost American colonies during American Revolution",
-        "Ireland joins Great Britain as United Kingdom"
+        "Attempted to finance Seven Years' War through colonial taxation",
+        "Lost American colonies to revolution, but united with Ireland",
+        "Fought with Revolutionary France to retain hold on aristocracy"
       ],
       "wars": [
         "American Revolution, 1775-83",
@@ -3933,7 +3959,9 @@
       "endReason": "Obesity, 67",
       "religion": "Anglican",
       "events": [
-        "Catholic Emancipation removed restrictions on Catholics"
+        "Served as regent during father's period of madness",
+        "Catholic Emancipation removed restrictions on Catholics",
+        "Retiring from politics, was known as an astute patron of the arts"
       ],
       "wars": [],
       "relationships": [
@@ -3951,9 +3979,8 @@
       "endReason": "Old age, 71",
       "religion": "Anglican",
       "events": [
-        "Slavery and child labor abolished",
-        "Reform Act 1832 increased size of the electorate",
-        "Poor Law gave welfare to destitute"
+        "Oversaw the abolition of slavery, child labor, and welfare",
+        "Childless, British crown went to Victoria; Hanoverian to brother"
       ],
       "wars": [],
       "relationships": [
@@ -3972,8 +3999,9 @@
       "endReason": "Old age, 81",
       "religion": "Anglican",
       "events": [
-        "Reform Act 1867 gave voting rights to working men",
-        "Indian Rebellion causes British East India Company to dissolve"
+        "Indian Rebellion causes British East India Company to dissolve",
+        "Through Prince Albert, descended much of European royalty",
+        "Solidified holdings in Suez Canal, Cyprus, and across Africa"
       ],
       "wars": [
         "Anglo-Zulu War, 1879",
@@ -3996,8 +4024,9 @@
       "endReason": "Heart attack, 68",
       "religion": "Anglican",
       "events": [
-        "Parliament Act reduced the power of House of Lords",
-        "Edwardian Era saw the steam turbine and rise of socialism"
+        "Immensely popular, known as the  Uncle of Europe",
+        "Excluded from cabinet by mother who disapproved of affairs",
+        "Helped enact the Parliament Act, limiting the House of Lords"
       ],
       "wars": [],
       "relationships": [
@@ -4019,9 +4048,9 @@
       "endReason": "Cold, 70",
       "religion": "Anglican",
       "events": [
-        "Irish Home Rule",
-        "Renamed house to Windsor among anti-German sentiment",
-        "First Labor parliament"
+        "Granted home rule to Ireland",
+        "Renamed house from Saxe-Coburg and Gotha to Windsor",
+        "Formed a coalition government of Liberal and Conservative"
       ],
       "wars": [
         "World War I, 1914-8"
@@ -4042,7 +4071,9 @@
       "endReason": "Abdicated",
       "religion": "Anglican",
       "events": [
-        "Abdicated to marry actress and avoid constitutional crisis"
+        "Voluntarily abdicated in order to marry American divorcee",
+        "Implicated in plot to restore him to throne as a Nazi agent",
+        "Governer of The Bahamas, then lived in Paris after the war"
       ],
       "wars": [],
       "relationships": [],
@@ -4058,8 +4089,9 @@
       "endReason": "Heart failure, 56",
       "religion": "Anglican",
       "events": [
-        "Breakup of British Empire towards Commonwealth of Nations",
-        "India and Pakistan became indepdendent"
+        "Supported appeasement policy towards Germany until Churchill",
+        "Ceased to be emperor of India and Pakistan after independence",
+        "Oversaw British Empire into Commonwealth of Nations"
       ],
       "wars": [
         "World War II, 1939-45"
@@ -4076,7 +4108,11 @@
       "end": 2019,
       "endReason": "",
       "religion": "Anglican",
-      "events": [],
+      "events": [
+        "Married her cousin, Philip Mountbatten of Greece and Denmark",
+        "Allowed television crews into domestic life, modernizing family",
+        "Plays a completely ceremonial role, staying out of politics"
+      ],
       "wars": [],
       "relationships": [],
       "border": "img/borders/england/1936.jpg"
