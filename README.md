@@ -16,16 +16,17 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 
 - Data
   - Compile and enter all data
+  - Remove ages from deposed/abdicated/executed
+  - Edit copy for England, HRE, and France
   - Final pass using Encyclopedia Brittanica free trial
 - Timeline
-  - Better colors
 - Details
   - Smaller picture filesize
-  - Use epithets?
   - Focus monarch images a little more closely on face
 - Compatibility
   - Serve images out of CDN?
 - Blog post
+  - Finish content
   - Make it wider
 
 ## V2
