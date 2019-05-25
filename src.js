@@ -316,25 +316,32 @@ function render(data) {
 
     [dateTextWidth, dateTextHeight] = getContainerFromText(dateTextString, "small");
     var dateRectWidth = dateTextWidth + dateTextPadding * 2,
-      dateRectHeight = dateTextHeight + dateTextPadding * 2;
+      dateRectHeight = dateTextHeight + dateTextPadding * 2,
+      dateTextX = margin.left + (data.date - firstYear) * pixelsPerYear;
+
+    var offPageOnLeftBy = dateTextX - dateRectWidth / 2,
+      offPageOnRightBy = width - (dateTextX + dateRectWidth / 2);
+
+    if (offPageOnLeftBy < 0) { dateTextX -= offPageOnLeftBy; }
+    if (offPageOnRightBy < 0) { dateTextX += offPageOnRightBy; }
 
     var dateContainer = timeline.append("g").attr("class", "date")
 
     var dateRect = dateContainer.append("rect")
-      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear - dateRectWidth / 2)
+      .attr("x", dateTextX - dateRectWidth / 2)
       .attr("y", height - margin.bottom + laneHeight / 2)
       .attr("rx", cornerRadiusSmall)
       .attr("ry", cornerRadiusSmall)
       .attr("width", dateRectWidth)
       .attr("height", dateRectHeight)
       .attr("fill", dateColorsIcons[data.type].color)
-      .attr("fill-opacity", 0.75)
+      .attr("fill-opacity", 0.5)
       .attr("stroke", dateColorsIcons[data.type].color)
       .attr("stroke-width", strokeWidthTiny)
       .attr("class", "date ")
 
     var dateText = dateContainer.append("text")
-      .attr("x", margin.left + (data.date - firstYear) * pixelsPerYear)
+      .attr("x", dateTextX)
       .attr("y", height - margin.bottom + laneHeight / 2 + dateRectHeight * 3 / 4)
       .attr("text-anchor", "middle")
       .attr("font-family", fontFamilyMonospace)
