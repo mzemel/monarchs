@@ -2,7 +2,7 @@
   "Dates": {
     "1347": {
       "date": 1347,
-      "event": "Black Death",
+      "event": "Black Death kills 1/3 of Europe",
       "description": "",
       "type": "catastrophe",
       "hidden": ""
@@ -14,11 +14,25 @@
       "type": "catastrophe",
       "hidden": ""
     },
+    "1572": {
+      "date": 1572,
+      "event": "St. Bartholomew's Day massacre",
+      "description": "",
+      "type": "catastrophe",
+      "hidden": ""
+    },
     "1666": {
       "date": 1666,
       "event": "Great Fire of London",
       "description": "",
       "type": "catastrophe",
+      "hidden": ""
+    },
+    "1793": {
+      "date": 1793,
+      "event": "French Revolution",
+      "description": "",
+      "type": "military",
       "hidden": ""
     },
     "1845": {
@@ -149,7 +163,7 @@
     },
     "1805": {
       "date": 1805,
-      "event": "Battle of Austerlitz",
+      "event": "Napoleon defeats coalition at Austerlitz",
       "description": "Holy Roman Empire dissolved",
       "type": "military",
       "hidden": ""
@@ -198,9 +212,9 @@
     },
     "1948": {
       "date": 1948,
-      "event": "No. 5, 1948 (Pollock)",
+      "event": "Quantum electrodynamics",
       "description": "",
-      "type": "culture",
+      "type": "science",
       "hidden": ""
     },
     "1962": {
@@ -210,54 +224,96 @@
       "type": "culture",
       "hidden": ""
     },
+    "754": {
+      "date": 754,
+      "event": "Papal States established",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "843": {
+      "date": 843,
+      "event": "Treaty of Verdun splits Francia",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
     "1215": {
       "date": 1215,
-      "event": "Magna Carta signed",
+      "event": "Magna Carta",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1453": {
+      "date": 1453,
+      "event": "Fall of Constantinople",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1477": {
+      "date": 1477,
+      "event": "Kingdom of Burgundy dissolves",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
     },
     "1494": {
       "date": 1494,
-      "event": "Treaty of Tordesillas",
+      "event": "Treaty of Tordesillas sets colonial boundaries",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
     },
-    "1648": {
-      "date": 1648,
-      "event": "Peace of Westphalia",
+    "1555": {
+      "date": 1555,
+      "event": "Peace of Augsburg legalizes German Lutheranism",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
     },
-    "1776": {
-      "date": 1776,
-      "event": "The Wealth of Nations (Smith)",
+    "1598": {
+      "date": 1598,
+      "event": "Edict of Nantes legalizes French Lutheranism",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1620": {
+      "date": 1620,
+      "event": "Scientific method",
       "description": "",
       "type": "science",
       "hidden": ""
     },
+    "1648": {
+      "date": 1648,
+      "event": "Peace of Westphalia ends Thirty Years' War",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1701": {
+      "date": 1701,
+      "event": "Kingdom of Prussia established",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1715": {
+      "date": 1715,
+      "event": "Unification of Spanish kingdoms",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
     "1783": {
       "date": 1783,
-      "event": "Treaty of Paris",
+      "event": "Treaty of Paris ends American Revolution",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
-    },
-    "1789": {
-      "date": 1789,
-      "event": "French revolution",
-      "description": "",
-      "type": "diplomacy",
-      "hidden": ""
-    },
-    "1793": {
-      "date": 1793,
-      "event": "Reign of Terror",
-      "description": "",
-      "type": "diplomacy",
-      "hidden": true
     },
     "1806": {
       "date": 1806,
@@ -268,7 +324,7 @@
     },
     "1815": {
       "date": 1815,
-      "event": "Napoleon defeated at Waterloo",
+      "event": "Napoleon defeated by coalition at Waterloo",
       "description": "Napoleon defeated",
       "type": "military",
       "hidden": ""
@@ -282,35 +338,49 @@
     },
     "1871": {
       "date": 1871,
-      "event": "Unification of Germany",
+      "event": "Germany and Italy unified",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
     },
     "1920": {
       "date": 1920,
-      "event": "Treaty of Versailles",
+      "event": "Treaty of Versailles ends World War I",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
     },
-    "1991": {
-      "date": 1991,
-      "event": "Fall of the Berlin Wall",
+    "1931": {
+      "date": 1931,
+      "event": "Second Spanish Republic established",
+      "description": "",
+      "type": "diplomacy",
+      "hidden": ""
+    },
+    "1947": {
+      "date": 1947,
+      "event": "Paris Peace Treaties conclude World War II",
       "description": "",
       "type": "diplomacy",
       "hidden": ""
     },
     "1066": {
       "date": 1066,
-      "event": "Norman conquest of England",
+      "event": "Normans conquest of England",
       "description": "",
       "type": "military",
       "hidden": ""
     },
-    "1299": {
-      "date": 1299,
-      "event": "Ottoman Empire founded",
+    "1240": {
+      "date": 1240,
+      "event": "Kievan Rus' falls to the Golden Horde",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1296": {
+      "date": 1296,
+      "event": "First Scottish War of Independence",
       "description": "",
       "type": "military",
       "hidden": ""
@@ -324,14 +394,7 @@
     },
     "1429": {
       "date": 1429,
-      "event": "Joan of Arc defeats the English",
-      "description": "",
-      "type": "military",
-      "hidden": ""
-    },
-    "1453": {
-      "date": 1453,
-      "event": "Fall of Constantinople",
+      "event": "Joan of Arc breaks the seige of Orleans",
       "description": "",
       "type": "military",
       "hidden": ""
@@ -343,9 +406,23 @@
       "type": "military",
       "hidden": true
     },
+    "1492": {
+      "date": 1492,
+      "event": "Moors surrender in Granada",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1562": {
+      "date": 1562,
+      "event": "French Wars of Religion begin",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
     "1588": {
       "date": 1588,
-      "event": "Spanish Armada defeated",
+      "event": "Spanish Armada destroyed by England",
       "description": "",
       "type": "military",
       "hidden": ""
@@ -357,9 +434,37 @@
       "type": "military",
       "hidden": ""
     },
+    "1642": {
+      "date": 1642,
+      "event": "English Civil War",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
     "1756": {
       "date": 1756,
       "event": "Seven Years' War begins",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1775": {
+      "date": 1775,
+      "event": "American Revolution",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1853": {
+      "date": 1853,
+      "event": "Crimean War",
+      "description": "",
+      "type": "military",
+      "hidden": ""
+    },
+    "1870": {
+      "date": 1870,
+      "event": "Franco-Prussian War",
       "description": "",
       "type": "military",
       "hidden": ""
@@ -390,14 +495,14 @@
       "event": "Cambodian genocide",
       "description": "",
       "type": "military",
-      "hidden": ""
+      "hidden": true
     },
     "1265": {
       "date": 1265,
       "event": "Summa Theologiae (Aquinas)",
       "description": "",
       "type": "philosophy",
-      "hidden": ""
+      "hidden": true
     },
     "1637": {
       "date": 1637,
@@ -499,9 +604,9 @@
     },
     "1953": {
       "date": 1953,
-      "event": "Philosophical Investigations (Wittgenstein)",
+      "event": "DNA",
       "description": "",
-      "type": "philosophy",
+      "type": "science",
       "hidden": ""
     },
     "1960": {
@@ -513,7 +618,7 @@
     },
     "800": {
       "date": 800,
-      "event": "Carolingian Renaissance",
+      "event": "Charlemagne crowned Emperor of the Romans",
       "description": "",
       "type": "religion",
       "hidden": ""
@@ -532,9 +637,16 @@
       "type": "religion",
       "hidden": ""
     },
+    "975": {
+      "date": 975,
+      "event": "Christianization of the Danes",
+      "description": "",
+      "type": "religion",
+      "hidden": ""
+    },
     "989": {
       "date": 989,
-      "event": "Conversion of the Rus'",
+      "event": "Christianization of the Rus'",
       "description": "",
       "type": "religion",
       "hidden": ""
@@ -556,20 +668,6 @@
     "1076": {
       "date": 1076,
       "event": "Investiture Controversy",
-      "description": "",
-      "type": "religion",
-      "hidden": ""
-    },
-    "1080": {
-      "date": 1080,
-      "event": "Conversion of Scandinavians",
-      "description": "",
-      "type": "religion",
-      "hidden": true
-    },
-    "1098": {
-      "date": 1098,
-      "event": "Cistercian Movement",
       "description": "",
       "type": "religion",
       "hidden": ""
@@ -625,21 +723,14 @@
     },
     "1478": {
       "date": 1478,
-      "event": "Spanish Inquisition",
-      "description": "",
-      "type": "religion",
-      "hidden": ""
-    },
-    "1492": {
-      "date": 1492,
-      "event": "American discovered (Columbus)",
+      "event": "Spanish Inquisition begins",
       "description": "",
       "type": "religion",
       "hidden": ""
     },
     "1517": {
       "date": 1517,
-      "event": "Ninety-five Theses (Luther)",
+      "event": "Luther publishes Ninety-Five Theses",
       "description": "",
       "type": "religion",
       "hidden": ""
@@ -649,21 +740,14 @@
       "event": "Church of England founded",
       "description": "",
       "type": "religion",
-      "hidden": true
+      "hidden": ""
     },
     "1536": {
       "date": 1536,
       "event": "Institutes of the Christian Religion (Calvin)",
       "description": "",
       "type": "religion",
-      "hidden": ""
-    },
-    "1620": {
-      "date": 1620,
-      "event": "The Great Insaturation (Bacon)",
-      "description": "",
-      "type": "science",
-      "hidden": ""
+      "hidden": true
     },
     "1633": {
       "date": 1633,
@@ -672,72 +756,114 @@
       "type": "religion",
       "hidden": ""
     },
+    "1662": {
+      "date": 1662,
+      "event": "Puritans ejected from England",
+      "description": "",
+      "type": "religion",
+      "hidden": ""
+    },
+    "1686": {
+      "date": 1686,
+      "event": "Russian Orthodox Church founded",
+      "description": "",
+      "type": "religion",
+      "hidden": ""
+    },
     "1543": {
       "date": 1543,
-      "event": "Heliocentrism discovered (Copernicus)",
+      "event": "Heliocentrism",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1665": {
+      "date": 1665,
+      "event": "First peer-reviewed journal",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1675": {
+      "date": 1675,
+      "event": "Calculus",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1687": {
       "date": 1687,
-      "event": "Principia Mathematica (Newton)",
+      "event": "Gravity and laws of motion",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1752": {
       "date": 1752,
-      "event": "Electricity discovered (Franklin)",
+      "event": "Electricity",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1776": {
+      "date": 1776,
+      "event": "Economics",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1854": {
       "date": 1854,
-      "event": "Thernodynamics (Lord Kelvin)",
+      "event": "Thermodynamics",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1859": {
       "date": 1859,
-      "event": "On the Origin of Species (Darwin)",
+      "event": "Evolution",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1869": {
       "date": 1869,
-      "event": "Periodic table (Mendeleev)",
+      "event": "Periodic table",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1899": {
       "date": 1899,
-      "event": "The Interpretation of Dreams (Freud)",
+      "event": "Psychoanalysis",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1905": {
       "date": 1905,
-      "event": "Special relativity (Einstein)",
+      "event": "Special relativity",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1917": {
       "date": 1917,
-      "event": "Splitting of the atom (Rutherford)",
+      "event": "Atomic structure",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1928": {
       "date": 1928,
-      "event": "Penicillin discovered (Fleming)",
+      "event": "Penicillin",
+      "description": "",
+      "type": "science",
+      "hidden": ""
+    },
+    "1942": {
+      "date": 1942,
+      "event": "Atomic bomb",
       "description": "",
       "type": "science",
       "hidden": ""
@@ -2491,7 +2617,7 @@
       "houseImage": "",
       "start": 936,
       "end": 958,
-      "endReason": "Unspecified",
+      "endReason": "",
       "religion": "Norse paganism",
       "events": [
         "Son of the semi-legendary Danish king Harthacnut",
@@ -5328,7 +5454,7 @@
         "Invaded papal states and installed Leo VIII as pope"
       ],
       "wars": [
-        "Hungarian Invasions, 955-970"
+        "Hungarian Invasions, 955-70"
       ],
       "relationships": [
         "Byzantine Empire, Theophanu, Daughter-in-law, img/byzantine/theophano.jpeg",
