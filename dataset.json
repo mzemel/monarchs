@@ -895,8 +895,7 @@
       "wars": [
         "Dutch War of Independence, 1568-",
         "Anglo-Spanish War, 1585-1604",
-        "Thiry Years' War, 1618-1648",
-        ""
+        "Thiry Years' War, 1618-1648"
       ],
       "relationships": [
         "Holy Roman Empire, Ferdinand II, Brother-in-law, img/hre/ferdinand_ii.jpg",
@@ -1301,17 +1300,17 @@
       "houseImage": "img/houses/carolingian.png",
       "start": 751,
       "end": 768,
-      "endReason": "Campaigning, 54",
+      "endReason": "Unspecified, 54",
       "religion": "Roman Catholic",
       "events": [
-        "Pushed out last Merovingian king to become first Carolingian monarch",
-        "Donated Italian Lombardi land to the pope, establishing Papal States",
+        "Pushed out powerless Merovingian king with blessing of Pope",
+        "Donated Lombardi land to the pope, establishing Papal States",
         "Annointed Patrician of the Romans by Pope Stephen II"
       ],
       "wars": [
         "Lombards, 751",
-        "Islamic Umayaads, 752-759",
-        "Aquitaine, 760-767"
+        "Islamic Umayaads, 752-9",
+        "Aquitaine, 760-7"
       ],
       "relationships": [],
       "border": "img/borders/france/768.jpg"
@@ -1326,7 +1325,9 @@
       "endReason": "Nosebleed, 20",
       "religion": "Roman Catholic",
       "events": [
-        "Competed with brother Charlemagne for control of Frankish lands"
+        "Received the eastern part of Pepin's lands",
+        "Competed against Charlemagne for complete control of territory",
+        "After death, Charlemagne annexed his territory as sole ruler"
       ],
       "wars": [],
       "relationships": [],
@@ -1342,14 +1343,14 @@
       "endReason": "Pleurisy, 65",
       "religion": "Roman Catholic",
       "events": [
-        "Crowned Emperor of the Romans by Pope Leo III",
-        "Conquered and Christianized the Saxons",
-        "Spurred the Carolingian Renaissance"
+        "Conquered and Christianized the Saxons and Frisians",
+        "Invaded Italy on appeal from Pope, assuming Lombard crown",
+        "Crowned Emperor of the Romans for securing Christian borders"
       ],
       "wars": [
         "Lombards, 772-774",
         "Umayaad Caliphate, 785-811",
-        "Saxon Wars, Saxony, 772-804"
+        "Saxon Wars, 772-804"
       ],
       "relationships": [
         "Lombards, Desiderius, Father-in-law, img/italy/desiderius.jpg"
@@ -1366,8 +1367,9 @@
       "endReason": "Unspecified, 61",
       "religion": "Roman Catholic",
       "events": [
-        "Upon death, civil war broke out between his 3 sons",
-        "France split into East, Middle, and West Francia in Treaty of Verdun"
+        "As king of Aquitaine, served as co-emperor with his father",
+        "Attempted to keep empire together and repeal debauchery",
+        "Upon his death, civil war broke out and empire split three ways"
       ],
       "wars": [
         "Umayaad Caliphate, 801"
@@ -1387,19 +1389,18 @@
       "endReason": "Illness, 54",
       "religion": "Roman Catholic",
       "events": [
-        "Lost Brittany to a Breton revolt",
-        "Invaded by brother, Louis the German, but recovered",
-        "Crowned Emperor of the Romans after death of Louis II",
-        ""
+        "Received western part of father's empire inTreaty of Verdun",
+        "Lost Brittany but won the Aquitaine and western Lorraine",
+        "Crowned Emperor of the Romans after death of nephew Louis II"
       ],
       "wars": [
-        "Carolingian Civil War, 840-843"
+        "Carolingian Civil War, 840-3"
       ],
       "relationships": [],
       "border": "img/borders/france/877.jpg"
     },
-    "Louis the Stammerer": {
-      "name": "Louis the Stammerer",
+    "Louis II": {
+      "name": "Louis II",
       "image": "img/france/louis_the_stammerer.jpg",
       "house": "Carolingian",
       "houseImage": "img/houses/carolingian.png",
@@ -1409,8 +1410,8 @@
       "religion": "Roman Catholic",
       "events": [
         "Declined the crown of Emperor of the Romans",
-        "Died during march against invading Vikings",
-        "Realms divided between sons Carloman II and Louis III"
+        "Agreed to truce with ruler of East Francia, Louis the Younger",
+        "After death, land divided between sons Carloman II and Louis III"
       ],
       "wars": [],
       "relationships": [],
@@ -1426,7 +1427,9 @@
       "endReason": "Injury, 18",
       "religion": "Roman Catholic",
       "events": [
-        "Received the northern part of his father's kingdom, Neustria"
+        "Received Neustria and Francia from father Louis II",
+        "With brother Carloman II, repelled Scandinavian invaders",
+        "Ceded western Lotharingia to Louis the Younger of East Francia"
       ],
       "wars": [],
       "relationships": [],
@@ -1442,7 +1445,8 @@
       "endReason": "Hunting, 18",
       "religion": "Roman Catholic",
       "events": [
-        "Received the southern part of his father's kingdom, Burgundy & Aquitaine"
+        "Received Burgundy & Aquitaine from father Louis II",
+        "Tried unsuccessfully to defeat usurper of Provence, Boso"
       ],
       "wars": [],
       "relationships": [],
@@ -1458,9 +1462,9 @@
       "endReason": "Illness, 48",
       "religion": "Roman Catholic",
       "events": [
-        "Reunited Francia through inheritance from father, brother, and cousin",
-        "Crowned Emperor of the Romans in 881",
-        "Upon death, Francia split back into 5 territories"
+        "Received East Francia after death of brother, Louis the Younger",
+        "Received West Francia after deaths of Louis and Carloman",
+        "Seen as incompetent, deposed in East Francia by Arnulf"
       ],
       "wars": [],
       "relationships": [],
@@ -1476,8 +1480,9 @@
       "endReason": "Unspecified, 41",
       "religion": "Roman Catholic",
       "events": [
-        "As Count of Paris, defended it from the Vikings",
-        "Elected King of Francia after deposition of Charles the Fat"
+        "As Count of Paris, successfully defended against viking raiders",
+        "Elected King of the Franks after deposition of Charles the Fat",
+        "First king who was not of Merovingian or Carolingian blood"
       ],
       "wars": [],
       "relationships": [],
@@ -1493,9 +1498,9 @@
       "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Succeeded Odo with support of cousin Arnulf of East Francia",
-        "Crowned king of Lotharia (middle Francia) in 911",
-        "Overthrown by Frankish nobles led by Robert I"
+        "Ceded Normandy to Vikings in return for conversion and fealty",
+        "Received Lotharingia after death of Louis the Child",
+        "Killed usurper Robert but taken prisoner by Robert's son-in-law"
       ],
       "wars": [],
       "relationships": [],
@@ -1511,8 +1516,9 @@
       "endReason": "Battle, 57",
       "religion": "Roman Catholic",
       "events": [
-        "Overthrew Charles III during revolt of the nobles",
-        "Killed by returning Charles at the Battle of Soissons"
+        "Younger brother to Odo, defeated Northmen at Chartres",
+        "Elected king with support of dissident nobles and East Francia",
+        "Victorious at Battle of Soissons but killed in the battle"
       ],
       "wars": [],
       "relationships": [],
@@ -1529,7 +1535,8 @@
       "religion": "Roman Catholic",
       "events": [
         "Son-in-law of Robert I, who was killed overthrowing Charles III",
-        "Made peace with Normans, granting them the Channel Islands"
+        "Made peace with Normans, granting them the Channel Islands",
+        "Lost Lorraine to Henry I and Laon to Herbert, captor of Charles"
       ],
       "wars": [
         "East Francia, 923",
@@ -1548,16 +1555,17 @@
       "endReason": "Injury, 33",
       "religion": "Roman Catholic",
       "events": [
-        "Given throne by Hugh the Great after death of Rudolph",
-        "Captured (and released) by Hugh the Great in 945",
-        "Repeatedly confirmed Hugh the Great as Duke of the Franks"
+        "Spent his reign stuggling against vassal, Hugh the Great",
+        "Defended against invasion by Hugh who had support of Otto I",
+        "Captured and imprisoned by Hugh, who was excommunicated"
       ],
       "wars": [
         "East Francia, 939-940",
         "Normandy, 945"
       ],
       "relationships": [
-        "England, Edward the Elder, Grandfather, img/england/edward_the_elder.jpg"
+        "England, Edward the Elder, Grandfather, img/england/edward_the_elder.jpg",
+        "Germany, Otto I, Brother-in-law, img/hre/otto_i.jpg"
       ],
       "border": "img/borders/france/879.jpg"
     },
@@ -1571,8 +1579,9 @@
       "endReason": "Unspecified, 44",
       "religion": "Roman Catholic",
       "events": [
-        "Lost Aquitaine and Burgundy to Hugh the Great",
-        "Attempted alliance with count of Anjou in south of Francia"
+        "Broke German alliance and spent reign fighting over Lorraine",
+        "Attempted to capture Otto II's family, prompting German Invasion",
+        "Defended with help of Hugh Capet, grandson of Hugh the Great"
       ],
       "wars": [
         "Holy Roman Empire, 978-980"
@@ -1594,9 +1603,9 @@
       "endReason": "Hunting, 20",
       "religion": "Roman Catholic",
       "events": [
-        "Last Carolingian King of Francia",
-        "Carolingian influence was eclipsed by Robertian",
-        ""
+        "Married widow of Aquitaine but lost it and failed to retake it",
+        "Unpopular uncle, Charles, passed over in favor of Hugh Capet",
+        "Last Carolingian King of Francia"
       ],
       "wars": [],
       "relationships": [],
@@ -1612,8 +1621,9 @@
       "endReason": "Unspecified, 56",
       "religion": "Roman Catholic",
       "events": [
-        "Grandson of Robert I, first of the Capetian branch of Robertian dynasty",
-        "Elected King over the claim of Charles, a disliked Carolingian"
+        "First of a direct line of 15 Capetian kings of France",
+        "Son of Hugh the Great and grandson of Robert I",
+        "Faced internal struggles, but son acceeded without difficulty"
       ],
       "wars": [],
       "relationships": [
@@ -1631,7 +1641,8 @@
       "endReason": "Battle, 59",
       "religion": "Roman Catholic",
       "events": [
-        "Brought Burgundy back under Frankish control"
+        "Brought Burgundy back under Frankish control for brief period",
+        "Pressed claim to fiefs as they became vacant, consolidating hold"
       ],
       "wars": [
         "Burgundy, 1003-1016"
@@ -1651,8 +1662,9 @@
       "endReason": "Unspecified, 52",
       "religion": "Roman Catholic",
       "events": [
-        "Supported, then fought William the Conquerer",
-        "Signed decree of friendship with Henry III, Holy Roman Emperor"
+        "Favored then fought William the Conquerer, Duke of Normandy",
+        "Signed decree of friendship with Henry III, Holy Roman Emperor",
+        "Civil war fought with younger brother, who was given Burgundy"
       ],
       "wars": [
         "Normandy, 1054-1057"
@@ -1673,6 +1685,8 @@
       "endReason": "Unspecified, 56",
       "religion": "Roman Catholic",
       "events": [
+        "Supported Robert Curthose, Duke of Normandy, against England",
+        "Drawn into conflict with papacy for selling ecclesiastical positions",
         "Added the Vexin and Bourges to Frankish rule"
       ],
       "wars": [
@@ -1693,9 +1707,9 @@
       "endReason": "Dysentary, 55",
       "religion": "Roman Catholic",
       "events": [
-        "Contested the Vexin with Henry I of England",
-        "Rallied France against Anglo-German alliance",
-        "Added Aquitaine to Francia by marrying Eleanor"
+        "Contested the Vexin against Henry I of England",
+        "Repelled German invasion, who marched under French banner",
+        "Added Aquitaine to Francia by marrying Eleanor to his son"
       ],
       "wars": [
         "England, 1109-1120"
@@ -1714,8 +1728,8 @@
       "religion": "Roman Catholic",
       "events": [
         "Marriage to Eleanor annulled, losing Aquitaine to England",
-        "Supported Thomas Becket, Archbishop of Canterbury, against Henry II",
-        "Supported Henry II's children's in an attempt to disunite English crown"
+        "Fought Henry II, Duke of Normandy and later King of England",
+        "Supported English Thomas Becket, Archbishop of Canterbury"
       ],
       "wars": [],
       "relationships": [
@@ -1734,9 +1748,9 @@
       "endReason": "Unspecified, 57",
       "religion": "Roman Catholic",
       "events": [
-        "First to call himself King of France",
         "Participated in Third Crusade with Richard I of England",
-        "Reclaimed Angevin Empire from John I of England"
+        "Reclaimed French land from Angevin Empire of John I",
+        "Left France rich, paving the way for greatness in 13th century"
       ],
       "wars": [
         "Anglo-French War, 1202-1214",
@@ -1757,8 +1771,9 @@
       "endReason": "Dysentary, 39",
       "religion": "Roman Catholic",
       "events": [
-        "Proclaimed King of England by rebellious English barons",
-        "Forbade officials from recording debts owed to Jews"
+        "Offered English throne by rebellious English barons",
+        "Recaptured fortress of Avignon from Albigensian heretics",
+        "Developed concept of fealty sworn to throne, not the individual"
       ],
       "wars": [
         "Albisengian Crusade, 1223-"
@@ -1798,7 +1813,9 @@
       "endReason": "Dysentary, 40",
       "religion": "Roman Catholic",
       "events": [
-        "Annexed Toulouse to the French crown"
+        "Annexed Toulouse to the French crown",
+        "Married son to heiress of Navarre, Champagne, and Brie",
+        "Fought the Aragonese, who opposed Angevin rule of Sicily"
       ],
       "wars": [
         "War of the Sicilian Vespers, 1282"
@@ -1818,9 +1835,9 @@
       "endReason": "Stroke, 46",
       "religion": "Roman Catholic",
       "events": [
-        "Crowned King of Navarre through marriage to Joan I",
-        "Attempted to place relatives on thrones of Naples, Hungary, and Holy Roman Empire",
-        "Transfered papl court to Avignon"
+        "Fought England over Gascony and later Flanders for treachery",
+        "Clement V, a Gascon, moved papacy from Rome to Avignon",
+        "Attempted to have brother and son elected Holy Roman Emperor"
       ],
       "wars": [
         "Franco-Flemish War, 1297-1305"
@@ -1840,8 +1857,9 @@
       "endReason": "Pneumonia, 26",
       "religion": "Roman Catholic",
       "events": [
-        "Allowed serfs to buy their freedom",
-        "Re-admitted Jews to France"
+        "Married daughter of Burgundy, who he imprisoned for adultery",
+        "Allowed serfs to buy freedom, beginning the end of serfdom",
+        "Attempted to raise money through charters to fund Flemish war"
       ],
       "wars": [],
       "relationships": [],
@@ -1857,7 +1875,8 @@
       "endReason": "Unspecified, 5 days",
       "religion": "Roman Catholic",
       "events": [
-        "Died 5 days after birth, giving throne to uncle Philip V"
+        "Born posthumously to Louis X",
+        "Died 5 days after birth, with throne going to uncle Philip V"
       ],
       "wars": [],
       "relationships": [],
@@ -1891,8 +1910,9 @@
       "endReason": "Unspecified, 33",
       "religion": "Roman Catholic",
       "events": [
-        "Captured some of the Aquitaine from vassal, Edward II of England",
-        "Died without heir, with kingdom going to cousin, Philip of Valois"
+        "Invaded the Aquitaine, held by his vassal Edward II of England",
+        "Failed in bid for German throne and acquisition of Flanders",
+        "Died without heir, ending Capetian line, succeeded by cousin"
       ],
       "wars": [
         "War of Saint-Sardos, 1324"
@@ -1913,9 +1933,9 @@
       "endReason": "Unspecified, 56",
       "religion": "Roman Catholic",
       "events": [
-        "Started the Hundred Years' War over dispute with England over succession",
-        "Added the Dauphiné to French holdings",
-        "Black Death (1348) killed 1/3 of the French population"
+        "Gave Artois to his kin, fomenting discontent among his nobles",
+        "Resentment carried to Edward III, who had a claim to throne",
+        "Purchased Dauphiné but left France divided by war and plague"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453"
@@ -1935,9 +1955,9 @@
       "endReason": "Illness, 44",
       "religion": "Roman Catholic",
       "events": [
-        "Inherited Hundred Years' War; captured at Poitiers",
-        "Created the franc to stablize French currency",
-        "Died in English captivity"
+        "Inherited English war, breaking a truce and then losing terribly",
+        "Defeated and taken prisoner at Poitiers by The Black Prince",
+        "Released for hostages, returned to England when one escaped"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453"
@@ -1957,9 +1977,9 @@
       "endReason": "Infection, 42",
       "religion": "Roman Catholic",
       "events": [
-        "First heir apparent to use title of Dauphin",
-        "Gave Aquitaine to English to pay for ransom of John II",
-        "Reconquered all ceded territories by the end of his reign"
+        "Treaty of Calais had granted southwestern France to Edward III",
+        "Recaptured all ceded territories and dispossesed King of Navarre",
+        "Support of Clement VII led to the great schism of the papacy"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453"
@@ -1977,9 +1997,9 @@
       "endReason": "Unspecified, 53",
       "religion": "Roman Catholic",
       "events": [
-        "Had frequent bouts of insanity during rule",
-        "After murder of brother by cousin, civil war broke out",
-        "Signed Treaty of Troyes, giving succession to Henry V of England"
+        "Attempted to install Avignon antipope Clement VII in Rome",
+        "Went mad, after which Burgundy and Orleans vied for power",
+        "After defeat at Agincourt, named Henry V of England his heir"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453",
@@ -2002,7 +2022,7 @@
       "events": [
         "Disinherited by father in favor of Henry V of England",
         "Reclaimed Paris and northern France with help of Joan of Arc",
-        "Ended the civil war between houses of Valois and Valois-Orleans"
+        "Ended the civil war between houses of Valois and Orleans"
       ],
       "wars": [
         "Hundred Years' War, 1337-1453",
@@ -2018,12 +2038,12 @@
       "houseImage": "img/houses/valois.png",
       "start": 1461,
       "end": 1483,
-      "endReason": "Unspecified, 60",
+      "endReason": "Arteriosclerosis, 60",
       "religion": "Roman Catholic",
       "events": [
-        "Signed Treaty of Picquigny to end Hundred Years' War",
-        "Lost Burgundy via marriage to Holy Roman Empire",
-        "Reclaimed Burgundy after death of Charles the Bold"
+        "Faced an alliance of Burgundy, Brittany, and England",
+        "Dismantled alliance, finally killing Duke of Burgundy in battle",
+        "Ended reign with Burgundy, Picardy, Boulonnais, and Artois"
       ],
       "wars": [
         "Praguerie, France, 1440"
@@ -2043,16 +2063,17 @@
       "endReason": "Injury, 27",
       "religion": "Roman Catholic",
       "events": [
-        "Married Anne of Brittany to prevent encirclement by Holy Roman Empire",
-        "Offered Naples by force from Pope Innocent VIII",
-        "Conquered Naples, then removed by League of Venice"
+        "Married Anne of Brittany to prevent encirclement by Habsburgs",
+        "Forfeited Artois and Franche-Comté acquired through Margaret",
+        "Pressed claim on Angevin Naples, triggering Italian Wars"
       ],
       "wars": [
-        "Mad War, France, 1485-1488",
-        "Italian Wars, Italy, 1494-1498"
+        "Mad War, France, 1485-8",
+        "Italian Wars, Italy, 1494-8"
       ],
       "relationships": [
         "Holy Roman Empire, Margaret of Austria, Betrothed, img/hre/margaret_of_austria.jpg",
+        "Brittany, Anne, Wife, img/france/anne_of_brittany.jpg",
         "Naples, Marie of Anjou, Grandmother, img/italy/marie_of_anjou.jpg"
       ],
       "border": "img/borders/france/1483.jpg"
@@ -2067,16 +2088,16 @@
       "endReason": "Gout, 52",
       "religion": "Roman Catholic",
       "events": [
-        "First of Valois-Orleans, receiving throne from second cousin",
-        "Conquered Milan and Naples; ceded Naples to Spain",
-        "Annexed Brittany through marraige to Anne, and daughter to heir presumptive"
+        "Duke of Orleans, second-cousin and brother-in-law to king",
+        "Conquered Milan but lost Naples to Ferdinand II of Aragon",
+        "Defeated in Milan & Artois by Swiss and Burgundy by Henry VIII"
       ],
       "wars": [
         "Second Italian War, 1499-1504",
-        "Third Italian War, 1508-1516"
+        "Third Italian War, 1508-16"
       ],
       "relationships": [
-        "Holy Roman Empire, Margaret of Austria, Wife, img/hre/margaret_of_austria.jpg",
+        "Brittany, Anne, Wife, img/france/anne_of_brittany.jpg",
         "England, Mary Tudor, Wife, img/england/mary_tudor.jpg"
       ],
       "border": "img/borders/france/1483.jpg"
@@ -2091,12 +2112,12 @@
       "endReason": "Unspecified, 52",
       "religion": "Roman Catholic",
       "events": [
-        "Married daughter of Louis XII to secure claim",
-        "Initiated the French Renaissance from Italian influence",
-        "Surrounded by Habsburgs, formed an alliance with Sultanate"
+        "Cousin and son-in-law to Louis XII, first of Angoulême branch",
+        "Defeated Milan; with riches, copied an Italian renaissance court",
+        "Imprisoned by Emperor Charles V, gave up Italy for his release"
       ],
       "wars": [
-        "Italian Wars, Venice, 1508-1516"
+        "Italian Wars, Venice, 1508-16"
       ],
       "relationships": [
         "Scotland, James V, Son-in-law, img/scotland/james_v.jpg",
@@ -2114,12 +2135,12 @@
       "endReason": "Jousting, 40",
       "religion": "Roman Catholic",
       "events": [
-        "Spent 4 years as Spanish hostage for father Francis",
-        "Tried to suppress Protestants as Huguenot population rose",
-        ""
+        "Developed a court system between local justices and high court",
+        "Supported German Protestants against Emperor Charles V",
+        "Systematically persecuted French Protestants"
       ],
       "wars": [
-        "Italian Wars, 1551-1559"
+        "Italian Wars, 1551-9"
       ],
       "relationships": [
         "Florence, Catherine de' Medici, Wife, img/italy/catherine_de_medici.jpg"
@@ -2136,11 +2157,12 @@
       "endReason": "Ear condition, 16",
       "religion": "Roman Catholic",
       "events": [
-        "Advised by unpopular House of Lorraine during minority",
+        "Used by the Guises, wife's uncle, to quell the Huguenot forces",
+        "Faced capture by Huguenot Bourbons to end Guise influence",
         "Forced to sign Treaty of Edinburgh: end of Scottish influence"
       ],
       "wars": [
-        "French Wars of Religion, 1562-1598"
+        "French Wars of Religion, 1562-98"
       ],
       "relationships": [
         "Scotland, Mary Queen of Scots, Wife, img/scotland/mary.jpg",
@@ -2158,12 +2180,12 @@
       "endReason": "Tuberculosis, 23",
       "religion": "Roman Catholic",
       "events": [
-        "Married sister to Protestant Henry IV to pacify Huguenots",
-        "Allowed Huguenots to be massacred at the wedding",
-        ""
+        "Planned intervention on behalf of Protestants against Spain",
+        "Remained under influence of mother, Catherine de Medicis",
+        "On her advice, allowed a massacre of 3,000 Protestants in Paris"
       ],
       "wars": [
-        "French Wars of Religion, 1562-1598"
+        "French Wars of Religion, 1562-98"
       ],
       "relationships": [
         "Florence, Catherine de' Medici, Mother, img/italy/catherine_de_medici.jpg",
@@ -2178,16 +2200,16 @@
       "houseImage": "img/houses/valois.png",
       "start": 1574,
       "end": 1589,
-      "endReason": "Assassinated, 37",
+      "endReason": "Assassinated",
       "religion": "Roman Catholic",
       "events": [
-        "Elected King of Poland-Lithuania; later resigned",
-        "Fought Catholic League (Spain/Pope) and Huguenots (England/Dutch)",
-        "Murdered Duke of Guise and was charged by parliament"
+        "Placed on Polish throne by mother, resigned when brother died",
+        "Holy League formed against Huguenot successor, Henry IV",
+        "Forced by League, which had rebelled, into alliance with Henry"
       ],
       "wars": [
-        "French Wars of Religion, 1562-1598",
-        "War of the Three Henrys, 1587-1589"
+        "French Wars of Religion, 1562-98",
+        "War of the Three Henrys, 1587-9"
       ],
       "relationships": [],
       "border": "img/borders/france/1560.jpg"
@@ -2199,17 +2221,17 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1589,
       "end": 1610,
-      "endReason": "Assassinated, 56",
+      "endReason": "Assassinated",
       "religion": "Protestant, then Catholic",
       "events": [
-        "First of Bourbons, descended from Louis IX via cadet line",
-        "Created Edict of Nantes, giving religious freedom to Protestants",
-        "First colony in New World: Acadia, including Montreal"
+        "First Bourbon, leader of Huguenot forces as King of Navarre",
+        "Huguenots massacred on the day of his appeasement marriage",
+        "Fought Holy League but converted to claim and unify the throne"
       ],
       "wars": [
-        "French Wars of Religion, 1562-1598",
-        "Franco-Spanish War, 1595-1598",
-        "Franco-Savoyard War, 1600-1601"
+        "French Wars of Religion, 1562-98",
+        "Franco-Spanish War, 1595-8",
+        "Franco-Savoyard War, 1600-1"
       ],
       "relationships": [
         "Florence, Marie de Medici, Wife, img/italy/marie_de_medici.jpg"
@@ -2226,11 +2248,13 @@
       "endReason": "Tuberculosis, 41",
       "religion": "Roman Catholic",
       "events": [
-        "Merged Navarre with the French crown",
-        "Monopolized force by outlawing private arms and armies",
-        ""
+        "While wars of religion had ended, still faced Huguenot rebellions",
+        "Invading Italy, France entered Thirty Years War against Spain",
+        "Defeated Spain, establishing France as a global superpower"
       ],
-      "wars": [],
+      "wars": [
+        "Thirty Years' War, 1635-48"
+      ],
       "relationships": [
         "Spain, Anne of Austria, Wife, img/spain/anne_of_austria.jpg"
       ],
@@ -2246,13 +2270,13 @@
       "endReason": "Gangrene, 76",
       "religion": "Roman Catholic",
       "events": [
-        "Eliminated remnants of feudalism, centralizing power",
-        "Revoked Edict of Nantes, causing Protestants to emigrate",
-        "Remembered for patronage of arts as the Sun King"
+        "Extended eastern borders at the expense of Austrian Habsburgs",
+        "Defeated hostile Spanish coalition to secure throne for grandson",
+        "Known as the Sun King, led a revival of culture and grandeur"
       ],
       "wars": [
-        "Franco-Dutch War, 1672-1678",
-        "Nine Years' War, 1688-1697",
+        "Franco-Dutch War, 1672-8",
+        "Nine Years' War, 1688-97",
         "War of the Spanish Succession"
       ],
       "relationships": [
@@ -2270,11 +2294,13 @@
       "endReason": "Smallpox, 64",
       "religion": "Roman Catholic",
       "events": [
-        "Ceded New France to Britain after Seven Years' War",
-        "Incorporated Lorraine and Corsican Republic",
-        "Economic mismanagement helped set stage for French Revolution"
+        "Lost all colonial possessions in Americans and India to British",
+        "Gained nothing from Austria or Russia during partition of Poland",
+        "Through ineffective wars, set the stage for the French Revolution"
       ],
       "wars": [
+        "War of Polish Succession, 1733",
+        "War of Austrian Succession, 1740",
         "Seven Years' War, 1756-1763"
       ],
       "relationships": [
@@ -2289,12 +2315,12 @@
       "houseImage": "img/houses/bourbon.png",
       "start": 1774,
       "end": 1792,
-      "endReason": "Executed, 38",
+      "endReason": "Executed",
       "religion": "Roman Catholic",
       "events": [
-        "Attempted to impose Englightenment ideas, e.g abolition of serfdom",
-        "Supported American Revolution against Great Britain",
-        "Arrested and executed during French Revolution"
+        "Financed American revolution, leaving country deeply in debt",
+        "Forced to accept National Assembly and constitutional monarchy",
+        "Soliciting intervention, convicted of treason by French Republic"
       ],
       "wars": [
         "American Revolution, 1776-1783",
@@ -2313,17 +2339,16 @@
       "houseImage": "img/houses/bonaparte.png",
       "start": 1804,
       "end": 1814,
-      "endReason": "Deposed",
+      "endReason": "Abdicated",
       "religion": "Deist",
       "events": [
-        "From general at 24, become Emperor of the French",
-        "Defeated Third Coalition at Austerlitz, ending Holy Roman Empire",
-        "Defeated and exiled after collapse of army in Russia"
+        "Rose from soldier to general to consul to emperor over 11 years",
+        "Defeated series of coalitions, collapsing the Holy Roman Empire",
+        "Lost army invading Russia, turning tide and was exiled to Elba"
       ],
       "wars": [
-        "War of the Second Coalition, 1798-",
-        "War of the Third Coalition, 1803-",
-        "War of the Sixth Coalition, 1813-"
+        "French Revolution, 1787-92",
+        "Napoleonic Wars, 1803-15"
       ],
       "relationships": [
         "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
@@ -2341,9 +2366,9 @@
       "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Spent 23 years in exile until crowned during Bourbon Restoration",
-        "Burned constitution of Napoleon's senate",
-        "Introduced Charter of 1814 introduced legislative bodies"
+        "Exiled in revolution, wandered Europe promoting royalist cause",
+        "As Napoleon fell, promised to honor the republic's reforms",
+        "Restored by Talleyrand, coalition, and war-weary Parisians"
       ],
       "wars": [],
       "relationships": [
@@ -2361,11 +2386,13 @@
       "endReason": "Deposed",
       "religion": "Deist",
       "events": [
-        "Returned from Elba, leading an army against Louis XVIII",
-        "Defeated by Seventh Coalition at Waterloo",
-        "Exiled to Helena and died six years later"
+        "Frustrated by Bourbon Restoration and Congress of Vienna",
+        "Escaped, gathered forces, and marched on Paris to applause",
+        "Defeated at Waterloo by coalition and banished to St. Helena"
       ],
-      "wars": [],
+      "wars": [
+        "War of the 7th Coalition, 1815"
+      ],
       "relationships": [
         "Spain, Joseph Bonaparte, Brother, img/spain/joseph_bonaparte.jpg",
         "Austria, Francis I, Father-in-law, img/hre/francis_i.jpg"
@@ -2382,9 +2409,9 @@
       "endReason": "Gout, 68",
       "religion": "Roman Catholic",
       "events": [
-        "Appointed Talleyrand as the first Prime Minister",
-        "Inherited massive debt from Napoleonic Wars",
-        "France returned to pre-Napoleonic borders"
+        "Fled during the Hundred Day's War, returning after Waterloo",
+        "Gave Parliament control over laws and budget with his approval",
+        "Resisted the ultraroyalists in favor of healing the country"
       ],
       "wars": [],
       "relationships": [
@@ -2402,9 +2429,9 @@
       "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Led ultra-royalists, affirming divine right over civil liberties",
-        "Reimposed capital punishment for sacrilege",
-        "Overthrown during July Revolution"
+        "Reimposed death penaly for sacrilege during first government",
+        "In second government, supported ultraroyalist clericalists",
+        "Deposed, naming grandson heir and Louis-Philippe general"
       ],
       "wars": [
         "French conquest of Algeria, 1830"
@@ -2424,8 +2451,9 @@
       "endReason": "Deposed",
       "religion": "Roman Catholic",
       "events": [
-        "Support of bourgeoisie led to economic crisis",
-        "Abdicated during Revolutions of 1848"
+        "Popular with republicans and Bonaparists, given a vacant throne",
+        "Seen as a citizen king, favored the bourgeoisie over aristocracy",
+        "Refusing any election reform, deposed in 1848 wave of socialism"
       ],
       "wars": [],
       "relationships": [
@@ -2444,11 +2472,11 @@
       "religion": "Roman Catholic",
       "events": [
         "Elected President of Second Republic after Revolution of 1848",
-        "Declared himself emperor of Second French Empire",
-        "Doubled overseas empire in Asia, Pacific, and Africa"
+        "Declared himself Emperor under the Second French Empire",
+        "Deposed after defeat in the Franco-Prussian War"
       ],
       "wars": [
-        "Crimean War, Russia, 1853-1856",
+        "Crimean War, Russia, 1853-6",
         "Franco-Prussian War, 1870"
       ],
       "relationships": [],
@@ -3514,7 +3542,7 @@
       "events": [
         "Defeated the Lancastrians with help of cousin, Earl of Warwick",
         "Alienated Warwick and Yorkist nobles by marrying commoner",
-        "Warwick invaded, Edward fled, and Henry Lancaster releasted"
+        "Warwick invaded, Edward fled, and Henry Lancaster released"
       ],
       "wars": [
         "Wars of the Roses, 1455-87"
@@ -3531,7 +3559,7 @@
       "houseImage": "img/houses/lancaster.png",
       "start": 1470,
       "end": 1471,
-      "endReason": "Murdered, 49",
+      "endReason": "Murdered",
       "religion": "Roman Catholic",
       "events": [
         "Restored to the throne from the Tower of London",
@@ -3576,7 +3604,7 @@
       "houseImage": "img/houses/york.png",
       "start": 1483,
       "end": 1483,
-      "endReason": "Disappeared, 12",
+      "endReason": "Murdered",
       "religion": "Roman Catholic",
       "events": [
         "Along with brother Richard, two surviving sons of Edward IV",
@@ -3599,7 +3627,7 @@
       "endReason": "Battle, 32",
       "religion": "Roman Catholic",
       "events": [
-        "Usurped power from nephew, Edward IV, who 'disappeared'",
+        "Usurped power from nephew, Edward V, who 'disappeared'",
         "Woodvilles, family of slain nephew, rallied behind Henry Tudor",
         "Killed at Battle of Bosworth Field, ending the War of the Roses"
       ],
@@ -3867,7 +3895,7 @@
       "religion": "Anglican",
       "events": [
         "Relied heavily on ministers, who led the war effort",
-        "Favorited Tories, then Whigs, swayed by her current favorites",
+        "Supported Tories, then Whigs, swayed by her current favorites",
         "Succession passed over 57 candidates to Protestant Hanovers"
       ],
       "wars": [
@@ -4091,7 +4119,7 @@
       "events": [
         "Supported appeasement policy towards Germany until Churchill",
         "Ceased to be emperor of India and Pakistan after independence",
-        "Oversaw British Empire into Commonwealth of Nations"
+        "Oversaw British Empire turn into Commonwealth of Nations"
       ],
       "wars": [
         "World War II, 1939-45"
@@ -4165,7 +4193,7 @@
       "houseImage": "img/houses/dunkeld.png",
       "start": 1094,
       "end": 1094,
-      "endReason": "Assassinated, 34",
+      "endReason": "Assassinated",
       "religion": "Roman Catholic",
       "events": [
         "Grew up as English hostage, as father's homage to William I",
@@ -4188,7 +4216,7 @@
       "religion": "Roman Catholic",
       "events": [
         "Had nephew Duncan II killed after just a few months",
-        "Deposed by an army led by Edgar the Ætheling",
+        "Deposed by an English army led by Edgar the Ætheling",
         "Replaced by other nephew, Edgar, son of Malcolm III"
       ],
       "wars": [],
@@ -4465,7 +4493,7 @@
       "houseImage": "img/houses/stuart.png",
       "start": 1406,
       "end": 1437,
-      "endReason": "Assassinated, 42",
+      "endReason": "Assassinated",
       "religion": "Roman Catholic",
       "events": [
         "While a captive of Henry IV, raised in the English court",
@@ -4573,7 +4601,7 @@
       "houseImage": "img/houses/stuart.png",
       "start": 1542,
       "end": 1567,
-      "endReason": "Beheaded, 44",
+      "endReason": "Executed",
       "religion": "Roman Catholic",
       "events": [
         "Arriving from France, imprisoned by Protestants and deposed",
@@ -4862,7 +4890,7 @@
       "houseImage": "",
       "start": 1605,
       "end": 1605,
-      "endReason": "Assassinated, 16",
+      "endReason": "Assassinated",
       "religion": "Eastern Orthodox",
       "events": [
         "Proclaimed Tsar after the death of father",
@@ -4873,14 +4901,14 @@
       "relationships": [],
       "border": "img/borders/russia/1598.jpg"
     },
-    "False Dmitry I": {
-      "name": "False Dmitry I",
+    "False Dmitry": {
+      "name": "False Dmitry",
       "image": "img/russia/false_dmitry_i.jpg",
       "house": "",
       "houseImage": "",
       "start": 1605,
       "end": 1606,
-      "endReason": "Executed, 23",
+      "endReason": "Executed",
       "religion": "Eastern Orthodox",
       "events": [
         "One of three pretenders claiming to be son of Ivan the Terrible",
@@ -5064,7 +5092,7 @@
       "houseImage": "img/houses/romanov.png",
       "start": 1740,
       "end": 1741,
-      "endReason": "Murdered, 23",
+      "endReason": "Murdered",
       "religion": "Russian Orthodox",
       "events": [
         "Declared Emperor at the age of two months",
@@ -5148,7 +5176,7 @@
       "houseImage": "img/houses/romanov.png",
       "start": 1796,
       "end": 1801,
-      "endReason": "Assassinated, 46",
+      "endReason": "Assassinated",
       "religion": "Russian Orthodox",
       "events": [
         "Added eastern Georgia to the empire",
@@ -5218,7 +5246,7 @@
       "houseImage": "img/houses/romanov.png",
       "start": 1855,
       "end": 1881,
-      "endReason": "Assassinated, 62",
+      "endReason": "Assassinated",
       "religion": "Russian Orthodox",
       "events": [
         "Emancipated Russian serfs, for which he is known as The Liberator",
