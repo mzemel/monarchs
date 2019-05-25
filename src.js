@@ -710,7 +710,7 @@ function render(data) {
       .text(data.name)
 
     // Reign
-    var reignString = data.start + '-' + data.end,
+    var reignString = (data.start + '-' + data.end).replace(/2019/, 'Present'),
       reignFontSize = getFontSizeFromContainer(reignString, (detailsBlock * 1.75) * 4, detailsBlock / 4);
     timeline.append("text")
       .attr("x", detailsX + detailsBlock * 2.5 + detailsBlockEighth)
