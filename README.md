@@ -14,21 +14,10 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 
 ## To do
 
-- Data
-  - Edit data for HRE
-- Timeline
-- Details
-  - Smaller picture filesize
-  - Focus monarch images a little more closely on face
-  - Better, less grainy images
 - Compatibility
   - Serve images out of CDN?
 - Blog post
   - Finish content
-  - Make it wider
-- Dates
-  - More of them, especially early
-  - More major wars
 
 ## V2
 
