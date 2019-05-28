@@ -212,7 +212,7 @@
     },
     "1948": {
       "date": 1948,
-      "event": "Quantum electrodynamics",
+      "event": "Feynman creates quantum electrodynamics",
       "description": "",
       "type": "science",
       "hidden": ""
@@ -282,7 +282,7 @@
     },
     "1620": {
       "date": 1620,
-      "event": "Scientific method",
+      "event": "Francis Bacon describes the scientific method",
       "description": "",
       "type": "science",
       "hidden": ""
@@ -604,7 +604,7 @@
     },
     "1953": {
       "date": 1953,
-      "event": "DNA",
+      "event": "Watson and Crick describe shape of DNA",
       "description": "",
       "type": "science",
       "hidden": ""
@@ -772,7 +772,7 @@
     },
     "1543": {
       "date": 1543,
-      "event": "Heliocentrism",
+      "event": "Copernicus proposes heliocentrism",
       "description": "",
       "type": "science",
       "hidden": ""
@@ -786,84 +786,84 @@
     },
     "1675": {
       "date": 1675,
-      "event": "Calculus",
+      "event": "Leibniz or Newton create calculus",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1687": {
       "date": 1687,
-      "event": "Gravity and laws of motion",
+      "event": "Newton describes gravity and laws of motion",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1752": {
       "date": 1752,
-      "event": "Electricity",
+      "event": "Ben Franklin discovers electricity",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1776": {
       "date": 1776,
-      "event": "Economics",
+      "event": "Adam Smith creates economics",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1854": {
       "date": 1854,
-      "event": "Thermodynamics",
+      "event": "Lord Kelvin creates thermodynamics",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1859": {
       "date": 1859,
-      "event": "Evolution",
+      "event": "Charles Darwin writes about evolution",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1869": {
       "date": 1869,
-      "event": "Periodic table",
+      "event": "Mendeleev creates the periodic table",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1899": {
       "date": 1899,
-      "event": "Psychoanalysis",
+      "event": "Freud establishes psychoanalysis",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1905": {
       "date": 1905,
-      "event": "Special relativity",
+      "event": "Einstein describes special relativity",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1917": {
       "date": 1917,
-      "event": "Atomic structure",
+      "event": "Rutherford confirms the atomic structure",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1928": {
       "date": 1928,
-      "event": "Penicillin",
+      "event": "Fleming creates penicillin",
       "description": "",
       "type": "science",
       "hidden": ""
     },
     "1942": {
       "date": 1942,
-      "event": "Atomic bomb",
+      "event": "Manhattan project develops the atom bomb",
       "description": "",
       "type": "science",
       "hidden": ""
