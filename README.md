@@ -1,4 +1,4 @@
-<img src="https://thebackend.dev/monarchs/media/5.png" />
+<img src="https://thebackend.dev/monarchs/media/everything_2.png" />
 
 # About
 
@@ -16,8 +16,6 @@ I'd like to have an easy visual reference for who was concurrently in power and 
 
 - Compatibility
   - Serve images out of CDN?
-- Blog post
-  - Finish content
 
 ## V2
 
